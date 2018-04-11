@@ -21,6 +21,9 @@ Consider this a public bookmark bar. These are resources I've found useful that 
   * Operations research
     * http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
 
+# General coding practices
+* Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
+
 # AMPL
 * Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
 
@@ -50,3 +53,14 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 * Google Public Data Explorer: https://www.google.com/publicdata/directory
 * IMF: http://www.imf.org/en/Data
 * WHO: http://www.who.int/gho/en/
+
+# Writing
+* Reference software
+  * Zotero: https://www.zotero.org/
+  * Mendeley: https://www.mendeley.com/
+  * EndNote: http://endnote.com/
+* Healthcare Manuscripts:
+  * https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
+  * https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf
+* Visual abstracts
+  * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
