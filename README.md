@@ -9,11 +9,11 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 
 # Python
 * OR/MS-related Python packages: https://wiki.python.org/moin/PythonForOperationsResearch
-* Overview from @drvinceknight: https://vknight.org/Introduction_to_OOP/OverviewOfPython/
+* Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
 
 # R
 * Packages
-  * Epidemic network modeling http://statnet.github.io/nme/index.html
+  * Epidemic network modeling: http://statnet.github.io/nme/index.html
 * Application-focused
   * Webscraping
     * http://www.interhacktives.com/2017/01/25/scrape-tweets-r-journalists/
@@ -25,27 +25,27 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 * Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
 
 # Math programming software
+* Commercial
+  * CPLEX (free for academics): https://www.ibm.com/products/ilog-cplex-optimization-studio
+  * Gurobi (free for academics): http://www.gurobi.com/
+  * Xpress/FICO: http://www.fico.com/en/predictive-analytics/analytic-technologies/mathematical-programming
 * GLPK: https://www.gnu.org/software/glpk/
 * SCIP: http://scip.zib.de/
-* Commercial
-  * CPLEX (free for academics)
-  * Gurobi (free for academics)
-  * Xpress/FICO: http://www.fico.com/en/predictive-analytics/analytic-technologies/mathematical-programming
 * Test sets
   * MIPLIB: http://miplib.zib.de/
 
 
 # Data visualization
 * Textbooks
-  * @clauswilke http://serialmentor.com/dataviz/
-  * @kjhealy http://socviz.co/
+  * [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
+  * [@kjhealy](https://github.com/kjhealy): http://socviz.co/
 
 # Datasets
 * Compilation of public data sources (targeted towards ML):  https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/
 * Kaggle: https://www.kaggle.com/datasets
 * Network datasets
-  * Compilation from @kateto: https://snap.stanford.edu/data/
-  * Compilation from @profjure: https://snap.stanford.edu/data/
+  * Compilation from [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
+  * Compilation from [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
 * European statistics: http://ec.europa.eu/eurostat/data/database
 * Google Public Data Explorer: https://www.google.com/publicdata/directory
 * IMF: http://www.imf.org/en/Data
