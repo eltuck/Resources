@@ -25,7 +25,7 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
 
 # AMPL
-* Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
+* (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
 
 # Math programming software
 * Commercial
@@ -37,6 +37,8 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 * Test sets
   * MIPLIB: http://miplib.zib.de/
 
+# Math programming textbooks
+* (Free) A First Course in Linear Optimization v3.0 by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
 
 # Data visualization
 * Textbooks
@@ -44,7 +46,8 @@ Consider this a public bookmark bar. These are resources I've found useful that 
   * [@kjhealy](https://github.com/kjhealy): http://socviz.co/
 
 # Datasets
-* Compilation of public data sources (targeted towards ML):  https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/
+* Compilation of public data sources (targeted towards ML):
+ https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/
 * Kaggle: https://www.kaggle.com/datasets
 * Network datasets
   * Compilation from [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
@@ -54,13 +57,24 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 * IMF: http://www.imf.org/en/Data
 * WHO: http://www.who.int/gho/en/
 
-# Writing
+# Communication / dissemination
 * Reference software
   * Zotero: https://www.zotero.org/
   * Mendeley: https://www.mendeley.com/
   * EndNote: http://endnote.com/
-* Healthcare Manuscripts:
-  * https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
-  * https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf
+* Writing Manuscripts (Healthcare-focused):
+  * Welch, 1999 paper (Prepping for Submission to a Medical Journal)
+   https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
+  * Ibrahim and Dimick (Writing for Impact)
+   https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf
 * Visual abstracts
   * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
+* Policy
+  * (Blog) Connecting Research to Policy https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
+
+# Jobs
+* Infectious disease dynamics listserv: http://iddjobs.org/jobs/
+
+# OR-related summer schools
+* List compiled by Thiago Serra:
+  * 2018 Version: https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
