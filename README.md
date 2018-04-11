@@ -1,6 +1,6 @@
 # Resources
 
-Consider this a public bookmark bar. These are resources I've found useful that others may, too. Not comprehensive, links may not work, in no particular order.
+Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order.
 
 # Git
 * Beginner Tutorial: http://try.github.io/
@@ -10,6 +10,8 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 # Python
 * OR/MS-related Python packages: https://wiki.python.org/moin/PythonForOperationsResearch
 * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
+* Tutorials
+  * From Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
 
 # R
 * Packages
@@ -28,17 +30,43 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
 
 # Math programming software
-* Commercial
-  * CPLEX (free for academics): https://www.ibm.com/products/ilog-cplex-optimization-studio
-  * Gurobi (free for academics): http://www.gurobi.com/
-  * Xpress/FICO: http://www.fico.com/en/predictive-analytics/analytic-technologies/mathematical-programming
-* GLPK: https://www.gnu.org/software/glpk/
-* SCIP: http://scip.zib.de/
+* Solvers
+  * Commercial
+    * CPLEX (free for academics): https://www.ibm.com/products/ilog-cplex-optimization-studio
+    * Gurobi (free for academics): http://www.gurobi.com/
+    * Xpress: http://www.fico.com/en/products/fico-xpress-optimization
+  * GLPK: https://www.gnu.org/software/glpk/
+  * SCIP: http://scip.zib.de/
+  * NEOS: https://neos-guide.org/
+  * OpenSolver (free): https://opensolver.org/
+    * Excel add-in (extends the standard Excel solver)
+* Formulation
+  * SolverStudio (free): http://solverstudio.org/
+    * Excel add-in, useful when OpenSolver not big enough
+    * Can call commercial solvers
+  * AMPL: https://ampl.com/
+  * OPL: https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling
 * Test sets
   * MIPLIB: http://miplib.zib.de/
+* List of solvers
+  * Commercial: https://ampl.com/products/solvers/solvers-we-sell/
+  * Free: https://ampl.com/products/solvers/open-source/
+* Application specific
+  * Facility location
+    * SITATION: https://daskin.engin.umich.edu/software/
+  * Agent-based
+    * NetLogo: https://ccl.northwestern.edu/netlogo/
 
 # Math programming textbooks
 * (Free) A First Course in Linear Optimization v3.0 by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
+
+# Algorithms
+* List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
+
+# Operations research-adjacent material
+* Course lectures
+  * Linear Algebra (Gilbert Strang): https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
+  * Intro Game Theory (Ben Polak): https://oyc.yale.edu/economics/econ-159
 
 # Data visualization
 * Textbooks
@@ -46,7 +74,7 @@ Consider this a public bookmark bar. These are resources I've found useful that 
   * [@kjhealy](https://github.com/kjhealy): http://socviz.co/
 
 # Datasets
-* Compilation of public data sources (targeted towards ML):
+* Compilation of public data sources (targeted towards machine learning):
  https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/
 * Kaggle: https://www.kaggle.com/datasets
 * Network datasets
@@ -62,7 +90,7 @@ Consider this a public bookmark bar. These are resources I've found useful that 
   * Zotero: https://www.zotero.org/
   * Mendeley: https://www.mendeley.com/
   * EndNote: http://endnote.com/
-* Writing Manuscripts (Healthcare-focused):
+* Writing manuscripts (Healthcare-focused):
   * Welch, 1999 paper (Prepping for Submission to a Medical Journal)
    https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
   * Ibrahim and Dimick (Writing for Impact)
@@ -75,6 +103,21 @@ Consider this a public bookmark bar. These are resources I've found useful that 
 # Jobs
 * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
 
-# OR-related summer schools
+# Summer schools
 * List compiled by Thiago Serra:
   * 2018 Version: https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
+
+# Teaching
+* Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
+
+# Website creation
+* (Free) Hosted by github: https://pages.github.com/
+  * Themes: https://github.com/topics/jekyll-theme
+  * I use: https://github.com/academicpages/academicpages.github.io
+  * Template for labs: http://www.allanlab.org/aboutwebsite.html
+* (Free/Paid) Wix: https://www.wix.com
+* (Free) Google Sites: https://sites.google.com/
+
+# Blogs I like (and read occasionally)
+* http://www.math3ma.com/
+* https://punkrockor.com/
