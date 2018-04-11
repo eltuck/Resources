@@ -1,5 +1,5 @@
-## Resources
+# Resources
 
 # Git
 
-* Beginner Tutorial: [http://try.github.io/] 
+* Beginner Tutorial: [http://try.github.io/]
