@@ -59,10 +59,13 @@ https://r4ds.had.co.nz/
   * Overview:
     * https://github.com/joshnh/Git-Commands
   * Markdown cheat sheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-  * Specifics
+  * Specifics (how to)
     * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
     * Cloning: https://help.github.com/articles/cloning-a-repository/
     * Using cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
+    * Save credentials (login):
+    https://help.github.com/articles/caching-your-github-password-in-git/
+  * Specifics (background)
     * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
 
 # General coding practices
