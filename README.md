@@ -10,6 +10,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 # Python
 * OR/MS-related Python packages: https://wiki.python.org/moin/PythonForOperationsResearch
 * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
+* Simulation
+  * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
 * Tutorials
   * From Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
 
@@ -20,14 +22,15 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Webscraping
     * http://www.interhacktives.com/2017/01/25/scrape-tweets-r-journalists/
     * http://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html
-  * Operations research
-    * http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
+* Operations research
+  * http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
 
 # General coding practices
 * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
 
 # AMPL
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
+* Google group (help forum): https://groups.google.com/forum/#!forum/ampl
 
 # Math programming software
 * Solvers
@@ -59,6 +62,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 
 # Math programming textbooks
 * (Free) A First Course in Linear Optimization v3.0 by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
+* (Free) Foundations and Methods of Stochastic Simulation  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
 
 # Algorithms
 * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
@@ -121,3 +125,14 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 # Blogs I like (and read occasionally)
 * http://www.math3ma.com/
 * https://punkrockor.com/
+* https://chrisblattman.com/
+  * His advice posts (links on right-hand side of blog) are interesting
+* http://reckoningrisk.com/
+
+# Various advice
+* For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
+
+# Eclectic
+* CV of failures
+  * https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf
+  *  https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/?noredirect=on&utm_term=.c5a450e68610
