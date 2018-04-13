@@ -32,6 +32,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Textbooks
   * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
 https://r4ds.had.co.nz/
+    * Community to learn/walk through book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
 * dplyr
   * Selecting columns https://suzan.rbind.io/2018/01/dplyr-tutorial-1/
   * Filtering rows
