@@ -62,6 +62,7 @@ https://r4ds.had.co.nz/
     * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
     * Cloning: https://help.github.com/articles/cloning-a-repository/
     * Using cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
+    * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
 
 # General coding practices
 * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
