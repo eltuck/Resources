@@ -2,22 +2,50 @@
 
 Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order.
 
-# Git
-* Beginner Tutorial: http://try.github.io/
-* Specifics
-  * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
-
 # Python
+* Overview
+  * Whirlwind tour from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/WhirlwindTourOfPython
+  * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
+* More extensive tutorials
+  * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
+* Textbooks
+  * (Free) _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
+    * Beginners guide, programming exp. not necessary
+  * (Free) _Python Data Science Handbook_ by [@jakevdp](https://github.com/jakevdp) https://jakevdp.github.io/PythonDataScienceHandbook/
 * OR/MS-related Python packages: https://wiki.python.org/moin/PythonForOperationsResearch
-* Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
-* Simulation
-  * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
-* Tutorials
-  * From Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
+* Topics
+  * Simulation
+    * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
+  * ML
+      * Flowchart: choosing the right estimator: http://scikit-learn.org/stable/tutorial/machine_learning_map/
+      * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
+  * Supply chain
+    * https://github.com/KevinFasusi/supplychainpy
+* Figures
+  * R-style graphing
+    * plotnine package: https://plotnine.readthedocs.io/en/stable/
+    * ggplot package: https://www.r-bloggers.com/ggplot2-style-plotting-in-python/
+  * Funny
+    * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
 
 # R
+* Textbooks
+  * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
+https://r4ds.had.co.nz/
+* dplyr
+  * Selecting columns https://suzan.rbind.io/2018/01/dplyr-tutorial-1/
+  * Filtering rows
+    https://suzan.rbind.io/2018/02/dplyr-tutorial-3/
+  * Summarizing and slicing https://suzan.rbind.io/2018/04/dplyr-tutorial-4/
+* Pipe operator %>%
+  * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
+  * Longer from DataCamp: https://www.datacamp.com/community/tutorials/pipe-r-tutorial
 * Packages
   * Epidemic network modeling: http://statnet.github.io/nme/index.html
+  * Funny
+    * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
+      * Make animals say funny things (Yoda is my favorite)
+    * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
 * Application-focused
   * Webscraping
     * http://www.interhacktives.com/2017/01/25/scrape-tweets-r-journalists/
@@ -25,12 +53,27 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Operations research
   * http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
 
+# GitHub
+  * Beginner Tutorial: http://try.github.io/
+  * Overview:
+    * https://github.com/joshnh/Git-Commands
+  * Markdown cheat sheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  * Specifics
+    * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
+    * Cloning: https://help.github.com/articles/cloning-a-repository/
+    * Using cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
+
 # General coding practices
 * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
 
 # AMPL
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
 * Google group (help forum): https://groups.google.com/forum/#!forum/ampl
+* Specifics
+  * Dynamic set definitions
+    https://groups.google.com/forum/#!msg/ampl/Wr_KxvKWBpM/FGeILLXGZzAj
+    * E.g., AVAIL vs. AVAIL_all
+
 
 # Math programming software
 * Solvers
@@ -61,8 +104,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * NetLogo: https://ccl.northwestern.edu/netlogo/
 
 # Math programming textbooks
-* (Free) A First Course in Linear Optimization v3.0 by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
-* (Free) Foundations and Methods of Stochastic Simulation  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
+* (Free) _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
+* (Free) _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
 
 # Algorithms
 * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
@@ -78,27 +121,42 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * [@kjhealy](https://github.com/kjhealy): http://socviz.co/
 
 # Datasets
-* Compilation of public data sources (targeted towards machine learning):
- https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/
-* Kaggle: https://www.kaggle.com/datasets
 * Network datasets
   * Compilation from [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
   * Compilation from [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
-* European statistics: http://ec.europa.eu/eurostat/data/database
-* Google Public Data Explorer: https://www.google.com/publicdata/directory
-* IMF: http://www.imf.org/en/Data
-* WHO: http://www.who.int/gho/en/
+* General Compilations
+  * Kaggle: https://www.kaggle.com/datasets
+  * Public data sources:
+   https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/
+    * Targeted towards machine learning
+  * Google Public Data Explorer: https://www.google.com/publicdata/directory
+  * Public datasets: https://github.com/awesomedata/awesome-public-datasets
+* Specific sources
+  * European statistics: http://ec.europa.eu/eurostat/data/database
+  * IMF: http://www.imf.org/en/Data
+  * WHO: http://www.who.int/gho/en/
+
+# Math-y shortcuts
+  * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
+  * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
 
 # Communication / dissemination
 * Reference software
   * Zotero: https://www.zotero.org/
   * Mendeley: https://www.mendeley.com/
   * EndNote: http://endnote.com/
-* Writing manuscripts (Healthcare-focused):
-  * Welch, 1999 paper (Prepping for Submission to a Medical Journal)
-   https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
-  * Ibrahim and Dimick (Writing for Impact)
-   https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf
+* LaTeX
+  * Example style template for journals https://www.leandro-coelho.com/default-latex-article-style-modifications/
+* Manuscripts
+  * Writing manuscripts (Healthcare-focused):
+    * Welch, 1999 paper (Prepping for Submission to a Medical Journal)
+     https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
+    * Ibrahim and Dimick (Writing for Impact)
+     https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf
+    * Policy papers in clinical journals: https://sph.umich.edu/cehr/pdf/Manuscript_Guide.pdf
+      * Writing guide from the UM Center for Evaluating Health Reform
+  * Guide to running "paper sprints" https://sph.umich.edu/cehr/pdf/Paper_Sprint_Manual.pdf
+    * I.e., getting a team together and writing a paper really fast
 * Visual abstracts
   * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
 * Policy
@@ -128,6 +186,10 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * https://chrisblattman.com/
   * His advice posts (links on right-hand side of blog) are interesting
 * http://reckoningrisk.com/
+* Humor
+  * Math with Bad Drawings: https://mathwithbaddrawings.com/
+  * Lego Grad Student: https://brickademics.com/
+
 
 # Various advice
 * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
@@ -136,3 +198,15 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * CV of failures
   * https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf
   *  https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/?noredirect=on&utm_term=.c5a450e68610
+* List of "awesome" lists https://github.com/sindresorhus/awesome
+  * Very meta. But also potentially helpful.
+* Guide to Bad Data
+  * Github: https://github.com/Quartz/bad-data-guide
+  * Article on Quartz: https://qz.com/572338/the-quartz-guide-to-bad-data/#user-content-there-are-inexplicable-outliers
+* Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
+* Sites to poll meeting availability:
+  * When2Meet: https://www.when2meet.com/
+  * When is good: http://whenisgood.net/
+* Humor
+  * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
+    * (I think the original version of this list came from Dana Angluin)
