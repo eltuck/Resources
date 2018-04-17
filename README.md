@@ -167,6 +167,14 @@ https://r4ds.had.co.nz/
 * Policy
   * (Blog) Connecting Research to Policy https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
 
+# Healthcare
+* Healthcare Industry guide (largely UM students only) https://kresgeguides.bus.umich.edu/healthcarebiotechhome
+* Health management and policy guide
+  * http://guides.lib.umich.edu/hmp
+* Guide to finding health statistics
+ * UM: http://guides.lib.umich.edu/healthstats
+ * Wisconsin-Madison: http://researchguides.ebling.library.wisc.edu/c.php?g=293234
+
 # Jobs
 * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
 
