@@ -47,6 +47,14 @@ https://r4ds.had.co.nz/
     * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
       * Make animals say funny things (Yoda is my favorite)
     * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
+* Visualizations
+  * Graphs and networks
+    * DiagrammeR https://github.com/rich-iannone/DiagrammeR
+  * Gantt charts
+    * GanttR function: https://insileco.github.io/2017/09/20/gantt-charts-in-r/
+    * Other options: https://stackoverflow.com/questions/3550341/gantt-charts-with-r
+  * Interactive timelines
+    * timevis: https://github.com/daattali/timevis
 * Application-focused
   * Webscraping
     * http://www.interhacktives.com/2017/01/25/scrape-tweets-r-journalists/
