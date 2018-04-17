@@ -33,6 +33,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
 https://r4ds.had.co.nz/
     * Community to learn/walk through book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
+  * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
 * Explanation of topics
   * Pipe operator %>%
     * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
