@@ -33,16 +33,20 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
 https://r4ds.had.co.nz/
     * Community to learn/walk through book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
-* dplyr
-  * Selecting columns https://suzan.rbind.io/2018/01/dplyr-tutorial-1/
-  * Filtering rows
-    https://suzan.rbind.io/2018/02/dplyr-tutorial-3/
-  * Summarizing and slicing https://suzan.rbind.io/2018/04/dplyr-tutorial-4/
-* Pipe operator %>%
-  * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
-  * Longer from DataCamp: https://www.datacamp.com/community/tutorials/pipe-r-tutorial
-* Packages
-  * Epidemic network modeling: http://statnet.github.io/nme/index.html
+* Explanation of topics
+  * Pipe operator %>%
+    * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
+    * Longer from DataCamp: https://www.datacamp.com/community/tutorials/pipe-r-tutorial
+* Packages (perhaps with corresponding tutorials)
+  * Minor but helpful
+    * GridExtra (paneling ggplot figures): https://www.r-bloggers.com/extra-extra-get-your-gridextra/
+  * Larger
+    * Epidemic network modeling: http://statnet.github.io/nme/index.html
+    * dplyr
+      * Selecting columns https://suzan.rbind.io/2018/01/dplyr-tutorial-1/
+      * Filtering rows
+        https://suzan.rbind.io/2018/02/dplyr-tutorial-3/
+      * Summarizing and slicing https://suzan.rbind.io/2018/04/dplyr-tutorial-4/
   * Funny
     * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
       * Make animals say funny things (Yoda is my favorite)
