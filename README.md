@@ -6,14 +6,19 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Overview
   * Whirlwind tour from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/WhirlwindTourOfPython
   * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
-* More extensive tutorials
-  * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
 * Textbooks
   * (Free) _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
     * Beginners guide, programming exp. not necessary
   * (Free) _Python Data Science Handbook_ by [@jakevdp](https://github.com/jakevdp) https://jakevdp.github.io/PythonDataScienceHandbook/
-* OR/MS-related Python packages: https://wiki.python.org/moin/PythonForOperationsResearch
+* Tutorials
+  * Overall
+    * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
+  * Packages
+    * Pandas
+      * Beginner from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+      * Intermediate from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
 * Topics
+  * OR/MS-related Python packages: https://wiki.python.org/moin/PythonForOperationsResearch
   * Simulation
     * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
   * ML
@@ -66,6 +71,8 @@ https://r4ds.had.co.nz/
     * http://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html
 * Operations research
   * http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
+* How to...
+  * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
 
 # GitHub
   * Beginner Tutorial: http://try.github.io/
