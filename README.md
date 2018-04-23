@@ -16,7 +16,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * List of OR/MS-related packages: https://wiki.python.org/moin/PythonForOperationsResearch
   * Network modeling
     * NetworkX https://github.com/networkx/networkx
-      * Tutorial https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
+      * Tutorial: network analysis (humanities data) https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
+      * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
   * Simulation
     * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
   * ML
