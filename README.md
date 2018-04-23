@@ -10,22 +10,23 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * (Free) _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
     * Beginners guide, programming exp. not necessary
   * (Free) _Python Data Science Handbook_ by [@jakevdp](https://github.com/jakevdp) https://jakevdp.github.io/PythonDataScienceHandbook/
-* Tutorials
-  * Overall
-    * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
-  * Packages
-    * Pandas
-      * Beginner from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
-      * Intermediate from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
-* Topics
-  * OR/MS-related Python packages: https://wiki.python.org/moin/PythonForOperationsResearch
+* Overall tutorial
+  * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
+* Topics/packages
+  * List of OR/MS-related packages: https://wiki.python.org/moin/PythonForOperationsResearch
+  * Network modeling
+    * NetworkX https://github.com/networkx/networkx
+      * Tutorial https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
   * Simulation
     * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
   * ML
       * Flowchart: choosing the right estimator: http://scikit-learn.org/stable/tutorial/machine_learning_map/
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
   * Supply chain
-    * https://github.com/KevinFasusi/supplychainpy
+    * Supplychainpy: https://github.com/KevinFasusi/supplychainpy
+  * Pandas
+      * Beginner tutorial from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+      * Intermediate tutorial from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
 * Figures
   * R-style graphing
     * plotnine package: https://plotnine.readthedocs.io/en/stable/
@@ -229,6 +230,7 @@ https://r4ds.had.co.nz/
 
 # Various advice
 * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
+* An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
 
 # Eclectic
 * CV of failures
