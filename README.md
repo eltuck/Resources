@@ -105,7 +105,9 @@ https://r4ds.had.co.nz/
   * Commercial
     * CPLEX (free for academics): https://www.ibm.com/products/ilog-cplex-optimization-studio
     * Gurobi (free for academics): http://www.gurobi.com/
-    * Xpress: http://www.fico.com/en/products/fico-xpress-optimization
+    * Xpress:
+      * http://www.fico.com/en/products/fico-xpress-optimization
+      * https://community.fico.com/community/fico-optimization-community
   * GLPK: https://www.gnu.org/software/glpk/
   * SCIP: http://scip.zib.de/
   * NEOS: https://neos-guide.org/
@@ -186,6 +188,7 @@ https://r4ds.had.co.nz/
   * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
 * Policy
   * (Blog) Connecting Research to Policy https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
+* More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
 
 # Healthcare
 * Healthcare Industry guide (largely UM students only) https://kresgeguides.bus.umich.edu/healthcarebiotechhome
@@ -243,3 +246,4 @@ https://r4ds.had.co.nz/
 * Humor
   * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
     * (I think the original version of this list came from Dana Angluin)
+  * "The best way to write secure and reliable applications" https://github.com/kelseyhightower/nocode
