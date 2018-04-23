@@ -18,6 +18,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * NetworkX https://github.com/networkx/networkx
       * Tutorial: network analysis (humanities data) https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
       * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
+      * Network simplex https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html
   * Simulation
     * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
   * ML
