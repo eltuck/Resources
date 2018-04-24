@@ -214,6 +214,9 @@ https://r4ds.had.co.nz/
 * Summer schools
   * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
 
+# Grants/fellowships
+* FDA Generic Drug-related: https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm
+
 # Teaching
 * Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
 
@@ -228,8 +231,6 @@ https://r4ds.had.co.nz/
 # Blogs I like (and read occasionally)
 * http://www.math3ma.com/
 * https://punkrockor.com/
-* https://chrisblattman.com/
-  * His advice posts (links on right-hand side of blog) are interesting
 * http://reckoningrisk.com/
 * Humor
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
@@ -239,6 +240,8 @@ https://r4ds.had.co.nz/
 # Various advice
 * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
 * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
+* Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
+  * Links on right-hand side of blog
 
 # Eclectic
 * CV of failures
