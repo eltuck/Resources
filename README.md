@@ -68,6 +68,8 @@ https://r4ds.had.co.nz/
     * Other options: https://stackoverflow.com/questions/3550341/gantt-charts-with-r
   * Interactive timelines
     * timevis: https://github.com/daattali/timevis
+* Markdown/reports
+  * Tufte style for markdown: https://github.com/rstudio/tufte
 * Application-focused
   * Webscraping
     * http://www.interhacktives.com/2017/01/25/scrape-tweets-r-journalists/
