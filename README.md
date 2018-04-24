@@ -201,12 +201,11 @@ https://r4ds.had.co.nz/
  * UM: http://guides.lib.umich.edu/healthstats
  * Wisconsin-Madison: http://researchguides.ebling.library.wisc.edu/c.php?g=293234
 
-# Jobs
-* Infectious disease dynamics listserv: http://iddjobs.org/jobs/
-
-# Summer schools
-* List compiled by Thiago Serra:
-  * 2018 Version: https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
+# Jobs / Summer schools
+* Jobs
+  * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
+* Summer schools
+  * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
 
 # Teaching
 * Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
@@ -244,6 +243,12 @@ https://r4ds.had.co.nz/
   * Github: https://github.com/Quartz/bad-data-guide
   * Article on Quartz: https://qz.com/572338/the-quartz-guide-to-bad-data/#user-content-there-are-inexplicable-outliers
 * Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
+* Debugging
+  * Rubber ducky method: https://rubberduckdebugging.com/
+    * Explain in detail to an inanimate object
+  * Wolf-fence algorithm: http://coreygoldberg.blogspot.com/2008/12/wolf-fence-debugging.html
+    * Basically binary search with fun description
+    * Original paper (paywall): https://dl.acm.org/citation.cfm?id=358695
 * Sites to poll meeting availability:
   * When2Meet: https://www.when2meet.com/
   * When is good: http://whenisgood.net/
