@@ -143,14 +143,19 @@ https://r4ds.had.co.nz/
 * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
 
 # Operations research-adjacent material
-* Course lectures
-  * Linear Algebra (Gilbert Strang): https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
-  * Intro Game Theory (Ben Polak): https://oyc.yale.edu/economics/econ-159
+* Linear Algebra
+  * Intro course lectures from Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
+* Game theory
+  * Intro course lectures from Ben Polak: https://oyc.yale.edu/economics/econ-159
+* Data Science
+  * How to get started - blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
+  * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
+
 
 # Data visualization
 * Textbooks
-  * [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
-  * [@kjhealy](https://github.com/kjhealy): http://socviz.co/
+  * _Fundamentals of Data Visualization_ by [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
+  * _Data Visualization: A Practical Introduction_ by [@kjhealy](https://github.com/kjhealy): http://socviz.co/
 
 # Datasets
 * Network datasets
