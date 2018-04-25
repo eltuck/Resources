@@ -156,6 +156,8 @@ https://r4ds.had.co.nz/
 * Textbooks
   * _Fundamentals of Data Visualization_ by [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
   * _Data Visualization: A Practical Introduction_ by [@kjhealy](https://github.com/kjhealy): http://socviz.co/
+* Networks
+  * Gephi: https://gephi.org/ 
 
 # Datasets
 * Network datasets
