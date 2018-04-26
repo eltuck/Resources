@@ -78,6 +78,7 @@ https://r4ds.had.co.nz/
   * http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
 * How to...
   * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
+  * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
 
 # GitHub
   * Beginner Tutorial: http://try.github.io/
@@ -157,7 +158,7 @@ https://r4ds.had.co.nz/
   * _Fundamentals of Data Visualization_ by [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
   * _Data Visualization: A Practical Introduction_ by [@kjhealy](https://github.com/kjhealy): http://socviz.co/
 * Networks
-  * Gephi: https://gephi.org/ 
+  * Gephi: https://gephi.org/
 
 # Datasets
 * Network datasets
