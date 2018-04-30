@@ -80,6 +80,7 @@ https://r4ds.had.co.nz/
   * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
   * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
   * Iteratively make plots by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
+* Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
 
 # GitHub
   * Beginner Tutorial: http://try.github.io/
@@ -137,12 +138,13 @@ https://r4ds.had.co.nz/
   * Agent-based
     * NetLogo: https://ccl.northwestern.edu/netlogo/
 
-# Math programming textbooks
-* (Free) _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
-* (Free) _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
-
-# Algorithms
-* List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
+# Math programming resources
+* Textbooks
+  * (Free) _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
+  * (Free) _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
+* Algorithms
+  * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
+* Lecture notes - intro to math programming (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
 
 # Operations research-adjacent material
 * Linear Algebra
@@ -181,7 +183,8 @@ https://r4ds.had.co.nz/
   * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
   * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
 
-# Communication / dissemination
+# Communication / dissemination / manuscripts
+* Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
 * Reference software
   * Zotero: https://www.zotero.org/
   * Mendeley: https://www.mendeley.com/
@@ -192,6 +195,8 @@ https://r4ds.had.co.nz/
     * Presentation: https://github.com/paulgp/beamer-tips/blob/master/slides.pdf
     * Source code:https://github.com/paulgp/beamer-tips
 * Manuscripts
+  * How to write your first paper (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/firstpaper
+    * Biostatistician
   * Writing manuscripts (Healthcare-focused):
     * Welch, 1999 paper (Prepping for Submission to a Medical Journal)
      https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
@@ -201,6 +206,8 @@ https://r4ds.had.co.nz/
       * Writing guide from the UM Center for Evaluating Health Reform
   * Guide to running "paper sprints" https://sph.umich.edu/cehr/pdf/Paper_Sprint_Manual.pdf
     * I.e., getting a team together and writing a paper really fast
+  * How to review a paper by [@jtleek](https://github.com/jtleek) https://github.com/jtleek/reviews
+    * Biostatistician
 * Visual abstracts
   * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
 * Policy
@@ -220,6 +227,9 @@ https://r4ds.had.co.nz/
   * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
 * Summer schools
   * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
+* Career
+  * Questions to think through career goals [@benlangmead](https://github.com/benlangmead): https://github.com/BenLangmead/langmead-lab/blob/master/postdoc_questionnaire.md
+    * Slightly expanded from [@jtleek](https://github.com/jtleek): https://github.com/jtleek/careerplanning
 
 # Grants/fellowships
 * FDA Generic Drug-related: https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm
@@ -243,12 +253,16 @@ https://r4ds.had.co.nz/
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
   * Lego Grad Student: https://brickademics.com/
 
-
 # Various advice
-* For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
-* An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
-* Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
-  * Links on right-hand side of blog
+* Grad students
+  * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
+  * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
+* Various
+  * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
+  * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
+    * Links on right-hand side of blog
+* Skills
+  * Reading papers by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/readingpapers
 
 # Eclectic
 * CV of failures
