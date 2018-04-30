@@ -227,9 +227,11 @@ https://r4ds.had.co.nz/
   * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
 * Summer schools
   * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
-* Career
+* Career prep
   * Questions to think through career goals [@benlangmead](https://github.com/benlangmead): https://github.com/BenLangmead/langmead-lab/blob/master/postdoc_questionnaire.md
     * Slightly expanded from [@jtleek](https://github.com/jtleek): https://github.com/jtleek/careerplanning
+  * Academic jobs
+    * Tons of resources compiled by UM CRLT: http://crlt.umich.edu/PFF_Resources
 
 # Grants/fellowships
 * FDA Generic Drug-related: https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm
