@@ -273,3 +273,4 @@ https://r4ds.had.co.nz/
   * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
     * (I think the original version of this list came from Dana Angluin)
   * "The best way to write secure and reliable applications" https://github.com/kelseyhightower/nocode
+  * Add coffee stains to your LaTeX files: http://hanno-rein.de/archives/349
