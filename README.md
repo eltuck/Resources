@@ -145,7 +145,9 @@ https://r4ds.had.co.nz/
   * (Free) _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
-* Lecture notes - intro to math programming (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
+* Course resources
+  * Lecture notes - intro to math programming (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
+  * Readings - unified approach to stochastic optimization (grad level taught by Warren Powell in Fall 2017): https://castlelab.princeton.edu/orf-544/
 
 # Operations research-adjacent material
 * Linear Algebra
