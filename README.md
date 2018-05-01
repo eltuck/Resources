@@ -146,8 +146,9 @@ https://r4ds.had.co.nz/
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
 * Course resources
-  * Lecture notes - intro to math programming (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
-  * Readings - unified approach to stochastic optimization (grad level taught by Warren Powell in Fall 2017): https://castlelab.princeton.edu/orf-544/
+  * Lecture notes - intro to Math Programming (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
+  * Readings - unified approach to Stochastic Optimization (grad level taught by Warren Powell in Fall 2017): https://castlelab.princeton.edu/orf-544/
+  * Various materials related to course on Optimal Learning (Warren Powell): http://optimallearning.princeton.edu/
 
 # Operations research-adjacent material
 * Linear Algebra
