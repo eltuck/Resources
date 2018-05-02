@@ -145,10 +145,20 @@ https://r4ds.had.co.nz/
   * (Free) _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
+* Models
+  * GAMS model library: https://www.gams.com/latest/gamslib_ml/libhtml/
 * Course resources
-  * Lecture notes - intro to Math Programming (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
-  * Readings - unified approach to Stochastic Optimization (grad level taught by Warren Powell in Fall 2017): https://castlelab.princeton.edu/orf-544/
-  * Various materials related to course on Optimal Learning (Warren Powell): http://optimallearning.princeton.edu/
+  * Intro to Math Programming - lecture notes (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
+  * Stochastic Optimization - readings (grad level taught by Warren Powell in Fall 2017): https://castlelab.princeton.edu/orf-544/
+  * Optimal Learning - various materials (Warren Powell): http://optimallearning.princeton.edu/
+* Drawing scenario trees
+  * GAMS/SCENRED https://www.gams.com/latest/docs/T_SCENRED.html
+    * Workshop: https://www.gams.com/fileadmin/community/contrib/financial/ngk_scenred.pdf
+    * Presentation: http://old.gams.com/presentations/present_informs08_scenred.pdf
+  * Plotly (python): https://plot.ly/python/tree-plots/
+  * Graphviz (python): http://scikit-learn.org/stable/modules/tree.html
+  * Networkx (python): https://networkx.github.io/
+  * Force-directed graph (json/html): https://bl.ocks.org/mbostock/4062045
 
 # Operations research-adjacent material
 * Linear Algebra
