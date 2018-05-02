@@ -156,7 +156,8 @@ https://r4ds.had.co.nz/
     * Workshop: https://www.gams.com/fileadmin/community/contrib/financial/ngk_scenred.pdf
     * Presentation: http://old.gams.com/presentations/present_informs08_scenred.pdf
   * Plotly (python): https://plot.ly/python/tree-plots/
-  * Graphviz (python): http://scikit-learn.org/stable/modules/tree.html
+  * Graphviz (python): http://graphviz.readthedocs.io/en/stable/index.html
+    * Examples: http://graphviz.readthedocs.io/en/stable/examples.html
   * Networkx (python): https://networkx.github.io/
   * Force-directed graph (json/html): https://bl.ocks.org/mbostock/4062045
 
