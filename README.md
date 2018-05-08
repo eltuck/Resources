@@ -263,6 +263,9 @@ https://r4ds.had.co.nz/
       * Carrier summary files: https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-Carrier-Summary-Data-File/Overview.html
       * Not free:
         * CCW https://www.ccwdata.org/web/guest/home
+  * Private
+    * IQVIA (formerly IMS Health): https://www.iqvia.com/solutions/real-world-value-and-outcomes/realworld-data
+      * Considered the gold standard for volume data but expensive
   * Other
     * Clinical trials: https://clinicaltrials.gov/
     * Link to CDC data/stats: https://www.cdc.gov/DataStatistics/
