@@ -346,3 +346,4 @@ https://r4ds.had.co.nz/
     * (I think the original version of this list came from Dana Angluin)
   * "The best way to write secure and reliable applications" https://github.com/kelseyhightower/nocode
   * Add coffee stains to your LaTeX files: http://hanno-rein.de/archives/349
+  * Guide to interpreting faculty feedback: https://kieranhealy.org/blog/archives/2013/08/16/academic-feedback/
