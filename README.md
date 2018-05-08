@@ -40,8 +40,12 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Textbooks
   * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
 https://r4ds.had.co.nz/
-    * Community to learn/walk through book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
   * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
+* Learn R
+  * Community to walk through _R for Data Science_ book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
+  * Tidy Tuesdays - a weekly data viz project https://github.com/rfordatascience/tidytuesday/blob/master/README.md
+  * Collection of tutorials
+    * UC Business Analytics: http://uc-r.github.io/
 * Explanation of topics
   * Pipe operator %>%
     * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
@@ -70,24 +74,30 @@ https://r4ds.had.co.nz/
     * timevis: https://github.com/daattali/timevis
 * Markdown/reports
   * Tufte style for markdown: https://github.com/rstudio/tufte
-* Application-focused
+* Tutorials
   * Webscraping
     * http://www.interhacktives.com/2017/01/25/scrape-tweets-r-journalists/
     * http://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html
+  * K-means
+    * https://uc-r.github.io/kmeans_clustering
 * Operations research
-  * http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
+  * Using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
+  * Optplot from [@dirkschumacher](https://github.com/dirkschumacher): https://github.com/dirkschumacher/optplot
+    * Plot optimization models
 * How to...
   * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
   * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
   * Iteratively make plots by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
   * Fit distributions: http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
-* Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
+  * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
 
 # GitHub
   * Beginner Tutorial: http://try.github.io/
   * Overview:
     * https://github.com/joshnh/Git-Commands
-  * Markdown cheat sheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  * Cheat sheets
+    * Overall: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
+    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   * How to...
     * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
     * Clone a repo: https://help.github.com/articles/cloning-a-repository/
@@ -99,6 +109,7 @@ https://r4ds.had.co.nz/
 
 # General coding practices
 * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
+* Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
 
 # AMPL
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
@@ -169,6 +180,15 @@ https://r4ds.had.co.nz/
 * Data Science
   * How to get started - blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
   * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
+  * Technical notes - ML and AI from [@chrisalbon](https://github.com/chrisalbon)
+    * Website: https://chrisalbon.com/#machine_learning
+    * On github: https://github.com/chrisalbon/notes
+  * ML flashcards from [@chrisalbon](https://github.com/chrisalbon)
+    * https://machinelearningflashcards.com/
+    * Scrape off Twitter for free, code from [@Dpananos](https://github.com/Dpananos): https://github.com/Dpananos/GetCards
+  * Applied ML couse [@amueller](https://github.com/amueller): http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
+    * Includes lecture recordings and slides
+  * Directory of lots of data science material: http://www.datasciguide.com/content/
 
 
 # Data visualization
@@ -278,6 +298,7 @@ https://r4ds.had.co.nz/
   * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
   * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
     * Links on right-hand side of blog
+  * When your data science project doesn't work: https://medium.com/@skyetetra/so-your-data-science-project-isnt-working-7bf57e3f12f1
 * Skills
   * Reading papers by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/readingpapers
 
