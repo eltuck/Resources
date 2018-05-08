@@ -250,12 +250,32 @@ https://r4ds.had.co.nz/
 * More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
 
 # Healthcare
-* Healthcare Industry guide (largely UM students only) https://kresgeguides.bus.umich.edu/healthcarebiotechhome
-* Health management and policy guide
-  * http://guides.lib.umich.edu/hmp
-* Guide to finding health statistics
- * UM: http://guides.lib.umich.edu/healthstats
- * Wisconsin-Madison: http://researchguides.ebling.library.wisc.edu/c.php?g=293234
+* Guides
+  * Healthcare Industry (largely UM students only) https://kresgeguides.bus.umich.edu/healthcarebiotechhome
+  * Health management and policy: http://guides.lib.umich.edu/hmp
+  * Finding health statistics
+    * From UM: http://guides.lib.umich.edu/healthstats
+    * From Wisconsin-Madison: http://researchguides.ebling.library.wisc.edu/c.php?g=293234
+* Datasets / databases
+  * Public
+    * Medicare Part B
+      * National summary files: https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-National-Summary-Data-File/Overview.html
+      * Carrier summary files: https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-Carrier-Summary-Data-File/Overview.html
+      * Not free:
+        * CCW https://www.ccwdata.org/web/guest/home
+  * Other
+    * Clinical trials: https://clinicaltrials.gov/
+    * Link to CDC data/stats: https://www.cdc.gov/DataStatistics/
+  * Major surveys
+    * NHANES (in person): https://www.cdc.gov/nchs/nhanes/index.htm
+    * BRFSS (phone): https://www.cdc.gov/brfss/annual_data/annual_data.htm
+      * Pronounced "Burfiss"
+    * Census: https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
+      * Not really healthcare but still useful
+* Newsletters
+  * CDC's MMWR: https://www.cdc.gov/mmwr/index.html
+    * Morbidity and Mortality Weekly Report
+    * I think most people I know working in public health subscribe to this
 
 # Jobs / Summer schools
 * Jobs
