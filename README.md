@@ -128,6 +128,8 @@ https://r4ds.had.co.nz/
     * Xpress:
       * http://www.fico.com/en/products/fico-xpress-optimization
       * https://community.fico.com/community/fico-optimization-community
+    * MOSEK: https://www.mosek.com/
+      * Esp. SOCP, SDP
   * GLPK: https://www.gnu.org/software/glpk/
   * SCIP: http://scip.zib.de/
   * NEOS: https://neos-guide.org/
@@ -151,9 +153,11 @@ https://r4ds.had.co.nz/
     * NetLogo: https://ccl.northwestern.edu/netlogo/
 
 # Math programming resources
-* Textbooks
-  * (Free) _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
-  * (Free) _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
+* Free Textbooks
+  * _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
+  * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
+  * _MOSEK Modeling Cookbook_ https://themosekblog.blogspot.dk/2018/05/new-modeling-cookbook.html
+    * Conic optimization, not specific to MOSEK solver
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
 * Models
