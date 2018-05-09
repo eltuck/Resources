@@ -228,6 +228,9 @@ https://r4ds.had.co.nz/
   * EndNote: http://endnote.com/
 * LaTeX
   * Example style template for journals https://www.leandro-coelho.com/default-latex-article-style-modifications/
+  * Thesis templates:
+    * U Wolverhamptom: https://github.com/snim2/phdtemplate
+    * Michigan: http://clasp.engin.umich.edu/pages/current/dissertation-template
   * Beamer tips and tricks by [@paulgp](https://github.com/paulgp)
     * Presentation: https://github.com/paulgp/beamer-tips/blob/master/slides.pdf
     * Source code: https://github.com/paulgp/beamer-tips
