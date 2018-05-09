@@ -175,6 +175,9 @@ https://r4ds.had.co.nz/
     * Examples: http://graphviz.readthedocs.io/en/stable/examples.html
   * Networkx (python): https://networkx.github.io/
   * Force-directed graph (json/html): https://bl.ocks.org/mbostock/4062045
+* How to...
+  * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
+  * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
 
 # Operations research-adjacent material
 * Linear Algebra
@@ -190,10 +193,9 @@ https://r4ds.had.co.nz/
   * ML flashcards from [@chrisalbon](https://github.com/chrisalbon)
     * https://machinelearningflashcards.com/
     * Scrape off Twitter for free, code from [@Dpananos](https://github.com/Dpananos): https://github.com/Dpananos/GetCards
-  * Applied ML couse [@amueller](https://github.com/amueller): http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
+  * Applied ML course [@amueller](https://github.com/amueller): http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
     * Includes lecture recordings and slides
   * Directory of lots of data science material: http://www.datasciguide.com/content/
-
 
 # Data visualization
 * Textbooks
@@ -218,10 +220,6 @@ https://r4ds.had.co.nz/
   * IMF: http://www.imf.org/en/Data
   * WHO: http://www.who.int/gho/en/
 
-# Math-y shortcuts
-  * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
-  * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
-
 # Communication / dissemination / manuscripts
 * Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
 * Reference software
@@ -232,7 +230,7 @@ https://r4ds.had.co.nz/
   * Example style template for journals https://www.leandro-coelho.com/default-latex-article-style-modifications/
   * Beamer tips and tricks by [@paulgp](https://github.com/paulgp)
     * Presentation: https://github.com/paulgp/beamer-tips/blob/master/slides.pdf
-    * Source code:https://github.com/paulgp/beamer-tips
+    * Source code: https://github.com/paulgp/beamer-tips
 * Manuscripts
   * How to write your first paper (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/firstpaper
     * Biostatistician
