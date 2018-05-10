@@ -204,7 +204,7 @@ https://r4ds.had.co.nz/
 * Networks
   * Gephi: https://gephi.org/
 
-# Datasets
+# Datasets / databases
 * Network datasets
   * Compilation from [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
   * Compilation from [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
@@ -219,6 +219,13 @@ https://r4ds.had.co.nz/
   * European statistics: http://ec.europa.eu/eurostat/data/database
   * IMF: http://www.imf.org/en/Data
   * WHO: http://www.who.int/gho/en/
+* Literature
+  * PubMed: https://www.ncbi.nlm.nih.gov/pubmed/
+  * Scopus: https://www.scopus.com/search/form.uri?display=basic
+  * Web of Science: https://clarivate.com/products/web-of-science/web-science-form/web-science-core-collection/
+  * Embase: https://www.elsevier.com/solutions/embase-biomedical-research
+  * CENTRAL (Cochrane reviews) http://www.cochranelibrary.com/about/central-landing-page.html
+  * Google Scholar: https://scholar.google.com/
 
 # Communication / dissemination / manuscripts
 * Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
