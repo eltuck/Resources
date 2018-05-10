@@ -2,7 +2,7 @@
 
 Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order.
 
-# Python
+### Python
 * Overview
   * Whirlwind tour from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/WhirlwindTourOfPython
   * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
@@ -36,7 +36,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Funny
     * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
 
-# R
+### R
 * Textbooks
   * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
 https://r4ds.had.co.nz/
@@ -91,7 +91,7 @@ https://r4ds.had.co.nz/
   * Fit distributions: http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
   * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
 
-# GitHub
+### GitHub
   * Beginner Tutorial: http://try.github.io/
   * Overview:
     * https://github.com/joshnh/Git-Commands
@@ -107,11 +107,11 @@ https://r4ds.had.co.nz/
   * Specifics (background)
     * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
 
-# General coding practices
+### General coding practices
 * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
 * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
 
-# AMPL
+### AMPL
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
 * Google group (help forum): https://groups.google.com/forum/#!forum/ampl
 * Specifics
@@ -120,7 +120,7 @@ https://r4ds.had.co.nz/
     * E.g., AVAIL vs. AVAIL_all
 
 
-# Math programming software
+### Math programming software
 * Solvers
   * Commercial
     * CPLEX (free for academics): https://www.ibm.com/products/ilog-cplex-optimization-studio
@@ -152,7 +152,7 @@ https://r4ds.had.co.nz/
   * Agent-based
     * NetLogo: https://ccl.northwestern.edu/netlogo/
 
-# Math programming resources
+### Math programming resources
 * Free Textbooks
   * _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
   * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
@@ -185,7 +185,7 @@ https://r4ds.had.co.nz/
   * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
   * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
 
-# Operations research-adjacent material
+### Operations research-adjacent material
 * Linear Algebra
   * Intro course lectures from Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
 * Game theory
@@ -203,14 +203,14 @@ https://r4ds.had.co.nz/
     * Includes lecture recordings and slides
   * Directory of lots of data science material: http://www.datasciguide.com/content/
 
-# Data visualization
+### Data visualization
 * Textbooks
   * _Fundamentals of Data Visualization_ by [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
   * _Data Visualization: A Practical Introduction_ by [@kjhealy](https://github.com/kjhealy): http://socviz.co/
 * Networks
   * Gephi: https://gephi.org/
 
-# Datasets / databases
+### Datasets / databases
 * Network datasets
   * Compilation from [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
   * Compilation from [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
@@ -233,7 +233,7 @@ https://r4ds.had.co.nz/
   * CENTRAL (Cochrane reviews) http://www.cochranelibrary.com/about/central-landing-page.html
   * Google Scholar: https://scholar.google.com/
 
-# Communication / dissemination / manuscripts
+### Communication / dissemination / manuscripts
 * Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
 * Reference software
   * Zotero: https://www.zotero.org/
@@ -267,7 +267,7 @@ https://r4ds.had.co.nz/
   * (Blog) Connecting Research to Policy https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
 * More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
 
-# Healthcare
+### Healthcare
 * Guides
   * Healthcare Industry (largely UM students only) https://kresgeguides.bus.umich.edu/healthcarebiotechhome
   * Health management and policy: http://guides.lib.umich.edu/hmp
@@ -298,7 +298,7 @@ https://r4ds.had.co.nz/
     * Morbidity and Mortality Weekly Report
     * I think most people I know working in public health subscribe to this
 
-# Jobs / Summer schools
+### Jobs / Summer schools
 * Jobs
   * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
   * United Nations (UN) jobs: https://unjobhunt.com/
@@ -311,13 +311,13 @@ https://r4ds.had.co.nz/
   * Academic jobs
     * Tons of resources compiled by UM CRLT: http://crlt.umich.edu/PFF_Resources
 
-# Grants/fellowships
+### Grants/fellowships
 * FDA Generic Drug-related: https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm
 
-# Teaching
+### Teaching
 * Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
 
-# Website creation
+### Website creation
 * (Free) Hosted by github: https://pages.github.com/
   * Themes: https://github.com/topics/jekyll-theme
   * I use: https://github.com/academicpages/academicpages.github.io
@@ -325,7 +325,7 @@ https://r4ds.had.co.nz/
 * (Free/Paid) Wix: https://www.wix.com
 * (Free) Google Sites: https://sites.google.com/
 
-# Blogs I like (and read occasionally)
+### Blogs I like (and read occasionally)
 * http://www.math3ma.com/
 * https://punkrockor.com/
 * http://reckoningrisk.com/
@@ -333,7 +333,7 @@ https://r4ds.had.co.nz/
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
   * Lego Grad Student: https://brickademics.com/
 
-# Various advice
+### Various advice
 * Grad students
   * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
@@ -345,7 +345,7 @@ https://r4ds.had.co.nz/
 * Skills
   * Reading papers by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/readingpapers
 
-# Eclectic
+### Eclectic
 * CV of failures
   * https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf
   *  https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/?noredirect=on&utm_term=.c5a450e68610
