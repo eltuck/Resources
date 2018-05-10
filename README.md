@@ -158,6 +158,9 @@ https://r4ds.had.co.nz/
   * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
   * _MOSEK Modeling Cookbook_ https://themosekblog.blogspot.dk/2018/05/new-modeling-cookbook.html
     * Conic optimization, not specific to MOSEK solver
+* General
+  * IFORS Developing Countries page: http://ifors.org/developing_countries/index.php?title=Main_Page
+    * A variety of open-source resources
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
 * Models
@@ -295,6 +298,8 @@ https://r4ds.had.co.nz/
 # Jobs / Summer schools
 * Jobs
   * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
+  * United Nations (UN) jobs: https://unjobhunt.com/
+    * Website from [@dirkschumacher](https://github.com/dirkschumacher), not affiliated with UN
 * Summer schools
   * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
 * Career prep
