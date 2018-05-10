@@ -158,9 +158,9 @@ https://r4ds.had.co.nz/
   * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
   * _MOSEK Modeling Cookbook_ https://themosekblog.blogspot.dk/2018/05/new-modeling-cookbook.html
     * Conic optimization, not specific to MOSEK solver
-* General
-  * IFORS Developing Countries page: http://ifors.org/developing_countries/index.php?title=Main_Page
-    * A variety of open-source resources
+* Communities / forums
+  * OR Exchange: https://www.or-exchange.org/
+  * Stack Overflow: https://stackoverflow.com/
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
 * Models
@@ -169,6 +169,9 @@ https://r4ds.had.co.nz/
   * Intro to Math Programming - lecture notes (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
   * Stochastic Optimization - readings (grad level taught by Warren Powell in Fall 2017): https://castlelab.princeton.edu/orf-544/
   * Optimal Learning - various materials (Warren Powell): http://optimallearning.princeton.edu/
+* Other
+  * IFORS Developing Countries page: http://ifors.org/developing_countries/index.php?title=Main_Page
+    * A variety of open-source resources
 * Drawing scenario trees
   * GAMS/SCENRED https://www.gams.com/latest/docs/T_SCENRED.html
     * Workshop: https://www.gams.com/fileadmin/community/contrib/financial/ngk_scenred.pdf
