@@ -10,6 +10,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * (Free) _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
     * Beginners guide, programming exp. not necessary
   * (Free) _Python Data Science Handbook_ by [@jakevdp](https://github.com/jakevdp) https://jakevdp.github.io/PythonDataScienceHandbook/
+* Community
+  * Slack channel to learn data science in Python: https://py4ds.slack.com
 * Overall tutorial
   * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
 * Topics/packages
@@ -317,13 +319,17 @@ https://r4ds.had.co.nz/
 ### Teaching
 * Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
 
-### Website creation
-* (Free) Hosted by github: https://pages.github.com/
-  * Themes: https://github.com/topics/jekyll-theme
-  * I use: https://github.com/academicpages/academicpages.github.io
-  * Template for labs: http://www.allanlab.org/aboutwebsite.html
-* (Free/Paid) Wix: https://www.wix.com
-* (Free) Google Sites: https://sites.google.com/
+### Websites
+* Sites
+  * (Free) Hosted by github: https://pages.github.com/
+    * Themes: https://github.com/topics/jekyll-theme
+      * Simple one for academics https://github.com/academicpages/academicpages.github.io
+    * Template for labs: http://www.allanlab.org/aboutwebsite.html
+  * (Free/Paid) Wix: https://www.wix.com
+  * (Free) Google Sites: https://sites.google.com/
+* Resources
+  * Icons: https://www.iconsdb.com/
+    * E.g., the Google Scholar logo
 
 ### Blogs I like (and read occasionally)
 * http://www.math3ma.com/
@@ -354,6 +360,8 @@ https://r4ds.had.co.nz/
 * Guide to Bad Data
   * Github: https://github.com/Quartz/bad-data-guide
   * Article on Quartz: https://qz.com/572338/the-quartz-guide-to-bad-data/#user-content-there-are-inexplicable-outliers
+* Technical / scientific debt: http://varianceexplained.org/r/scientific-debt/
+   * Interesting take from [@dgrtwo](https://github.com/dgrtwo) on managing shortcuts/assumptions/etc. in the project development process
 * Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
 * Debugging
   * Rubber ducky method: https://rubberduckdebugging.com/
