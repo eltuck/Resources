@@ -95,6 +95,8 @@ https://r4ds.had.co.nz/
 
 ### GitHub
   * Beginner Tutorial: http://try.github.io/
+  * Guide to Git with R: http://happygitwithr.com/
+    * Haven't read it but heard it's a good one
   * Overview:
     * https://github.com/joshnh/Git-Commands
   * Cheat sheets
