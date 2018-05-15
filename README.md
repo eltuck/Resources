@@ -305,6 +305,16 @@ https://r4ds.had.co.nz/
   * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
   * United Nations (UN) jobs: https://unjobhunt.com/
     * Website from [@dirkschumacher](https://github.com/dirkschumacher), not affiliated with UN
+  * National labs
+    * Sandia
+      * Links for fellowships/postdocs: http://www.sandia.gov/careers/students_postdocs
+    * National Renewable Energy Lab (NREL)
+      * https://www.nrel.gov/careers/
+      * Director's Postdoc Fellowship: https://www.nrel.gov/careers/directors-fellowship.html?mc_cid=6e3282f94d&mc_eid=079dfe7593
+    * Oak Ridge
+      * Postdocs https://www.ornl.gov/content/ornl-s-postdoctoral-program
+      * Weinberg Fellowship: https://www.ornl.gov/careers/alvin-m-weinberg-fellowship
+      * Householder Fellowship: https://www.ornl.gov/careers/alston-s-householder-fellowship
 * Summer schools
   * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
 * Career prep
