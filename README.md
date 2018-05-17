@@ -15,7 +15,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Overall tutorial
   * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
 * Topics/packages
-  * List of OR/MS-related packages: https://wiki.python.org/moin/PythonForOperationsResearch
+  * List of OR/MS-related packages
+    * https://wiki.python.org/moin/PythonForOperationsResearch
   * Altair (visualizations)
     * Notebooks with example code: https://github.com/altair-viz/altair_notebooks
     * Video tutorial from [@jakevdp](https://github.com/jakevdp) https://www.youtube.com/watch?v=ms29ZPUKxbU&t=2431s
@@ -23,7 +24,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Pandas (data processing)
     * Beginner tutorial from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
     * Intermediate tutorial from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
-  * NetworkX https://github.com/networkx/networkx
+  * NetworkX
+    * https://github.com/networkx/networkx
     * Tutorial: network analysis (humanities data) https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
     * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
     * Network simplex https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html
@@ -137,11 +139,27 @@ https://r4ds.had.co.nz/
       * https://community.fico.com/community/fico-optimization-community
     * MOSEK: https://www.mosek.com/
       * Esp. SOCP, SDP
-  * GLPK: https://www.gnu.org/software/glpk/
-  * SCIP: http://scip.zib.de/
-  * NEOS: https://neos-guide.org/
-  * OpenSolver (free): https://opensolver.org/
-    * Excel add-in (extends the standard Excel solver)
+  * Non-commercial
+    * GLPK: https://www.gnu.org/software/glpk/
+      * LP, MIP
+    * SCIP: http://scip.zib.de/
+      * MIP, MINLP, constraint IP
+    * Bonmin
+      * https://projects.coin-or.org/Bonmin
+      * MINLP
+    * Couenne
+      * https://projects.coin-or.org/Couenne
+      * Non-convex MINLP
+    * NEOS:
+      * https://neos-server.org/neos/
+      * https://neos-guide.org/
+    * OpenSolver: https://opensolver.org/
+      * Excel add-in (extends the standard Excel solver)
+    * Ipopt: https://projects.coin-or.org/Ipopt
+      * Nonlinear problems, local solutions
+  * List from AMPL
+      * Commercial: https://ampl.com/products/solvers/solvers-we-sell/
+      * Free: https://ampl.com/products/solvers/open-source/
 * Formulation
   * SolverStudio (free): http://solverstudio.org/
     * Excel add-in, useful when OpenSolver not big enough
@@ -150,9 +168,6 @@ https://r4ds.had.co.nz/
   * OPL: https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling
 * Test sets
   * MIPLIB: http://miplib.zib.de/
-* List of solvers
-  * Commercial: https://ampl.com/products/solvers/solvers-we-sell/
-  * Free: https://ampl.com/products/solvers/open-source/
 * Application specific
   * Facility location
     * SITATION: https://daskin.engin.umich.edu/software/
@@ -165,6 +180,10 @@ https://r4ds.had.co.nz/
   * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
   * _MOSEK Modeling Cookbook_ https://themosekblog.blogspot.dk/2018/05/new-modeling-cookbook.html
     * Conic optimization, not specific to MOSEK solver
+* Open-source
+  * COIN-OR Foundation
+    * https://www.coin-or.org/
+    * Resources: https://www.coin-or.org/resources/
 * Communities / forums
   * OR Exchange: https://www.or-exchange.org/
   * Stack Overflow: https://stackoverflow.com/
@@ -191,6 +210,9 @@ https://r4ds.had.co.nz/
 * How to...
   * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
   * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
+  * Remember primal / dual conversion
+    * Sensible-odd-bizarre (SOB) method: https://math.stackexchange.com/questions/83844/simplex-method-duality-by-bazaraa?answertab=oldest#tab-top
+    * Citing: https://www.math.hmc.edu/~benjamin/papers/sob.pdf
 
 ### Operations research-adjacent material
 * Linear Algebra
@@ -338,7 +360,7 @@ https://r4ds.had.co.nz/
 * Sites
   * (Free) Hosted by github: https://pages.github.com/
     * Themes: https://github.com/topics/jekyll-theme
-      * Simple one for academics https://github.com/academicpages/academicpages.github.io
+    * Simple one for academics https://github.com/academicpages/academicpages.github.io
     * Template for labs: http://www.allanlab.org/aboutwebsite.html
   * (Free/Paid) Wix: https://www.wix.com
   * (Free) Google Sites: https://sites.google.com/
@@ -347,9 +369,11 @@ https://r4ds.had.co.nz/
     * E.g., the Google Scholar logo
 
 ### Blogs I like (and read occasionally)
-* http://www.math3ma.com/
-* https://punkrockor.com/
-* http://reckoningrisk.com/
+* Math3Ma by [@math3ma](https://twitter.com/math3ma): http://www.math3ma.com/
+* Punk Rock OR by [@lauraalbertphd](https://twitter.com/lauraalbertphd): https://punkrockor.com/
+* Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
+* Azimuth: https://johncarlosbaez.wordpress.com/
+  * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
 * Humor
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
   * Lego Grad Student: https://brickademics.com/
@@ -372,6 +396,9 @@ https://r4ds.had.co.nz/
   *  https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/?noredirect=on&utm_term=.c5a450e68610
 * List of "awesome" lists https://github.com/sindresorhus/awesome
   * Very meta. But also potentially helpful.
+* Azimuth Project
+  * http://www.azimuthproject.org/azimuth/show/HomePage
+  * Collaboration of scientists and engineers who want to save the planet
 * Guide to Bad Data
   * Github: https://github.com/Quartz/bad-data-guide
   * Article on Quartz: https://qz.com/572338/the-quartz-guide-to-bad-data/#user-content-there-are-inexplicable-outliers
