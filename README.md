@@ -16,11 +16,17 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
 * Topics/packages
   * List of OR/MS-related packages: https://wiki.python.org/moin/PythonForOperationsResearch
-  * Network modeling
-    * NetworkX https://github.com/networkx/networkx
-      * Tutorial: network analysis (humanities data) https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
-      * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
-      * Network simplex https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html
+  * Altair (visualizations)
+    * Notebooks with example code: https://github.com/altair-viz/altair_notebooks
+    * Video tutorial from [@jakevdp](https://github.com/jakevdp) https://www.youtube.com/watch?v=ms29ZPUKxbU&t=2431s
+      * First ~40 min are a nice walkthrough; didn't watch the rest
+  * Pandas (data processing)
+    * Beginner tutorial from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+    * Intermediate tutorial from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
+  * NetworkX https://github.com/networkx/networkx
+    * Tutorial: network analysis (humanities data) https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
+    * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
+    * Network simplex https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html
   * Simulation
     * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
   * ML
@@ -28,9 +34,6 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
   * Supply chain
     * Supplychainpy: https://github.com/KevinFasusi/supplychainpy
-  * Pandas
-      * Beginner tutorial from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
-      * Intermediate tutorial from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
 * Figures
   * R-style graphing
     * plotnine package: https://plotnine.readthedocs.io/en/stable/
