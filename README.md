@@ -254,6 +254,10 @@ https://r4ds.had.co.nz/
   * European statistics: http://ec.europa.eu/eurostat/data/database
   * IMF: http://www.imf.org/en/Data
   * WHO: http://www.who.int/gho/en/
+* FiveThirtyEight
+  * List of available data: https://data.fivethirtyeight.com/
+  * Data for their analyses: https://github.com/fivethirtyeight/data
+  * R package https://github.com/rudeboybert/fivethirtyeight
 * Literature
   * PubMed: https://www.ncbi.nlm.nih.gov/pubmed/
   * Scopus: https://www.scopus.com/search/form.uri?display=basic
@@ -261,6 +265,7 @@ https://r4ds.had.co.nz/
   * Embase: https://www.elsevier.com/solutions/embase-biomedical-research
   * CENTRAL (Cochrane reviews) http://www.cochranelibrary.com/about/central-landing-page.html
   * Google Scholar: https://scholar.google.com/
+
 
 ### Communication / dissemination / manuscripts
 * Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
