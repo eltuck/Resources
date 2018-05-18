@@ -94,6 +94,7 @@ https://r4ds.had.co.nz/
 * How to...
   * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
   * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
+  * Plot all data in background on faceted ggplot2 figures: https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2
   * Iteratively make plots by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
   * Fit distributions: http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
   * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
