@@ -252,13 +252,16 @@ https://r4ds.had.co.nz/
   * Google Public Data Explorer: https://www.google.com/publicdata/directory
   * Public datasets: https://github.com/awesomedata/awesome-public-datasets
 * Specific sources
+  * Bureau of Labor Statistics: https://www.bls.gov/data/
+    * E.g., Consumer Price Index (inflation): https://www.bls.gov/cpi/data.htm
+  * US Census Bureau https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
+  * FiveThirtyEight
+    * List of available data: https://data.fivethirtyeight.com/
+    * Data for their analyses: https://github.com/fivethirtyeight/data
+    * R package https://github.com/rudeboybert/fivethirtyeight
   * European statistics: http://ec.europa.eu/eurostat/data/database
   * IMF: http://www.imf.org/en/Data
   * WHO: http://www.who.int/gho/en/
-* FiveThirtyEight
-  * List of available data: https://data.fivethirtyeight.com/
-  * Data for their analyses: https://github.com/fivethirtyeight/data
-  * R package https://github.com/rudeboybert/fivethirtyeight
 * Literature
   * PubMed: https://www.ncbi.nlm.nih.gov/pubmed/
   * Scopus: https://www.scopus.com/search/form.uri?display=basic
@@ -326,8 +329,6 @@ https://r4ds.had.co.nz/
     * NHANES (in person): https://www.cdc.gov/nchs/nhanes/index.htm
     * BRFSS (phone): https://www.cdc.gov/brfss/annual_data/annual_data.htm
       * Pronounced "Burfiss"
-    * Census: https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
-      * Not really healthcare but still useful
 * Newsletters
   * CDC's MMWR: https://www.cdc.gov/mmwr/index.html
     * Morbidity and Mortality Weekly Report
