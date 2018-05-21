@@ -187,6 +187,10 @@ https://r4ds.had.co.nz/
     * Resources: https://www.coin-or.org/resources/
 * Communities / forums
   * OR Exchange: https://www.or-exchange.org/
+  * Google groups
+    * Gurobi: https://groups.google.com/forum/#!forum/gurobi
+    * AMPL: https://groups.google.com/forum/#!forum/ampl
+    * Pyomo: https://groups.google.com/forum/#!forum/pyomo-forum
   * Stack Overflow: https://stackoverflow.com/
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
