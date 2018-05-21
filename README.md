@@ -42,6 +42,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * ggplot package: https://www.r-bloggers.com/ggplot2-style-plotting-in-python/
   * Funny
     * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
+* How to...
+  * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
 
 ### R
 * Textbooks
