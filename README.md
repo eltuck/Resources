@@ -30,7 +30,20 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
     * Network simplex https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html
   * Simulation
-    * (Book chapter) by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
+    * Discrete-event
+      * SimPy https://simpy.readthedocs.io/en/latest/
+        * Google group: https://groups.google.com/forum/#!forum/python-simpy
+        * Book chapter by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
+    * Agent-based modeling
+      * Mesa: https://github.com/projectmesa/mesa
+        * General purpose
+        * Tutorial: https://github.com/projectmesa/mesa
+      * ABCE: https://abce.readthedocs.io/en/0.9.3b2/
+        * Tailored towards economic modeling
+    * Physical models
+      * Textbook: http://greenteapress.com/wp/modsimpy/
+         * (Free) _Modeling and Simulation in Python_ by [@AllenDowney](https://github.com/AllenDowney)
+         * Targeted towards intro undergrads
   * ML
       * Flowchart: choosing the right estimator: http://scikit-learn.org/stable/tutorial/machine_learning_map/
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
