@@ -55,6 +55,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * ggplot package: https://www.r-bloggers.com/ggplot2-style-plotting-in-python/
   * Funny
     * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
+* How to...
+  * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
 
 ### R
 * Textbooks
@@ -200,6 +202,10 @@ https://r4ds.had.co.nz/
     * Resources: https://www.coin-or.org/resources/
 * Communities / forums
   * OR Exchange: https://www.or-exchange.org/
+  * Google groups
+    * Gurobi: https://groups.google.com/forum/#!forum/gurobi
+    * AMPL: https://groups.google.com/forum/#!forum/ampl
+    * Pyomo: https://groups.google.com/forum/#!forum/pyomo-forum
   * Stack Overflow: https://stackoverflow.com/
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
@@ -402,6 +408,9 @@ https://r4ds.had.co.nz/
 * Grad students
   * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
+* New faculty
+  * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
+    * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
 * Various
   * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
   * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
