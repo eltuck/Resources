@@ -57,6 +57,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
 * How to...
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
+* What's a...
+  * Generator: https://stackoverflow.com/questions/1756096/understanding-generators-in-python
 
 ### R
 * Textbooks
@@ -281,6 +283,9 @@ https://r4ds.had.co.nz/
   * European statistics: http://ec.europa.eu/eurostat/data/database
   * IMF: http://www.imf.org/en/Data
   * WHO: http://www.who.int/gho/en/
+  * Quandl: https://docs.quandl.com/docs/python
+    * Financial / economic data - some are free
+    * Python and R packages available
 * Literature
   * PubMed: https://www.ncbi.nlm.nih.gov/pubmed/
   * Scopus: https://www.scopus.com/search/form.uri?display=basic
