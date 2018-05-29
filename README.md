@@ -49,6 +49,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
   * Supply chain
     * Supplychainpy: https://github.com/KevinFasusi/supplychainpy
+  * Convert PDF to html
+    * PDFMiner: https://github.com/euske/pdfminer
+    * Then can be used to parse
 * Figures
   * R-style graphing
     * plotnine package: https://plotnine.readthedocs.io/en/stable/
@@ -309,6 +312,8 @@ https://r4ds.had.co.nz/
   * Beamer tips and tricks by [@paulgp](https://github.com/paulgp)
     * Presentation: https://github.com/paulgp/beamer-tips/blob/master/slides.pdf
     * Source code: https://github.com/paulgp/beamer-tips
+  * Graphics
+    * Tikz and PGF: http://www.texample.net/tikz/
 * Manuscripts
   * How to write your first paper (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/firstpaper
     * Biostatistician
@@ -417,6 +422,8 @@ https://r4ds.had.co.nz/
 * New faculty
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
+* Job search
+  * Data science jobs by [@robinsones](https://github.com/robinsones): http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/
 * Various
   * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
   * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
