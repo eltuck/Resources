@@ -1,5 +1,4 @@
 # Resources
-
 Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order.
 
 ### Python
@@ -54,7 +53,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * Then can be used to parse
   * Other fields (that seem related)
     * CobraPy: https://opencobra.github.io/cobrapy/
-      * Biological network modeling - constraints/optimization/oh my
+      * Biological network modeling - constraints/optimization
 * Figures
   * R-style graphing
     * plotnine package: https://plotnine.readthedocs.io/en/stable/
@@ -318,6 +317,8 @@ https://r4ds.had.co.nz/
   * Beamer tips and tricks by [@paulgp](https://github.com/paulgp)
     * Presentation: https://github.com/paulgp/beamer-tips/blob/master/slides.pdf
     * Source code: https://github.com/paulgp/beamer-tips
+  * Graphics
+    * Tikz and PGF: http://www.texample.net/tikz/
 * Manuscripts
   * How to write your first paper (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/firstpaper
     * Biostatistician
@@ -422,9 +423,12 @@ https://r4ds.had.co.nz/
 * Grad students
   * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
+  * Job market mistakes (humanities): https://www.chronicle.com/article/5-Big-Picture-Mistakes-New/243475
 * New faculty
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
+* Job search
+  * Data science jobs by [@robinsones](https://github.com/robinsones): http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/
 * Various
   * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
   * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
@@ -436,7 +440,7 @@ https://r4ds.had.co.nz/
 ### Eclectic
 * CV of failures
   * https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf
-  *  https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/?noredirect=on&utm_term=.c5a450e68610
+  * https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/
 * List of "awesome" lists https://github.com/sindresorhus/awesome
   * Very meta. But also potentially helpful.
 * Azimuth Project
