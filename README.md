@@ -213,8 +213,9 @@ https://r4ds.had.co.nz/
 * Communities / forums
   * OR Exchange: https://www.or-exchange.org/
   * Google groups
-    * Gurobi: https://groups.google.com/forum/#!forum/gurobi
     * AMPL: https://groups.google.com/forum/#!forum/ampl
+    * Gurobi: https://groups.google.com/forum/#!forum/gurobi
+    * AIMMS: https://groups.google.com/forum/#!forum/aimms
     * Pyomo: https://groups.google.com/forum/#!forum/pyomo-forum
   * Stack Overflow: https://stackoverflow.com/
 * Algorithms
@@ -252,6 +253,9 @@ https://r4ds.had.co.nz/
 * Data Science
   * How to get started - blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
   * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
+  * Directory of lots of data science material: http://www.datasciguide.com/content/
+* Machine Learning
+  * Google group: https://groups.google.com/forum/#!forum/ml-news/categories
   * Technical notes - ML and AI from [@chrisalbon](https://github.com/chrisalbon)
     * Website: https://chrisalbon.com/#machine_learning
     * On github: https://github.com/chrisalbon/notes
@@ -260,7 +264,6 @@ https://r4ds.had.co.nz/
     * Scrape off Twitter for free, code from [@Dpananos](https://github.com/Dpananos): https://github.com/Dpananos/GetCards
   * Applied ML course [@amueller](https://github.com/amueller): http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
     * Includes lecture recordings and slides
-  * Directory of lots of data science material: http://www.datasciguide.com/content/
 
 ### Data visualization
 * Textbooks
