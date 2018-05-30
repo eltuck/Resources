@@ -49,6 +49,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
   * Supply chain
     * Supplychainpy: https://github.com/KevinFasusi/supplychainpy
+  * Convert PDF to html
+    * PDFMiner: https://github.com/euske/pdfminer
+    * Then can be used to parse
   * Other fields (that seem related)
     * CobraPy: https://opencobra.github.io/cobrapy/
       * Biological network modeling - constraints/optimization/oh my
