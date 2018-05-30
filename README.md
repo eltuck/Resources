@@ -201,11 +201,13 @@ https://r4ds.had.co.nz/
     * NetLogo: https://ccl.northwestern.edu/netlogo/
 
 ### Math programming resources
-* Free Textbooks
+* Textbooks available for free
   * _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
-  * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
+  * _Convex Optimization_ (Stephen Boyd and Lieven Vandenberghe) http://www.seas.ucla.edu/~vandenbe/cvxbook.html
   * _MOSEK Modeling Cookbook_ https://themosekblog.blogspot.dk/2018/05/new-modeling-cookbook.html
     * Conic optimization, not specific to MOSEK solver
+  * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
+  * _Intro to Applied Linear Algebra_ (Stephen Boyd and Lieven Vandenberghe): https://web.stanford.edu/~boyd/vmls/
 * Open-source
   * COIN-OR Foundation
     * https://www.coin-or.org/
@@ -224,6 +226,8 @@ https://r4ds.had.co.nz/
   * GAMS model library: https://www.gams.com/latest/gamslib_ml/libhtml/
 * Course resources
   * Intro to Math Programming - lecture notes (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
+  * Convex Optimization (Lieven Vandenberghe):
+    * Lecture slides: http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf
   * Stochastic Optimization - readings (grad level taught by Warren Powell in Fall 2017): https://castlelab.princeton.edu/orf-544/
   * Optimal Learning - various materials (Warren Powell): http://optimallearning.princeton.edu/
 * Other
@@ -241,6 +245,7 @@ https://r4ds.had.co.nz/
 * How to...
   * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
   * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
+  * Linearize max(0,y) by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/2010/12/lps-and-positive-part.html
   * Remember primal / dual conversion
     * Sensible-odd-bizarre (SOB) method: https://math.stackexchange.com/questions/83844/simplex-method-duality-by-bazaraa?answertab=oldest#tab-top
     * Citing: https://www.math.hmc.edu/~benjamin/papers/sob.pdf
@@ -418,6 +423,7 @@ https://r4ds.had.co.nz/
 * Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
 * Azimuth: https://johncarlosbaez.wordpress.com/
   * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
+* OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
 * Humor
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
   * Lego Grad Student: https://brickademics.com/
