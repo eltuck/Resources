@@ -49,6 +49,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
   * Supply chain
     * Supplychainpy: https://github.com/KevinFasusi/supplychainpy
+  * Other fields (that seem related)
+    * CobraPy: https://opencobra.github.io/cobrapy/
+      * Biological network modeling - constraints/optimization/oh my
 * Figures
   * R-style graphing
     * plotnine package: https://plotnine.readthedocs.io/en/stable/
@@ -145,9 +148,12 @@ https://r4ds.had.co.nz/
   * Dynamic set definitions
     https://groups.google.com/forum/#!msg/ampl/Wr_KxvKWBpM/FGeILLXGZzAj
     * E.g., AVAIL vs. AVAIL_all
+  * argmin: https://ampl.com/faqs/i-have-declared-set-s-and-param-b-s-how-do-i-write-an-ampl-expression-for-the-arg-min-of-bi-that-is-the-s-in-s-such-that-bs-equals-the-minimum-of-bi-over-all-i-in-s/
 
 
 ### Math programming software
+* Nice overview: http://www.mathopt.org/Optima-Issues/optima103.pdf
+  * From Math Opt Society (Sept. 2017)
 * Solvers
   * Commercial
     * CPLEX (free for academics): https://www.ibm.com/products/ilog-cplex-optimization-studio
