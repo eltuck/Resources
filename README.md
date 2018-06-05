@@ -269,13 +269,20 @@ https://r4ds.had.co.nz/
     * Scrape off Twitter for free, code from [@Dpananos](https://github.com/Dpananos): https://github.com/Dpananos/GetCards
   * Applied ML course [@amueller](https://github.com/amueller): http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
     * Includes lecture recordings and slides
+  * Videos
+    * t-SNE (data viz) GoogleTechTalk: https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw
+* Other
+  * Blockchain overview (2 hr video): https://www.youtube.com/watch?v=qOVAbKKSH10
 
 ### Data visualization
 * Textbooks
   * _Fundamentals of Data Visualization_ by [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
   * _Data Visualization: A Practical Introduction_ by [@kjhealy](https://github.com/kjhealy): http://socviz.co/
 * Networks
+  * Overview of software, etc.: https://www.lib.ncsu.edu/measuring-research-impact/visualizing-impact
   * Gephi: https://gephi.org/
+    * Tutorial to create citation network: https://www.lib.ncsu.edu/sites/default/files/ResearchImpactNetworkGuide.pdf
+  * Citation network example from Neal Caren (Python & d3.js): http://nealcaren.web.unc.edu/a-sociology-citation-network/
 
 ### Datasets / databases
 * Network datasets
@@ -439,6 +446,7 @@ https://r4ds.had.co.nz/
 * Job search
   * Data science jobs by [@robinsones](https://github.com/robinsones): http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/
 * Various
+  * 8 tips for saying no by [@APottegard](https://twitter.com/APottegard): http://www.antonpottegaard.dk/download/HowToSayNo.pdf
   * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
   * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
     * Links on right-hand side of blog
