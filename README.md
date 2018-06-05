@@ -432,6 +432,8 @@ https://r4ds.had.co.nz/
 * Grad students
   * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
+  * For female grad students (political science): https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit
+    * Google doc - compiled by [@dianazobrien](https://twitter.com/dianazobrien)
   * Job market mistakes (humanities): https://www.chronicle.com/article/5-Big-Picture-Mistakes-New/243475
 * New faculty
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
