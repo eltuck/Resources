@@ -62,6 +62,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
 * How to...
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
+  * Manage/use environments: https://conda.io/docs/user-guide/tasks/manage-environments.html
 * What's a...
   * Generator: https://stackoverflow.com/questions/1756096/understanding-generators-in-python
 
@@ -295,6 +296,7 @@ https://r4ds.had.co.nz/
     * Targeted towards machine learning
   * Google Public Data Explorer: https://www.google.com/publicdata/directory
   * Public datasets: https://github.com/awesomedata/awesome-public-datasets
+  * Compilation of datasets available via various R packages: https://vincentarelbundock.github.io/Rdatasets/datasets.html
 * Specific sources
   * Bureau of Labor Statistics: https://www.bls.gov/data/
     * E.g., Consumer Price Index (inflation): https://www.bls.gov/cpi/data.htm
@@ -487,3 +489,5 @@ https://r4ds.had.co.nz/
   * "The best way to write secure and reliable applications" https://github.com/kelseyhightower/nocode
   * Add coffee stains to your LaTeX files: http://hanno-rein.de/archives/349
   * Guide to interpreting faculty feedback: https://kieranhealy.org/blog/archives/2013/08/16/academic-feedback/
+  * Spurious correlations: http://www.tylervigen.com/spurious-correlations
+    * Make your own: http://tylervigen.com/discover
