@@ -43,6 +43,12 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Textbook: http://greenteapress.com/wp/modsimpy/
          * (Free) _Modeling and Simulation in Python_ by [@AllenDowney](https://github.com/AllenDowney)
          * Targeted towards intro undergrads
+  * Optimization
+    * Modeling languages
+      * PuLP: https://projects.coin-or.org/PuLP
+        * Linear programs only
+      * Pyomo: http://www.pyomo.org/
+        * How to run models: https://groups.google.com/forum/#!topic/pyomo-forum/NWU1LW6GWL8
   * ML
       * Flowchart: choosing the right estimator: http://scikit-learn.org/stable/tutorial/machine_learning_map/
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
@@ -62,9 +68,15 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
 * How to...
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
-  * Manage/use environments: https://conda.io/docs/user-guide/tasks/manage-environments.html
+  * Manage/use environments:
+    * https://conda.io/docs/user-guide/tasks/manage-environments.html
+    * https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
+  * Install packages that aren't available via conda: https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment
 * What's a...
   * Generator: https://stackoverflow.com/questions/1756096/understanding-generators-in-python
+  * _pycache_ file:
+    * https://www.python.org/dev/peps/pep-3147/
+    * https://stackoverflow.com/questions/16869024/what-is-pycache
 
 ### R
 * Textbooks
@@ -140,9 +152,20 @@ https://r4ds.had.co.nz/
   * Specifics (background)
     * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
 
-### General coding practices
-* Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
-* Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
+### General coding / computation
+* Overview/best practices
+  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
+  * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
+* Remote computing
+  * SSH - aka Secure Shell
+    * PuTTy https://www.putty.org/
+      * Allows secure remote login even if network insecure
+  * File transfer
+    * (Windows) WinSCP: https://winscp.net/eng/download.php
+    * (Mac/Windows) Cyberduck: https://cyberduck.io/
+    * Large files: Globus: https://www.globus.org/
+      * Basic version for research/education is free
+
 
 ### AMPL
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
@@ -200,6 +223,8 @@ https://r4ds.had.co.nz/
     * SITATION: https://daskin.engin.umich.edu/software/
   * Agent-based
     * NetLogo: https://ccl.northwestern.edu/netlogo/
+* Benchmarks on linear programs - simplex
+  * http://plato.asu.edu/ftp/lpsimp.html
 
 ### Math programming resources
 * Textbooks available for free
