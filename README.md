@@ -123,8 +123,10 @@ https://r4ds.had.co.nz/
   * K-means
     * https://uc-r.github.io/kmeans_clustering
 * Operations research
-  * Using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
-  * Optplot from [@dirkschumacher](https://github.com/dirkschumacher): https://github.com/dirkschumacher/optplot
+  * Paper on using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
+  * ompr: https://github.com/dirkschumacher/ompr
+    * Mixed-integer LPs
+  * Optplot: https://github.com/dirkschumacher/optplot
     * Plot optimization models
 * How to...
   * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
@@ -165,6 +167,13 @@ https://r4ds.had.co.nz/
     * (Mac/Windows) Cyberduck: https://cyberduck.io/
     * Large files: Globus: https://www.globus.org/
       * Basic version for research/education is free
+  * Cluster computing
+    * PBS overview (40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
+      * Batch scripting
+    * Unix
+      * #! - shebang - [https://en.wikipedia.org/wiki/Shebang_(Unix)](https://en.wikipedia.org/wiki/Shebang_(Unix))
+      * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
+        * How to exit: Esc :q!
 
 
 ### AMPL
@@ -412,6 +421,7 @@ https://r4ds.had.co.nz/
 
 ### Jobs / Summer schools
 * Jobs
+  * Companies that hire folks to work on OR problems/methods from [@dirkschumacher](https://github.com/dirkschumacher): https://github.com/dirkschumacher/or-companies/
   * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
   * United Nations (UN) jobs: https://unjobhunt.com/
     * Website from [@dirkschumacher](https://github.com/dirkschumacher), not affiliated with UN
@@ -482,6 +492,8 @@ https://r4ds.had.co.nz/
   * When your data science project doesn't work: https://medium.com/@skyetetra/so-your-data-science-project-isnt-working-7bf57e3f12f1
 * Skills
   * Reading papers by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/readingpapers
+  * How to Report Bugs Effectively (Simon Tatham): https://www.chiark.greenend.org.uk/~sgtatham/bugs.html
+    * Perhaps helpful to send to your users
 
 ### Eclectic
 * CV of failures
