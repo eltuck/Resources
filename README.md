@@ -151,6 +151,7 @@ https://r4ds.had.co.nz/
     * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
     * Save credentials (i.e., username/password):
     https://help.github.com/articles/caching-your-github-password-in-git/
+    * Deal with error about local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
   * Specifics (background)
     * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
 
@@ -370,6 +371,8 @@ https://r4ds.had.co.nz/
     * Source code: https://github.com/paulgp/beamer-tips
   * Graphics
     * Tikz and PGF: http://www.texample.net/tikz/
+  * Indicating math mode  
+    * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
 * Manuscripts
   * How to write your first paper (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/firstpaper
     * Biostatistician
@@ -522,6 +525,7 @@ https://r4ds.had.co.nz/
 * Fun OR applications
   * 2048 using MDPs [@jdleesmiller](https://github.com/jdleesmiller): http://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html
   * Chutes & Ladders as a Markov chain [@jakevdp](https://github.com/jakevdp): https://jakevdp.github.io/blog/2017/12/18/simulating-chutes-and-ladders/#Fundamental-Matrix
+  * Mario Kart drivers - Pareto efficiency [@hinnefe2](https://github.com/hinnefe2): http://hinnefe2.github.io/python/tools/2015/09/21/mario-kart.html
 * Humor
   * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
     * (I think the original version of this list came from Dana Angluin)
