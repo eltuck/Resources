@@ -261,11 +261,16 @@ https://r4ds.had.co.nz/
 * Models
   * GAMS model library: https://www.gams.com/latest/gamslib_ml/libhtml/
 * Course resources
-  * Intro to Math Programming - lecture notes (grad level taught by Dimitris Bertsimas in Fall 2009): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
+  * Math Programming (Dimitris Bertsimas):
+    - Lecture notes (Fall 2009) - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
   * Convex Optimization (Lieven Vandenberghe):
     * Lecture slides: http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf
-  * Stochastic Optimization - readings (grad level taught by Warren Powell in Fall 2017): https://castlelab.princeton.edu/orf-544/
-  * Optimal Learning - various materials (Warren Powell): http://optimallearning.princeton.edu/
+  * Stochastic Programming (Shapiro, Dentcheva, Ruszczynski)
+    * Lecture notes: https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf
+  * Stochastic Optimization (Warren Powell)
+    - Readings (grad level, Fall 2017): https://castlelab.princeton.edu/orf-544/
+  * Optimal Learning
+    - Various materials (Warren Powell): http://optimallearning.princeton.edu/
 * Other
   * IFORS Developing Countries page: http://ifors.org/developing_countries/index.php?title=Main_Page
     * A variety of open-source resources
@@ -286,6 +291,13 @@ https://r4ds.had.co.nz/
     * Sensible-odd-bizarre (SOB) method: https://math.stackexchange.com/questions/83844/simplex-method-duality-by-bazaraa?answertab=oldest#tab-top
     * Citing: https://www.math.hmc.edu/~benjamin/papers/sob.pdf
 
+### Other Math Programming
+* Benders Decomposition
+  * Using callbacks to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin): https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html
+  * Examples:
+    * In AMPL: https://ampl.com/NEW/LOOP2/
+    * With callbacks by [@vitaut](https://github.com/vitaut): http://www.zverovich.net/2013/09/01/modern-benders-decomposition-in-ampl.html
+
 ### Operations research-adjacent material
 * Linear Algebra
   * Intro course lectures from Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
@@ -296,7 +308,9 @@ https://r4ds.had.co.nz/
   * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
   * Directory of lots of data science material: http://www.datasciguide.com/content/
 * Machine Learning
-  * Google group: https://groups.google.com/forum/#!forum/ml-news/categories
+  * Communities
+    * Google group: https://groups.google.com/forum/#!forum/ml-news/categories
+    * CrossValidated: https://stats.stackexchange.com/
   * Technical notes - ML and AI from [@chrisalbon](https://github.com/chrisalbon)
     * Website: https://chrisalbon.com/#machine_learning
     * On github: https://github.com/chrisalbon/notes
