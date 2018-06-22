@@ -84,6 +84,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 https://r4ds.had.co.nz/
   * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
 * Learn R
+  * Intro to R seminar code - https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html
   * Community to walk through _R for Data Science_ book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
   * Tidy Tuesdays - a weekly data viz project https://github.com/rfordatascience/tidytuesday/blob/master/README.md
   * Collection of tutorials
@@ -323,6 +324,14 @@ https://r4ds.had.co.nz/
     * t-SNE (data viz) GoogleTechTalk: https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw
 * Other
   * Blockchain overview (2 hr video): https://www.youtube.com/watch?v=qOVAbKKSH10
+* Statistics
+  * What test should I use? https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
+    * With examples in R, Stata, SAS, SPSS
+* Computer science
+  * Intro to computing for computer scientists: https://c4cs.github.io/
+    * With course lectures
+    * E.g., Linux, command line, version control, shells, scripting
+  * Frequently asked questions about C: http://c-faq.com/index.html
 
 ### Data visualization
 * Textbooks
