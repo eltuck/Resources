@@ -1,5 +1,5 @@
 # Resources
-Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order.
+Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order. I've listed the full urls so you can see what you're clicking on/if it's going to be a pdf/etc.
 
 ### Python
 * Overview
@@ -68,6 +68,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
 * How to...
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
+    * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
   * Manage/use environments:
     * https://conda.io/docs/user-guide/tasks/manage-environments.html
     * https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
@@ -80,8 +81,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 
 ### R
 * Textbooks
-  * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
-https://r4ds.had.co.nz/
+  * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
   * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
 * Learn R
   * Intro to R seminar code - https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html
@@ -103,6 +103,10 @@ https://r4ds.had.co.nz/
       * Filtering rows
         https://suzan.rbind.io/2018/02/dplyr-tutorial-3/
       * Summarizing and slicing https://suzan.rbind.io/2018/04/dplyr-tutorial-4/
+  * Bootstrapping
+    * slipper - https://github.com/jtleek/slipper
+    * boot - https://cran.r-project.org/web/packages/boot/index.html
+      * How to: https://stats.idre.ucla.edu/r/faq/how-can-i-generate-bootstrap-statistics-in-r/
   * Funny
     * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
       * Make animals say funny things (Yoda is my favorite)
@@ -125,9 +129,11 @@ https://r4ds.had.co.nz/
     * https://uc-r.github.io/kmeans_clustering
 * Operations research
   * Paper on using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
+  * Website: R for operations research
+    * https://www.r-orms.org/
   * ompr: https://github.com/dirkschumacher/ompr
     * Mixed-integer LPs
-  * Optplot: https://github.com/dirkschumacher/optplot
+  * optplot: https://github.com/dirkschumacher/optplot
     * Plot optimization models
 * How to...
   * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
@@ -327,6 +333,7 @@ https://r4ds.had.co.nz/
 * Statistics
   * What test should I use? https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
     * With examples in R, Stata, SAS, SPSS
+  * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
 * Computer science
   * Intro to computing for computer scientists: https://c4cs.github.io/
     * With course lectures
@@ -359,6 +366,9 @@ https://r4ds.had.co.nz/
   * Bureau of Labor Statistics: https://www.bls.gov/data/
     * E.g., Consumer Price Index (inflation): https://www.bls.gov/cpi/data.htm
   * US Census Bureau https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
+  * Pew Research Center
+    * Data: http://www.pewresearch.org/download-datasets/
+    * Overview of how to analyze in R: https://medium.com/pew-research-center-decoded/how-to-analyze-pew-research-center-survey-data-in-r-f326df360713
   * FiveThirtyEight
     * List of available data: https://data.fivethirtyeight.com/
     * Data for their analyses: https://github.com/fivethirtyeight/data
@@ -436,6 +446,7 @@ https://r4ds.had.co.nz/
   * Other
     * Clinical trials: https://clinicaltrials.gov/
     * Link to CDC data/stats: https://www.cdc.gov/DataStatistics/
+    * Tufts Cost-Effectiveness Analysis Registry: http://healtheconomics.tuftsmedicalcenter.org/cear4/Home.aspx
   * Major surveys
     * NHANES (in person): https://www.cdc.gov/nchs/nhanes/index.htm
     * BRFSS (phone): https://www.cdc.gov/brfss/annual_data/annual_data.htm
