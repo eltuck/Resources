@@ -73,6 +73,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * https://conda.io/docs/user-guide/tasks/manage-environments.html
     * https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
   * Install packages that aren't available via conda: https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment
+  * Install TensorFlow: https://medium.com/@Oysiyl/install-tensorflow-1-8-0-with-gpu-from-source-on-ubuntu-18-04-bionic-beaver-35cfa9df3600
 * What's a...
   * Generator: https://stackoverflow.com/questions/1756096/understanding-generators-in-python
   * _pycache_ file:
@@ -369,6 +370,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Pew Research Center
     * Data: http://www.pewresearch.org/download-datasets/
     * Overview of how to analyze in R: https://medium.com/pew-research-center-decoded/how-to-analyze-pew-research-center-survey-data-in-r-f326df360713
+  * Neighborhood atlas: https://www.neighborhoodatlas.medicine.wisc.edu/
+    * Could use for disparities / deprivation work
+    * Perspective about it in NEJM: https://www.nejm.org/doi/full/10.1056/NEJMp1802313
   * FiveThirtyEight
     * List of available data: https://data.fivethirtyeight.com/
     * Data for their analyses: https://github.com/fivethirtyeight/data
