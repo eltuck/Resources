@@ -143,6 +143,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Iteratively make plots by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
   * Fit distributions: http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
   * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
+  * Update R: https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol
+    * Run in RGui rather than RStudio
+
 
 ### GitHub
   * Beginner Tutorial: http://try.github.io/
@@ -196,8 +199,11 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 
 
 ### Math programming software
-* Nice overview: http://www.mathopt.org/Optima-Issues/optima103.pdf
-  * From Math Opt Society (Sept. 2017)
+* Overviews
+  * From Math Opt Society (Sept 2017) http://www.mathopt.org/Optima-Issues/optima103.pdf
+  * Convex MINLP solver comparison (Jun 2018): http://www.optimization-online.org/DB_FILE/2018/06/6650.pdf
+  * Benchmarks
+    * Linear programs - simplex (Mittelmann) http://plato.asu.edu/ftp/lpsimp.html
 * Solvers
   * Commercial
     * CPLEX (free for academics): https://www.ibm.com/products/ilog-cplex-optimization-studio
@@ -225,6 +231,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Excel add-in (extends the standard Excel solver)
     * Ipopt: https://projects.coin-or.org/Ipopt
       * Nonlinear problems, local solutions
+    * BiqBin: http://biqbin.fis.unm.si/
+      * Binary Quadratic
   * List from AMPL
       * Commercial: https://ampl.com/products/solvers/solvers-we-sell/
       * Free: https://ampl.com/products/solvers/open-source/
@@ -241,8 +249,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * SITATION: https://daskin.engin.umich.edu/software/
   * Agent-based
     * NetLogo: https://ccl.northwestern.edu/netlogo/
-* Benchmarks on linear programs - simplex
-  * http://plato.asu.edu/ftp/lpsimp.html
+
 
 ### Math programming resources
 * Textbooks available for free
@@ -429,6 +436,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Policy
   * (Blog) Connecting Research to Policy https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
 * More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
+* Working with the media
+  * http://senseaboutscienceusa.org/media-guide-for-scientists/
 
 ### Healthcare
 * Guides
