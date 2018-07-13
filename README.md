@@ -9,6 +9,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * (Free) _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
     * Beginners guide, programming exp. not necessary
   * (Free) _Python Data Science Handbook_ by [@jakevdp](https://github.com/jakevdp) https://jakevdp.github.io/PythonDataScienceHandbook/
+  * (Free) _Intro to Machine Learning in Python_ by [@amueller](https://github.com/amueller) https://github.com/amueller/introduction_to_ml_with_python
 * Community
   * Slack channel to learn data science in Python: https://py4ds.slack.com
 * Overall tutorial
@@ -81,9 +82,11 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * https://stackoverflow.com/questions/16869024/what-is-pycache
 
 ### R
-* Textbooks
-  * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
-  * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
+* Reference
+  * Textbooks
+    * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
+    * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
+  * Cheat sheets: https://www.rstudio.com/resources/cheatsheets/
 * Learn R
   * Intro to R seminar code - https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html
   * Community to walk through _R for Data Science_ book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
@@ -113,6 +116,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Make animals say funny things (Yoda is my favorite)
     * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
 * Visualizations
+  * ggplot2: https://ggplot2.tidyverse.org/
+  * ggpubr: http://www.sthda.com/english/rpkgs/ggpubr/
+    * Wrapper around ggplot - intended to be easier to create pub-ready figures
   * Graphs and networks
     * DiagrammeR https://github.com/rich-iannone/DiagrammeR
   * Gantt charts
@@ -120,6 +126,11 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * Other options: https://stackoverflow.com/questions/3550341/gantt-charts-with-r
   * Interactive timelines
     * timevis: https://github.com/daattali/timevis
+  * Loops to make figures
+    * https://ourcodingclub.github.io/2017/02/08/funandloops.html
+  * Examples
+    * R Graph Gallery: https://www.r-graph-gallery.com/
+    * Also see section below on visualization
 * Markdown/reports
   * Tufte style for markdown: https://github.com/rstudio/tufte
 * Tutorials
@@ -359,10 +370,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Citation network example from Neal Caren (Python & d3.js): http://nealcaren.web.unc.edu/a-sociology-citation-network/
 
 ### Datasets / databases
-* Network datasets
-  * Compilation from [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
-  * Compilation from [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
-* General Compilations
+* Compilations
+  * From Vanderbilt Biostats: http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets
   * Kaggle: https://www.kaggle.com/datasets
   * Public data sources:
    https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/
@@ -370,6 +379,10 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Google Public Data Explorer: https://www.google.com/publicdata/directory
   * Public datasets: https://github.com/awesomedata/awesome-public-datasets
   * Compilation of datasets available via various R packages: https://vincentarelbundock.github.io/Rdatasets/datasets.html
+  * Network datasets
+    * From [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
+    * From [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
+  * Time series: https://datamarket.com/data/list/?q=provider:tsdl
 * Specific sources
   * Bureau of Labor Statistics: https://www.bls.gov/data/
     * E.g., Consumer Price Index (inflation): https://www.bls.gov/cpi/data.htm
