@@ -197,6 +197,14 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * #! - shebang - [https://en.wikipedia.org/wiki/Shebang_(Unix)](https://en.wikipedia.org/wiki/Shebang_(Unix))
       * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
         * How to exit: Esc :q!
+* Text editors
+  * Atom: https://atom.io/
+  * Vim: https://www.vim.org/
+    * Vim Adventures (game to learn Vim): https://vim-adventures.com/
+  * Emacs: https://www.gnu.org/software/emacs/
+  * Visual Studio Code: https://code.visualstudio.com/
+  * Sublime: https://www.sublimetext.com/\
+  * Nano: https://www.nano-editor.org/
 
 
 ### AMPL
@@ -382,7 +390,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Network datasets
     * From [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
     * From [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
-  * Time series: https://datamarket.com/data/list/?q=provider:tsdl
+  * Time series
+    * Compilation (DataMarket): https://datamarket.com/data/list/?q=provider:tsdl
+    * Economic (from Fed Reserve): https://fred.stlouisfed.org/
 * Specific sources
   * Bureau of Labor Statistics: https://www.bls.gov/data/
     * E.g., Consumer Price Index (inflation): https://www.bls.gov/cpi/data.htm
@@ -542,11 +552,15 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * For female grad students (political science): https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit
     * Google doc - compiled by [@dianazobrien](https://twitter.com/dianazobrien)
   * Job market mistakes (humanities): https://www.chronicle.com/article/5-Big-Picture-Mistakes-New/243475
+  * The Professor Is In (Karen Kelsky): http://theprofessorisin.com/
+    * Blog with various academic advice
 * New faculty
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
 * Job search
   * Data science jobs by [@robinsones](https://github.com/robinsones): http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/
+  * Vitae https://chroniclevitae.com/
+    * Database, advice, etc.
 * Various
   * 8 tips for saying no by [@APottegard](https://twitter.com/APottegard): http://www.antonpottegaard.dk/download/HowToSayNo.pdf
   * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
