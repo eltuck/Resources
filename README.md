@@ -87,19 +87,22 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
     * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
   * Cheat sheets: https://www.rstudio.com/resources/cheatsheets/
+  * R Cookbook: http://www.cookbook-r.com/
 * Learn R
   * Intro to R seminar code - https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html
   * Community to walk through _R for Data Science_ book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
   * Tidy Tuesdays - a weekly data viz project https://github.com/rfordatascience/tidytuesday/blob/master/README.md
   * Collection of tutorials
     * UC Business Analytics: http://uc-r.github.io/
+    * Coding club (Univ. of Edinburgh): https://ourcodingclub.github.io/tutorials/
+* Websites:
+  * R-bloggers: https://www.r-bloggers.com/
+  * FAQ on StackOverflow: https://stackoverflow.com/questions/tagged/r-faq
 * Explanation of topics
   * Pipe operator %>%
     * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
     * Longer from DataCamp: https://www.datacamp.com/community/tutorials/pipe-r-tutorial
 * Packages (perhaps with corresponding tutorials)
-  * Minor but helpful
-    * GridExtra (paneling ggplot figures): https://www.r-bloggers.com/extra-extra-get-your-gridextra/
   * Larger
     * Epidemic network modeling: http://statnet.github.io/nme/index.html
     * dplyr
@@ -126,8 +129,6 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * Other options: https://stackoverflow.com/questions/3550341/gantt-charts-with-r
   * Interactive timelines
     * timevis: https://github.com/daattali/timevis
-  * Loops to make figures
-    * https://ourcodingclub.github.io/2017/02/08/funandloops.html
   * Examples
     * R Graph Gallery: https://www.r-graph-gallery.com/
     * Also see section below on visualization
@@ -151,7 +152,17 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
   * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
   * Plot all data in background on faceted ggplot2 figures: https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2
-  * Iteratively make plots by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
+  * Iteratively make plots
+    * Using loops: https://ourcodingclub.github.io/2017/02/08/funandloops.html
+    * Using purrr by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
+  * Plot multiple figures
+    * Faceting (must be same plot type): https://stackoverflow.com/questions/31798162/generating-multiple-plots-in-ggplot-by-factor
+    * cowplot (Claus Wilke): https://cran.r-project.org/web/packages/cowplot/vignettes/plot_grid.html
+      * Shared legends: https://cran.r-project.org/web/packages/cowplot/vignettes/shared_legends.html
+    * GridExtra (paneling ggplot figures): https://www.r-bloggers.com/extra-extra-get-your-gridextra/
+    * Multiplot function: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
+    * If using base R: https://www.statmethods.net/advgraphs/layout.html
+  * Convert axes to percents: https://stackoverflow.com/questions/27433798/how-to-change-y-axis-range-to-percent-from-number-in-barplot-with-r
   * Fit distributions: http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
   * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
   * Update R: https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol
@@ -252,17 +263,20 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Nonlinear problems, local solutions
     * BiqBin: http://biqbin.fis.unm.si/
       * Binary Quadratic
+  * OR-Tools from Google: https://developers.google.com/optimization/
   * List from AMPL
       * Commercial: https://ampl.com/products/solvers/solvers-we-sell/
       * Free: https://ampl.com/products/solvers/open-source/
 * Formulation
   * SolverStudio (free): http://solverstudio.org/
-    * Excel add-in, useful when OpenSolver not big enough
+    * Excel add-on, useful when OpenSolver not big enough
     * Can call commercial solvers
   * AMPL: https://ampl.com/
   * OPL: https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling
+  * LP add-on for Google sheets: https://developers.google.com/optimization/lp/add-on
 * Test sets
   * MIPLIB: http://miplib.zib.de/
+  * OR Library: http://people.brunel.ac.uk/~mastjjb/jeb/info.html
 * Application specific
   * Facility location
     * SITATION: https://daskin.engin.umich.edu/software/
@@ -278,10 +292,7 @@ Consider this a public bookmark bar. These are resources I've found useful or th
     * Conic optimization, not specific to MOSEK solver
   * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
   * _Intro to Applied Linear Algebra_ (Stephen Boyd and Lieven Vandenberghe): https://web.stanford.edu/~boyd/vmls/
-* Open-source
-  * COIN-OR Foundation
-    * https://www.coin-or.org/
-    * Resources: https://www.coin-or.org/resources/
+  * Myths and Counterexamples (Harvey Greenberg): https://glossary.informs.org/myths/CurrentVersion/myths.pdf
 * Communities / forums
   * OR Exchange: https://www.or-exchange.org/
   * Google groups
@@ -292,6 +303,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * Stack Overflow: https://stackoverflow.com/
 * Algorithms
   * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
+* Overviews
+  * Glossary: https://glossary.informs.org/ver2/mpgwiki/index.php?title=Main_Page
+  * OR Notes (JE Beasley): http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html
 * Models
   * GAMS model library: https://www.gams.com/latest/gamslib_ml/libhtml/
 * Course resources
@@ -308,6 +322,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Other
   * IFORS Developing Countries page: http://ifors.org/developing_countries/index.php?title=Main_Page
     * A variety of open-source resources
+  * OR societies around the world: http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html
+  * COIN-OR Foundation: https://www.coin-or.org/
+    * Resources: https://www.coin-or.org/resources/
 * Drawing scenario trees
   * GAMS/SCENRED https://www.gams.com/latest/docs/T_SCENRED.html
     * Workshop: https://www.gams.com/fileadmin/community/contrib/financial/ngk_scenred.pdf
@@ -341,10 +358,17 @@ Consider this a public bookmark bar. These are resources I've found useful or th
   * How to get started - blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
   * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
   * Directory of lots of data science material: http://www.datasciguide.com/content/
+  * Podcast
+    * DataFramed from DataCamp: https://www.datacamp.com/community/podcast
+  * Intro to data ethics (Shannon Vallor): https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/
+    * Module could include in courses
 * Machine Learning
   * Communities
     * Google group: https://groups.google.com/forum/#!forum/ml-news/categories
     * CrossValidated: https://stats.stackexchange.com/
+  * Textbooks
+    * _Fairness in ML_ (Barocas, Hardt, Narayanan) http://fairmlbook.org/
+      * Book in progress
   * Technical notes - ML and AI from [@chrisalbon](https://github.com/chrisalbon)
     * Website: https://chrisalbon.com/#machine_learning
     * On github: https://github.com/chrisalbon/notes
@@ -548,6 +572,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 ### Various advice
 * Grad students
   * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
+  * Guidebook for succeeding in PhD (Alex Eble) (econ): https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf
+    * If that link gets broken, perhaps also available on this page: http://www.alexeble.com/advice/
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
   * For female grad students (political science): https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit
     * Google doc - compiled by [@dianazobrien](https://twitter.com/dianazobrien)
@@ -587,6 +613,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Technical / scientific debt: http://varianceexplained.org/r/scientific-debt/
    * Interesting take from [@dgrtwo](https://github.com/dgrtwo) on managing shortcuts/assumptions/etc. in the project development process
 * Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
+* Accessibility
+  * Software to convert screen to what a color blind person would see: http://colororacle.org/
 * Debugging
   * Rubber ducky method: https://rubberduckdebugging.com/
     * Explain in detail to an inanimate object
