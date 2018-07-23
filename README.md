@@ -1,6 +1,30 @@
 # Resources
 Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order. I've listed the full urls so you can see what you're clicking on/if it's going to be a pdf/etc.
 
+Also, a good chunk of this has come from links other folks have shared on Twitter. Thanks, y'all.
+
+## Table of Contents
+* [Python](### Python)
+* [R](### R)
+* [GitHub](### GitHub)
+* [General coding / computation](### General coding / computation)
+* [AMPL](### AMPL)
+* [Math programming software](### Math Programming software)
+* [Math programming resources](### Math Programming resources)
+* [Other math programming](### Other Math Programming)
+* [Operations research-adjacent material](### Operations research-adjacent material])
+* [Data visualization](### Data visualization)
+* [Datasets / databases](### Datasets / databases)
+* [Communication / dissemination / manuscripts](### Communication / dissemination / manuscripts)
+* [Healthcare](### Healthcare)
+* [Jobs / Summer schools](### Jobs / Summer schools)
+* [Grants/fellowships](### Grants/fellowships)
+* [Teaching](### Teaching)
+* [Websites](### Websites)
+* [Blogs I like (and read occasionally)](### Blogs I like (and read occasionally))
+* [Various advice](### Various advice)
+* [Eclectic](### Eclectic)
+
 ### Python
 * Overview
   * Whirlwind tour from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/WhirlwindTourOfPython
@@ -55,6 +79,8 @@ Consider this a public bookmark bar. These are resources I've found useful or th
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
   * Supply chain
     * Supplychainpy: https://github.com/KevinFasusi/supplychainpy
+  * Webscraping
+    * (Rishav Agarwal) https://towardsdatascience.com/byod-build-your-own-dataset-for-free-67133840dc85
   * Convert PDF to html
     * PDFMiner: https://github.com/euske/pdfminer
     * Then can be used to parse
@@ -384,12 +410,16 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Statistics
   * What test should I use? https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
     * With examples in R, Stata, SAS, SPSS
+  * Odds ratios
+    * Best practices from JAMA (Norton, Dowd, Maciejewski) https://jamanetwork.com/journals/jama/fullarticle/2686777
+      * Maybe paywall
   * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
 * Computer science
   * Intro to computing for computer scientists: https://c4cs.github.io/
     * With course lectures
     * E.g., Linux, command line, version control, shells, scripting
   * Frequently asked questions about C: http://c-faq.com/index.html
+
 
 ### Data visualization
 * Textbooks
@@ -613,17 +643,20 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 * Technical / scientific debt: http://varianceexplained.org/r/scientific-debt/
    * Interesting take from [@dgrtwo](https://github.com/dgrtwo) on managing shortcuts/assumptions/etc. in the project development process
 * Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
-* Accessibility
-  * Software to convert screen to what a color blind person would see: http://colororacle.org/
 * Debugging
   * Rubber ducky method: https://rubberduckdebugging.com/
     * Explain in detail to an inanimate object
   * Wolf-fence algorithm: http://coreygoldberg.blogspot.com/2008/12/wolf-fence-debugging.html
     * Basically binary search with fun description
     * Original paper (paywall): https://dl.acm.org/citation.cfm?id=358695
-* Sites to poll meeting availability:
-  * When2Meet: https://www.when2meet.com/
-  * When is good: http://whenisgood.net/
+* Various software
+  * Compare pdf files
+    * https://draftable.com/compare
+  * Accessibility
+     * Convert screen to what a color blind person would see: http://colororacle.org/
+  * Poll meeting availability
+    * When2Meet: https://www.when2meet.com/
+    * When is good: http://whenisgood.net/
 * Fun OR applications
   * 2048 using MDPs [@jdleesmiller](https://github.com/jdleesmiller): http://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html
   * Chutes & Ladders as a Markov chain [@jakevdp](https://github.com/jakevdp): https://jakevdp.github.io/blog/2017/12/18/simulating-chutes-and-ladders/#Fundamental-Matrix
