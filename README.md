@@ -4,26 +4,26 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 Also, a good chunk of this has come from links other folks have shared on Twitter. Thanks, y'all.
 
 ## Table of Contents
-* [Python](### Python)
-* [R](### R)
-* [GitHub](### GitHub)
-* [General coding / computation](### General coding / computation)
-* [AMPL](### AMPL)
-* [Math programming software](### Math Programming software)
-* [Math programming resources](### Math Programming resources)
-* [Other math programming](### Other Math Programming)
-* [Operations research-adjacent material](### Operations research-adjacent material])
-* [Data visualization](### Data visualization)
-* [Datasets / databases](### Datasets / databases)
-* [Communication / dissemination / manuscripts](### Communication / dissemination / manuscripts)
-* [Healthcare](### Healthcare)
-* [Jobs / Summer schools](### Jobs / Summer schools)
-* [Grants/fellowships](### Grants/fellowships)
-* [Teaching](### Teaching)
-* [Websites](### Websites)
-* [Blogs I like (and read occasionally)](### Blogs I like (and read occasionally))
-* [Various advice](### Various advice)
-* [Eclectic](### Eclectic)
+* [Python](#Python)
+* [R](#R)
+* [GitHub](#GitHub)
+* [General coding / computation](#General coding / computation)
+* [AMPL](#AMPL)
+* [Math programming software](#Math-Programming-software)
+* [Math programming resources](#Math-Programming-resources)
+* [Other math programming](#Other-Math-Programming)
+* [Operations research-adjacent material](#Operations-research-adjacent-material])
+* [Data visualization](#Data-visualization)
+* [Datasets/databases](#Datasets/databases)
+* [Communication/dissemination](#Communication/dissemination)
+* [Healthcare](#Healthcare)
+* [Jobs/Summer schools](#Jobs/Summer-schools)
+* [Grants/fellowships](#Grants/fellowships)
+* [Teaching](#Teaching)
+* [Websites](#Websites)
+* [Blogs I like (and read occasionally)](#Blogs-I-like-(and-read-occasionally))
+* [Various advice](#Various-advice)
+* [Eclectic](#Eclectic)
 
 ### Python
 * Overview
@@ -431,7 +431,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * Tutorial to create citation network: https://www.lib.ncsu.edu/sites/default/files/ResearchImpactNetworkGuide.pdf
   * Citation network example from Neal Caren (Python & d3.js): http://nealcaren.web.unc.edu/a-sociology-citation-network/
 
-### Datasets / databases
+### Datasets/databases
 * Compilations
   * From Vanderbilt Biostats: http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets
   * Kaggle: https://www.kaggle.com/datasets
@@ -476,7 +476,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Google Scholar: https://scholar.google.com/
 
 
-### Communication / dissemination / manuscripts
+### Communication/dissemination
 * Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
 * Reference software
   * Zotero: https://www.zotero.org/
@@ -546,7 +546,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * Morbidity and Mortality Weekly Report
     * I think most people I know working in public health subscribe to this
 
-### Jobs / Summer schools
+### Jobs/Summer schools
 * Jobs
   * Companies that hire folks to work on OR problems/methods from [@dirkschumacher](https://github.com/dirkschumacher): https://github.com/dirkschumacher/or-companies/
   * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
