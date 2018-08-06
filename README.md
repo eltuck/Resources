@@ -1,27 +1,27 @@
 # Resources
-Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order. I've listed the full urls so you can see what you're clicking on/if it's going to be a pdf/etc.
+Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order. I've listed the full urls to external sites so you can see what you're clicking on/if it's going to be a pdf/etc.
 
 Also, a good chunk of this has come from links other folks have shared on Twitter. Thanks, y'all.
 
 ## Table of Contents
 * [Python](#python)
 * [R](#r)
-* [GitHub](#GitHub)
+* [GitHub](#gitHub)
 * [General coding / computation](#general-coding/computation)
 * [AMPL](#ampl)
-* [Math programming software](#math-Programming-software)
-* [Math programming resources](#math-Programming-resources)
+* [Math programming software](#math-programming-software)
+* [Math programming resources](#math-programming-resources)
 * [Other math programming](#other-math-programming)
 * [Operations research-adjacent material](#operations-research-adjacent-material])
 * [Data visualization](#data-visualization)
-* [Datasets/databases](#datasets/databases)
-* [Communication/dissemination](#communication/dissemination)
+* [Datasets/databases](#datasetsdatabases)
+* [Communication/dissemination](#communicationdissemination)
 * [Healthcare](#healthcare)
-* [Jobs/Summer schools](#jobs/summer-schools)
-* [Grants/fellowships](#grants/fellowships)
+* [Jobs/Summer schools](#jobssummer-schools)
+* [Funding](#funding)
 * [Teaching](#teaching)
 * [Websites](#websites)
-* [Blogs I like (and read occasionally)](#blogs-I-like-(and-read-occasionally))
+* [Blogs I like (and read occasionally)](#blogs-i-like-and-read-occasionally)
 * [Various advice](#various-advice)
 * [Eclectic](#eclectic)
 
@@ -113,6 +113,8 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
     * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
   * Cheat sheets: https://www.rstudio.com/resources/cheatsheets/
+    * ggplot2: https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf
+    * Syntax comparison: base R vs. formula vs. tidyverse: http://www.science.smith.edu/~amcnamara/Syntax-cheatsheet.pdf
   * R Cookbook: http://www.cookbook-r.com/
 * Learn R
   * Intro to R seminar code - https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html
@@ -194,7 +196,6 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Update R: https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol
     * Run in RGui rather than RStudio
 
-
 ### GitHub
   * Beginner Tutorial: http://try.github.io/
   * Guide to Git with R: http://happygitwithr.com/
@@ -240,7 +241,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * Vim Adventures (game to learn Vim): https://vim-adventures.com/
   * Emacs: https://www.gnu.org/software/emacs/
   * Visual Studio Code: https://code.visualstudio.com/
-  * Sublime: https://www.sublimetext.com/\
+  * Sublime: https://www.sublimetext.com/
   * Nano: https://www.nano-editor.org/
 
 
@@ -515,6 +516,8 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
 * Working with the media
   * http://senseaboutscienceusa.org/media-guide-for-scientists/
+* Writing help
+  * Lots of resources from Purdue: https://owl.purdue.edu/owl/purdue_owl.html
 
 ### Healthcare
 * Guides
@@ -562,15 +565,29 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
       * Postdocs https://www.ornl.gov/content/ornl-s-postdoctoral-program
       * Weinberg Fellowship: https://www.ornl.gov/careers/alvin-m-weinberg-fellowship
       * Householder Fellowship: https://www.ornl.gov/careers/alston-s-householder-fellowship
-* Summer schools
-  * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
+  * Twitter feeds with job postings
+    * R stats: https://twitter.com/rjoblistings
+    * Data science: https://twitter.com/NewDataSciJobs
 * Career prep
   * Questions to think through career goals [@benlangmead](https://github.com/benlangmead): https://github.com/BenLangmead/langmead-lab/blob/master/postdoc_questionnaire.md
     * Slightly expanded from [@jtleek](https://github.com/jtleek): https://github.com/jtleek/careerplanning
   * Academic jobs
     * Tons of resources compiled by UM CRLT: http://crlt.umich.edu/PFF_Resources
+* Summer schools
+  * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
 
-### Grants/fellowships
+### Twitter
+* Hashtags/communities I appreciate
+  * #orms
+  * #rstats
+  * #phdchat
+  * #AcWri
+  * #scicomm
+* Not related to what I do but fun to watch
+  * #girlmedtwitter
+
+### Funding
+* Compilation of early career funding sources (JHU): https://research.jhu.edu/rdt/funding-opportunities/early-career/
 * FDA Generic Drug-related: https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm
 
 ### Teaching
@@ -632,6 +649,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * CV of failures
   * https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf
   * https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/
+* On the "hidden curriculum" of grad school: https://scatter.wordpress.com/2018/07/24/guest-post-grad-schools-hidden-curriculum/
 * List of "awesome" lists https://github.com/sindresorhus/awesome
   * Very meta. But also potentially helpful.
 * Azimuth Project
@@ -642,6 +660,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Article on Quartz: https://qz.com/572338/the-quartz-guide-to-bad-data/#user-content-there-are-inexplicable-outliers
 * Technical / scientific debt: http://varianceexplained.org/r/scientific-debt/
    * Interesting take from [@dgrtwo](https://github.com/dgrtwo) on managing shortcuts/assumptions/etc. in the project development process
+* Types of validity (Amy Bucher):  http://www.amybucherphd.com/statistical-validity-types/
 * Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
 * Debugging
   * Rubber ducky method: https://rubberduckdebugging.com/
