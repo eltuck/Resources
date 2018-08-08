@@ -41,10 +41,6 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * Topics/packages
   * List of OR/MS-related packages
     * https://wiki.python.org/moin/PythonForOperationsResearch
-  * Altair (visualizations)
-    * Notebooks with example code: https://github.com/altair-viz/altair_notebooks
-    * Video tutorial from [@jakevdp](https://github.com/jakevdp) https://www.youtube.com/watch?v=ms29ZPUKxbU&t=2431s
-      * First ~40 min are a nice walkthrough; didn't watch the rest
   * Pandas (data processing)
     * Beginner tutorial from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
     * Intermediate tutorial from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
@@ -70,6 +66,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
          * Targeted towards intro undergrads
   * Optimization
     * Modeling languages
+      * gurobipy: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_interface
       * PuLP: https://projects.coin-or.org/PuLP
         * Linear programs only
       * Pyomo: http://www.pyomo.org/
@@ -87,12 +84,20 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Other fields (that seem related)
     * CobraPy: https://opencobra.github.io/cobrapy/
       * Biological network modeling - constraints/optimization
-* Figures
-  * R-style graphing
-    * plotnine package: https://plotnine.readthedocs.io/en/stable/
-    * ggplot package: https://www.r-bloggers.com/ggplot2-style-plotting-in-python/
-  * Funny
-    * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
+  * Visualization / figures
+    * Python Graph Gallery: https://python-graph-gallery.com/
+      * Lots of examples with code
+    * Seaborn
+      * Examples: https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html
+    * Altair
+      * Notebooks with example code: https://github.com/altair-viz/altair_notebooks
+      * Video tutorial from [@jakevdp](https://github.com/jakevdp) https://www.youtube.com/watch?v=ms29ZPUKxbU&t=2431s
+        * First ~40 min are a nice walkthrough; didn't watch the rest
+    * R-style graphing
+      * plotnine package: https://plotnine.readthedocs.io/en/stable/
+      * ggplot package: https://www.r-bloggers.com/ggplot2-style-plotting-in-python/
+    * Funny
+      * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
 * How to...
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
     * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
@@ -113,7 +118,9 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * (Free) _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
     * (Free) _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
   * Cheat sheets: https://www.rstudio.com/resources/cheatsheets/
-    * ggplot2: https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf
+    * ggplot2:
+      * Two pages: https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf
+      * Longer: http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
     * Syntax comparison: base R vs. formula vs. tidyverse: http://www.science.smith.edu/~amcnamara/Syntax-cheatsheet.pdf
   * R Cookbook: http://www.cookbook-r.com/
 * Learn R
@@ -130,6 +137,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Pipe operator %>%
     * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
     * Longer from DataCamp: https://www.datacamp.com/community/tutorials/pipe-r-tutorial
+  * Environments, namespaces, etc. (Suraj Gupta): http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
 * Packages (perhaps with corresponding tutorials)
   * Larger
     * Epidemic network modeling: http://statnet.github.io/nme/index.html
@@ -195,6 +203,8 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
   * Update R: https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol
     * Run in RGui rather than RStudio
+* What is...
+  * :: https://stackoverflow.com/a/35241015
 
 ### GitHub
   * Beginner Tutorial: http://try.github.io/
@@ -619,12 +629,13 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 ### Various advice
 * Grad students
   * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
-  * Guidebook for succeeding in PhD (Alex Eble) (econ): https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf
+  * Guidebook for succeeding in PhD (Alex Eble, econ): https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf
     * If that link gets broken, perhaps also available on this page: http://www.alexeble.com/advice/
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
   * For female grad students (political science): https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit
     * Google doc - compiled by [@dianazobrien](https://twitter.com/dianazobrien)
   * Job market mistakes (humanities): https://www.chronicle.com/article/5-Big-Picture-Mistakes-New/243475
+  * Attending big conferences (Kieran Healy, sociology): https://kieranhealy.org/blog/archives/2003/08/27/conference-advice/
   * The Professor Is In (Karen Kelsky): http://theprofessorisin.com/
     * Blog with various academic advice
 * New faculty
