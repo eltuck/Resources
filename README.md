@@ -29,6 +29,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * Overview
   * Whirlwind tour from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/WhirlwindTourOfPython
   * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
+    * Python for Mathematicians: https://github.com/drvinceknight/Python-Mathematics-Handbook
 * Textbooks
   * (Free) _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
     * Beginners guide, programming exp. not necessary
@@ -41,19 +42,27 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * Topics/packages
   * List of OR/MS-related packages
     * https://wiki.python.org/moin/PythonForOperationsResearch
+  * Scipy
+    * Lecture notes: http://www.scipy-lectures.org/
   * Pandas (data processing)
     * Beginner tutorial from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
     * Intermediate tutorial from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
-  * NetworkX
-    * https://github.com/networkx/networkx
-    * Tutorial: network analysis (humanities data) https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
-    * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
-    * Network simplex https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html
+  * Networks
+    * NetworkX
+      * https://github.com/networkx/networkx
+      * Tutorial: network analysis (humanities data) https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
+      * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
+      * Network simplex https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html
+    * SNAP: https://snap.stanford.edu/snappy/index.html
+      * Analysis of graphs and networks
+      * Claims often faster and able to solve larger problems than NetworkX
   * Simulation
     * Discrete-event
       * SimPy https://simpy.readthedocs.io/en/latest/
         * Google group: https://groups.google.com/forum/#!forum/python-simpy
         * Book chapter by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
+      * Ciw: http://ciw.readthedocs.io/en/latest/
+        * For open queueing networks
     * Agent-based modeling
       * Mesa: https://github.com/projectmesa/mesa
         * General purpose
@@ -67,10 +76,24 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Optimization
     * Modeling languages
       * gurobipy: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_interface
+        * Walk-through of building simple model: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_simple_python_example.html
+        * Walk-through of semi-complex model: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_dictionary_examp.html
       * PuLP: https://projects.coin-or.org/PuLP
         * Linear programs only
       * Pyomo: http://www.pyomo.org/
         * How to run models: https://groups.google.com/forum/#!topic/pyomo-forum/NWU1LW6GWL8
+  * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
+    * Gambit: http://www.gambit-project.org/
+    * Nashpy: http://nashpy.readthedocs.io/en/stable/
+      * Compute equilibria for 2 player games
+    * Axelrod: http://axelrod.readthedocs.io/en/stable/
+      * Iterated prisoner's dilemma
+    * PyNFG: https://pythonhosted.org/PyNFG/
+      * Network form games
+    * lrslib: http://cgm.cs.mcgill.ca/~avis/C/lrs.html
+      * Library: lrsnash can be used to compute Nash equilibria
+    * SageMath: http://doc.sagemath.org/html/en/reference/game_theory/index.html
+      * Games: cooperative with finite players; matching; normal form with N players
   * ML
       * Flowchart: choosing the right estimator: http://scikit-learn.org/stable/tutorial/machine_learning_map/
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
@@ -543,12 +566,12 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
       * Carrier summary files: https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-Carrier-Summary-Data-File/Overview.html
       * Not free:
         * CCW https://www.ccwdata.org/web/guest/home
+    * CDC data/stats: https://www.cdc.gov/DataStatistics/
   * Private
     * IQVIA (formerly IMS Health): https://www.iqvia.com/solutions/real-world-value-and-outcomes/realworld-data
       * Considered the gold standard for volume data but expensive
   * Other
     * Clinical trials: https://clinicaltrials.gov/
-    * Link to CDC data/stats: https://www.cdc.gov/DataStatistics/
     * Tufts Cost-Effectiveness Analysis Registry: http://healtheconomics.tuftsmedicalcenter.org/cear4/Home.aspx
   * Major surveys
     * NHANES (in person): https://www.cdc.gov/nchs/nhanes/index.htm
@@ -587,18 +610,25 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
 
 ### Twitter
-* Hashtags/communities I appreciate
-  * #orms
-  * #rstats
-  * #phdchat
-  * #AcWri
-  * #scicomm
+* Cmmunities I appreciate
+  * [#orms](https://twitter.com/hashtag/orms?src=hash)
+  * [#rstats](https://twitter.com/hashtag/rstats?src=hash)
+  * [#phdchat](https://twitter.com/hashtag/phdchat?src=hash)
+  * [#AcWri](https://twitter.com/hashtag/acwri?src=hash)
+  * [#scicomm](https://twitter.com/hashtag/scicomm?src=hash)
 * Not related to what I do but fun to watch
-  * #girlmedtwitter
+  * [#girlmedtwitter](https://twitter.com/hashtag/girlmedtwitter?src=hash)
+* Hashtags that included interesting discussions at some point
+  * [#hiddencurriculum](https://twitter.com/hashtag/hiddencurriculum?src=hash)
 
 ### Funding
-* Compilation of early career funding sources (JHU): https://research.jhu.edu/rdt/funding-opportunities/early-career/
-* FDA Generic Drug-related: https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm
+* Compilations
+  * For early career researchers (JHU): https://research.jhu.edu/rdt/funding-opportunities/early-career/
+  * From _Science_: http://www.sciencemag.org/careers/where-search-funding
+  * From USC: https://research.usc.edu/for-investigators/funding/federal/
+* Federal grants: https://www.grants.gov/
+* Specific
+  * FDA (Generic drug-related): https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm
 
 ### Teaching
 * Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
@@ -622,6 +652,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * Azimuth: https://johncarlosbaez.wordpress.com/
   * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
 * OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
+* Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
 * Humor
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
   * Lego Grad Student: https://brickademics.com/
