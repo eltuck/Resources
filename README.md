@@ -1,5 +1,5 @@
 # Resources
-Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Not comprehensive, links may not work, in no particular order. I've listed the full urls to external sites so you can see what you're clicking on/if it's going to be a pdf/etc.
+Consider this a public bookmark bar. These are resources I've found useful or think might be one day. Disclaimer: still in progress, not comprehensive, links may not work, in no particular order. I've listed the full urls to external sites so you can see what you're clicking on/if it's going to be a pdf/etc.
 
 Also, a good chunk of this has come from links other folks have shared on Twitter. Thanks, y'all.
 
@@ -40,8 +40,6 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * Overall tutorial
   * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
 * Topics/packages
-  * List of OR/MS-related packages
-    * https://wiki.python.org/moin/PythonForOperationsResearch
   * Scipy
     * Lecture notes: http://www.scipy-lectures.org/
   * Pandas (data processing)
@@ -73,6 +71,8 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
       * Textbook: http://greenteapress.com/wp/modsimpy/
          * (Free) _Modeling and Simulation in Python_ by [@AllenDowney](https://github.com/AllenDowney)
          * Targeted towards intro undergrads
+  * List of OR/MS-related packages
+   * https://wiki.python.org/moin/PythonForOperationsResearch
   * Optimization
     * Modeling languages
       * gurobipy: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_interface
@@ -82,6 +82,24 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
         * Linear programs only
       * Pyomo: http://www.pyomo.org/
         * How to run models: https://groups.google.com/forum/#!topic/pyomo-forum/NWU1LW6GWL8
+      * Pysp: https://pypi.org/project/coopr.pysp/
+        * Extends Pyomo for stochastic programming
+    * Solvers / algos
+      * scipy.optimize: https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html
+      * CVXPY: http://www.cvxpy.org/
+        * Convex optimization
+        * Short-course: http://www.cvxpy.org/short_course/index.html
+      * Optimist: https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1330&context=iemssconference
+        * SDDP in water systems
+      * StochOPy - stochastic opt: https://github.com/keurfonluu/StochOPy
+      * StOpt: https://gitlab.com/stochastic-control/StOpt
+        * Written in C++, python bindings
+      * py-lapsolver: https://github.com/cheind/py-lapsolver
+        * Solver for fast linear assignment problems
+      * munkres: http://software.clapper.org/munkres/
+        * aka Hungarian algo
+  * Dimensionality reduction
+    * umap: https://github.com/lmcinnes/umap
   * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
     * Gambit: http://www.gambit-project.org/
     * Nashpy: http://nashpy.readthedocs.io/en/stable/
@@ -107,9 +125,12 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Other fields (that seem related)
     * CobraPy: https://opencobra.github.io/cobrapy/
       * Biological network modeling - constraints/optimization
+    * Optimize process simulators: https://github.com/CAChemE/stochastic-optimization
+      * Set of examples, chemical engineering
   * Visualization / figures
     * Python Graph Gallery: https://python-graph-gallery.com/
       * Lots of examples with code
+    * Overview of plotting for exploratory analysis (Hopper): http://pythonplot.com/
     * Seaborn
       * Examples: https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html
     * Altair
@@ -153,44 +174,60 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Collection of tutorials
     * UC Business Analytics: http://uc-r.github.io/
     * Coding club (Univ. of Edinburgh): https://ourcodingclub.github.io/tutorials/
-* Websites:
-  * R-bloggers: https://www.r-bloggers.com/
-  * FAQ on StackOverflow: https://stackoverflow.com/questions/tagged/r-faq
+  * Websites:
+    * R-bloggers: https://www.r-bloggers.com/
+    * FAQ on StackOverflow: https://stackoverflow.com/questions/tagged/r-faq
 * Explanation of topics
   * Pipe operator %>%
     * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
     * Longer from DataCamp: https://www.datacamp.com/community/tutorials/pipe-r-tutorial
   * Environments, namespaces, etc. (Suraj Gupta): http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
 * Packages (perhaps with corresponding tutorials)
-  * Larger
-    * Epidemic network modeling: http://statnet.github.io/nme/index.html
-    * dplyr
-      * Selecting columns https://suzan.rbind.io/2018/01/dplyr-tutorial-1/
-      * Filtering rows
-        https://suzan.rbind.io/2018/02/dplyr-tutorial-3/
-      * Summarizing and slicing https://suzan.rbind.io/2018/04/dplyr-tutorial-4/
+  * Epidemic network modeling: http://statnet.github.io/nme/index.html
+  * dplyr
+    * Selecting columns https://suzan.rbind.io/2018/01/dplyr-tutorial-1/
+    * Filtering rows
+      https://suzan.rbind.io/2018/02/dplyr-tutorial-3/
+    * Summarizing and slicing https://suzan.rbind.io/2018/04/dplyr-tutorial-4/
+    * Gifs of join types (gadenbuie): https://github.com/gadenbuie/tidy-animated-verbs#tidy-animated-verbs
   * Bootstrapping
     * slipper - https://github.com/jtleek/slipper
     * boot - https://cran.r-project.org/web/packages/boot/index.html
       * How to: https://stats.idre.ucla.edu/r/faq/how-can-i-generate-bootstrap-statistics-in-r/
-  * Funny
+  * reprex: https://github.com/tidyverse/reprex
+    * Prep short bits of code (e.g., to post on StackOverflow)
+  * Funny or fun
     * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
       * Make animals say funny things (Yoda is my favorite)
     * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
+    * GeomMLBStadiums: https://github.com/bdilday/GeomMLBStadiums
+      * Draw baseball stadiums in ggplot2
 * Visualizations
-  * ggplot2: https://ggplot2.tidyverse.org/
-  * ggpubr: http://www.sthda.com/english/rpkgs/ggpubr/
-    * Wrapper around ggplot - intended to be easier to create pub-ready figures
+  * Examples
+    * R Graph Gallery: https://www.r-graph-gallery.com/
+  * Create figures
+    * ggplot2: https://ggplot2.tidyverse.org/
+   * ggpubr: http://www.sthda.com/english/rpkgs/ggpubr/
+     * Wrapper around ggplot - intended to be easier to create pub-ready figures
+  * rvg: https://github.com/davidgohel/rvg
+    * Export figures so they can be editable in powerpoint
   * Graphs and networks
     * DiagrammeR https://github.com/rich-iannone/DiagrammeR
+      * Example (Kalvelagen) http://yetanothermathprogrammingconsultant.blogspot.com/2018/07/graph-drawing-in-rstudio.html
   * Gantt charts
     * GanttR function: https://insileco.github.io/2017/09/20/gantt-charts-in-r/
     * Other options: https://stackoverflow.com/questions/3550341/gantt-charts-with-r
   * Interactive timelines
     * timevis: https://github.com/daattali/timevis
-  * Examples
-    * R Graph Gallery: https://www.r-graph-gallery.com/
-    * Also see section below on visualization
+  * Spatial data
+    * sf package (simple features): https://github.com/r-spatial/sf
+  * Maps
+    * urbnmapr: https://github.com/UrbanInstitute/urbnmapr
+       * State and county maps
+  * Colors / themes
+    * RColorBrewer
+      * Explanation (by chelsea in R): https://moderndata.plot.ly/create-colorful-graphs-in-r-with-rcolorbrewer-and-plotly/
+      * GUI to review options on a map: http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
 * Markdown/reports
   * Tufte style for markdown: https://github.com/rstudio/tufte
 * Tutorials
@@ -226,6 +263,9 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
   * Update R: https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol
     * Run in RGui rather than RStudio
+  * Add code to text you when your model is done running:
+    * https://www.r-bloggers.com/let-r-python-send-messages-when-the-algorithms-are-done-training/
+      * Uses Telegram's Bot API: https://core.telegram.org/api
 * What is...
   * :: https://stackoverflow.com/a/35241015
 
@@ -238,6 +278,8 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Cheat sheets
     * Overall: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
     * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  * Other
+    * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
   * How to...
     * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
     * Clone a repo: https://help.github.com/articles/cloning-a-repository/
@@ -277,7 +319,6 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Sublime: https://www.sublimetext.com/
   * Nano: https://www.nano-editor.org/
 
-
 ### AMPL
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
 * Google group (help forum): https://groups.google.com/forum/#!forum/ampl
@@ -287,6 +328,24 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * E.g., AVAIL vs. AVAIL_all
   * argmin: https://ampl.com/faqs/i-have-declared-set-s-and-param-b-s-how-do-i-write-an-ampl-expression-for-the-arg-min-of-bi-that-is-the-s-in-s-such-that-bs-equals-the-minimum-of-bi-over-all-i-in-s/
 
+### Other programming languages
+* MATLAB
+  * SDDP - FAST toolbox: https://web.stanford.edu/~lcambier/fast/index.php
+* Julia
+  * JuliaStochOpt: https://github.com/JuliaStochOpt
+    * Including: discrete-time stochastic control: https://github.com/JuliaStochOpt/StochDynamicProgramming.jl
+  * SDDP.jl: https://github.com/odow/SDDP.jl
+    * Stochastic dual dynamic programming
+  * SDDiP.jl: https://github.com/lkapelevich/SDDiP.jl
+    * Stochastic dual dynamic integer programming
+  * StructJuMP: https://github.com/StructJuMP/StructJuMP.jl
+    * Set up 2-stage stochastic programming models
+  * DSPsolver.jl: https://github.com/Argonne-National-Laboratory/DSPsolver.jl
+    * Use DSP to solve stochastic mixed-integer programs
+  * Complementarity.jl: https://github.com/chkwon/Complementarity.jl
+    * Mixed-complementarity and math programs with equilibrium problems
+* SQL
+  * Sequel Pro (for Mac): https://www.sequelpro.com/
 
 ### Math programming software
 * Overviews
@@ -308,11 +367,9 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
       * LP, MIP
     * SCIP: http://scip.zib.de/
       * MIP, MINLP, constraint IP
-    * Bonmin
-      * https://projects.coin-or.org/Bonmin
+    * Bonmin: https://projects.coin-or.org/Bonmin
       * MINLP
-    * Couenne
-      * https://projects.coin-or.org/Couenne
+    * Couenne: https://projects.coin-or.org/Couenne
       * Non-convex MINLP
     * NEOS:
       * https://neos-server.org/neos/
@@ -323,6 +380,12 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
       * Nonlinear problems, local solutions
     * BiqBin: http://biqbin.fis.unm.si/
       * Binary Quadratic
+    * DSP: https://github.com/Argonne-National-Laboratory/DSP
+      * Stochastic mixed-integer programs
+    * ECOS: https://github.com/embotech/ecos, https://www.embotech.com/ECOS
+      * Second-order conic programs
+    * OSQP: https://osqp.org/
+      * Operator Splitting Quadratic Program
   * OR-Tools from Google: https://developers.google.com/optimization/
   * List from AMPL
       * Commercial: https://ampl.com/products/solvers/solvers-we-sell/
@@ -334,9 +397,6 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * AMPL: https://ampl.com/
   * OPL: https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling
   * LP add-on for Google sheets: https://developers.google.com/optimization/lp/add-on
-* Test sets
-  * MIPLIB: http://miplib.zib.de/
-  * OR Library: http://people.brunel.ac.uk/~mastjjb/jeb/info.html
 * Application specific
   * Facility location
     * SITATION: https://daskin.engin.umich.edu/software/
@@ -361,22 +421,28 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * AIMMS: https://groups.google.com/forum/#!forum/aimms
     * Pyomo: https://groups.google.com/forum/#!forum/pyomo-forum
   * Stack Overflow: https://stackoverflow.com/
-* Algorithms
-  * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
 * Overviews
   * Glossary: https://glossary.informs.org/ver2/mpgwiki/index.php?title=Main_Page
   * OR Notes (JE Beasley): http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html
 * Models
   * GAMS model library: https://www.gams.com/latest/gamslib_ml/libhtml/
+* Algorithms
+  * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
+* Test sets
+  * MIPLIB: http://miplib.zib.de/
+  * OR Library: http://people.brunel.ac.uk/~mastjjb/jeb/info.html
 * Course resources
   * Math Programming (Dimitris Bertsimas):
     - Lecture notes (Fall 2009) - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
   * Convex Optimization (Lieven Vandenberghe):
     * Lecture slides: http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf
-  * Stochastic Programming (Shapiro, Dentcheva, Ruszczynski)
-    * Lecture notes: https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf
-  * Stochastic Optimization (Warren Powell)
-    - Readings (grad level, Fall 2017): https://castlelab.princeton.edu/orf-544/
+  * Stochastic programming
+    * From Papavasiliou: http://uclengiechair.be/operations-research-linma-2491/
+      * Videos, slides
+    * From Shapiro, Dentcheva, Ruszczynski: https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf
+      * Lecture notes
+    *  From Warren Powell (Fall 2017)
+      * Readings: https://castlelab.princeton.edu/orf-544/
   * Optimal Learning
     - Various materials (Warren Powell): http://optimallearning.princeton.edu/
 * Other
@@ -385,15 +451,21 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * OR societies around the world: http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html
   * COIN-OR Foundation: https://www.coin-or.org/
     * Resources: https://www.coin-or.org/resources/
-* Drawing scenario trees
-  * GAMS/SCENRED https://www.gams.com/latest/docs/T_SCENRED.html
-    * Workshop: https://www.gams.com/fileadmin/community/contrib/financial/ngk_scenred.pdf
-    * Presentation: http://old.gams.com/presentations/present_informs08_scenred.pdf
-  * Plotly (python): https://plot.ly/python/tree-plots/
-  * Graphviz (python): http://graphviz.readthedocs.io/en/stable/index.html
-    * Examples: http://graphviz.readthedocs.io/en/stable/examples.html
-  * Networkx (python): https://networkx.github.io/
-  * Force-directed graph (json/html): https://bl.ocks.org/mbostock/4062045
+* Specific topics
+  * Benders Decomposition
+    * Using callbacks to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin): https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html
+    * Examples:
+      * In AMPL: https://ampl.com/NEW/LOOP2/
+      * With callbacks by [@vitaut](https://github.com/vitaut): http://www.zverovich.net/2013/09/01/modern-benders-decomposition-in-ampl.html
+  * Drawing scenario trees
+    * GAMS/SCENRED https://www.gams.com/latest/docs/T_SCENRED.html
+      * Workshop: https://www.gams.com/fileadmin/community/contrib/financial/ngk_scenred.pdf
+      * Presentation: http://old.gams.com/presentations/present_informs08_scenred.pdf
+    * Plotly (python): https://plot.ly/python/tree-plots/
+    * Graphviz (python): http://graphviz.readthedocs.io/en/stable/index.html
+      * Examples: http://graphviz.readthedocs.io/en/stable/examples.html
+    * Networkx (python): https://networkx.github.io/
+    * Force-directed graph (json/html): https://bl.ocks.org/mbostock/4062045
 * How to...
   * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
   * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
@@ -401,13 +473,6 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Remember primal / dual conversion
     * Sensible-odd-bizarre (SOB) method: https://math.stackexchange.com/questions/83844/simplex-method-duality-by-bazaraa?answertab=oldest#tab-top
     * Citing: https://www.math.hmc.edu/~benjamin/papers/sob.pdf
-
-### Other Math Programming
-* Benders Decomposition
-  * Using callbacks to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin): https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html
-  * Examples:
-    * In AMPL: https://ampl.com/NEW/LOOP2/
-    * With callbacks by [@vitaut](https://github.com/vitaut): http://www.zverovich.net/2013/09/01/modern-benders-decomposition-in-ampl.html
 
 ### Operations research-adjacent material
 * Linear Algebra
@@ -437,10 +502,15 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * Scrape off Twitter for free, code from [@Dpananos](https://github.com/Dpananos): https://github.com/Dpananos/GetCards
   * Applied ML course [@amueller](https://github.com/amueller): http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
     * Includes lecture recordings and slides
-  * Videos
-    * t-SNE (data viz) GoogleTechTalk: https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw
+  * Topics
+    * How decision trees work (Rohrer): https://brohrer.github.io/how_decision_trees_work.html
+    * Taxonomy of reproducibility: http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf
+    * Intro to monte carlo tree search: https://int8.io/monte-carlo-tree-search-beginners-guide/
+* Compilation of ML/CS/Math resources (Vodrahalli): https://kiranvodrahalli.github.io/links/
 * Other
   * Blockchain overview (2 hr video): https://www.youtube.com/watch?v=qOVAbKKSH10
+  * Gentle intro to graph theory (Joshi): https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8
+  * Habits of highly mathematical people (Kun): https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
 * Statistics
   * What test should I use? https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
     * With examples in R, Stata, SAS, SPSS
@@ -456,9 +526,10 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 
 
 ### Data visualization
-* Textbooks
+* Free Textbooks
   * _Fundamentals of Data Visualization_ by [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
   * _Data Visualization: A Practical Introduction_ by [@kjhealy](https://github.com/kjhealy): http://socviz.co/
+* Guide to using color (Rost): https://blog.datawrapper.de/colorguide/
 * Networks
   * Overview of software, etc.: https://www.lib.ncsu.edu/measuring-research-impact/visualizing-impact
   * Gephi: https://gephi.org/
@@ -481,6 +552,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Time series
     * Compilation (DataMarket): https://datamarket.com/data/list/?q=provider:tsdl
     * Economic (from Fed Reserve): https://fred.stlouisfed.org/
+  * Good, small datasets (Vicki Boykis): http://veekaybee.github.io/2018/07/23/small-datasets/
 * Specific sources
   * Bureau of Labor Statistics: https://www.bls.gov/data/
     * E.g., Consumer Price Index (inflation): https://www.bls.gov/cpi/data.htm
@@ -529,19 +601,20 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Indicating math mode  
     * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
 * Manuscripts
-  * How to write your first paper (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/firstpaper
-    * Biostatistician
-  * Writing manuscripts (Healthcare-focused):
-    * Welch, 1999 paper (Prepping for Submission to a Medical Journal)
-     https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
-    * Ibrahim and Dimick (Writing for Impact)
-     https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf
-    * Policy papers in clinical journals: https://sph.umich.edu/cehr/pdf/Manuscript_Guide.pdf
-      * Writing guide from the UM Center for Evaluating Health Reform
-  * Guide to running "paper sprints" https://sph.umich.edu/cehr/pdf/Paper_Sprint_Manual.pdf
-    * I.e., getting a team together and writing a paper really fast
-  * How to review a paper by [@jtleek](https://github.com/jtleek) https://github.com/jtleek/reviews
-    * Biostatistician
+  * How to write
+    * Your first paper (guide by [@jtleek](https://github.com/jtleek), biostat): https://github.com/jtleek/firstpaper
+    * 12 steps to writing: https://thehealthresearchjourney.wordpress.com/2014/12/05/the-12-steps-to-writing-a-paper-and-staying-sane/
+    * Healthcare-focused:
+      * Welch, 1999 paper (Prepping for Submission to a Medical Journal)
+       https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
+      * Ibrahim and Dimick (Writing for Impact)
+       https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf
+      * Policy papers in clinical journals (UM CHEAR): https://sph.umich.edu/cehr/pdf/Manuscript_Guide.pdf
+  * Run a "paper sprint" https://sph.umich.edu/cehr/pdf/Paper_Sprint_Manual.pdf
+  * How to review a paper by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/reviews
+  * Reporting guidelines: https://www.equator-network.org/reporting-guidelines/
+  * Picking a journal (health-focused): http://jane.biosemantics.org/
+  * Staying organized - publication planner (Pacheco-Vega): http://www.raulpacheco.org/2016/06/designing-and-implementing-a-publications-planner/
 * Visual abstracts
   * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
 * Policy
@@ -610,7 +683,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
 
 ### Twitter
-* Cmmunities I appreciate
+* Communities I appreciate
   * [#orms](https://twitter.com/hashtag/orms?src=hash)
   * [#rstats](https://twitter.com/hashtag/rstats?src=hash)
   * [#phdchat](https://twitter.com/hashtag/phdchat?src=hash)
@@ -618,8 +691,11 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * [#scicomm](https://twitter.com/hashtag/scicomm?src=hash)
 * Not related to what I do but fun to watch
   * [#girlmedtwitter](https://twitter.com/hashtag/girlmedtwitter?src=hash)
-* Hashtags that included interesting discussions at some point
+* Hashtags that have included interesting discussions at some point
   * [#hiddencurriculum](https://twitter.com/hashtag/hiddencurriculum?src=hash)
+  * [#phdtips](https://twitter.com/hashtag/phdtips?src=hash)
+* Other
+  * CV without Twitter (Auriel Fournier): http://aurielfournier.github.io/cv-without-twitter/
 
 ### Funding
 * Compilations
@@ -632,12 +708,14 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 
 ### Teaching
 * Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
+* Diversity and inclusion in the classroom (Laura Albert): https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/
 
 ### Websites
 * Sites
   * (Free) Hosted by github: https://pages.github.com/
     * Themes: https://github.com/topics/jekyll-theme
     * Simple one for academics https://github.com/academicpages/academicpages.github.io
+      * Example of what it looks like: https://academicpages.github.io/
     * Template for labs: http://www.allanlab.org/aboutwebsite.html
   * (Free/Paid) Wix: https://www.wix.com
   * (Free) Google Sites: https://sites.google.com/
@@ -652,14 +730,16 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * Azimuth: https://johncarlosbaez.wordpress.com/
   * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
 * OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
+* Yet Another Math Programming Consultant (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/
 * Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
+* Thiago Serra's blog: https://thiagoserra.com/blog/
 * Humor
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
   * Lego Grad Student: https://brickademics.com/
 
 ### Various advice
 * Grad students
-  * For new grad students: https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
+  * For new grad students (Dorsa Amir): https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
   * Guidebook for succeeding in PhD (Alex Eble, econ): https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf
     * If that link gets broken, perhaps also available on this page: http://www.alexeble.com/advice/
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
@@ -672,6 +752,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * New faculty
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
+  * If the 3rd year review goes poorly (Albertson): https://www.chronicle.com/article/Operation-Keep-My-Job-/235535
 * Job search
   * Data science jobs by [@robinsones](https://github.com/robinsones): http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/
   * Vitae https://chroniclevitae.com/
@@ -684,8 +765,13 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * When your data science project doesn't work: https://medium.com/@skyetetra/so-your-data-science-project-isnt-working-7bf57e3f12f1
 * Skills
   * Reading papers by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/readingpapers
-  * How to Report Bugs Effectively (Simon Tatham): https://www.chiark.greenend.org.uk/~sgtatham/bugs.html
-    * Perhaps helpful to send to your users
+  * Writing lit reviews (Raul Pacheco-Vega): http://www.raulpacheco.org/resources/literature-reviews/
+  * Organizing data in a spreadsheet (Broman and Woo, open access): https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989
+    * Not always the best idea, but here are some tips
+  * Coding
+    * Writing production-level code (Pappakrishnan) https://www.datascience.com/blog/production-level-code-for-data-science
+    * How to Report Bugs Effectively (Simon Tatham): https://www.chiark.greenend.org.uk/~sgtatham/bugs.html
+      * Perhaps helpful to send to your users
 
 ### Eclectic
 * CV of failures
@@ -705,6 +791,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * Types of validity (Amy Bucher):  http://www.amybucherphd.com/statistical-validity-types/
 * Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
 * Debugging
+  * Infeasible models (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/2018/08/the-best-way-to-debug-infeasible-models.html
   * Rubber ducky method: https://rubberduckdebugging.com/
     * Explain in detail to an inanimate object
   * Wolf-fence algorithm: http://coreygoldberg.blogspot.com/2008/12/wolf-fence-debugging.html
@@ -718,10 +805,15 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Poll meeting availability
     * When2Meet: https://www.when2meet.com/
     * When is good: http://whenisgood.net/
-* Fun OR applications
+* Fun OR (or related) applications
   * 2048 using MDPs [@jdleesmiller](https://github.com/jdleesmiller): http://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html
   * Chutes & Ladders as a Markov chain [@jakevdp](https://github.com/jakevdp): https://jakevdp.github.io/blog/2017/12/18/simulating-chutes-and-ladders/#Fundamental-Matrix
   * Mario Kart drivers - Pareto efficiency [@hinnefe2](https://github.com/hinnefe2): http://hinnefe2.github.io/python/tools/2015/09/21/mario-kart.html
+  * Text mining on country music lyrics (Miller): https://www.johnwmillr.com/trucks-and-beer/
+* OR/Programming/etc. in Industry
+  * Netflix: https://medium.com/netflix-techblog/notebook-innovation-591ee3221233
+* 15 important algorithms (McFadden): https://interestingengineering.com/15-of-the-most-important-algorithms-that-helped-define-mathematics-computing-and-physics
+* Beer game using AI: https://beergame.opexanalytics.com/#/
 * Humor
   * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
     * (I think the original version of this list came from Dana Angluin)
@@ -730,3 +822,4 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Guide to interpreting faculty feedback: https://kieranhealy.org/blog/archives/2013/08/16/academic-feedback/
   * Spurious correlations: http://www.tylervigen.com/spurious-correlations
     * Make your own: http://tylervigen.com/discover
+  * Create parody O'Reilly book covers: https://dev.to/rly
