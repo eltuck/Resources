@@ -330,8 +330,17 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 
 ### Other programming languages
 * MATLAB
-  * SDDP - FAST toolbox: https://web.stanford.edu/~lcambier/fast/index.php
+  * FAST (open-source): https://web.stanford.edu/~lcambier/fast/index.php
+    * Stochastic dual dynamic programming
+  * Optimization (paid): https://www.mathworks.com/products/optimization.html
+  * Global optimization (paid): https://www.mathworks.com/products/global-optimization.html
 * Julia
+  * Optimization in Julia: http://www.juliaopt.org/
+    * Nice summary of solvers at bottom of page
+  * JuMP: http://www.juliaopt.org/JuMP.jl/0.18/
+    * Modeling language - general
+  * Convex.jl: https://convexjl.readthedocs.io/en/latest/
+    * Modeling - disciplined convex programming
   * JuliaStochOpt: https://github.com/JuliaStochOpt
     * Including: discrete-time stochastic control: https://github.com/JuliaStochOpt/StochDynamicProgramming.jl
   * SDDP.jl: https://github.com/odow/SDDP.jl
@@ -344,6 +353,8 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * Use DSP to solve stochastic mixed-integer programs
   * Complementarity.jl: https://github.com/chkwon/Complementarity.jl
     * Mixed-complementarity and math programs with equilibrium problems
+  * Solvers
+    * CLP - COIN-OR LP solver: https://github.com/JuliaOpt/Clp.jl
 * SQL
   * Sequel Pro (for Mac): https://www.sequelpro.com/
 
@@ -505,7 +516,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Topics
     * How decision trees work (Rohrer): https://brohrer.github.io/how_decision_trees_work.html
     * Taxonomy of reproducibility: http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf
-    * Intro to monte carlo tree search: https://int8.io/monte-carlo-tree-search-beginners-guide/
+    * Intro to Monte Carlo tree search: https://int8.io/monte-carlo-tree-search-beginners-guide/
 * Compilation of ML/CS/Math resources (Vodrahalli): https://kiranvodrahalli.github.io/links/
 * Other
   * Blockchain overview (2 hr video): https://www.youtube.com/watch?v=qOVAbKKSH10
@@ -615,6 +626,8 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Reporting guidelines: https://www.equator-network.org/reporting-guidelines/
   * Picking a journal (health-focused): http://jane.biosemantics.org/
   * Staying organized - publication planner (Pacheco-Vega): http://www.raulpacheco.org/2016/06/designing-and-implementing-a-publications-planner/
+  * Types of reviews (Temple U): http://guides.temple.edu/c.php?g=78618&p=4156607
+    * Systematic, scoping, etc.
 * Visual abstracts
   * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
 * Policy
@@ -780,8 +793,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * On the "hidden curriculum" of grad school: https://scatter.wordpress.com/2018/07/24/guest-post-grad-schools-hidden-curriculum/
 * List of "awesome" lists https://github.com/sindresorhus/awesome
   * Very meta. But also potentially helpful.
-* Azimuth Project
-  * http://www.azimuthproject.org/azimuth/show/HomePage
+* Azimuth Project: http://www.azimuthproject.org/azimuth/show/HomePage
   * Collaboration of scientists and engineers who want to save the planet
 * Guide to Bad Data
   * Github: https://github.com/Quartz/bad-data-guide
