@@ -14,10 +14,10 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * [Other math programming](#other-math-programming)
 * [Operations research-adjacent material](#operations-research-adjacent-material])
 * [Data visualization](#data-visualization)
-* [Datasets/databases](#datasetsdatabases)
-* [Communication/dissemination](#communicationdissemination)
+* [Datasets and databases](#datasetsdatabases)
+* [Communication and dissemination](#communicationdissemination)
 * [Healthcare](#healthcare)
-* [Jobs/Summer schools](#jobssummer-schools)
+* [Jobs and Summer schools](#jobssummer-schools)
 * [Funding](#funding)
 * [Teaching](#teaching)
 * [Websites](#websites)
@@ -74,6 +74,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * List of OR/MS-related packages
    * https://wiki.python.org/moin/PythonForOperationsResearch
   * Optimization
+    * Overview (Ted Ralphs): https://coral.ie.lehigh.edu/~ted/files/modeling/lectures/ModelingWithPython.pdf
     * Modeling languages
       * gurobipy: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_interface
         * Walk-through of building simple model: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_simple_python_example.html
@@ -82,6 +83,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
         * Linear programs only
       * Pyomo: http://www.pyomo.org/
         * How to run models: https://groups.google.com/forum/#!topic/pyomo-forum/NWU1LW6GWL8
+        * Example models: http://nbviewer.jupyter.org/github/Pyomo/PyomoGallery/tree/master/
       * Pysp: https://pypi.org/project/coopr.pysp/
         * Extends Pyomo for stochastic programming
     * Solvers / algos
@@ -98,6 +100,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
         * Solver for fast linear assignment problems
       * munkres: http://software.clapper.org/munkres/
         * aka Hungarian algo
+    * Plot convex hull: https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html
   * Dimensionality reduction
     * umap: https://github.com/lmcinnes/umap
   * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
@@ -155,6 +158,9 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * _pycache_ file:
     * https://www.python.org/dev/peps/pep-3147/
     * https://stackoverflow.com/questions/16869024/what-is-pycache
+* Humor
+  * https://xkcd.com/353/
+  * https://xkcd.com/1987/
 
 ### R
 * Reference
@@ -272,12 +278,11 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 ### GitHub
   * Beginner Tutorial: http://try.github.io/
   * Guide to Git with R: http://happygitwithr.com/
-    * Haven't read it but heard it's a good one
   * Overview:
     * https://github.com/joshnh/Git-Commands
   * Cheat sheets
     * Overall: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
-    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
   * Other
     * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
   * How to...
@@ -289,6 +294,9 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * Deal with error about local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
   * Specifics (background)
     * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
+  * Humor:
+    * https://xkcd.com/1597/
+    * https://xkcd.com/1296/
 
 ### General coding / computation
 * Overview/best practices
@@ -304,12 +312,13 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * Large files: Globus: https://www.globus.org/
       * Basic version for research/education is free
   * Cluster computing
-    * PBS overview (40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
-      * Batch scripting
+    * PBS overview (batch scripting, 40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
     * Unix
       * #! - shebang - [https://en.wikipedia.org/wiki/Shebang_(Unix)](https://en.wikipedia.org/wiki/Shebang_(Unix))
       * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
         * How to exit: Esc :q!
+* Other
+  * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
 * Text editors
   * Atom: https://atom.io/
   * Vim: https://www.vim.org/
@@ -327,36 +336,37 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     https://groups.google.com/forum/#!msg/ampl/Wr_KxvKWBpM/FGeILLXGZzAj
     * E.g., AVAIL vs. AVAIL_all
   * argmin: https://ampl.com/faqs/i-have-declared-set-s-and-param-b-s-how-do-i-write-an-ampl-expression-for-the-arg-min-of-bi-that-is-the-s-in-s-such-that-bs-equals-the-minimum-of-bi-over-all-i-in-s/
+  * Sampling discrete random variables from uniform distribution: https://groups.google.com/forum/#!msg/ampl/Wjl-PC-kkiY/FGgDMedidLkJ
 
 ### Other programming languages
+* Julia
+  * Optimization in Julia: http://www.juliaopt.org/
+    * Nice summary of solvers at bottom of page
+  * Modeling languages
+    * JuMP (general): http://www.juliaopt.org/JuMP.jl/0.18/
+    * Convex.jl (disciplined convex): https://convexjl.readthedocs.io/en/latest/
+  * Solvers/algorithms
+    * JuliaStochOpt: https://github.com/JuliaStochOpt
+      * Including: discrete-time stochastic control: https://github.com/JuliaStochOpt/StochDynamicProgramming.jl
+    * SDDP (stochastic dual dynamic prog): https://github.com/odow/SDDP.jl
+      * Very nice documentation with tutorials: https://odow.github.io/SDDP.jl/latest/index.html
+    * SDDiP (SDDP with integers): https://github.com/lkapelevich/SDDiP.jl
+    * StructJuMP (2-stage stochastic programs): https://github.com/StructJuMP/StructJuMP.jl
+    * DSP (stochastic mixed-integer): https://github.com/Argonne-National-Laboratory/DSPsolver.jl
+    * Complementarity.jl: https://github.com/chkwon/Complementarity.jl
+      * Mixed-complementarity and math programs with equilibrium problems
+    * CLP - COIN-OR LP solver: https://github.com/JuliaOpt/Clp.jl
+  * Other math
+    * Differential equations: http://juliadiffeq.org/
+  * Plots: http://docs.juliaplots.org/latest/
+  * Timer outputs: https://github.com/KristofferC/TimerOutputs.jl
+* SQL
+  * Sequel Pro (for Mac): https://www.sequelpro.com/
 * MATLAB
   * FAST (open-source): https://web.stanford.edu/~lcambier/fast/index.php
     * Stochastic dual dynamic programming
   * Optimization (paid): https://www.mathworks.com/products/optimization.html
   * Global optimization (paid): https://www.mathworks.com/products/global-optimization.html
-* Julia
-  * Optimization in Julia: http://www.juliaopt.org/
-    * Nice summary of solvers at bottom of page
-  * JuMP: http://www.juliaopt.org/JuMP.jl/0.18/
-    * Modeling language - general
-  * Convex.jl: https://convexjl.readthedocs.io/en/latest/
-    * Modeling - disciplined convex programming
-  * JuliaStochOpt: https://github.com/JuliaStochOpt
-    * Including: discrete-time stochastic control: https://github.com/JuliaStochOpt/StochDynamicProgramming.jl
-  * SDDP.jl: https://github.com/odow/SDDP.jl
-    * Stochastic dual dynamic programming
-  * SDDiP.jl: https://github.com/lkapelevich/SDDiP.jl
-    * Stochastic dual dynamic integer programming
-  * StructJuMP: https://github.com/StructJuMP/StructJuMP.jl
-    * Set up 2-stage stochastic programming models
-  * DSPsolver.jl: https://github.com/Argonne-National-Laboratory/DSPsolver.jl
-    * Use DSP to solve stochastic mixed-integer programs
-  * Complementarity.jl: https://github.com/chkwon/Complementarity.jl
-    * Mixed-complementarity and math programs with equilibrium problems
-  * Solvers
-    * CLP - COIN-OR LP solver: https://github.com/JuliaOpt/Clp.jl
-* SQL
-  * Sequel Pro (for Mac): https://www.sequelpro.com/
 
 ### Math programming software
 * Overviews
@@ -513,6 +523,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
     * Scrape off Twitter for free, code from [@Dpananos](https://github.com/Dpananos): https://github.com/Dpananos/GetCards
   * Applied ML course [@amueller](https://github.com/amueller): http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
     * Includes lecture recordings and slides
+  * Course notes (Clayton Scott): http://web.eecs.umich.edu/~cscott/past_courses/eecs545f15/index.html
   * Topics
     * How decision trees work (Rohrer): https://brohrer.github.io/how_decision_trees_work.html
     * Taxonomy of reproducibility: http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf
@@ -546,6 +557,9 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Gephi: https://gephi.org/
     * Tutorial to create citation network: https://www.lib.ncsu.edu/sites/default/files/ResearchImpactNetworkGuide.pdf
   * Citation network example from Neal Caren (Python & d3.js): http://nealcaren.web.unc.edu/a-sociology-citation-network/
+* Community
+  * Data viz book club: https://blog.datawrapper.de/bookclub-tufte/
+    * On Twitter: https://twitter.com/datavisclub
 
 ### Datasets/databases
 * Compilations
@@ -595,22 +609,7 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 
 ### Communication/dissemination
 * Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
-* Reference software
-  * Zotero: https://www.zotero.org/
-  * Mendeley: https://www.mendeley.com/
-  * EndNote: http://endnote.com/
-* LaTeX
-  * Example style template for journals https://www.leandro-coelho.com/default-latex-article-style-modifications/
-  * Thesis templates:
-    * U Wolverhamptom: https://github.com/snim2/phdtemplate
-    * Michigan: http://clasp.engin.umich.edu/pages/current/dissertation-template
-  * Beamer tips and tricks by [@paulgp](https://github.com/paulgp)
-    * Presentation: https://github.com/paulgp/beamer-tips/blob/master/slides.pdf
-    * Source code: https://github.com/paulgp/beamer-tips
-  * Graphics
-    * Tikz and PGF: http://www.texample.net/tikz/
-  * Indicating math mode  
-    * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
+* How to choose open-source license: https://choosealicense.com/
 * Manuscripts
   * How to write
     * Your first paper (guide by [@jtleek](https://github.com/jtleek), biostat): https://github.com/jtleek/firstpaper
@@ -637,6 +636,24 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * http://senseaboutscienceusa.org/media-guide-for-scientists/
 * Writing help
   * Lots of resources from Purdue: https://owl.purdue.edu/owl/purdue_owl.html
+* Reference software
+  * Zotero: https://www.zotero.org/
+  * Mendeley: https://www.mendeley.com/
+  * EndNote: http://endnote.com/
+* LaTeX
+  * Getting started: https://nilesjohnson.net/latex.html
+    * Code: https://gitlab.com/nilesjohnson/latex_starter
+  * Example style template for journals https://www.leandro-coelho.com/default-latex-article-style-modifications/
+  * Thesis templates:
+    * U Wolverhamptom: https://github.com/snim2/phdtemplate
+    * Michigan: http://clasp.engin.umich.edu/pages/current/dissertation-template
+  * Beamer tips and tricks by [@paulgp](https://github.com/paulgp)
+    * Presentation: https://github.com/paulgp/beamer-tips/blob/master/slides.pdf
+    * Source code: https://github.com/paulgp/beamer-tips
+  * Graphics
+    * Tikz and PGF: http://www.texample.net/tikz/
+  * Indicating math mode  
+    * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
 
 ### Healthcare
 * Guides
@@ -753,8 +770,10 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 ### Various advice
 * Grad students
   * For new grad students (Dorsa Amir): https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
-  * Guidebook for succeeding in PhD (Alex Eble, econ): https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf
+  * Guide to grad school (Adam Marcus, CS): http://marcua.net/writing/gradschool-guide/
+  * Guidebook for succeeding in the PhD (Alex Eble, econ): https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf
     * If that link gets broken, perhaps also available on this page: http://www.alexeble.com/advice/
+  * Succeeding in the PhD (Dredze, Wallach; computer science): http://www.cs.jhu.edu/~mdredze/publications/HowtoBeaSuccessfulPhDStudent.pdf
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
   * For female grad students (political science): https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit
     * Google doc - compiled by [@dianazobrien](https://twitter.com/dianazobrien)
@@ -762,6 +781,9 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Attending big conferences (Kieran Healy, sociology): https://kieranhealy.org/blog/archives/2003/08/27/conference-advice/
   * The Professor Is In (Karen Kelsky): http://theprofessorisin.com/
     * Blog with various academic advice
+  * Compilations
+    * Doing research (Arinivas Akella, CS): https://webpages.uncc.edu/sakella/advice.html
+    * Grad school, technical writing, etc. (Mihir Bellare, CS): http://cseweb.ucsd.edu/~mihir/education.html
 * New faculty
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
@@ -825,6 +847,8 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
 * OR/Programming/etc. in Industry
   * Netflix: https://medium.com/netflix-techblog/notebook-innovation-591ee3221233
 * 15 important algorithms (McFadden): https://interestingengineering.com/15-of-the-most-important-algorithms-that-helped-define-mathematics-computing-and-physics
+* 100 days of algorithms (Bouda): https://medium.com/100-days-of-algorithms
+  * Code: https://github.com/coells/100days
 * Beer game using AI: https://beergame.opexanalytics.com/#/
 * Humor
   * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
@@ -835,3 +859,4 @@ Also, a good chunk of this has come from links other folks have shared on Twitte
   * Spurious correlations: http://www.tylervigen.com/spurious-correlations
     * Make your own: http://tylervigen.com/discover
   * Create parody O'Reilly book covers: https://dev.to/rly
+  * Computer science research topic generator: https://www.cs.purdue.edu/homes/dec/essay.topic.generator.html
