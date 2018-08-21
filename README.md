@@ -3,13 +3,13 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 
 Disclaimers: still in progress, definitely not comprehensive, links may not work, and in no particular order.
 
-Finally, a good portion of this has come from links folks have shared on Twitter. Thanks, y'all.
+Finally, a good portion of this has come from links other folks have shared on  [Twitter](https://twitter.com/emilyltucker). Thanks, y'all.
 
 ## Table of Contents
 * [Python](#python)
 * [R](#r)
 * [GitHub](#github)
-* [General coding and computation](#general-coding-and-computation)
+* [General coding and computation](#general-coding--computation)
 * [AMPL](#ampl)
 * [Other programming languages](#other-programming-languages)
 * [Math programming software](#math-programming-software)
@@ -19,7 +19,7 @@ Finally, a good portion of this has come from links folks have shared on Twitter
 * [Datasets and databases](#datasetsdatabases)
 * [Communication and dissemination](#communicationdissemination)
 * [Healthcare](#healthcare)
-* [Jobs and Summer schools](#jobssummer-schools)
+* [Jobs and summer schools](#jobssummer-schools)
 * [Funding](#funding)
 * [Teaching](#teaching)
 * [Blogs I like (and read occasionally)](#blogs-i-like-and-read-occasionally)
