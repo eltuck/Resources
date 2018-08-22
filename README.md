@@ -3,7 +3,9 @@ Consider this a public bookmark bar. These are resources I've found useful or th
 
 Disclaimers: still in progress, definitely not comprehensive, links may not work, and in no particular order.
 
-Finally, a good portion of this has come from links other folks have shared on  [Twitter](https://twitter.com/emilyltucker). Thanks, y'all.
+I welcome any additions, suggestions, or corrections! Feel free to create a pull request or send me an [email](mailto:eltuck@umich.edu).
+
+I've found a good portion of this from links other folks have shared on  [Twitter](https://twitter.com/emilyltucker). Thanks, y'all. Also a very big thank you to everyone who created the original content.
 
 ## Table of Contents
 * [Python](#python)
