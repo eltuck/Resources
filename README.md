@@ -79,6 +79,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * gurobipy: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_interface
         * Walk-through of building simple model: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_simple_python_example.html
         * Walk-through of semi-complex model: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_dictionary_examp.html
+        * Examples
+          * Walkthrough: https://www.gurobi.com/documentation/8.0/examples/example_tour.html
+          * List: https://www.gurobi.com/documentation/8.0/examples/python_examples.html
       * PuLP (linear programs): https://projects.coin-or.org/PuLP
       * Pyomo: http://www.pyomo.org/
         * How to run models: https://groups.google.com/forum/#!topic/pyomo-forum/NWU1LW6GWL8
@@ -141,6 +144,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * ggplot package: https://www.r-bloggers.com/ggplot2-style-plotting-in-python/
     * Funny
       * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
+* Notebooks
+  * Slides: "I don't like notebooks" (Joel Grus) https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1
 * How to...
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
     * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
@@ -750,6 +755,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Job market mistakes (humanities): https://www.chronicle.com/article/5-Big-Picture-Mistakes-New/243475
 * Various
   * 8 tips for saying no by [@APottegard](https://twitter.com/APottegard): http://www.antonpottegaard.dk/download/HowToSayNo.pdf
+  * The Pac-Man rule (Holscher): http://ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/
+    * Always leave room for someone to join the group
   * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
   * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
     * Links on right-hand side of blog
