@@ -145,6 +145,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Funny
       * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
 * Notebooks
+  * nbdime: https://github.com/jupyter/nbdime
+    * Helpful for version control with notebooks
+  * Videos on reproducible data analysis in notebooks (Jake VanderPlas): https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
   * Slides: "I don't like notebooks" (Joel Grus) https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1
 * How to...
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
@@ -619,6 +622,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * LaTeX
   * Getting started: https://nilesjohnson.net/latex.html
     * Code: https://gitlab.com/nilesjohnson/latex_starter
+  * Collaboration
+    * ShareLaTeX: https://www.sharelatex.com/
   * Example style template for journals https://www.leandro-coelho.com/default-latex-article-style-modifications/
   * Thesis templates:
     * U Wolverhamptom: https://github.com/snim2/phdtemplate
@@ -744,6 +749,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Compilations
     * Doing research (Arinivas Akella, CS): https://webpages.uncc.edu/sakella/advice.html
     * Grad school, technical writing, etc. (Mihir Bellare, CS): http://cseweb.ucsd.edu/~mihir/education.html
+* Applying to grad school
+  * Website with lots of advice: https://kcklett.wixsite.com/phduo
 * New faculty
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
