@@ -543,7 +543,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Datasets/databases
 * Note: health-related data is in this [section](#healthcare)
+* Search engine: https://toolbox.google.com/datasetsearch
 * Compilations
+  * Data.gov: https://www.data.gov/
   * From Vanderbilt Biostats: http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets
   * Kaggle: https://www.kaggle.com/datasets
   * Public data sources:
@@ -687,8 +689,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Slightly expanded from [@jtleek](https://github.com/jtleek): https://github.com/jtleek/careerplanning
   * Academic jobs
     * Tons of resources compiled by UM CRLT: http://crlt.umich.edu/PFF_Resources
-* Summer schools
-  * List compiled by Thiago Serra (2018 Version):  https://thiagoserra.com/2018/01/28/summer-2018-schools-on-algorithms-combinatorics-data-science-machine-learning-optimization-and-other-relevant-orms-topics/
+* Winter Schools
+  * List compiled by Thiago Serra (Winter 2018-19):
+   https://thiagoserra.com/2018/08/27/winter-2018-2019-schools-on-algorithms-big-data-data-science-discrete-math-optimization-and-other-relevant-orms-topics/
 
 ### Twitter
 * Communities I appreciate
