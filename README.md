@@ -302,6 +302,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Overview/best practices
   * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
   * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
+* Command line
+  * Overview (William Shotts): http://linuxcommand.org/index.php
+  * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
+  * Intro Slides (UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
 * Remote computing
   * SSH - aka Secure Shell
     * PuTTy https://www.putty.org/
@@ -396,6 +400,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * DSP (Stochastic mixed-integer programs): https://github.com/Argonne-National-Laboratory/DSP
     * ECOS (Second-order conic programs): https://github.com/embotech/ecos, https://www.embotech.com/ECOS
     * OSQP (Operator Splitting Quadratic Program): https://osqp.org/
+    * Mini-CP (Constraint programming): https://minicp.bitbucket.io/
+      *
   * OR-Tools from Google: https://developers.google.com/optimization/
 * Modeling lanugages
   * SolverStudio (free): http://solverstudio.org/
