@@ -480,6 +480,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 ### Operations research-adjacent material
 * Linear Algebra
   * Intro course lectures from Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
+  * Review and reference (Kolter and Do): http://cs229.stanford.edu/section/cs229-linalg.pdf
 * Game theory
   * Intro course lectures from Ben Polak: https://oyc.yale.edu/economics/econ-159
 * Data Science
@@ -495,6 +496,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Google group: https://groups.google.com/forum/#!forum/ml-news/categories
     * CrossValidated: https://stats.stackexchange.com/
   * Textbooks
+    * _A Brief Intro to ML for Engineers_ (Simeone) https://arxiv.org/abs/1709.02840
     * _Fairness in ML_ (Barocas, Hardt, Narayanan) http://fairmlbook.org/
       * Book in progress
   * Technical notes - ML and AI from [@chrisalbon](https://github.com/chrisalbon)
@@ -512,23 +514,25 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Taxonomy of reproducibility: http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf
     * Intro to Monte Carlo tree search: https://int8.io/monte-carlo-tree-search-beginners-guide/
 * Compilation of ML/CS/Math resources (Vodrahalli): https://kiranvodrahalli.github.io/links/
-* Other
-  * Blockchain overview (2 hr video): https://www.youtube.com/watch?v=qOVAbKKSH10
-  * Gentle intro to graph theory (Joshi): https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8
-  * Habits of highly mathematical people (Kun): https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
 * Statistics
+  * StatPrimer (Gerstman): http://www.sjsu.edu/faculty/gerstman/StatPrimer/
   * What test should I use? https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
     * With examples in R, Stata, SAS, SPSS
   * Odds ratios
     * Best practices from JAMA (Norton, Dowd, Maciejewski) https://jamanetwork.com/journals/jama/fullarticle/2686777
       * Maybe paywall
   * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
+* Probability
+  * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
 * Computer science
   * Intro to computing for computer scientists: https://c4cs.github.io/
     * With course lectures
     * E.g., Linux, command line, version control, shells, scripting
   * Frequently asked questions about C: http://c-faq.com/index.html
-
+* Other
+  * Blockchain overview (2 hr video): https://www.youtube.com/watch?v=qOVAbKKSH10
+  * Gentle intro to graph theory (Joshi): https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8
+  * Habits of highly mathematical people (Kun): https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
 
 ### Data visualization
 * Free Textbooks
@@ -630,6 +634,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * LaTeX
   * Getting started: https://nilesjohnson.net/latex.html
     * Code: https://gitlab.com/nilesjohnson/latex_starter
+  * Overview (Wilkins): https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/
   * Collaboration
     * ShareLaTeX: https://www.sharelatex.com/
   * Example style template for journals https://www.leandro-coelho.com/default-latex-article-style-modifications/
