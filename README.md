@@ -496,6 +496,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Google group: https://groups.google.com/forum/#!forum/ml-news/categories
     * CrossValidated: https://stats.stackexchange.com/
   * Textbooks
+    * _Intro to Statistical Learning_ (James et al.) https://www-bcf.usc.edu/~gareth/ISL/
+    * _Elements of Statistical Learning_ (Hastie, Tibshirani, Friedman) https://web.stanford.edu/~hastie/ElemStatLearn/
+      * More technical than James et al. book
+    * _Statistical Learning with Sparsity_ (Hastie, Tibshirani, Wainwright): https://web.stanford.edu/~hastie/StatLearnSparsity/index.html
     * _A Brief Intro to ML for Engineers_ (Simeone) https://arxiv.org/abs/1709.02840
     * _Fairness in ML_ (Barocas, Hardt, Narayanan) http://fairmlbook.org/
       * Book in progress
