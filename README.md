@@ -530,6 +530,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
 * Probability
   * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
+* Mathematics
+  * Primers (Kun): https://jeremykun.com/primers/
 * Computer science
   * Intro to computing for computer scientists: https://c4cs.github.io/
     * With course lectures
@@ -741,15 +743,19 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Diversity and inclusion in the classroom (Laura Albert): https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/
 
 ### Blogs I like (and read occasionally)
-* Math3Ma by [@math3ma](https://twitter.com/math3ma): http://www.math3ma.com/
-* Punk Rock OR by [@lauraalbertphd](https://twitter.com/lauraalbertphd): https://punkrockor.com/
-* Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
-* Azimuth: https://johncarlosbaez.wordpress.com/
-  * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
-* OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
-* Yet Another Math Programming Consultant (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/
-* Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
-* Thiago Serra's blog: https://thiagoserra.com/blog/
+* Operations research-ish
+  * Punk Rock OR by [@lauraalbertphd](https://twitter.com/lauraalbertphd): https://punkrockor.com/
+  * OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
+  * Yet Another Math Programming Consultant (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/
+  * Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
+  * Thiago Serra's blog: https://thiagoserra.com/blog/
+  * Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
+* Other
+ * Math3Ma by [@math3ma](https://twitter.com/math3ma) (math): http://www.math3ma.com/
+ * Math Intersect Programming (Kun): https://jeremykun.com/
+ * Azimuth (various STEM fields trying to save the planet): https://johncarlosbaez.wordpress.com/
+    * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
+ * Armchair Ecology (Poisot, computational biology): https://armchairecology.blog/
 * Humor
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
   * Lego Grad Student: https://brickademics.com/
