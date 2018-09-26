@@ -434,6 +434,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * AIMMS: https://groups.google.com/forum/#!forum/aimms
     * Pyomo: https://groups.google.com/forum/#!forum/pyomo-forum
   * Stack Overflow: https://stackoverflow.com/
+  * IE faculty listserv: https://lists.clemson.edu/mailman/listinfo/iefac.list
+    * E.g., job postings, etc.
 * Overviews
   * Glossary: https://glossary.informs.org/ver2/mpgwiki/index.php?title=Main_Page
   * OR Notes (JE Beasley): http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html
@@ -668,6 +670,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Not free:
         * CCW https://www.ccwdata.org/web/guest/home
     * CDC data/stats: https://www.cdc.gov/DataStatistics/
+      * Chronic disease datasets: https://chronicdata.cdc.gov/
+      * E.g., Maternal and child health: https://chronicdata.cdc.gov/browse?category=Maternal+%26+Child+Health
   * Other
     * Clinical trials: https://clinicaltrials.gov/
     * Tufts Cost-Effectiveness Analysis Registry: http://healtheconomics.tuftsmedicalcenter.org/cear4/Home.aspx
@@ -774,6 +778,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
   * If the 3rd year review goes poorly (Albertson): https://www.chronicle.com/article/Operation-Keep-My-Job-/235535
 * Job search
+  * Academic search (Nagi): http://publish.illinois.edu/engr-mavis/files/2014/09/Academic-Job-Search-2016.pdf
   * Data science jobs by [@robinsones](https://github.com/robinsones): http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/
   * Vitae https://chroniclevitae.com/
     * Database, advice, etc.
