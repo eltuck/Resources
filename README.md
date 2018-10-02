@@ -150,6 +150,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Videos on reproducible data analysis in notebooks (Jake VanderPlas): https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
   * Slides: "I don't like notebooks" (Joel Grus) https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1
 * How to...
+  * Add Python to PATH: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
     * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
   * Manage/use environments:
@@ -321,6 +322,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
 * Other
   * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
+  * How to add environment variables/PATH: https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
 * Text editors
   * Atom: https://atom.io/
   * Vim: https://www.vim.org/
@@ -751,11 +753,11 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Thiago Serra's blog: https://thiagoserra.com/blog/
   * Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
 * Other
- * Math3Ma by [@math3ma](https://twitter.com/math3ma) (math): http://www.math3ma.com/
- * Math Intersect Programming (Kun): https://jeremykun.com/
- * Azimuth (various STEM fields trying to save the planet): https://johncarlosbaez.wordpress.com/
+  * Math3Ma by [@math3ma](https://twitter.com/math3ma) (math): http://www.math3ma.com/
+  * Math Intersect Programming (Kun): https://jeremykun.com/
+  * Azimuth (various STEM fields trying to save the planet): https://johncarlosbaez.wordpress.com/
     * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
- * Armchair Ecology (Poisot, computational biology): https://armchairecology.blog/
+  * Armchair Ecology (Poisot, computational biology): https://armchairecology.blog/
 * Humor
   * Math with Bad Drawings: https://mathwithbaddrawings.com/
   * Lego Grad Student: https://brickademics.com/
