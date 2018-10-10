@@ -293,6 +293,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Save credentials (i.e., username/password):
     https://help.github.com/articles/caching-your-github-password-in-git/
     * Deal with error about local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
+    * Unlink of file issue: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
+      * Essentially: had to close AMPL, then worked fine
   * Specifics (background)
     * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
   * Humor:
@@ -631,8 +633,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Visual abstracts
   * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
 * Policy
-  * (Blog) Connecting Research to Policy https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
-* More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
+  * How to use research to effect policy (Oxfam): https://www.nature.com/articles/s41599-018-0176-7
+  * Connecting research to policy (blog) https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
+  * More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
 * Working with the media
   * http://senseaboutscienceusa.org/media-guide-for-scientists/
 * Writing help
@@ -746,22 +749,22 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Blogs I like (and read occasionally)
 * Operations research-ish
-  * Punk Rock OR by [@lauraalbertphd](https://twitter.com/lauraalbertphd): https://punkrockor.com/
-  * OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
-  * Yet Another Math Programming Consultant (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/
-  * Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
-  * Thiago Serra's blog: https://thiagoserra.com/blog/
-  * Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
+    * Punk Rock OR by [@lauraalbertphd](https://twitter.com/lauraalbertphd): https://punkrockor.com/
+    * OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
+    * Yet Another Math Programming Consultant (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/
+    * Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
+    * Thiago Serra's blog: https://thiagoserra.com/blog/
+    * Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
 * Other
-  * Math3Ma by [@math3ma](https://twitter.com/math3ma) (math): http://www.math3ma.com/
-  * Math Intersect Programming (Kun): https://jeremykun.com/
-  * Azimuth (various STEM fields trying to save the planet): https://johncarlosbaez.wordpress.com/
-    * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
-  * Armchair Ecology (Poisot, computational biology): https://armchairecology.blog/
+    * Math3Ma by [@math3ma](https://twitter.com/math3ma) (math): http://www.math3ma.com/
+    * Math Intersect Programming (Kun): https://jeremykun.com/
+    * Azimuth (various STEM fields trying to save the planet): https://johncarlosbaez.wordpress.com/
+      * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
+    * Armchair Ecology (Poisot, computational biology): https://armchairecology.blog/
 * Humor
-  * Math with Bad Drawings: https://mathwithbaddrawings.com/
-  * Lego Grad Student: https://brickademics.com/
-  * PhD Comics: http://phdcomics.com/comics/most_popular.php
+    * Math with Bad Drawings: https://mathwithbaddrawings.com/
+    * Lego Grad Student: https://brickademics.com/
+    * PhD Comics: http://phdcomics.com/comics/most_popular.php
 
 ### Various advice
 * Grad students
