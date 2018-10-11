@@ -284,9 +284,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Cheat sheets
     * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
     * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
-    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
+    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
   * How to...
+    * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
     * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
     * Clone a repo: https://help.github.com/articles/cloning-a-repository/
     * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
@@ -303,7 +304,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### General coding / computation
 * Overview/best practices
-  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
+  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
   * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
 * Command line
   * Overview (William Shotts): http://linuxcommand.org/index.php
@@ -659,7 +660,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Source code: https://github.com/paulgp/beamer-tips
   * Graphics
     * Tikz and PGF: http://www.texample.net/tikz/
-  * Indicating math mode  
+  * Indicating math mode
     * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
 
 ### Healthcare
