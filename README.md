@@ -150,6 +150,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Videos on reproducible data analysis in notebooks (Jake VanderPlas): https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
   * Slides: "I don't like notebooks" (Joel Grus) https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1
 * How to...
+  * Add Python to PATH: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
     * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
   * Manage/use environments:
@@ -284,15 +285,18 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Cheat sheets
     * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
     * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
-    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
+    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
   * How to...
+    * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
     * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
     * Clone a repo: https://help.github.com/articles/cloning-a-repository/
     * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
     * Save credentials (i.e., username/password):
     https://help.github.com/articles/caching-your-github-password-in-git/
     * Deal with error about local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
+    * Unlink of file issue: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
+      * Essentially: had to close AMPL, then worked fine
   * Specifics (background)
     * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
   * Humor:
@@ -301,7 +305,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### General coding / computation
 * Overview/best practices
-  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
+  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
   * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
   * Good enough practices (Wilson et al.): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
 * Course
@@ -326,6 +330,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
 * Other
   * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
+  * How to add environment variables/PATH: https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
 * Text editors
   * Atom: https://atom.io/
   * Vim: https://www.vim.org/
@@ -534,6 +539,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
 * Probability
   * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
+* Mathematics
+  * Primers (Kun): https://jeremykun.com/primers/
 * Computer science
   * Intro to computing for computer scientists: https://c4cs.github.io/
     * With course lectures
@@ -631,8 +638,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Visual abstracts
   * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
 * Policy
-  * (Blog) Connecting Research to Policy https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
-* More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
+  * How to use research to effect policy (Oxfam): https://www.nature.com/articles/s41599-018-0176-7
+  * Connecting research to policy (blog) https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
+  * More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
 * Working with the media
   * http://senseaboutscienceusa.org/media-guide-for-scientists/
 * Writing help
@@ -656,7 +664,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Source code: https://github.com/paulgp/beamer-tips
   * Graphics
     * Tikz and PGF: http://www.texample.net/tikz/
-  * Indicating math mode  
+  * Indicating math mode
     * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
 
 ### Healthcare
@@ -745,19 +753,23 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Diversity and inclusion in the classroom (Laura Albert): https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/
 
 ### Blogs I like (and read occasionally)
-* Math3Ma by [@math3ma](https://twitter.com/math3ma): http://www.math3ma.com/
-* Punk Rock OR by [@lauraalbertphd](https://twitter.com/lauraalbertphd): https://punkrockor.com/
-* Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
-* Azimuth: https://johncarlosbaez.wordpress.com/
-  * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
-* OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
-* Yet Another Math Programming Consultant (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/
-* Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
-* Thiago Serra's blog: https://thiagoserra.com/blog/
+* Operations research-ish
+    * Punk Rock OR by [@lauraalbertphd](https://twitter.com/lauraalbertphd): https://punkrockor.com/
+    * OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
+    * Yet Another Math Programming Consultant (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/
+    * Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
+    * Thiago Serra's blog: https://thiagoserra.com/blog/
+    * Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
+* Other
+    * Math3Ma by [@math3ma](https://twitter.com/math3ma) (math): http://www.math3ma.com/
+    * Math Intersect Programming (Kun): https://jeremykun.com/
+    * Azimuth (various STEM fields trying to save the planet): https://johncarlosbaez.wordpress.com/
+      * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
+    * Armchair Ecology (Poisot, computational biology): https://armchairecology.blog/
 * Humor
-  * Math with Bad Drawings: https://mathwithbaddrawings.com/
-  * Lego Grad Student: https://brickademics.com/
-  * PhD Comics: http://phdcomics.com/comics/most_popular.php
+    * Math with Bad Drawings: https://mathwithbaddrawings.com/
+    * Lego Grad Student: https://brickademics.com/
+    * PhD Comics: http://phdcomics.com/comics/most_popular.php
 
 ### Various advice
 * Grad students
