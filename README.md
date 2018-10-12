@@ -104,12 +104,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * umap: https://github.com/lmcinnes/umap
   * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
     * Gambit: http://www.gambit-project.org/
-    * Nashpy: http://nashpy.readthedocs.io/en/stable/
-      * Compute equilibria for 2 player games
-    * Axelrod: http://axelrod.readthedocs.io/en/stable/
-      * Iterated prisoner's dilemma
-    * PyNFG: https://pythonhosted.org/PyNFG/
-      * Network form games
+    * Nashpy (compute equilibria for 2-player games): http://nashpy.readthedocs.io/en/stable/
+      * Paper: http://joss.theoj.org/papers/10.21105/joss.00904
+    * Axelrod (Iterated prisoner's dilemma): http://axelrod.readthedocs.io/en/stable/
+    * PyNFG (Network form games): https://pythonhosted.org/PyNFG/
     * lrslib: http://cgm.cs.mcgill.ca/~avis/C/lrs.html
       * Library: lrsnash can be used to compute Nash equilibria
     * SageMath: http://doc.sagemath.org/html/en/reference/game_theory/index.html
@@ -177,8 +175,13 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Two pages: https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf
       * Longer: http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
     * Syntax comparison: base R vs. formula vs. tidyverse: http://www.science.smith.edu/~amcnamara/Syntax-cheatsheet.pdf
+  * Styleguides
+    * From Google: https://google.github.io/styleguide/Rguide.xml
+    * Tidyverse: http://style.tidyverse.org/
   * R Cookbook: http://www.cookbook-r.com/
+* Search engine for R help: https://rseek.org/
 * Learn R
+  * Intro to R for Decision Modelers (Pechlivanoglou et al): https://github.com/DARTH-git/Handbook-R/blob/master/Handbook_in_R_markdown.pdf
   * Intro to R seminar code (IDRE): https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html
   * Collection of tutorials
     * UC Business Analytics: http://uc-r.github.io/
@@ -209,18 +212,20 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * K-means
     * https://uc-r.github.io/kmeans_clustering
 * Operations research
-  * Paper on using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
-  * Website - R for operations research: https://www.r-orms.org/
+  * Overviews
+    * Paper on using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
+  * R for operations research (website): https://www.r-orms.org/
   * ompr (mixed-integer LPs): https://github.com/dirkschumacher/ompr
-  * optplot: https://github.com/dirkschumacher/optplot
-    * Plot optimization models
+  * optplot (plot opt models): https://github.com/dirkschumacher/optplot
+* Simulation
+  * Tutorial on microsimulation (Krijkamp et al.): https://github.com/DARTH-git/Microsimulation-tutorial
 * Visualizations
   * Examples
     * R Graph Gallery: https://www.r-graph-gallery.com/
   * Create figures
     * ggplot2: https://ggplot2.tidyverse.org/
-   * ggpubr: http://www.sthda.com/english/rpkgs/ggpubr/
-     * Wrapper around ggplot - intended to be easier to create pub-ready figures
+    * ggpubr: http://www.sthda.com/english/rpkgs/ggpubr/
+      * Wrapper around ggplot - intended to be easier to create pub-ready figures
   * rvg: https://github.com/davidgohel/rvg
     * Export figures so they can be editable in powerpoint
   * Graphs and networks
@@ -288,13 +293,19 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
   * How to...
     * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
-    * Clone a repo: https://help.github.com/articles/cloning-a-repository/
-    * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
     * Save credentials (i.e., username/password):
     https://help.github.com/articles/caching-your-github-password-in-git/
-    * Deal with error about local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
-    * Unlink of file issue: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
-      * Essentially: had to close AMPL, then worked fine
+    * Exit git log: https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff (soln: type 'q')
+    * Repos
+      * Clone a repo: https://help.github.com/articles/cloning-a-repository/
+      * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
+    * Manage branches
+      * Merge: https://www.atlassian.com/git/tutorials/using-branches/git-merge
+      * Delete: https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
+    * Deal with errors:
+      * Local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
+      * Unlink of file: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
+        * Essentially: had to close AMPL, then worked fine
   * Specifics (background)
     * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
   * Humor:
@@ -405,7 +416,6 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * ECOS (Second-order conic programs): https://github.com/embotech/ecos, https://www.embotech.com/ECOS
     * OSQP (Operator Splitting Quadratic Program): https://osqp.org/
     * Mini-CP (Constraint programming): https://minicp.bitbucket.io/
-      *
   * OR-Tools from Google: https://developers.google.com/optimization/
 * Modeling lanugages
   * SolverStudio (free): http://solverstudio.org/
