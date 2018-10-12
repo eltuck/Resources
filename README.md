@@ -169,6 +169,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Reference
   * Free Textbooks
     * _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
+      * Some solutions (Arnold): https://jrnold.github.io/r4ds-exercise-solutions/
     * _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
   * Cheat sheets: https://www.rstudio.com/resources/cheatsheets/
     * ggplot2:
@@ -289,9 +290,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Cheat sheets
     * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
     * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
-    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
+    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
   * How to...
+    * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
     * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
     * Save credentials (i.e., username/password):
     https://help.github.com/articles/caching-your-github-password-in-git/
@@ -314,8 +316,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### General coding / computation
 * Overview/best practices
-  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/2018/better-coding-practices/
+  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
   * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
+  * Good enough practices (Wilson et al.): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+* Course
+  * Computing for Social Sciences: https://cfss.uchicago.edu/syllabus.html  
+    * Slides, resources, etc.
 * Command line
   * Overview (William Shotts): http://linuxcommand.org/index.php
   * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
@@ -669,7 +675,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Source code: https://github.com/paulgp/beamer-tips
   * Graphics
     * Tikz and PGF: http://www.texample.net/tikz/
-  * Indicating math mode  
+  * Indicating math mode
     * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
 
 ### Healthcare
