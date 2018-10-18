@@ -33,6 +33,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Whirlwind tour from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/WhirlwindTourOfPython
   * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
     * Python for Mathematicians: https://github.com/drvinceknight/Python-Mathematics-Handbook
+  * Scipy lecture notes: http://www.scipy-lectures.org/
+    * Getting started: https://www.scipy-lectures.org/intro/index.html
 * Free Textbooks
   * _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
     * Beginners guide, programming exp. not necessary
@@ -45,8 +47,6 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Overall tutorial
   * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
 * Topics/packages
-  * Scipy
-    * Lecture notes: http://www.scipy-lectures.org/
   * Pandas (data processing)
     * Beginner tutorial from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
     * Intermediate tutorial from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
@@ -168,6 +168,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 ### R
 * Reference
   * Free Textbooks
+    * _Hands-On Programming with R_ (Grolemund): https://rstudio-education.github.io/hopr/
     * _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
       * Some solutions (Arnold): https://jrnold.github.io/r4ds-exercise-solutions/
     * _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
@@ -212,6 +213,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * http://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html
   * K-means
     * https://uc-r.github.io/kmeans_clustering
+  * sociome (social determinants of health) https://rdrr.io/github/NikKrieger/sociome/
 * Operations research
   * Overviews
     * Paper on using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
@@ -249,6 +251,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * GUI to review options on a map: http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
 * Markdown/reports
   * Tufte style for markdown: https://github.com/rstudio/tufte
+  * knitr html template: http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
 * How to...
   * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
   * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
@@ -541,13 +544,18 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Intro to Monte Carlo tree search: https://int8.io/monte-carlo-tree-search-beginners-guide/
 * Compilation of ML/CS/Math resources (Vodrahalli): https://kiranvodrahalli.github.io/links/
 * Statistics
+  * 10 rules to use stats (comp biology): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961
+  * Document and avoid these problems (biostat): http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist
   * StatPrimer (Gerstman): http://www.sjsu.edu/faculty/gerstman/StatPrimer/
   * What test should I use? https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
     * With examples in R, Stata, SAS, SPSS
   * Odds ratios
     * Best practices from JAMA (Norton, Dowd, Maciejewski) https://jamanetwork.com/journals/jama/fullarticle/2686777
       * Maybe paywall
+  * Specific topics
   * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
+  * Experimental design
+    * Warning signs (Norvig): http://norvig.com/experiment-design.html
 * Probability
   * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
 * Mathematics
@@ -654,6 +662,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
 * Working with the media
   * http://senseaboutscienceusa.org/media-guide-for-scientists/
+* Writing for lay outlets
+  * For "The Conversation" (slides, Chang and Czuhajewski): https://www.slideshare.net/cczuhajewski/writing-for-the-conversation-106342981
 * Writing help
   * Lots of resources from Purdue: https://owl.purdue.edu/owl/purdue_owl.html
 * Reference software
@@ -853,6 +863,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Types of validity (Amy Bucher):  http://www.amybucherphd.com/statistical-validity-types/
 * Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
 * Various software
+  * Convert figure to (x,y) data: https://www.digitizeit.de/
   * Compare pdf files: https://draftable.com/compare
   * Accessibility
      * Convert screen to what a color blind person would see: http://colororacle.org/
@@ -880,6 +891,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * (Free) Google Sites: https://sites.google.com/
 * Icons: https://www.iconsdb.com/
   * E.g., the Google Scholar logo
+* Download GoogleMaps to use offline: https://support.google.com/maps/answer/6291838
 * Humor
   * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
     * (I think the original version of this list came from Dana Angluin)
@@ -890,3 +902,4 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Make your own: http://tylervigen.com/discover
   * Create parody O'Reilly book covers: https://dev.to/rly
   * Computer science research topic generator: https://www.cs.purdue.edu/homes/dec/essay.topic.generator.html
+  * Gettysburg address via powerpoint: http://norvig.com/Gettysburg/index.htm
