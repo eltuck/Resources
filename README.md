@@ -284,7 +284,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
     * Make animals say funny things (Yoda is my favorite)
   * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
-  *  GeomMLBStadiums: https://github.com/bdilday/GeomMLBStadiums
+  * GeomMLBStadiums: https://github.com/bdilday/GeomMLBStadiums
     * Draw baseball stadiums in ggplot2
 
 ### GitHub
@@ -322,17 +322,23 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
   * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
   * Good enough practices (Wilson et al.): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
-* Course
-  * Computing for Social Sciences: https://cfss.uchicago.edu/syllabus.html  
-    * Slides, resources, etc.
+* Courses
+  * System and Software Tools (slides): https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml
+  * Intro to computing for computer scientists (lectures): https://c4cs.github.io/
+    * E.g., Linux, command line, version control, shells, scripting
+  * Computing for Social Sciences (slides, resources, etc.): https://cfss.uchicago.edu/syllabus.html
 * Command line
+  * Bash
+    * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
+    * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
   * Overview (William Shotts): http://linuxcommand.org/index.php
   * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
-  * Intro Slides (UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
+  * Intro (slides, UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
+* Linux
+  * Intro course (free online): https://training.linuxfoundation.org/training/introduction-to-linux/
 * Remote computing
-  * SSH - aka Secure Shell
-    * PuTTy https://www.putty.org/
-      * Allows secure remote login even if network insecure
+  * SSH - aka Secure Shell (allows secure remote login even if network insecure)
+    * PuTTy: https://www.putty.org/
   * File transfer
     * (Windows) WinSCP: https://winscp.net/eng/download.php
     * (Mac/Windows) Cyberduck: https://cyberduck.io/
@@ -508,6 +514,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Review and reference (Kolter and Do): http://cs229.stanford.edu/section/cs229-linalg.pdf
 * Game theory
   * Intro course lectures from Ben Polak: https://oyc.yale.edu/economics/econ-159
+* Networks
+  * Bayes nets
+    * Tutorial (Netica): https://www.norsys.com/tutorials/netica/secA/tut_A1.htm
+    * Intro slides (CMU): https://www.cs.cmu.edu/afs/cs/academic/class/15381-s07/www/slides/032707bayesNets1.pdf
 * Data Science
   * How to get started - blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
   * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
@@ -561,9 +571,6 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Mathematics
   * Primers (Kun): https://jeremykun.com/primers/
 * Computer science
-  * Intro to computing for computer scientists: https://c4cs.github.io/
-    * With course lectures
-    * E.g., Linux, command line, version control, shells, scripting
   * Frequently asked questions about C: http://c-faq.com/index.html
 * Other
   * Blockchain overview (2 hr video): https://www.youtube.com/watch?v=qOVAbKKSH10
