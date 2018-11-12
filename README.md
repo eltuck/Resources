@@ -173,6 +173,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Some solutions (Arnold): https://jrnold.github.io/r4ds-exercise-solutions/
     * _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
   * Cheat sheets: https://www.rstudio.com/resources/cheatsheets/
+    * Base R: https://www.povertyactionlab.org/sites/default/files/r-cheat-sheet.pdf
     * ggplot2:
       * Two pages: https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf
       * Longer: http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
@@ -185,9 +186,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Learn R
   * Intro to R for Decision Modelers (Pechlivanoglou et al): https://github.com/DARTH-git/Handbook-R/blob/master/Handbook_in_R_markdown.pdf
   * Intro to R seminar code (IDRE): https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html
-  * Collection of tutorials
+  * Courses/collection of tutorials
     * UC Business Analytics: http://uc-r.github.io/
     * Coding club (Univ. of Edinburgh): https://ourcodingclub.github.io/tutorials/
+    * Stat 545 (R course with many materials online): http://stat545.com/topics.html
   * Websites:
     * R-bloggers: https://www.r-bloggers.com/
     * FAQ on StackOverflow: https://stackoverflow.com/questions/tagged/r-faq
@@ -197,11 +199,13 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Packages/topics
   * Epidemic network modeling: http://statnet.github.io/nme/index.html
   * dplyr
+    * Joins
+      * Cheatsheet (Stat 545): http://stat545.com/bit001_dplyr-cheatsheet.html
+      * Gifs of join types (gadenbuie): https://github.com/gadenbuie/tidy-animated-verbs#tidy-animated-verbs
     * Selecting columns https://suzan.rbind.io/2018/01/dplyr-tutorial-1/
     * Filtering rows
       https://suzan.rbind.io/2018/02/dplyr-tutorial-3/
     * Summarizing and slicing https://suzan.rbind.io/2018/04/dplyr-tutorial-4/
-    * Gifs of join types (gadenbuie): https://github.com/gadenbuie/tidy-animated-verbs#tidy-animated-verbs
   * Bootstrapping
     * slipper - https://github.com/jtleek/slipper
     * boot - https://cran.r-project.org/web/packages/boot/index.html
@@ -884,6 +888,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Poll meeting availability
     * When2Meet: https://www.when2meet.com/
     * When is good: http://whenisgood.net/
+* Word
+  * Changing the Normal template: https://support.office.com/en-us/article/change-the-normal-template-normal-dotm-06de294b-d216-47f6-ab77-ccb5166f98ea
 * Fun OR (or related) applications
   * 2048 using MDPs [@jdleesmiller](https://github.com/jdleesmiller): http://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html
   * Chutes & Ladders as a Markov chain [@jakevdp](https://github.com/jakevdp): https://jakevdp.github.io/blog/2017/12/18/simulating-chutes-and-ladders/#Fundamental-Matrix
