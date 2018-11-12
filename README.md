@@ -222,6 +222,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * optplot (plot opt models): https://github.com/dirkschumacher/optplot
 * Simulation
   * Tutorial on microsimulation (Krijkamp et al.): https://github.com/DARTH-git/Microsimulation-tutorial
+* Health economics
+  * hesim (simulation): http://innovationvalueinitiative.github.io/hesim/
+  * dampack (decision-analytic models): https://github.com/feralaes/dampack
 * Visualizations
   * Examples
     * R Graph Gallery: https://www.r-graph-gallery.com/
@@ -347,6 +350,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Cluster computing
     * PBS overview (batch scripting, 40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
     * Unix
+      * Book: _The Unix Workbench_ (Kross) https://seankross.com/the-unix-workbench/
       * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
 * Other
   * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
@@ -512,6 +516,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Linear Algebra
   * Intro course lectures from Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
   * Review and reference (Kolter and Do): http://cs229.stanford.edu/section/cs229-linalg.pdf
+  * Intro to matrix algebra (handout, Carey): http://ibgwww.colorado.edu/%7Ecarey/p7291dir/handouts/matrix.algebra.pdf
 * Game theory
   * Intro course lectures from Ben Polak: https://oyc.yale.edu/economics/econ-159
 * Networks
@@ -519,7 +524,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Tutorial (Netica): https://www.norsys.com/tutorials/netica/secA/tut_A1.htm
     * Intro slides (CMU): https://www.cs.cmu.edu/afs/cs/academic/class/15381-s07/www/slides/032707bayesNets1.pdf
 * Data Science
-  * How to get started - blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
+  * How to get started
+    * Blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
+    * Plan (Kross): http://seankross.com/notes/data-science-from-scratch/
   * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
   * Directory of lots of data science material: http://www.datasciguide.com/content/
   * Podcast
