@@ -10,16 +10,17 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 ## Table of Contents
 * [Python](#python)
 * [R](#r)
-* [GitHub](#github)
-* [General coding and computation](#general-coding--computation)
 * [AMPL](#ampl)
-* [Other programming languages](#other-programming-languages)
-* [Math programming software](#math-programming-software)
-* [Math programming resources](#math-programming-resources)
+* [Julia](#Julia)
+* [Other languages](#other-programming-languages)
+* [GitHub](#github)
+* [General coding](#general-coding--computation)
+* [Math prog. software](#math-programming-software)
+* [Math prog. resources](#math-programming-resources)
 * [Operations research-adjacent material](#operations-research-adjacent-material)
-* [Data visualization](#data-visualization)
-* [Datasets and databases](#datasetsdatabases)
-* [Communication and dissemination](#communicationdissemination)
+* [Data viz](#data-visualization)
+* [Datasets](#datasetsdatabases)
+* [Communication](#communicationdissemination)
 * [Healthcare](#healthcare)
 * [Jobs and summer schools](#jobssummer-schools)
 * [Funding](#funding)
@@ -294,79 +295,6 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * GeomMLBStadiums: https://github.com/bdilday/GeomMLBStadiums
     * Draw baseball stadiums in ggplot2
 
-### GitHub
-  * Beginner Tutorial: http://try.github.io/
-  * Guide to Git with R: http://happygitwithr.com/
-  * Cheat sheets
-    * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
-    * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
-    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-  * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
-  * How to...
-    * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
-    * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
-    * Save credentials (i.e., username/password):
-    https://help.github.com/articles/caching-your-github-password-in-git/
-    * Exit git log: https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff (soln: type 'q')
-    * Repos
-      * Clone a repo: https://help.github.com/articles/cloning-a-repository/
-      * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
-    * Manage branches
-      * Merge: https://www.atlassian.com/git/tutorials/using-branches/git-merge
-      * Delete: https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
-    * Deal with errors:
-      * Local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
-      * Unlink of file: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
-        * Essentially: had to close AMPL, then worked fine
-  * Specifics (background)
-    * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
-  * Humor:
-    * https://xkcd.com/1597/
-    * https://xkcd.com/1296/
-
-### General coding / computation
-* Overview/best practices
-  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
-  * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
-  * Good enough practices (Wilson et al.): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
-* Courses
-  * System and Software Tools (slides): https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml
-  * Intro to computing for computer scientists (lectures): https://c4cs.github.io/
-    * E.g., Linux, command line, version control, shells, scripting
-  * Computing for Social Sciences (slides, resources, etc.): https://cfss.uchicago.edu/syllabus.html
-* Command line
-  * Bash
-    * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
-    * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
-  * Overview (William Shotts): http://linuxcommand.org/index.php
-  * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
-  * Intro (slides, UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
-* Linux
-  * Intro course (free online): https://training.linuxfoundation.org/training/introduction-to-linux/
-* Remote computing
-  * SSH - aka Secure Shell (allows secure remote login even if network insecure)
-    * PuTTy: https://www.putty.org/
-  * File transfer
-    * (Windows) WinSCP: https://winscp.net/eng/download.php
-    * (Mac/Windows) Cyberduck: https://cyberduck.io/
-    * Large files: Globus: https://www.globus.org/
-      * Basic version for research/education is free
-  * Cluster computing
-    * PBS overview (batch scripting, 40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
-    * Unix
-      * Book: _The Unix Workbench_ (Kross) https://seankross.com/the-unix-workbench/
-      * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
-* Other
-  * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
-  * How to add environment variables/PATH: https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
-* Text editors
-  * Atom: https://atom.io/
-  * Vim: https://www.vim.org/
-    * Vim Adventures (game to learn Vim): https://vim-adventures.com/
-  * Emacs: https://www.gnu.org/software/emacs/
-  * Visual Studio Code: https://code.visualstudio.com/
-  * Sublime: https://www.sublimetext.com/
-  * Nano: https://www.nano-editor.org/
 
 ### AMPL
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
@@ -378,8 +306,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * argmin: https://ampl.com/faqs/i-have-declared-set-s-and-param-b-s-how-do-i-write-an-ampl-expression-for-the-arg-min-of-bi-that-is-the-s-in-s-such-that-bs-equals-the-minimum-of-bi-over-all-i-in-s/
   * Sampling discrete random variables from uniform distribution: https://groups.google.com/forum/#!msg/ampl/Wjl-PC-kkiY/FGgDMedidLkJ
 
-### Other programming languages
-* Julia
+### Julia
   * Optimization in Julia: http://www.juliaopt.org/
     * Nice summary of solvers at bottom of page
   * Modeling languages
@@ -396,10 +323,15 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Complementarity.jl: https://github.com/chkwon/Complementarity.jl
       * Mixed-complementarity and math programs with equilibrium problems
     * CLP - COIN-OR LP solver: https://github.com/JuliaOpt/Clp.jl
-  * Other math
+  * Other math/CS
+    * Evaluate derivatives: http://www.juliadiff.org/
     * Differential equations: http://juliadiffeq.org/
+    * Calculus: https://github.com/JuliaMath/Calculus.jl
+    * Machine learning: https://github.com/JuliaML
   * Plots: http://docs.juliaplots.org/latest/
   * Timer outputs: https://github.com/KristofferC/TimerOutputs.jl
+
+### Other programming languages
 * SQL
   * Sequel Pro (for Mac): https://www.sequelpro.com/
 * MATLAB
@@ -407,6 +339,80 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Stochastic dual dynamic programming
   * Optimization (paid): https://www.mathworks.com/products/optimization.html
   * Global optimization (paid): https://www.mathworks.com/products/global-optimization.html
+
+### GitHub
+    * Beginner Tutorial: http://try.github.io/
+    * Guide to Git with R: http://happygitwithr.com/
+    * Cheat sheets
+      * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
+      * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
+      * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+    * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
+    * How to...
+      * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
+      * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
+      * Save credentials (i.e., username/password):
+      https://help.github.com/articles/caching-your-github-password-in-git/
+      * Exit git log: https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff (soln: type 'q')
+      * Repos
+        * Clone a repo: https://help.github.com/articles/cloning-a-repository/
+        * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
+      * Manage branches
+        * Merge: https://www.atlassian.com/git/tutorials/using-branches/git-merge
+        * Delete: https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
+      * Deal with errors:
+        * Local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
+        * Unlink of file: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
+          * Essentially: had to close AMPL, then worked fine
+    * Specifics (background)
+      * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
+    * Humor:
+      * https://xkcd.com/1597/
+      * https://xkcd.com/1296/
+
+  ### General coding / computation
+  * Overview/best practices
+    * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
+    * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
+    * Good enough practices (Wilson et al.): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+  * Courses
+    * System and Software Tools (slides): https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml
+    * Intro to computing for computer scientists (lectures): https://c4cs.github.io/
+      * E.g., Linux, command line, version control, shells, scripting
+    * Computing for Social Sciences (slides, resources, etc.): https://cfss.uchicago.edu/syllabus.html
+  * Command line
+    * Bash
+      * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
+      * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
+    * Overview (William Shotts): http://linuxcommand.org/index.php
+    * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
+    * Intro (slides, UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
+  * Linux
+    * Intro course (free online): https://training.linuxfoundation.org/training/introduction-to-linux/
+  * Remote computing
+    * SSH - aka Secure Shell (allows secure remote login even if network insecure)
+      * PuTTy: https://www.putty.org/
+    * File transfer
+      * (Windows) WinSCP: https://winscp.net/eng/download.php
+      * (Mac/Windows) Cyberduck: https://cyberduck.io/
+      * Large files: Globus: https://www.globus.org/
+        * Basic version for research/education is free
+    * Cluster computing
+      * PBS overview (batch scripting, 40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
+      * Unix
+        * Book: _The Unix Workbench_ (Kross) https://seankross.com/the-unix-workbench/
+        * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
+  * Other
+    * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
+    * How to add environment variables/PATH: https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
+  * Text editors
+    * Atom: https://atom.io/
+    * Vim: https://www.vim.org/
+      * Vim Adventures (game to learn Vim): https://vim-adventures.com/
+    * Emacs: https://www.gnu.org/software/emacs/
+    * Visual Studio Code: https://code.visualstudio.com/
+    * Sublime: https://www.sublimetext.com/
+    * Nano: https://www.nano-editor.org/
 
 ### Math programming software
 * Overviews
@@ -483,6 +489,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Test sets
   * MIPLIB: http://miplib.zib.de/
   * OR Library: http://people.brunel.ac.uk/~mastjjb/jeb/info.html
+  * TSPLIB: https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/
+  * Networks (DIMACS): http://networkrepository.com/dimacs.php
 * Course resources
   * Math Programming (Dimitris Bertsimas):
     - Lecture notes (Fall 2009) - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
@@ -619,6 +627,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Public datasets: https://github.com/awesomedata/awesome-public-datasets
   * Compilation of datasets available via various R packages: https://vincentarelbundock.github.io/Rdatasets/datasets.html
   * Network datasets
+    * From DIMACS: http://networkrepository.com/dimacs.php
     * From [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
     * From [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
   * Time series
@@ -832,6 +841,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
   * If the 3rd year review goes poorly (Albertson): https://www.chronicle.com/article/Operation-Keep-My-Job-/235535
+  * Staying sane on the tenure track (Henderson): https://people.orie.cornell.edu/shane/pubs/StayingSane.pdf
 * Job search
   * Academic search (Nagi): http://publish.illinois.edu/engr-mavis/files/2014/09/Academic-Job-Search-2016.pdf
   * Data science jobs by [@robinsones](https://github.com/robinsones): http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/
@@ -912,6 +922,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Icons: https://www.iconsdb.com/
   * E.g., the Google Scholar logo
 * Download GoogleMaps to use offline: https://support.google.com/maps/answer/6291838
+* Math genealogy project: https://genealogy.math.ndsu.nodak.edu/index.php
 * Humor
   * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
     * (I think the original version of this list came from Dana Angluin)
