@@ -147,7 +147,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * nbdime: https://github.com/jupyter/nbdime
     * Helpful for version control with notebooks
   * Videos on reproducible data analysis in notebooks (Jake VanderPlas): https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
-  * Slides: "I don't like notebooks" (Joel Grus) https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1
+  * "I don't like notebooks" (slides, Joel Grus) https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1
+  * "I like notebooks: Response to Joel Grus" (slides, Hopper): https://docs.google.com/presentation/d/1XmbeH_sdOKqhi05_FbH2EdRw948i8IvBz1PdfJGbhf4/edit#slide=id.p
 * How to...
   * Add Python to PATH: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
@@ -219,6 +220,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * K-means
     * https://uc-r.github.io/kmeans_clustering
   * sociome (social determinants of health) https://rdrr.io/github/NikKrieger/sociome/
+  * Stats
+    * precisely (estimate power size based on precision): https://github.com/malcolmbarrett/precisely
 * Operations research
   * Overviews
     * Paper on using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
@@ -251,6 +254,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Spatial data
     * sf package (simple features): https://github.com/r-spatial/sf
   * Maps
+    * ggmap: https://github.com/dkahle/ggmap
+      * Using Stamen maps (Tay): https://statisticaloddsandends.wordpress.com/2018/10/25/getting-started-stamen-maps-with-ggmap/
     * urbnmapr: https://github.com/UrbanInstitute/urbnmapr
        * State and county maps
   * Colors / themes
@@ -341,34 +346,34 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Global optimization (paid): https://www.mathworks.com/products/global-optimization.html
 
 ### GitHub
-    * Beginner Tutorial: http://try.github.io/
-    * Guide to Git with R: http://happygitwithr.com/
-    * Cheat sheets
-      * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
-      * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
-      * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-    * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
-    * How to...
-      * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
-      * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
-      * Save credentials (i.e., username/password):
+  * Beginner Tutorial: http://try.github.io/
+  * Guide to Git with R: http://happygitwithr.com/
+  * Cheat sheets
+    * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
+    * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
+    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
+  * How to...
+    * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
+    * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
+    * Save credentials (i.e., username/password):
       https://help.github.com/articles/caching-your-github-password-in-git/
-      * Exit git log: https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff (soln: type 'q')
-      * Repos
-        * Clone a repo: https://help.github.com/articles/cloning-a-repository/
-        * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
-      * Manage branches
-        * Merge: https://www.atlassian.com/git/tutorials/using-branches/git-merge
-        * Delete: https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
-      * Deal with errors:
-        * Local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
-        * Unlink of file: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
-          * Essentially: had to close AMPL, then worked fine
-    * Specifics (background)
-      * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
-    * Humor:
-      * https://xkcd.com/1597/
-      * https://xkcd.com/1296/
+    * Exit git log: https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff (soln: type 'q')
+    * Repos
+      * Clone a repo: https://help.github.com/articles/cloning-a-repository/
+      * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
+    * Manage branches
+      * Merge: https://www.atlassian.com/git/tutorials/using-branches/git-merge
+      * Delete: https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
+    * Deal with errors:
+      * Local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
+      * Unlink of file: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
+        * Essentially: had to close AMPL, then worked fine
+  * Specifics (background)
+    * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
+  * Humor:
+    * https://xkcd.com/1597/
+    * https://xkcd.com/1296/
 
   ### General coding / computation
   * Overview/best practices
@@ -463,6 +468,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 ### Math programming resources
 * Textbooks available for free
   * _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
+  * _Decision Modeling_ (David M. Tulett, author-provided source): https://linney.mun.ca/pages/view.php?ref=36808
+    * Optimization for undergrads
   * _Convex Optimization_ (Stephen Boyd and Lieven Vandenberghe) http://www.seas.ucla.edu/~vandenbe/cvxbook.html
   * _MOSEK Modeling Cookbook_ https://themosekblog.blogspot.dk/2018/05/new-modeling-cookbook.html
     * Conic optimization, not specific to MOSEK solver
@@ -477,6 +484,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * AIMMS: https://groups.google.com/forum/#!forum/aimms
     * Pyomo: https://groups.google.com/forum/#!forum/pyomo-forum
   * Stack Overflow: https://stackoverflow.com/
+  * Optimization Online (preprint site): http://www.optimization-online.org/
   * IE faculty listserv: https://lists.clemson.edu/mailman/listinfo/iefac.list
     * E.g., job postings, etc.
 * Overviews
@@ -799,6 +807,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 ### Teaching
 * Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
 * Diversity and inclusion in the classroom (Laura Albert): https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/
+* Blogposts
+  * Teaching math (K-12, Milos): https://momentssnippetsspirals.wordpress.com/2015/04/07/where-direct-instruction-fails-willingham-memorization-and-conceptual-understanding-2/
 
 ### Blogs I like (and read occasionally)
 * Operations research-ish
@@ -923,6 +933,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * E.g., the Google Scholar logo
 * Download GoogleMaps to use offline: https://support.google.com/maps/answer/6291838
 * Math genealogy project: https://genealogy.math.ndsu.nodak.edu/index.php
+* User interfaces
+  * Terrible elevator control panels (Bartholdi): https://www2.isye.gatech.edu/people/faculty/John_Bartholdi/misc/elevators/elevators.html
 * Humor
   * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
     * (I think the original version of this list came from Dana Angluin)
