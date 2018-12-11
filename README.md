@@ -116,6 +116,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Machine learning
       * Flowchart: choosing the right estimator: http://scikit-learn.org/stable/tutorial/machine_learning_map/
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
+      * Checklist before releasing (Almeida): http://queirozf.com/entries/heads-up-for-deploying-scikit-learn-models-to-production-quick-checklist
   * Supply chain
     * Supplychainpy: https://github.com/KevinFasusi/supplychainpy
   * Webscraping
@@ -150,6 +151,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * "I don't like notebooks" (slides, Joel Grus) https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1
   * "I like notebooks: Response to Joel Grus" (slides, Hopper): https://docs.google.com/presentation/d/1XmbeH_sdOKqhi05_FbH2EdRw948i8IvBz1PdfJGbhf4/edit#slide=id.p
 * How to...
+  * Run code: https://marisacarlos.com/pages/how-to-run-python-file
   * Add Python to PATH: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
     * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
@@ -198,8 +200,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Communities
   * Tidy Tuesdays - a weekly data viz project https://github.com/rfordatascience/tidytuesday/blob/master/README.md
   * Community to walk through _R for Data Science_ book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
+  * R-Ladies Community (on Slack): https://rladies-community-slack.herokuapp.com/
 * Packages/topics
   * Epidemic network modeling: http://statnet.github.io/nme/index.html
+    * EpiModel-Gallery (extensions): https://github.com/statnet/EpiModel-Gallery
   * dplyr
     * Joins
       * Cheatsheet (Stat 545): http://stat545.com/bit001_dplyr-cheatsheet.html
@@ -390,6 +394,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
       * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
     * Overview (William Shotts): http://linuxcommand.org/index.php
+    * Short overview (Carlos, for Mac users): https://marisacarlos.com/pages/command-line-basics
     * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
     * Intro (slides, UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
   * Linux
@@ -442,6 +447,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * NEOS:
       * https://neos-server.org/neos/
       * https://neos-guide.org/
+    * Concorde (TSP - traveling salesman): http://www.math.uwaterloo.ca/tsp/concorde/index.html
     * OpenSolver: https://opensolver.org/
       * Excel add-in (extends the standard Excel solver)
     * Ipopt (nonlinear, local): https://projects.coin-or.org/Ipopt
@@ -499,6 +505,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * OR Library: http://people.brunel.ac.uk/~mastjjb/jeb/info.html
   * TSPLIB: https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/
   * Networks (DIMACS): http://networkrepository.com/dimacs.php
+  * MINLP, in AMPL: https://wiki.mcs.anl.gov/leyffer/index.php/MacMINLP
 * Course resources
   * Math Programming (Dimitris Bertsimas):
     - Lecture notes (Fall 2009) - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
@@ -519,11 +526,24 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * OR societies around the world: http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html
   * COIN-OR Foundation: https://www.coin-or.org/
     * Resources: https://www.coin-or.org/resources/
-* Benders Decomposition
-  * Using callbacks to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin): https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html
-  * Examples:
-    * In AMPL: https://ampl.com/NEW/LOOP2/
-    * With callbacks by [@vitaut](https://github.com/vitaut): http://www.zverovich.net/2013/09/01/modern-benders-decomposition-in-ampl.html
+* Topics
+  * Benders Decomposition
+    * Using callbacks to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin): https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html
+    * Examples:
+      * In AMPL: https://ampl.com/NEW/LOOP2/
+      * With callbacks by [@vitaut](https://github.com/vitaut): http://www.zverovich.net/2013/09/01/modern-benders-decomposition-in-ampl.html
+  * Disjunctive programming
+    * Overview from GAMS: https://www.gams.com/latest/docs/UG_EMP_DisjunctiveProgramming.html
+    * Video (Ruiz): https://www.youtube.com/watch?v=dfgzaVd8gLg
+  * MINLP (Mixed-integer nonlinear programming)
+    * Overview (Grossmann); http://egon.cheme.cmu.edu/ewocp/docs/EWOMINLPGrossmann.pdf
+    * From Leyffer and Linderoth, 2005: http://coral.ie.lehigh.edu/wp-content/uploads/presentations/siopt-05-minlp-presentation.pdf
+  * Nonlinear optimization
+    * From Biegler: http://cepac.cheme.cmu.edu/pasilectures/biegler/BieglerLecture.pdf
+    * Short course slides (Wachter): https://www.minlp.org/pdf/Bologna07.pdf
+  * SDP (Semidefinite programming)
+    * (Rendl 1) http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro1.pdf
+    * (Rendl 2) http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro2.pdf
 * How to...
   * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
   * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
@@ -534,8 +554,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Operations research-adjacent material
 * Linear Algebra
-  * Intro course lectures from Gilbert Strang: https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
-  * Review and reference (Kolter and Do): http://cs229.stanford.edu/section/cs229-linalg.pdf
+  * Videos
+    * Intuitive overview (~2hrs, 3Blue1Brown): https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+    * Intro course lectures (Strang): https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
+  * Review and reference (handout, Kolter and Do): http://cs229.stanford.edu/section/cs229-linalg.pdf
   * Intro to matrix algebra (handout, Carey): http://ibgwww.colorado.edu/%7Ecarey/p7291dir/handouts/matrix.algebra.pdf
 * Game theory
   * Intro course lectures from Ben Polak: https://oyc.yale.edu/economics/econ-159
@@ -579,24 +601,25 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * How decision trees work (Rohrer): https://brohrer.github.io/how_decision_trees_work.html
     * Taxonomy of reproducibility: http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf
     * Intro to Monte Carlo tree search: https://int8.io/monte-carlo-tree-search-beginners-guide/
+    * Data leakage (Brownlee): https://machinelearningmastery.com/data-leakage-machine-learning/
 * Compilation of ML/CS/Math resources (Vodrahalli): https://kiranvodrahalli.github.io/links/
 * Statistics
   * 10 rules to use stats (comp biology): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961
   * Document and avoid these problems (biostat): http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist
   * StatPrimer (Gerstman): http://www.sjsu.edu/faculty/gerstman/StatPrimer/
-  * What test should I use? https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
-    * With examples in R, Stata, SAS, SPSS
+  * Tests
+    * What test should I use? (Examples in R, Stata, SAS, SPSS) https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
+    * T-tests: https://pharmafactz.com/pharmaceutical-calculations-comparing-two-means-using-t-test/
   * Odds ratios
-    * Best practices from JAMA (Norton, Dowd, Maciejewski) https://jamanetwork.com/journals/jama/fullarticle/2686777
-      * Maybe paywall
+    * Best practices from JAMA (Norton, Dowd, Maciejewski, paywall) https://jamanetwork.com/journals/jama/fullarticle/2686777
   * Specific topics
-  * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
-  * Experimental design
-    * Warning signs (Norvig): http://norvig.com/experiment-design.html
+    * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
+    * Experimental design - warning signs (Norvig): http://norvig.com/experiment-design.html
 * Probability
   * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
 * Mathematics
   * Primers (Kun): https://jeremykun.com/primers/
+  * Notes (Conrad): http://www.math.uconn.edu/~kconrad/blurbs/
 * Computer science
   * Frequently asked questions about C: http://c-faq.com/index.html
 * Other
@@ -722,6 +745,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Tikz and PGF: http://www.texample.net/tikz/
   * Indicating math mode
     * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
+* Writing a book
+  * Self-publishing (Kun): https://medium.com/@jeremyjkun/on-self-publishing-a-programmers-introduction-to-mathematics-1472b7511c99?curator=MediaREDEF
 
 ### Healthcare
 * Guides
@@ -747,6 +772,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * NHANES (in person): https://www.cdc.gov/nchs/nhanes/index.htm
     * BRFSS (phone): https://www.cdc.gov/brfss/annual_data/annual_data.htm
       * Pronounced "Burfiss"
+* Methods
+  * Pharmacy concentration calcs: https://pharmafactz.com/pharmaceutical-calculations-concentrations/
 * Newsletters
   * CDC's MMWR: https://www.cdc.gov/mmwr/index.html
     * Morbidity and Mortality Weekly Report
@@ -866,6 +893,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
     * Links on right-hand side of blog
   * When your data science project doesn't work: https://medium.com/@skyetetra/so-your-data-science-project-isnt-working-7bf57e3f12f1
+  * Blogs for female consultants/bus. travelers: https://corporette.com/resources-and-blogs-for-female-consultants/
+  * Business clothes for women (Stern): https://twitter.com/arieldora/status/1072138548269195264
 * Skills
   * Reading papers by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/readingpapers
   * Writing lit reviews (Raul Pacheco-Vega): http://www.raulpacheco.org/resources/literature-reviews/
@@ -923,10 +952,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Beer game using AI: https://beergame.opexanalytics.com/#/
 * Websites
   * (Free) Hosted by github: https://pages.github.com/
+    * Tutorial (Carlos): https://marisacarlos.com/pages/create-simple-academic-website
     * Themes: https://github.com/topics/jekyll-theme
-    * Simple one for academics https://github.com/academicpages/academicpages.github.io
-      * Example of what it looks like: https://academicpages.github.io/
-    * Template for labs: http://www.allanlab.org/aboutwebsite.html
+      * Simple one for academics: https://github.com/academicpages/academicpages.github.io
+      * Template for labs: http://www.allanlab.org/aboutwebsite.html
   * (Free/Paid) Wix: https://www.wix.com
   * (Free) Google Sites: https://sites.google.com/
 * Icons: https://www.iconsdb.com/
