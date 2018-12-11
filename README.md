@@ -393,10 +393,11 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Bash
       * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
       * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
-    * Overview (William Shotts): http://linuxcommand.org/index.php
-    * Short overview (Carlos, for Mac users): https://marisacarlos.com/pages/command-line-basics
+    * Overviews
+      * Short (Carlos, for Mac users): https://marisacarlos.com/pages/command-line-basics      
+      * Intro slides (UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
+      * (Shotts): http://linuxcommand.org/index.php
     * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
-    * Intro (slides, UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
   * Linux
     * Intro course (free online): https://training.linuxfoundation.org/training/introduction-to-linux/
   * Remote computing
