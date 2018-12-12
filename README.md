@@ -154,14 +154,19 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * "I like notebooks: Response to Joel Grus" (slides, Hopper): https://docs.google.com/presentation/d/1XmbeH_sdOKqhi05_FbH2EdRw948i8IvBz1PdfJGbhf4/edit#slide=id.p
 * How to...
   * Run code: https://marisacarlos.com/pages/how-to-run-python-file
-  * Add Python to PATH: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
+  * Set up
+    * Add Python to PATH: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
+    * Install packages that aren't available via conda: https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment
+    * Install TensorFlow: https://medium.com/@Oysiyl/install-tensorflow-1-8-0-with-gpu-from-source-on-ubuntu-18-04-bionic-beaver-35cfa9df3600
+    * Manage/use environments:
+      * https://conda.io/docs/user-guide/tasks/manage-environments.html
+      * https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
+  * Export to file
+    * Strings: https://www.guru99.com/reading-and-writing-files-in-python.html
+    * Numpy array to txt: https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.savetxt.html
+    * Numpy array to csv: https://stackoverflow.com/questions/6081008/dump-a-numpy-array-into-a-csv-file
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
     * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
-  * Manage/use environments:
-    * https://conda.io/docs/user-guide/tasks/manage-environments.html
-    * https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
-  * Install packages that aren't available via conda: https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment
-  * Install TensorFlow: https://medium.com/@Oysiyl/install-tensorflow-1-8-0-with-gpu-from-source-on-ubuntu-18-04-bionic-beaver-35cfa9df3600
 * What's a...
   * Generator: https://stackoverflow.com/questions/1756096/understanding-generators-in-python
   * _pycache_ file:
@@ -199,6 +204,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Websites:
     * R-bloggers: https://www.r-bloggers.com/
     * FAQ on StackOverflow: https://stackoverflow.com/questions/tagged/r-faq
+    * R Weekly (new R resources every week): https://rweekly.org/
 * Communities
   * Tidy Tuesdays - a weekly data viz project https://github.com/rfordatascience/tidytuesday/blob/master/README.md
   * Community to walk through _R for Data Science_ book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
@@ -268,50 +274,123 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Maps
     * ggmap: https://github.com/dkahle/ggmap
       * Using Stamen maps (Tay): https://statisticaloddsandends.wordpress.com/2018/10/25/getting-started-stamen-maps-with-ggmap/
-    * urbnmapr: https://github.com/UrbanInstitute/urbnmapr
-       * State and county maps
+    * urbnmapr (state and county): https://github.com/UrbanInstitute/urbnmapr
   * Colors / themes
     * RColorBrewer
       * Explanation (by chelsea in R): https://moderndata.plot.ly/create-colorful-graphs-in-r-with-rcolorbrewer-and-plotly/
       * GUI to review options on a map: http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
 * Markdown/reports
-  * Tufte style for markdown: https://github.com/rstudio/tufte
+  * Thesis template: https://rosannavanhespenresearch.wordpress.com/category/writing-your-thesis-with-r-markdown/
   * knitr html template: http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+  * Tufte style: https://github.com/rstudio/tufte
 * How to...
-  * Rearrange categories in a plot https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
-  * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
-  * Plot all data in background on faceted ggplot2 figures: https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2
-  * Iteratively make plots
-    * Using loops: https://ourcodingclub.github.io/2017/02/08/funandloops.html
-    * Using purrr by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
-  * Plot multiple figures
-    * Faceting (must be same plot type): https://stackoverflow.com/questions/31798162/generating-multiple-plots-in-ggplot-by-factor
-    * cowplot (Claus Wilke): https://cran.r-project.org/web/packages/cowplot/vignettes/plot_grid.html
-      * Shared legends: https://cran.r-project.org/web/packages/cowplot/vignettes/shared_legends.html
-    * GridExtra (paneling ggplot figures): https://www.r-bloggers.com/extra-extra-get-your-gridextra/
-    * Multiplot function: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
-    * If using base R: https://www.statmethods.net/advgraphs/layout.html
-  * Convert axes to percents: https://stackoverflow.com/questions/27433798/how-to-change-y-axis-range-to-percent-from-number-in-barplot-with-r
+  * Set up
+    * Update R (run in RGui, not RStudio): https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol
+    * Have your code text you when done running: https://www.r-bloggers.com/let-r-python-send-messages-when-the-algorithms-are-done-training/
+  * Plot things
+    * Rearrange categories: https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
+    * Convert axes to percents: https://stackoverflow.com/questions/27433798/how-to-change-y-axis-range-to-percent-from-number-in-barplot-with-r
+    * Plot all data in background on faceted ggplot2 figures: https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2
+    * Iteratively make plots
+      * Using loops: https://ourcodingclub.github.io/2017/02/08/funandloops.html
+      * Using purrr by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
+    * Plot multiple figures
+      * Faceting (must be same plot type): https://stackoverflow.com/questions/31798162/generating-multiple-plots-in-ggplot-by-factor
+      * cowplot (Claus Wilke): https://cran.r-project.org/web/packages/cowplot/vignettes/plot_grid.html
+        * Shared legends: https://cran.r-project.org/web/packages/cowplot/vignettes/shared_legends.html
+      * GridExtra (paneling ggplot figures): https://www.r-bloggers.com/extra-extra-get-your-gridextra/
+      * Multiplot function: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
+      * If using base R: https://www.statmethods.net/advgraphs/layout.html
+    * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
   * Fit distributions: http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
   * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
-  * Update R: https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol
-    * Run in RGui rather than RStudio
-  * Add code to text you when your model is done running:
-    * https://www.r-bloggers.com/let-r-python-send-messages-when-the-algorithms-are-done-training/
-      * Uses Telegram's Bot API: https://core.telegram.org/api
 * What is...
   * :: https://stackoverflow.com/a/35241015
   * Pipe operator %>%
     * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
     * Longer from DataCamp: https://www.datacamp.com/community/tutorials/pipe-r-tutorial
   * Environments, namespaces, etc. (Suraj Gupta): http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
-* Funny or fun
+* Humor or fun
   * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
     * Make animals say funny things (Yoda is my favorite)
   * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
   * GeomMLBStadiums: https://github.com/bdilday/GeomMLBStadiums
     * Draw baseball stadiums in ggplot2
 
+### GitHub
+  * Beginner Tutorial: http://try.github.io/
+  * Guide to Git with R: http://happygitwithr.com/
+  * Cheat sheets
+    * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
+    * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
+    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
+  * How to...
+    * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
+    * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
+    * Save credentials (i.e., username/password):
+    https://help.github.com/articles/caching-your-github-password-in-git/
+    * Exit git log: https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff (soln: type 'q')
+    * Repos
+      * Clone a repo: https://help.github.com/articles/cloning-a-repository/
+      * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
+    * Manage branches
+      * Merge: https://www.atlassian.com/git/tutorials/using-branches/git-merge
+      * Delete: https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
+    * Deal with errors:
+      * Local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
+      * Unlink of file: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
+        * Essentially: had to close AMPL, then worked fine
+  * Specifics (background)
+    * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
+  * Humor:
+    * https://xkcd.com/1597/
+    * https://xkcd.com/1296/
+
+### General coding / computation
+* Overview/best practices
+  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
+  * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
+  * Good enough practices (Wilson et al.): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+  * Coding standards (EECS 280, UM): https://eecs280staff.github.io/eecs280.org/assets/EECS_280_Coding_Standards.pdf
+* Courses
+  * System and Software Tools (slides): https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml
+  * Intro to computing for computer scientists (lectures): https://c4cs.github.io/
+    * E.g., Linux, command line, version control, shells, scripting
+  * Computing for Social Sciences (slides, resources, etc.): https://cfss.uchicago.edu/syllabus.html
+* Command line
+  * Bash
+    * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
+    * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
+  * Overview (William Shotts): http://linuxcommand.org/index.php
+  * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
+  * Intro (slides, UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
+* Linux
+  * Intro course (free online): https://training.linuxfoundation.org/training/introduction-to-linux/
+* Remote computing
+  * SSH - aka Secure Shell (allows secure remote login even if network insecure)
+    * PuTTy: https://www.putty.org/
+  * File transfer
+    * (Windows) WinSCP: https://winscp.net/eng/download.php
+    * (Mac/Windows) Cyberduck: https://cyberduck.io/
+    * Large files: Globus: https://www.globus.org/
+      * Basic version for research/education is free
+  * Cluster computing
+    * PBS overview (batch scripting, 40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
+    * Unix
+      * Book: _The Unix Workbench_ (Kross) https://seankross.com/the-unix-workbench/
+      * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
+* Other
+  * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
+  * How to add environment variables/PATH: https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
+* Text editors
+  * Atom: https://atom.io/
+  * Vim: https://www.vim.org/
+    * Vim Adventures (game to learn Vim): https://vim-adventures.com/
+  * Emacs: https://www.gnu.org/software/emacs/
+  * Visual Studio Code: https://code.visualstudio.com/
+  * Sublime: https://www.sublimetext.com/
+  * Nano: https://www.nano-editor.org/
 
 ### AMPL
 * (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
@@ -622,9 +701,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Odds ratios
     * Best practices from JAMA (Norton, Dowd, Maciejewski, paywall) https://jamanetwork.com/journals/jama/fullarticle/2686777
   * Specific topics
-    * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
-    * Experimental design - warning signs (Norvig): http://norvig.com/experiment-design.html
-    * Overview of survival analysis (Grace-Martin): https://www.theanalysisfactor.com/the-six-types-of-survival-analysis-and-challenges-in-learning-them/
+    * Dirichlet processes (notes by [@tdhopper](https://github.com/tdhopper)): http://dp.tdhopper.com/
+    * Experimental design (warning signs, Norvig): http://norvig.com/experiment-design.html
+    * Survival analysis, overview (Grace-Martin): https://www.theanalysisfactor.com/the-six-types-of-survival-analysis-and-challenges-in-learning-them/
+  * Same stats for different data: https://www.autodeskresearch.com/publications/samestats      
 * Probability
   * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
 * Mathematics
@@ -873,6 +953,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Guidebook for succeeding in the PhD (Alex Eble, econ): https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf
     * If that link gets broken, perhaps also available on this page: http://www.alexeble.com/advice/
   * Succeeding in the PhD (Dredze, Wallach; computer science): http://www.cs.jhu.edu/~mdredze/publications/HowtoBeaSuccessfulPhDStudent.pdf
+  * One year to dissertation (McGowan)
+    * Blogpost: https://livefreeordichotomize.com/2018/09/14/one-year-to-dissertate/
+    * Files on github: https://github.com/LucyMcGowan/dissertation-toolkit
   * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
   * For female grad students (political science): https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit
     * Google doc - compiled by [@dianazobrien](https://twitter.com/dianazobrien)
@@ -880,6 +963,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * The Professor Is In (Karen Kelsky): http://theprofessorisin.com/
     * Blog with various academic advice
   * Compilations
+    * Many resources (Pacheco-Vega, polisci/georgraphy): http://www.raulpacheco.org/resources/
     * Doing research (Arinivas Akella, CS): https://webpages.uncc.edu/sakella/advice.html
     * Grad school, technical writing, etc. (Mihir Bellare, CS): http://cseweb.ucsd.edu/~mihir/education.html
 * Undergrad research
