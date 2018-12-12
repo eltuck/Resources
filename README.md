@@ -113,6 +113,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Library: lrsnash can be used to compute Nash equilibria
     * SageMath: http://doc.sagemath.org/html/en/reference/game_theory/index.html
       * Games: cooperative with finite players; matching; normal form with N players
+  * Math
+    * SageMath (textbook): http://sagebook.gforge.inria.fr/english.html
   * Machine learning
       * Flowchart: choosing the right estimator: http://scikit-learn.org/stable/tutorial/machine_learning_map/
       * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
@@ -234,6 +236,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * optplot (plot opt models): https://github.com/dirkschumacher/optplot
 * Simulation
   * Tutorial on microsimulation (Krijkamp et al.): https://github.com/DARTH-git/Microsimulation-tutorial
+* Statistics
+  * Survival analysis
+    * Base package (survival): https://cran.r-project.org/web/packages/survival/index.html
+    * Improved visuals (survminer): http://www.sthda.com/english/wiki/survminer-r-package-survival-data-analysis-and-visualization
+      * Cheatsheet: https://rpkgs.datanovia.com/survminer/survminer_cheatsheet.pdf
+    * How to do: https://www.datacamp.com/community/tutorials/survival-analysis-R
 * Health economics
   * hesim (simulation): http://innovationvalueinitiative.github.io/hesim/
   * dampack (decision-analytic models): https://github.com/feralaes/dampack
@@ -394,7 +402,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
       * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
     * Overviews
-      * Short (Carlos, for Mac users): https://marisacarlos.com/pages/command-line-basics      
+      * Short (Carlos, for Mac users): https://marisacarlos.com/pages/command-line-basics
       * Intro slides (UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
       * (Shotts): http://linuxcommand.org/index.php
     * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
@@ -616,6 +624,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Specific topics
     * Notes on Dirichlet processes by [@tdhopper](https://github.com/tdhopper): http://dp.tdhopper.com/
     * Experimental design - warning signs (Norvig): http://norvig.com/experiment-design.html
+    * Overview of survival analysis (Grace-Martin): https://www.theanalysisfactor.com/the-six-types-of-survival-analysis-and-challenges-in-learning-them/
 * Probability
   * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
 * Mathematics
@@ -873,6 +882,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Compilations
     * Doing research (Arinivas Akella, CS): https://webpages.uncc.edu/sakella/advice.html
     * Grad school, technical writing, etc. (Mihir Bellare, CS): http://cseweb.ucsd.edu/~mihir/education.html
+* Undergrad research
+  * Blog: http://undergradinthelab.com/
 * Applying to grad school
   * Website with lots of advice: https://kcklett.wixsite.com/phduo
 * New faculty
@@ -919,6 +930,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf
   * https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/
 * On the "hidden curriculum" of grad school: https://scatter.wordpress.com/2018/07/24/guest-post-grad-schools-hidden-curriculum/
+* Pay your undergrad researchers
+  * Paper about field techs (Fournier, Bond) https://github.com/aurielfournier/aurielfournier.github.io/blob/master/_pdfs/Fournier%2C%20Bond%20-%202015%20-%20Wildlife%20Society%20Bulletin.pdf
+  * Other blog posts cited within: https://labandfield.wordpress.com/2016/03/09/volunteer-field-techs-are-bad-for-wildlife-ecology-the-response/
 * List of "awesome" lists https://github.com/sindresorhus/awesome
   * Very meta. But also potentially helpful.
 * Azimuth Project: http://www.azimuthproject.org/azimuth/show/HomePage
