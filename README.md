@@ -1,5 +1,5 @@
 # Resources
-Consider this a public bookmark bar. These are resources I've found useful or think might be one day. I've listed the full urls to external sites so you can see what you're clicking on (e.g., is it a pdf?).
+Consider this a public bookmark bar. These are resources I've found useful or think might be one day.
 
 Disclaimers: still in progress, definitely not comprehensive, links may not work, and in no particular order.
 
@@ -31,76 +31,67 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Python
 * Overview
-  * Whirlwind tour from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/WhirlwindTourOfPython
-  * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
-    * Python for Mathematicians: https://github.com/drvinceknight/Python-Mathematics-Handbook
-  * Scipy lecture notes: http://www.scipy-lectures.org/
-    * Getting started: https://www.scipy-lectures.org/intro/index.html
+  * [Whirlwind tour](https://github.com/jakevdp/WhirlwindTourOfPython) from [@jakevdp](https://github.com/jakevdp)
+  * [Overview](https://vknight.org/Introduction_to_OOP/OverviewOfPython/) from [@drvinceknight](https://github.com/drvinceknight)
+    * [Python for Mathematicians](https://github.com/drvinceknight/Python-Mathematics-Handbook)
+  * [Scipy lecture notes](http://www.scipy-lectures.org/)
+    * [Getting started](https://www.scipy-lectures.org/intro/index.html)
 * Free Textbooks
-  * _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
-    * Beginners guide, programming exp. not necessary
-  * _Python Data Science Handbook_ by [@jakevdp](https://github.com/jakevdp) https://jakevdp.github.io/PythonDataScienceHandbook/
-  * _Intro to Machine Learning in Python_ by [@amueller](https://github.com/amueller) https://github.com/amueller/introduction_to_ml_with_python
-  * _Modeling and Simulation in Python_ by [@AllenDowney](https://github.com/AllenDowney): http://greenteapress.com/wp/modsimpy/
-   * Targeted towards intro undergrads
+  * [_Think Python_](http://greenteapress.com/wp/think-python-2e/) by [@AllenDowney](https://github.com/AllenDowney), beginners guide, programming exp. not necessary
+  * [_Python Data Science Handbook_](https://jakevdp.github.io/PythonDataScienceHandbook/) by [@jakevdp](https://github.com/jakevdp)
+  * [_Intro to Machine Learning in Python_](https://github.com/amueller/introduction_to_ml_with_python) by [@amueller](https://github.com/amueller)
+  * [_Modeling and Simulation in Python_](http://greenteapress.com/wp/modsimpy/) by [@AllenDowney](https://github.com/AllenDowney), targeted towards intro undergrads
 * Community
-  * Slack channel to learn data science in Python: https://py4ds.slack.com
+  * [Slack channel](https://py4ds.slack.com) to learn data science in Python
 * Overall tutorial
-  * Python Software Foundation: https://docs.python.org/3.6/tutorial/index.html
+  * [Python Software Foundation](https://docs.python.org/3.6/tutorial/index.html)
 * Topics/packages
   * Pandas (data processing)
-    * Beginner tutorial from [@gjreda](https://github.com/gjreda) http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
-    * Intermediate tutorial from [@tomaugspurger](https://github.com/tomaugspurger) http://tomaugspurger.github.io/modern-1-intro
+    * [Beginner tutorial](http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/) from [@gjreda](https://github.com/gjreda)
+    * [Intermediate tutorial](http://tomaugspurger.github.io/modern-1-intro) from [@tomaugspurger](https://github.com/tomaugspurger)
   * Networks
-    * NetworkX
-      * https://github.com/networkx/networkx
-      * Tutorial: network analysis (humanities data) https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python
-      * Tutorial: Chinese postman problem https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial
-      * Network simplex https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html
-    * SNAP: https://snap.stanford.edu/snappy/index.html
+    * Package: [NetworkX](https://github.com/networkx/networkx)
+      * Tutorial: [network analysis](https://programminghistorian.org/lessons/exploring-and-analyzing-network-data-with-python) using humanities data
+      * Tutorial: [Chinese postman problem](https://www.datacamp.com/community/tutorials/networkx-python-graph-tutorial)
+      * [Network simplex](https://networkx.github.io/documentation/networkx-1.9.1/reference/generated/networkx.algorithms.flow.network_simplex.html)
+    * Package: [SNAP](https://snap.stanford.edu/snappy/index.html)
       * Analysis of graphs and networks
       * Claims often faster and able to solve larger problems than NetworkX
   * Simulation
     * Discrete-event
-      * SimPy https://simpy.readthedocs.io/en/latest/
-        * Google group: https://groups.google.com/forum/#!forum/python-simpy
-        * Book chapter by Barry Nelson: http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf
-      * Ciw: http://ciw.readthedocs.io/en/latest/
-        * For open queueing networks
+      * Package: [SimPy](https://simpy.readthedocs.io/en/latest/)
+        * [Google group](https://groups.google.com/forum/#!forum/python-simpy)
+        * [Book chapter](http://users.iems.northwestern.edu/~nelsonb/IEMS435/PythonSim.pdf) by Barry Nelson
+      * Package: [Ciw](http://ciw.readthedocs.io/en/latest/) (for open queueing networks)
     * Agent-based modeling
-      * Mesa: https://github.com/projectmesa/mesa
-        * General purpose
-        * Tutorial: https://github.com/projectmesa/mesa
-      * ABCE: https://abce.readthedocs.io/en/0.9.3b2/
-        * Tailored towards economic modeling
-  * List of OR/MS-related packages: https://wiki.python.org/moin/PythonForOperationsResearch
+      * Package: [Mesa](https://github.com/projectmesa/mesa), general purpose
+        * [Tutorial](https://github.com/projectmesa/mesa)
+      * Package: [ABCE](https://abce.readthedocs.io/en/0.9.3b2/), economic modeling
+  * [List](https://wiki.python.org/moin/PythonForOperationsResearch) of operations-research-related packages
   * Optimization
-    * Overview (Ted Ralphs): https://coral.ie.lehigh.edu/~ted/files/modeling/lectures/ModelingWithPython.pdf
+    * [Overview](https://coral.ie.lehigh.edu/~ted/files/modeling/lectures/ModelingWithPython.pdf) (Ted Ralphs)
     * Modeling languages
-      * gurobipy: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_interface
-        * Walk-through of building simple model: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_simple_python_example.html
-        * Walk-through of semi-complex model: https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_dictionary_examp.html
-        * Examples
-          * Walkthrough: https://www.gurobi.com/documentation/8.0/examples/example_tour.html
-          * List: https://www.gurobi.com/documentation/8.0/examples/python_examples.html
-      * PuLP (linear programs): https://projects.coin-or.org/PuLP
-      * Pyomo: http://www.pyomo.org/
-        * How to run models: https://groups.google.com/forum/#!topic/pyomo-forum/NWU1LW6GWL8
-        * Example models: http://nbviewer.jupyter.org/github/Pyomo/PyomoGallery/tree/master/
-      * Pysp: https://pypi.org/project/coopr.pysp/
-        * Extends Pyomo for stochastic programming
-    * Solvers / algos
-      * scipy.optimize: https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html
-      * CVXPY (convex opt): http://www.cvxpy.org/
-        * Short-course: http://www.cvxpy.org/short_course/index.html
-      * Optimist (SDDP in water systems): https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1330&context=iemssconference
-      * StochOPy (stochastic opt): https://github.com/keurfonluu/StochOPy
-      * StOpt: https://gitlab.com/stochastic-control/StOpt
-        * Written in C++, python bindings
-      * py-lapsolver: https://github.com/cheind/py-lapsolver
-        * Solver for fast linear assignment problems
-      * munkres (aka Hungarian algo): http://software.clapper.org/munkres/
-    * Plot convex hull: https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html
+      * Package: [gurobipy](https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_interface)
+        * [Walk-through](https://www.gurobi.com/documentation/8.0/quickstart_windows/py_simple_python_example.html) of building simple model
+        * [Walk-through](https://www.gurobi.com/documentation/8.0/quickstart_windows/py_python_dictionary_examp.html) of semi-complex model
+        * Example models
+          * [List](https://www.gurobi.com/documentation/8.0/examples/python_examples.html)
+          * [Guided tour](https://www.gurobi.com/documentation/8.0/examples/example_tour.html)
+      * Package: [PuLP]( https://projects.coin-or.org/PuLP), linear programs
+      * Package: [Pyomo](http://www.pyomo.org/), all-purpose
+        * [How to](https://groups.google.com/forum/#!topic/pyomo-forum/NWU1LW6GWL8) run models
+        * [Example models](http://nbviewer.jupyter.org/github/Pyomo/PyomoGallery/tree/master/)
+      * Package: [Pysp](https://pypi.org/project/coopr.pysp/), extends Pyomo for stochastic programming
+    * Solvers & algorithms
+      * Package: [scipy.optimize](https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html)
+      * Package: [CVXPY](http://www.cvxpy.org/), convex opt
+        * [Short-course](http://www.cvxpy.org/short_course/index.html)
+      * Package: [Optimist](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1330&context=iemssconference), SDDP in water systems
+      * Package: [StochOPy](https://github.com/keurfonluu/StochOPy), stochastic optimization
+      * Package: [StOpt](https://gitlab.com/stochastic-control/StOpt), stochastic control (written in C++, Python bindings)
+      * Package: [py-lapsolver](https://github.com/cheind/py-lapsolver), fast linear assignment problems
+      * Package: [munkres](http://software.clapper.org/munkres/), Hungarian algorithm
+    * Plot [convex hull](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html)
   * Dimensionality reduction
     * umap: https://github.com/lmcinnes/umap
   * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
