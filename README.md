@@ -93,220 +93,204 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [munkres](http://software.clapper.org/munkres/), Hungarian algorithm
     * Plot [convex hull](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html)
   * Dimensionality reduction
-    * umap: https://github.com/lmcinnes/umap
+    * Package: [umap](https://github.com/lmcinnes/umap), uniform manifold approx. and projection
   * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
-    * Gambit: http://www.gambit-project.org/
-    * Nashpy (compute equilibria for 2-player games): http://nashpy.readthedocs.io/en/stable/
-      * Paper: http://joss.theoj.org/papers/10.21105/joss.00904
-    * Axelrod (Iterated prisoner's dilemma): http://axelrod.readthedocs.io/en/stable/
-    * PyNFG (Network form games): https://pythonhosted.org/PyNFG/
-    * lrslib: http://cgm.cs.mcgill.ca/~avis/C/lrs.html
-      * Library: lrsnash can be used to compute Nash equilibria
-    * SageMath: http://doc.sagemath.org/html/en/reference/game_theory/index.html
-      * Games: cooperative with finite players; matching; normal form with N players
+    * Software: [Gambit](http://www.gambit-project.org/)
+    * Package: [Nashpy](http://nashpy.readthedocs.io/en/stable/), 2-player games/compute equilibria, [paper](http://joss.theoj.org/papers/10.21105/joss.00904)
+    * Package: [Axelrod](http://axelrod.readthedocs.io/en/stable/), iterated prisoner's dilemma
+    * Package: [PyNFG](https://pythonhosted.org/PyNFG/), network form games
+    * Library: [lrslib](http://cgm.cs.mcgill.ca/~avis/C/lrs.html), _lrsnash_ can be used to compute Nash equilibria
+    * Within [SageMath](http://doc.sagemath.org/html/en/reference/game_theory/index.html), games: cooperative with finite players; matching; normal form with N players
   * Math
-    * SageMath (textbook): http://sagebook.gforge.inria.fr/english.html
+    * SageMath textbook: [_Computational Mathematics with SageMath_](http://sagebook.gforge.inria.fr/english.html), Zimmermann et al.
   * Machine learning
-      * Flowchart: choosing the right estimator: http://scikit-learn.org/stable/tutorial/machine_learning_map/
-      * Sklearn tutorial from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/sklearn_tutorial
-      * Checklist before releasing (Almeida): http://queirozf.com/entries/heads-up-for-deploying-scikit-learn-models-to-production-quick-checklist
+      * [Flowchart](http://scikit-learn.org/stable/tutorial/machine_learning_map/), choosing the right estimator
+      * Sklearn [tutorial](https://github.com/jakevdp/sklearn_tutorial) from [@jakevdp](https://github.com/jakevdp)
+      * [Checklist](http://queirozf.com/entries/heads-up-for-deploying-scikit-learn-models-to-production-quick-checklist) before releasing (Almeida)
   * Supply chain
-    * Supplychainpy: https://github.com/KevinFasusi/supplychainpy
+    * Package: [Supplychainpy](https://github.com/KevinFasusi/supplychainpy)
   * Webscraping
-    * (Rishav Agarwal) https://towardsdatascience.com/byod-build-your-own-dataset-for-free-67133840dc85
+    * [Tutorial](https://towardsdatascience.com/byod-build-your-own-dataset-for-free-67133840dc85) (by Agarwal)
   * Convert PDF to html
-    * PDFMiner: https://github.com/euske/pdfminer
-    * Then can be used to parse
-  * Other fields (that seem related)
-    * CobraPy: https://opencobra.github.io/cobrapy/
-      * Biological network modeling - constraints/optimization
-    * Optimize process simulators: https://github.com/CAChemE/stochastic-optimization
-      * Set of examples, chemical engineering
+    * Package: [PDFMiner](https://github.com/euske/pdfminer), then can be used to parse
+  * Other fields
+    * Package: [CobraPy](https://opencobra.github.io/cobrapy/), biological network modeling - constraints/optimization
+    * ChemE [code](https://github.com/CAChemE/stochastic-optimization), optimize process simulators
   * Visualization / figures
-    * Python Graph Gallery: https://python-graph-gallery.com/
-      * Lots of examples with code
-    * Overview of plotting for exploratory analysis (Hopper): http://pythonplot.com/
-    * Seaborn
-      * Examples: https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html
+    * [Python Graph Gallery](https://python-graph-gallery.com/) - lots of examples with code
+    * [Overview](http://pythonplot.com/) of plotting for exploratory analysis (Hopper)
+    * Seaborn [Examples](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html)
     * Altair
-      * Notebooks with example code: https://github.com/altair-viz/altair_notebooks
-      * Video tutorial from [@jakevdp](https://github.com/jakevdp) https://www.youtube.com/watch?v=ms29ZPUKxbU&t=2431s
-        * First ~40 min are a nice walkthrough; didn't watch the rest
+      * Example code, [notebooks](https://github.com/altair-viz/altair_notebooks)
+      * Video [tutorial](https://www.youtube.com/watch?v=ms29ZPUKxbU&t=2431s) from [@jakevdp](https://github.com/jakevdp)
     * R-style graphing
-      * plotnine package: https://plotnine.readthedocs.io/en/stable/
-      * ggplot package: https://www.r-bloggers.com/ggplot2-style-plotting-in-python/
+      * Package: [plotnine](https://plotnine.readthedocs.io/en/stable/)
+      * Package: [ggplot](https://www.r-bloggers.com/ggplot2-style-plotting-in-python/)
     * Funny
-      * XKCD-style figures: https://matplotlib.org/xkcd/examples/showcase/xkcd.html
+      * [XKCD-style figures](https://matplotlib.org/xkcd/examples/showcase/xkcd.html)
 * Notebooks
-  * nbdime: https://github.com/jupyter/nbdime
-    * Helpful for version control with notebooks
-  * Videos on reproducible data analysis in notebooks (Jake VanderPlas): https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
-  * "I don't like notebooks" (slides, Joel Grus) https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1
-  * "I like notebooks: Response to Joel Grus" (slides, Hopper): https://docs.google.com/presentation/d/1XmbeH_sdOKqhi05_FbH2EdRw948i8IvBz1PdfJGbhf4/edit#slide=id.p
+  * Package [nbdime](https://github.com/jupyter/nbdime) - version control with notebooks
+  * Reproducible data analysis, ([videos](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/), VanderPlas)
+  * "I don't like notebooks" ([slides](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1), Joel Grus)
+  * "I like notebooks: Response to Joel Grus" ([slides](https://docs.google.com/presentation/d/1XmbeH_sdOKqhi05_FbH2EdRw948i8IvBz1PdfJGbhf4/edit#slide=id.p), Hopper)
 * How to...
-  * Run code: https://marisacarlos.com/pages/how-to-run-python-file
+  * [Run code](https://marisacarlos.com/pages/how-to-run-python-file)
   * Set up
-    * Add Python to PATH: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
-    * Install packages that aren't available via conda: https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment
-    * Install TensorFlow: https://medium.com/@Oysiyl/install-tensorflow-1-8-0-with-gpu-from-source-on-ubuntu-18-04-bionic-beaver-35cfa9df3600
+    * Add Python to PATH: [medium post](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444)
+    * Install packages that aren't available via conda: [stackoverflow](https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment)
+    * Install TensorFlow: [medium post](https://medium.com/@Oysiyl/install-tensorflow-1-8-0-with-gpu-from-source-on-ubuntu-18-04-bionic-beaver-35cfa9df3600)
     * Manage/use environments:
-      * https://conda.io/docs/user-guide/tasks/manage-environments.html
-      * https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
+      * [conda docs](https://conda.io/docs/user-guide/tasks/manage-environments.html)
+      * [tutorial](https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c)
   * Export to file
-    * Strings: https://www.guru99.com/reading-and-writing-files-in-python.html
-    * Numpy array to txt: https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.savetxt.html
-    * Numpy array to csv: https://stackoverflow.com/questions/6081008/dump-a-numpy-array-into-a-csv-file
-  * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
-    * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
+    * [Strings](https://www.guru99.com/reading-and-writing-files-in-python.html)
+    * Numpy array [to txt](https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.savetxt.html)
+    * Numpy array [to csv](https://stackoverflow.com/questions/6081008/dump-a-numpy-array-into-a-csv-file)
+  * [Write unit tests](https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt), SciPy
+    * [FIRST principle](https://pragprog.com/magazines/2012-01/unit-tests-are-first)
 * What's a...
-  * Generator: https://stackoverflow.com/questions/1756096/understanding-generators-in-python
-  * _pycache_ file:
-    * https://www.python.org/dev/peps/pep-3147/
-    * https://stackoverflow.com/questions/16869024/what-is-pycache
+  * Generator? [stackoverflow](https://stackoverflow.com/questions/1756096/understanding-generators-in-python)
+  * _pycache_ file? [answer 1](https://www.python.org/dev/peps/pep-3147/), [answer 2](https://stackoverflow.com/questions/16869024/what-is-pycache)
 * Humor
-  * https://xkcd.com/353/
-  * https://xkcd.com/1987/
+  * [xkcd 353](https://xkcd.com/353/)
+  * [xkcd 1987](https://xkcd.com/1987/)
 
 ### R
 * Reference
   * Free Textbooks
-    * _Hands-On Programming with R_ (Grolemund): https://rstudio-education.github.io/hopr/
-    * _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
-      * Some solutions (Arnold): https://jrnold.github.io/r4ds-exercise-solutions/
-    * _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
-  * Cheat sheets: https://www.rstudio.com/resources/cheatsheets/
-    * Base R: https://www.povertyactionlab.org/sites/default/files/r-cheat-sheet.pdf
+    * [_Hands-On Programming with R_](https://rstudio-education.github.io/hopr/) (Grolemund)
+    * [_R for Data Science_](https://r4ds.had.co.nz/) by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
+      * Some [solutions](https://jrnold.github.io/r4ds-exercise-solutions/) (Arnold)
+    * [_Text Mining with R_](https://www.tidytextmining.com/) by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/)
+  * [Cheat sheets](https://www.rstudio.com/resources/cheatsheets/)
+    * [Base R](https://www.povertyactionlab.org/sites/default/files/r-cheat-sheet.pdf)
     * ggplot2:
-      * Two pages: https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf
-      * Longer: http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
-    * Syntax comparison: base R vs. formula vs. tidyverse: http://www.science.smith.edu/~amcnamara/Syntax-cheatsheet.pdf
+      * [Two pages](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
+      * [Longer](http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/)
+    * [Syntax comparison](http://www.science.smith.edu/~amcnamara/Syntax-cheatsheet.pdf): base R vs. formula vs. tidyverse
   * Styleguides
-    * From Google: https://google.github.io/styleguide/Rguide.xml
-    * Tidyverse: http://style.tidyverse.org/
-  * R Cookbook: http://www.cookbook-r.com/
-* Search engine for R help: https://rseek.org/
+    * [From Google](https://google.github.io/styleguide/Rguide.xml)
+    * [Tidyverse](http://style.tidyverse.org/)
+  * [R Cookbook](http://www.cookbook-r.com/)
+* [Search engine](https://rseek.org/) for R help
 * Learn R
-  * Intro to R for Decision Modelers (Pechlivanoglou et al): https://github.com/DARTH-git/Handbook-R/blob/master/Handbook_in_R_markdown.pdf
-  * Intro to R seminar code (IDRE): https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html
-  * Courses/collection of tutorials
-    * UC Business Analytics: http://uc-r.github.io/
-    * Coding club (Univ. of Edinburgh): https://ourcodingclub.github.io/tutorials/
-    * Stat 545 (R course with many materials online): http://stat545.com/topics.html
-  * Websites:
-    * R-bloggers: https://www.r-bloggers.com/
-    * FAQ on StackOverflow: https://stackoverflow.com/questions/tagged/r-faq
-    * R Weekly (new R resources every week): https://rweekly.org/
+  * [Handbook](https://github.com/DARTH-git/Handbook-R/blob/master/Handbook_in_R_markdown.pdf) - Intro to R for Decision Modelers (Pechlivanoglou et al)
+  * [Seminar code](https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html) - Intro to R seminar code (IDRE)
+  * Courses & collection of tutorials
+    * [UC Business Analytics](http://uc-r.github.io/)
+    * [Coding club](https://ourcodingclub.github.io/tutorials/), Univ. of Edinburgh
+    * [Stat 545](http://stat545.com/topics.html), R course with many materials online
+  * Websites
+    * [R-bloggers](https://www.r-bloggers.com/)
+    * [R FAQ](https://stackoverflow.com/questions/tagged/r-faq) on StackOverflow
+    * [R Weekly](https://rweekly.org/), new R resources every week
 * Communities
-  * Tidy Tuesdays - a weekly data viz project https://github.com/rfordatascience/tidytuesday/blob/master/README.md
-  * Community to walk through _R for Data Science_ book together: https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82
-  * R-Ladies Community (on Slack): https://rladies-community-slack.herokuapp.com/
+  * [Tidy Tuesdays](https://github.com/rfordatascience/tidytuesday/blob/master/README.md), a weekly data viz project
+  * [Community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82) to walk through _R for Data Science_ book together
+  * [R-Ladies](https://rladies-community-slack.herokuapp.com/) community on Slack
 * Packages/topics
-  * Epidemic network modeling: http://statnet.github.io/nme/index.html
-    * EpiModel-Gallery (extensions): https://github.com/statnet/EpiModel-Gallery
+  * Package: [EpiModel](http://www.epimodel.org/)
+    * Short course [resources](http://www.epimodel.org/)
+    * [Gallery](https://github.com/statnet/EpiModel-Gallery) of extensions
   * dplyr
     * Joins
-      * Cheatsheet (Stat 545): http://stat545.com/bit001_dplyr-cheatsheet.html
-      * Gifs of join types (gadenbuie): https://github.com/gadenbuie/tidy-animated-verbs#tidy-animated-verbs
-    * Selecting columns https://suzan.rbind.io/2018/01/dplyr-tutorial-1/
-    * Filtering rows
-      https://suzan.rbind.io/2018/02/dplyr-tutorial-3/
-    * Summarizing and slicing https://suzan.rbind.io/2018/04/dplyr-tutorial-4/
+      * [Cheatsheet](http://stat545.com/bit001_dplyr-cheatsheet.html) (Stat 545)
+      * [Gifs](https://github.com/gadenbuie/tidy-animated-verbs#tidy-animated-verbs) of join types (gadenbuie)
+    * Tutorials
+      * [Selecting columns](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/)
+      * [Filtering rows](https://suzan.rbind.io/2018/02/dplyr-tutorial-3/)
+      * [Summarizing and slicing](https://suzan.rbind.io/2018/04/dplyr-tutorial-4/)
   * Bootstrapping
-    * slipper - https://github.com/jtleek/slipper
-    * boot - https://cran.r-project.org/web/packages/boot/index.html
-      * How to: https://stats.idre.ucla.edu/r/faq/how-can-i-generate-bootstrap-statistics-in-r/
-  * reprex: https://github.com/tidyverse/reprex
+    * Package: [slipper](https://github.com/jtleek/slipper)
+    * Package: [boot](https://cran.r-project.org/web/packages/boot/index.html)
+      * [How to use](https://stats.idre.ucla.edu/r/faq/how-can-i-generate-bootstrap-statistics-in-r/)
+  * Package: [reprex](https://github.com/tidyverse/reprex)
     * Prep short bits of code (e.g., to post on StackOverflow)
   * Webscraping
-    * http://www.interhacktives.com/2017/01/25/scrape-tweets-r-journalists/
-    * http://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html
+    * [Tutorial](http://www.interhacktives.com/2017/01/25/scrape-tweets-r-journalists/) by Watts, for journalists
+    * [Tutorial](http://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html) by Taback
   * K-means
-    * https://uc-r.github.io/kmeans_clustering
-  * sociome (social determinants of health) https://rdrr.io/github/NikKrieger/sociome/
+    * [Tutorial](https://uc-r.github.io/kmeans_clustering), UC Business
+  * Package: [sociome](https://rdrr.io/github/NikKrieger/sociome/) - access to social determinants of health data
   * Stats
-    * precisely (estimate power size based on precision): https://github.com/malcolmbarrett/precisely
+    * Package: [precisely](https://github.com/malcolmbarrett/precisely) - estimate power size based on precision
 * Operations research
-  * Overviews
-    * Paper on using R for OR: http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf
-  * R for operations research (website): https://www.r-orms.org/
-  * ompr (mixed-integer LPs): https://github.com/dirkschumacher/ompr
-  * optplot (plot opt models): https://github.com/dirkschumacher/optplot
+  * [Paper](http://josilber.scripts.mit.edu/IAPEducationPaperDistribute.pdf) on using R for OR
+  * [Website](https://www.r-orms.org/) with resources
+  * Package: [ompr](https://github.com/dirkschumacher/ompr) - mixed-integer LPs
+  * Package: [optplot](https://github.com/dirkschumacher/optplot) - plot opt models
 * Simulation
-  * Tutorial on microsimulation (Krijkamp et al.): https://github.com/DARTH-git/Microsimulation-tutorial
+  * Microsimulation [tutorial](https://github.com/DARTH-git/Microsimulation-tutorial) (Krijkamp et al.)
 * Statistics
   * Survival analysis
-    * Base package (survival): https://cran.r-project.org/web/packages/survival/index.html
-    * Improved visuals (survminer): http://www.sthda.com/english/wiki/survminer-r-package-survival-data-analysis-and-visualization
-      * Cheatsheet: https://rpkgs.datanovia.com/survminer/survminer_cheatsheet.pdf
-    * How to do: https://www.datacamp.com/community/tutorials/survival-analysis-R
+    * Package: [survival](https://cran.r-project.org/web/packages/survival/index.html), base analysis
+    * Package: [survminer](http://www.sthda.com/english/wiki/survminer-r-package-survival-data-analysis-and-visualization), improved visuals
+      * [Cheatsheet](https://rpkgs.datanovia.com/survminer/survminer_cheatsheet.pdf)
+    * [Tutorial](https://www.datacamp.com/community/tutorials/survival-analysis-R)
 * Health economics
-  * hesim (simulation): http://innovationvalueinitiative.github.io/hesim/
-  * dampack (decision-analytic models): https://github.com/feralaes/dampack
+  * Package: [hesim](http://innovationvalueinitiative.github.io/hesim/), simulation
+  * Package: [dampack](https://github.com/feralaes/dampack), decision-analytic models
 * Visualizations
-  * Examples
-    * R Graph Gallery: https://www.r-graph-gallery.com/
+  * Examples - [R Graph Gallery](https://www.r-graph-gallery.com/)
   * Create figures
-    * ggplot2: https://ggplot2.tidyverse.org/
-    * ggpubr: http://www.sthda.com/english/rpkgs/ggpubr/
-      * Wrapper around ggplot - intended to be easier to create pub-ready figures
-  * rvg: https://github.com/davidgohel/rvg
-    * Export figures so they can be editable in powerpoint
+    * Package: [ggplot2](https://ggplot2.tidyverse.org/)
+    * Package: [ggpubr](http://www.sthda.com/english/rpkgs/ggpubr/) - wrapper around ggplot
+      * Intended to be easier to create pub-ready figures
+  * Package: [rvg](https://github.com/davidgohel/rvg) - export figures to be editable in Powerpoint
   * Graphs and networks
-    * DiagrammeR https://github.com/rich-iannone/DiagrammeR
-      * Example (Kalvelagen) http://yetanothermathprogrammingconsultant.blogspot.com/2018/07/graph-drawing-in-rstudio.html
-    * Plotly: https://plot.ly/python/tree-plots/
+    * Package: [DiagrammeR](https://github.com/rich-iannone/DiagrammeR)
+      * [Example](http://yetanothermathprogrammingconsultant.blogspot.com/2018/07/graph-drawing-in-rstudio.html) (Kalvelagen)
+    * Package: [Plotly](https://plot.ly/python/tree-plots/)
   * Gantt charts
-    * GanttR function: https://insileco.github.io/2017/09/20/gantt-charts-in-r/
+    * Package: [GanttR](https://insileco.github.io/2017/09/20/gantt-charts-in-r/)
     * Other options: https://stackoverflow.com/questions/3550341/gantt-charts-with-r
   * Interactive timelines
-    * timevis: https://github.com/daattali/timevis
+    * Package: [timevis](https://github.com/daattali/timevis)
   * Spatial data
-    * sf package (simple features): https://github.com/r-spatial/sf
+    * Package: [sf](https://github.com/r-spatial/sf), simple features
   * Maps
-    * ggmap: https://github.com/dkahle/ggmap
-      * Using Stamen maps (Tay): https://statisticaloddsandends.wordpress.com/2018/10/25/getting-started-stamen-maps-with-ggmap/
-    * urbnmapr (state and county): https://github.com/UrbanInstitute/urbnmapr
+    * Package: [ggmap](https://github.com/dkahle/ggmap)
+      * [Using Stamen maps](https://statisticaloddsandends.wordpress.com/2018/10/25/getting-started-stamen-maps-with-ggmap/) (Tay)
+    * Package: [urbnmapr](https://github.com/UrbanInstitute/urbnmapr), state and county
   * Colors / themes
     * RColorBrewer
-      * Explanation (by chelsea in R): https://moderndata.plot.ly/create-colorful-graphs-in-r-with-rcolorbrewer-and-plotly/
-      * GUI to review options on a map: http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+      * [Explanation](https://moderndata.plot.ly/create-colorful-graphs-in-r-with-rcolorbrewer-and-plotly/) (by chelsea in R)
+      * [GUI](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) to review options on a map
 * Markdown/reports
-  * Thesis template: https://rosannavanhespenresearch.wordpress.com/category/writing-your-thesis-with-r-markdown/
-  * knitr html template: http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
-  * Tufte style: https://github.com/rstudio/tufte
+  * Thesis [template](https://rosannavanhespenresearch.wordpress.com/category/writing-your-thesis-with-r-markdown/)
+  * knitr html [template](http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate)
+  * Package: [Tufte](https://github.com/rstudio/tufte) - in style of Tufte
 * How to...
   * Set up
-    * Update R (run in RGui, not RStudio): https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol
-    * Have your code text you when done running: https://www.r-bloggers.com/let-r-python-send-messages-when-the-algorithms-are-done-training/
+    * [Update R](https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol), run in RGui, not RStudio
+    * Have your code [text you](https://www.r-bloggers.com/let-r-python-send-messages-when-the-algorithms-are-done-training/) when done running
   * Plot things
-    * Rearrange categories: https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/
-    * Convert axes to percents: https://stackoverflow.com/questions/27433798/how-to-change-y-axis-range-to-percent-from-number-in-barplot-with-r
-    * Plot all data in background on faceted ggplot2 figures: https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2
+    * [Rearrange categories](https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/)
+    * [Convert axes to percents](https://stackoverflow.com/questions/27433798/how-to-change-y-axis-range-to-percent-from-number-in-barplot-with-r)
+    * [Plot all data in background](https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2) on faceted ggplot2 figures
     * Iteratively make plots
-      * Using loops: https://ourcodingclub.github.io/2017/02/08/funandloops.html
-      * Using purrr by [@dpananos](https://github.com/Dpananos) https://dpananos.github.io/posts/2018/04/blog-post-8/
+      * [Using loops](https://ourcodingclub.github.io/2017/02/08/funandloops.html)
+      * [Using purrr](https://dpananos.github.io/posts/2018/04/blog-post-8/) by [@dpananos](https://github.com/Dpananos)
     * Plot multiple figures
-      * Faceting (must be same plot type): https://stackoverflow.com/questions/31798162/generating-multiple-plots-in-ggplot-by-factor
-      * cowplot (Claus Wilke): https://cran.r-project.org/web/packages/cowplot/vignettes/plot_grid.html
-        * Shared legends: https://cran.r-project.org/web/packages/cowplot/vignettes/shared_legends.html
-      * GridExtra (paneling ggplot figures): https://www.r-bloggers.com/extra-extra-get-your-gridextra/
-      * Multiplot function: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
-      * If using base R: https://www.statmethods.net/advgraphs/layout.html
-    * Save high resolution figures: https://www.r-bloggers.com/high-resolution-graphics-with-r/
-  * Fit distributions: http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html
-  * Write an R package by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/rpackages
+      * [Faceting](https://stackoverflow.com/questions/31798162/generating-multiple-plots-in-ggplot-by-factor), must be same plot type
+      * Package: [cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/plot_grid.html) (Claus Wilke)
+        * [Shared legends](https://cran.r-project.org/web/packages/cowplot/vignettes/shared_legends.html)
+      * Package: [GridExtra](https://www.r-bloggers.com/extra-extra-get-your-gridextra/) - paneling ggplot figures
+      * Function: [Multiplot](https://www.rdocumentation.org/packages/scater/versions/1.0.4/topics/multiplot)
+      * If using [base R](https://www.statmethods.net/advgraphs/layout.html)
+    * [Save high resolution figures](https://www.r-bloggers.com/high-resolution-graphics-with-r/)
+  * [Fit distributions](http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html)
+  * [Write an R package](https://github.com/jtleek/rpackages) by [@jtleek](https://github.com/jtleek)
 * What is...
-  * :: https://stackoverflow.com/a/35241015
+  * [::](https://stackoverflow.com/a/35241015)
   * Pipe operator %>%
-    * Short explanation from [@hadley](https://github.com/hadley/) https://github.com/hadley/healthyr_preamble
-    * Longer from DataCamp: https://www.datacamp.com/community/tutorials/pipe-r-tutorial
-  * Environments, namespaces, etc. (Suraj Gupta): http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
+    * [Short explanation](https://github.com/hadley/healthyr_preamble) from [@hadley](https://github.com/hadley/)
+    * [Longer](https://www.datacamp.com/community/tutorials/pipe-r-tutorial) from DataCamp
+  * [Environments, namespaces, etc.](http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/) (Suraj Gupta)
 * Humor or fun
-  * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
-    * Make animals say funny things (Yoda is my favorite)
-  * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
-  * GeomMLBStadiums: https://github.com/bdilday/GeomMLBStadiums
-    * Draw baseball stadiums in ggplot2
+  * Package: [Cowsay](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html), tutorial - make animals say funny things
+  * [Excel 2003 themed figures](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html)
+  * Package: [GeomMLBStadiums](https://github.com/bdilday/GeomMLBStadiums) - draw baseball stadiums in ggplot2
 
 ### GitHub
   * Beginner Tutorial: http://try.github.io/
