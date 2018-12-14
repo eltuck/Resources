@@ -293,327 +293,234 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Package: [GeomMLBStadiums](https://github.com/bdilday/GeomMLBStadiums) - draw baseball stadiums in ggplot2
 
 ### GitHub
-  * Beginner Tutorial: http://try.github.io/
-  * Guide to Git with R: http://happygitwithr.com/
+  * Beginner [Tutorial](http://try.github.io/)
+  * [Guide to Git with R](http://happygitwithr.com/)
   * Cheat sheets
-    * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
-    * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
-    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-  * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
+    * [By Chris Albon](https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/)
+    * [By Joshua Hibbert](https://github.com/joshnh/Git-Commands)
+    * [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  * [Binder](https://mybinder.org/) - Convert Jupyter notebooks to executables
   * How to...
-    * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
-    * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
-    * Save credentials (i.e., username/password):
-    https://help.github.com/articles/caching-your-github-password-in-git/
-    * Exit git log: https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff (soln: type 'q')
+    * [Install git](https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git)
+    * [Undo](https://www.atlassian.com/git/tutorials/undoing-changes)
+    * [Save credentials](https://help.github.com/articles/caching-your-github-password-in-git/) (i.e., username/password):
+    * [Exit git log](https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff) (soln: type 'q')
     * Repos
-      * Clone a repo: https://help.github.com/articles/cloning-a-repository/
-      * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
+      * [Clone a repo](https://help.github.com/articles/cloning-a-repository/)
+      * [Use cloned repo](https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo)
     * Manage branches
-      * Merge: https://www.atlassian.com/git/tutorials/using-branches/git-merge
-      * Delete: https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
+      * [Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+      * [Delete](https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323)
     * Deal with errors:
-      * Local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
-      * Unlink of file: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
-        * Essentially: had to close AMPL, then worked fine
-  * Specifics (background)
-    * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
+      * [Local changes being overwritten](https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me)
+      * [Unlink of file](https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again) - essentially, had to close AMPL, then worked fine
+  * What is...
+    * [a bare repository?](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/)
   * Humor:
-    * https://xkcd.com/1597/
-    * https://xkcd.com/1296/
+    * [xkcd 1597](https://xkcd.com/1597/)
+    * [xkcd 1296](https://xkcd.com/1296/)
 
 ### General coding / computation
 * Overview/best practices
-  * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
-  * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
-  * Good enough practices (Wilson et al.): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
-  * Coding standards (EECS 280, UM): https://eecs280staff.github.io/eecs280.org/assets/EECS_280_Coding_Standards.pdf
+  * Overview ([slides](http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices) from [@tommlogan](https://github.com/tommlogan))
+  * [Best practices](https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html) from [@marcio-mourao](https://github.com/marcio-mourao)
+  * [Good enough practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) (Wilson et al.)
+  * [Coding standards](https://eecs280staff.github.io/eecs280.org/assets/EECS_280_Coding_Standards.pdf) (EECS 280, UM)
 * Courses
-  * System and Software Tools (slides): https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml
-  * Intro to computing for computer scientists (lectures): https://c4cs.github.io/
+  * System and Software Tools ([slides](https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml))
+  * Intro to computing for computer scientists ([lectures](https://c4cs.github.io/))
     * E.g., Linux, command line, version control, shells, scripting
-  * Computing for Social Sciences (slides, resources, etc.): https://cfss.uchicago.edu/syllabus.html
+  * Computing for Social Sciences ([slides, resources, etc.](https://cfss.uchicago.edu/syllabus.html))
 * Command line
   * Bash
-    * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
-    * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
-  * Overview (William Shotts): http://linuxcommand.org/index.php
-  * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
-  * Intro (slides, UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
+    * [Shell commands](https://courses.cs.washington.edu/courses/cse391/16sp/bash.html)
+    * [Reference manual](https://www.gnu.org/software/bash/manual/bashref.html)
+  * [Overview](http://linuxcommand.org/index.php) (William Shotts)
+  * Free textbook: [_The Linux Command Line_](http://linuxcommand.org/tlcl.php) (William Shotts)
+  * Intro ([slides](https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf), UM CSCAR)
 * Linux
-  * Intro course (free online): https://training.linuxfoundation.org/training/introduction-to-linux/
+  * [Intro course](https://training.linuxfoundation.org/training/introduction-to-linux/) (free online)
 * Remote computing
   * SSH - aka Secure Shell (allows secure remote login even if network insecure)
-    * PuTTy: https://www.putty.org/
+    * [PuTTy](https://www.putty.org/)
   * File transfer
-    * (Windows) WinSCP: https://winscp.net/eng/download.php
-    * (Mac/Windows) Cyberduck: https://cyberduck.io/
-    * Large files: Globus: https://www.globus.org/
+    * [WinSCP](https://winscp.net/eng/download.php) - Windows
+    * [Cyberduck](https://cyberduck.io/) - Mac/Windows
+    * Large files: [Globus](https://www.globus.org/)
       * Basic version for research/education is free
   * Cluster computing
-    * PBS overview (batch scripting, 40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
+    * [PBS overview](https://www.youtube.com/watch?v=SW8Lu1-JaSM) (batch scripting, 40min video)
     * Unix
-      * Book: _The Unix Workbench_ (Kross) https://seankross.com/the-unix-workbench/
-      * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
-* Other
-  * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
-  * How to add environment variables/PATH: https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
+      * Book: [_The Unix Workbench_](https://seankross.com/the-unix-workbench/) (Kross)
+      * [vi commands](https://www.cs.colostate.edu/helpdocs/vi.html)
+* What are...
+  * [src vs. bin folders](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
+* How to...
+  * [Add environment variables/PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
 * Text editors
-  * Atom: https://atom.io/
-  * Vim: https://www.vim.org/
-    * Vim Adventures (game to learn Vim): https://vim-adventures.com/
-  * Emacs: https://www.gnu.org/software/emacs/
-  * Visual Studio Code: https://code.visualstudio.com/
-  * Sublime: https://www.sublimetext.com/
-  * Nano: https://www.nano-editor.org/
+  * [Atom](https://atom.io/)
+  * [Vim](https://www.vim.org/)
+    * Game to learn Vim: [Vim Adventures](https://vim-adventures.com/)
+  * [Emacs](https://www.gnu.org/software/emacs/)
+  * [Visual Studio Code](https://code.visualstudio.com/)
+  * [Sublime](https://www.sublimetext.com/)
+  * [Nano](https://www.nano-editor.org/)
 
 ### AMPL
-* (Free) Book: https://ampl.com/resources/the-ampl-book/chapter-downloads/
-* Google group (help forum): https://groups.google.com/forum/#!forum/ampl
+* Free textbook: [_AMPL_](https://ampl.com/resources/the-ampl-book/chapter-downloads/) (Fourer, Gay, and Kernighan)
+* Help forum: [Google group](https://groups.google.com/forum/#!forum/ampl)
 * Specifics
-  * Dynamic set definitions
-    https://groups.google.com/forum/#!msg/ampl/Wr_KxvKWBpM/FGeILLXGZzAj
-    * E.g., AVAIL vs. AVAIL_all
-  * argmin: https://ampl.com/faqs/i-have-declared-set-s-and-param-b-s-how-do-i-write-an-ampl-expression-for-the-arg-min-of-bi-that-is-the-s-in-s-such-that-bs-equals-the-minimum-of-bi-over-all-i-in-s/
-  * Sampling discrete random variables from uniform distribution: https://groups.google.com/forum/#!msg/ampl/Wjl-PC-kkiY/FGgDMedidLkJ
+  * [Dynamic set definitions](https://groups.google.com/forum/#!msg/ampl/Wr_KxvKWBpM/FGeILLXGZzAj), e.g., AVAIL vs. AVAIL_all
+  * [argmin](https://ampl.com/faqs/i-have-declared-set-s-and-param-b-s-how-do-i-write-an-ampl-expression-for-the-arg-min-of-bi-that-is-the-s-in-s-such-that-bs-equals-the-minimum-of-bi-over-all-i-in-s/)
+  * [Sampling discrete random variables from uniform distribution](https://groups.google.com/forum/#!msg/ampl/Wjl-PC-kkiY/FGgDMedidLkJ)
 
 ### Julia
-  * Optimization in Julia: http://www.juliaopt.org/
+  * [Optimization in Julia](http://www.juliaopt.org/)
     * Nice summary of solvers at bottom of page
   * Modeling languages
-    * JuMP (general): http://www.juliaopt.org/JuMP.jl/0.18/
-    * Convex.jl (disciplined convex): https://convexjl.readthedocs.io/en/latest/
+    * [JuMP](http://www.juliaopt.org/JuMP.jl/0.18/) - general
+    * [Convex.jl](https://convexjl.readthedocs.io/en/latest/) - disciplined convex
   * Solvers/algorithms
-    * JuliaStochOpt: https://github.com/JuliaStochOpt
-      * Including: discrete-time stochastic control: https://github.com/JuliaStochOpt/StochDynamicProgramming.jl
-    * SDDP (stochastic dual dynamic prog): https://github.com/odow/SDDP.jl
-      * Very nice documentation with tutorials: https://odow.github.io/SDDP.jl/latest/index.html
-    * SDDiP (SDDP with integer variables): https://github.com/lkapelevich/SDDiP.jl
-    * StructJuMP (2-stage stochastic programs): https://github.com/StructJuMP/StructJuMP.jl
-    * DSP (stochastic mixed-integer): https://github.com/Argonne-National-Laboratory/DSPsolver.jl
-    * Complementarity.jl: https://github.com/chkwon/Complementarity.jl
+    * [JuliaStochOpt](https://github.com/JuliaStochOpt)
+      * Including: [discrete-time stochastic control](https://github.com/JuliaStochOpt/StochDynamicProgramming.jl)
+    * [SDDP](https://github.com/odow/SDDP.jl) (stochastic dual dynamic prog)
+      * Very nice documentation with [tutorials](https://odow.github.io/SDDP.jl/latest/index.html)
+    * [SDDiP](https://github.com/lkapelevich/SDDiP.jl) (SDDP with integer variables)
+    * [StructJuMP](https://github.com/StructJuMP/StructJuMP.jl) (2-stage stochastic programs)
+    * [DSP](https://github.com/Argonne-National-Laboratory/DSPsolver.jl) (stochastic mixed-integer)
+    * [Complementarity.jl](https://github.com/chkwon/Complementarity.jl)
       * Mixed-complementarity and math programs with equilibrium problems
-    * CLP - COIN-OR LP solver: https://github.com/JuliaOpt/Clp.jl
+    * [CLP](https://github.com/JuliaOpt/Clp.jl) - COIN-OR LP solver
   * Other math/CS
-    * Evaluate derivatives: http://www.juliadiff.org/
-    * Differential equations: http://juliadiffeq.org/
-    * Calculus: https://github.com/JuliaMath/Calculus.jl
-    * Machine learning: https://github.com/JuliaML
-  * Plots: http://docs.juliaplots.org/latest/
-  * Timer outputs: https://github.com/KristofferC/TimerOutputs.jl
+    * [Evaluate derivatives](http://www.juliadiff.org/)
+    * [Differential equations](http://juliadiffeq.org/)
+    * [Calculus](https://github.com/JuliaMath/Calculus.jl)
+    * [Machine learning](https://github.com/JuliaML)
+  * [Plots](http://docs.juliaplots.org/latest/)
+  * [Timer outputs](https://github.com/KristofferC/TimerOutputs.jl)
 
 ### Other programming languages
 * SQL
-  * Sequel Pro (for Mac): https://www.sequelpro.com/
+  * [Sequel Pro]( https://www.sequelpro.com/) - for Mac
 * MATLAB
-  * FAST (open-source): https://web.stanford.edu/~lcambier/fast/index.php
-    * Stochastic dual dynamic programming
-  * Optimization (paid): https://www.mathworks.com/products/optimization.html
-  * Global optimization (paid): https://www.mathworks.com/products/global-optimization.html
-
-### GitHub
-  * Beginner Tutorial: http://try.github.io/
-  * Guide to Git with R: http://happygitwithr.com/
-  * Cheat sheets
-    * By Chris Albon: https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/
-    * By Joshua Hibbert: https://github.com/joshnh/Git-Commands
-    * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-  * Convert Jupyter notebooks in repo to executables: https://mybinder.org/
-  * How to...
-    * Install git: https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git
-    * Undo: https://www.atlassian.com/git/tutorials/undoing-changes
-    * Save credentials (i.e., username/password):
-      https://help.github.com/articles/caching-your-github-password-in-git/
-    * Exit git log: https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff (soln: type 'q')
-    * Repos
-      * Clone a repo: https://help.github.com/articles/cloning-a-repository/
-      * Use cloned repo: https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo
-    * Manage branches
-      * Merge: https://www.atlassian.com/git/tutorials/using-branches/git-merge
-      * Delete: https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323
-    * Deal with errors:
-      * Local changes being overwritten: https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
-      * Unlink of file: https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again
-        * Essentially: had to close AMPL, then worked fine
-  * Specifics (background)
-    * What is a bare repository? http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
-  * Humor:
-    * https://xkcd.com/1597/
-    * https://xkcd.com/1296/
-
-  ### General coding / computation
-  * Overview/best practices
-    * Overview and slides from [@tommlogan](https://github.com/tommlogan): http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices
-    * Best practices from [@marcio-mourao](https://github.com/marcio-mourao): https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html
-    * Good enough practices (Wilson et al.): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
-  * Courses
-    * System and Software Tools (slides): https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml
-    * Intro to computing for computer scientists (lectures): https://c4cs.github.io/
-      * E.g., Linux, command line, version control, shells, scripting
-    * Computing for Social Sciences (slides, resources, etc.): https://cfss.uchicago.edu/syllabus.html
-  * Command line
-    * Bash
-      * Shell commands: https://courses.cs.washington.edu/courses/cse391/16sp/bash.html
-      * Reference manual: https://www.gnu.org/software/bash/manual/bashref.html
-    * Overviews
-      * Short (Carlos, for Mac users): https://marisacarlos.com/pages/command-line-basics
-      * Intro slides (UM CSCAR): https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf
-      * (Shotts): http://linuxcommand.org/index.php
-    * Free textbook: _The Linux Command Line_ (William Shotts) http://linuxcommand.org/tlcl.php
-  * Linux
-    * Intro course (free online): https://training.linuxfoundation.org/training/introduction-to-linux/
-  * Remote computing
-    * SSH - aka Secure Shell (allows secure remote login even if network insecure)
-      * PuTTy: https://www.putty.org/
-    * File transfer
-      * (Windows) WinSCP: https://winscp.net/eng/download.php
-      * (Mac/Windows) Cyberduck: https://cyberduck.io/
-      * Large files: Globus: https://www.globus.org/
-        * Basic version for research/education is free
-    * Cluster computing
-      * PBS overview (batch scripting, 40min video): https://www.youtube.com/watch?v=SW8Lu1-JaSM
-      * Unix
-        * Book: _The Unix Workbench_ (Kross) https://seankross.com/the-unix-workbench/
-        * vi commands: https://www.cs.colostate.edu/helpdocs/vi.html
-  * Other
-    * src vs. bin folders: https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders
-    * How to add environment variables/PATH: https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/
-  * Text editors
-    * Atom: https://atom.io/
-    * Vim: https://www.vim.org/
-      * Vim Adventures (game to learn Vim): https://vim-adventures.com/
-    * Emacs: https://www.gnu.org/software/emacs/
-    * Visual Studio Code: https://code.visualstudio.com/
-    * Sublime: https://www.sublimetext.com/
-    * Nano: https://www.nano-editor.org/
+  * [FAST](https://web.stanford.edu/~lcambier/fast/index.php) - Stochastic dual dynamic programming (open-source)
+  * [Optimization](https://www.mathworks.com/products/optimization.html) (paid)
+  * [Global optimization](https://www.mathworks.com/products/global-optimization.html) (paid)
 
 ### Math programming software
 * Overviews
-  * From Math Opt Society (Sept 2017) http://www.mathopt.org/Optima-Issues/optima103.pdf
-  * Convex MINLP solver comparison (Jun 2018): http://www.optimization-online.org/DB_FILE/2018/06/6650.pdf
+  * [From Math Opt Society](http://www.mathopt.org/Optima-Issues/optima103.pdf) (Sept 2017)
+  * [Convex MINLP solver comparison](http://www.optimization-online.org/DB_FILE/2018/06/6650.pdf) (Jun 2018)
   * Benchmarks
-    * Linear programs - simplex (Mittelmann) http://plato.asu.edu/ftp/lpsimp.html
+    * [Linear programs](http://plato.asu.edu/ftp/lpsimp.html) - simplex (Mittelmann)
 * Solvers
   * Commercial
-    * CPLEX (free for academics): https://www.ibm.com/products/ilog-cplex-optimization-studio
-    * Gurobi (free for academics): http://www.gurobi.com/
-    * Xpress:
-      * http://www.fico.com/en/products/fico-xpress-optimization
-      * https://community.fico.com/community/fico-optimization-community
-    * MOSEK: https://www.mosek.com/
-      * Esp. SOCP, SDP
+    * [CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio) (free for academics)
+    * [Gurobi](http://www.gurobi.com/) (free for academics)
+    * [Xpress](https://community.fico.com/community/fico-optimization-community)
+    * [MOSEK](https://www.mosek.com/), especially SOCP, SDP
   * Non-commercial
-    * GLPK (LP, MIP): https://www.gnu.org/software/glpk/
-    * SCIP (MIP, MINLP, constraint IP): http://scip.zib.de/
-    * Bonmin (MINLP): https://projects.coin-or.org/Bonmin
-    * Couenne (Non-convex MINLP): https://projects.coin-or.org/Couenne
+    * [GLPK](https://www.gnu.org/software/glpk/) (LP, MIP)
+    * [SCIP](http://scip.zib.de/) (MIP, MINLP, constraint IP)
+    * [Bonmin](https://projects.coin-or.org/Bonmin) (MINLP)
+    * [Couenne](https://projects.coin-or.org/Couenne) (Non-convex MINLP)
     * NEOS:
-      * https://neos-server.org/neos/
-      * https://neos-guide.org/
-    * Concorde (TSP - traveling salesman): http://www.math.uwaterloo.ca/tsp/concorde/index.html
-    * OpenSolver: https://opensolver.org/
-      * Excel add-in (extends the standard Excel solver)
-    * Ipopt (nonlinear, local): https://projects.coin-or.org/Ipopt
-    * BiqBin (Binary quadratic): http://biqbin.fis.unm.si/
-    * DSP (Stochastic mixed-integer programs): https://github.com/Argonne-National-Laboratory/DSP
-    * ECOS (Second-order conic programs): https://github.com/embotech/ecos, https://www.embotech.com/ECOS
-    * OSQP (Operator Splitting Quadratic Program): https://osqp.org/
-    * Mini-CP (Constraint programming): https://minicp.bitbucket.io/
-  * OR-Tools from Google: https://developers.google.com/optimization/
+      * [Server](https://neos-server.org/neos/)
+      * [Guide](https://neos-guide.org/)
+    * [Concorde](http://www.math.uwaterloo.ca/tsp/concorde/index.html) (TSP - traveling salesman)
+    * [OpenSolver](https://opensolver.org/) - Excel add-in, extends standard Excel solver
+    * [Ipopt](https://projects.coin-or.org/Ipopt) (nonlinear, local)
+    * [BiqBin](http://biqbin.fis.unm.si/) (Binary quadratic)
+    * [DSP](https://github.com/Argonne-National-Laboratory/DSP) (Stochastic mixed-integer programs)
+    * [ECOS](https://github.com/embotech/ecos) (Second-order conic programs), [website](https://www.embotech.com/ECOS)
+    * [OSQP](https://osqp.org/) (Operator Splitting Quadratic Program)
+    * [Mini-CP](https://minicp.bitbucket.io/) (Constraint programming)
+  * [OR-Tools](https://developers.google.com/optimization/) from Google
 * Modeling lanugages
-  * SolverStudio (free): http://solverstudio.org/
+  * [SolverStudio](http://solverstudio.org/) (free)
     * Excel add-on, useful when OpenSolver not big enough
-    * Can call commercial solvers
-  * AMPL: https://ampl.com/
-  * OPL: https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling
-  * LP add-on for Google sheets: https://developers.google.com/optimization/lp/add-on
+  * [AMPL](https://ampl.com/)
+  * [OPL](https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling)
+  * [LP add-on for Google sheets](https://developers.google.com/optimization/lp/add-on)
 * Application specific
   * Facility location
-    * SITATION: https://daskin.engin.umich.edu/software/
+    * [SITATION](https://daskin.engin.umich.edu/software/)
   * Agent-based
-    * NetLogo: https://ccl.northwestern.edu/netlogo/
+    * [NetLogo](https://ccl.northwestern.edu/netlogo/)
 
 
 ### Math programming resources
 * Textbooks available for free
-  * _A First Course in Linear Optimization v3.0_ by [@jon77lee](https://github.com/jon77lee/): https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf
-  * _Decision Modeling_ (David M. Tulett, author-provided source): https://linney.mun.ca/pages/view.php?ref=36808
-    * Optimization for undergrads
-  * _Convex Optimization_ (Stephen Boyd and Lieven Vandenberghe) http://www.seas.ucla.edu/~vandenbe/cvxbook.html
-  * _MOSEK Modeling Cookbook_ https://themosekblog.blogspot.dk/2018/05/new-modeling-cookbook.html
+  * [_A First Course in Linear Optimization v3.0_](https://github.com/jon77lee/JLee_LinearOptimizationBook/blob/master/JLee.3.0.pdf) by [@jon77lee](https://github.com/jon77lee/)
+  * [_Decision Modeling_](https://linney.mun.ca/pages/view.php?ref=36808) (David M. Tulett, author-provided source) - optimization for undergrads
+  * [_Convex Optimization_](http://www.seas.ucla.edu/~vandenbe/cvxbook.html) (Stephen Boyd and Lieven Vandenberghe)
+  * [_MOSEK Modeling Cookbook_](https://themosekblog.blogspot.dk/2018/05/new-modeling-cookbook.html)
     * Conic optimization, not specific to MOSEK solver
-  * _Foundations and Methods of Stochastic Simulation_  (Barry Nelson) http://users.iems.northwestern.edu/~nelsonb/IEMS435/
-  * _Intro to Applied Linear Algebra_ (Stephen Boyd and Lieven Vandenberghe): https://web.stanford.edu/~boyd/vmls/
-  * Myths and Counterexamples (Harvey Greenberg): https://glossary.informs.org/myths/CurrentVersion/myths.pdf
+  * [_Foundations and Methods of Stochastic Simulation_](http://users.iems.northwestern.edu/~nelsonb/IEMS435/) (Barry Nelson)
+  * [_Intro to Applied Linear Algebra_](https://web.stanford.edu/~boyd/vmls/) (Stephen Boyd and Lieven Vandenberghe)
+  * [Myths and Counterexamples](https://glossary.informs.org/myths/CurrentVersion/myths.pdf) (Harvey Greenberg)
 * Communities / forums
-  * OR Exchange: https://www.or-exchange.org/
+  * [OR Exchange](https://www.or-exchange.org/)
   * Google groups
-    * AMPL: https://groups.google.com/forum/#!forum/ampl
-    * Gurobi: https://groups.google.com/forum/#!forum/gurobi
-    * AIMMS: https://groups.google.com/forum/#!forum/aimms
-    * Pyomo: https://groups.google.com/forum/#!forum/pyomo-forum
-  * Stack Overflow: https://stackoverflow.com/
-  * Optimization Online (preprint site): http://www.optimization-online.org/
-  * IE faculty listserv: https://lists.clemson.edu/mailman/listinfo/iefac.list
-    * E.g., job postings, etc.
+    * [AMPL](https://groups.google.com/forum/#!forum/ampl)
+    * [Gurobi](https://groups.google.com/forum/#!forum/gurobi)
+    * [AIMMS](https://groups.google.com/forum/#!forum/aimms)
+    * [Pyomo](https://groups.google.com/forum/#!forum/pyomo-forum)
+  * [Stack Overflow](https://stackoverflow.com/)
+  * [Optimization Online](http://www.optimization-online.org/) (preprint site)
+  * [IE faculty listserv](https://lists.clemson.edu/mailman/listinfo/iefac.list), e.g., job postings, etc.
 * Overviews
-  * Glossary: https://glossary.informs.org/ver2/mpgwiki/index.php?title=Main_Page
-  * OR Notes (JE Beasley): http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html
+  * [Glossary](https://glossary.informs.org/ver2/mpgwiki/index.php?title=Main_Page)
+  * [OR Notes](http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html) (JE Beasley)
 * Models
-  * GAMS model library: https://www.gams.com/latest/gamslib_ml/libhtml/
+  * [GAMS model library](https://www.gams.com/latest/gamslib_ml/libhtml/)
 * Algorithms
-  * List/explanation from the folks at NEOS: https://neos-guide.org/algorithms
+  * [List/explanation](https://neos-guide.org/algorithms) from the folks at NEOS
 * Test sets
-  * MIPLIB: http://miplib.zib.de/
-  * OR Library: http://people.brunel.ac.uk/~mastjjb/jeb/info.html
-  * TSPLIB: https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/
-  * Networks (DIMACS): http://networkrepository.com/dimacs.php
-  * MINLP, in AMPL: https://wiki.mcs.anl.gov/leyffer/index.php/MacMINLP
+  * [MIPLIB](http://miplib.zib.de/)
+  * [OR Library](http://people.brunel.ac.uk/~mastjjb/jeb/info.html)
+  * [TSPLIB](https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/)
+  * [Networks](http://networkrepository.com/dimacs.php) (DIMACS)
+  * [MINLP](https://wiki.mcs.anl.gov/leyffer/index.php/MacMINLP) in AMPL
 * Course resources
-  * Math Programming (Dimitris Bertsimas):
-    - Lecture notes (Fall 2009) - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
-  * Convex Optimization (Lieven Vandenberghe):
-    * Lecture slides: http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf
+  * Math Programming
+    - [Lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/) (Bertsimas, Fall 2009)
+  * Convex Optimization
+    * [Lecture slides](http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf) (Vandenberghe)
   * Stochastic programming
-    * From Papavasiliou: http://uclengiechair.be/operations-research-linma-2491/
-      * Videos, slides
-    * From Shapiro, Dentcheva, Ruszczynski: https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf
-      * Lecture notes
-    *  From Warren Powell (Fall 2017)
-      * Readings: https://castlelab.princeton.edu/orf-544/
+    * [Videos, slides](http://uclengiechair.be/operations-research-linma-2491/) (Papavasiliou)
+    * [Lecture notes](https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf) (Shapiro, Dentcheva, Ruszczynski)
+    * [Readings](https://castlelab.princeton.edu/orf-544/) (Powell, Fall 2017)
   * Optimal Learning
-    - Various materials (Warren Powell): http://optimallearning.princeton.edu/
+    - [Various materials](http://optimallearning.princeton.edu/) (Powell)
 * Other
-  * IFORS Developing Countries page: http://ifors.org/developing_countries/index.php?title=Main_Page
-    * A variety of open-source resources
-  * OR societies around the world: http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html
-  * COIN-OR Foundation: https://www.coin-or.org/
-    * Resources: https://www.coin-or.org/resources/
+  * [IFORS Developing Countries page](http://ifors.org/developing_countries/index.php?title=Main_Page) - a variety of open-source resources
+  * [OR societies around the world](http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html)
+  * [COIN-OR Foundation](https://www.coin-or.org/)
+    * [Resources](https://www.coin-or.org/resources/)
 * Topics
   * Benders Decomposition
-    * Using callbacks to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin): https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html
+    * [Using callbacks](https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html) to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin)
     * Examples:
-      * In AMPL: https://ampl.com/NEW/LOOP2/
-      * With callbacks by [@vitaut](https://github.com/vitaut): http://www.zverovich.net/2013/09/01/modern-benders-decomposition-in-ampl.html
+      * [In AMPL](https://ampl.com/NEW/LOOP2/)
+      * [With callbacks](http://www.zverovich.net/2013/09/01/modern-benders-decomposition-in-ampl.html) by [@vitaut](https://github.com/vitaut)
   * Disjunctive programming
-    * Overview from GAMS: https://www.gams.com/latest/docs/UG_EMP_DisjunctiveProgramming.html
-    * Video (Ruiz): https://www.youtube.com/watch?v=dfgzaVd8gLg
+    * [Overview from GAMS](https://www.gams.com/latest/docs/UG_EMP_DisjunctiveProgramming.html)
+    * [Video](https://www.youtube.com/watch?v=dfgzaVd8gLg) (Ruiz)
   * MINLP (Mixed-integer nonlinear programming)
-    * Overview (Grossmann); http://egon.cheme.cmu.edu/ewocp/docs/EWOMINLPGrossmann.pdf
-    * From Leyffer and Linderoth, 2005: http://coral.ie.lehigh.edu/wp-content/uploads/presentations/siopt-05-minlp-presentation.pdf
+    * [Overview](http://egon.cheme.cmu.edu/ewocp/docs/EWOMINLPGrossmann.pdf) (Grossmann)
+    * [Slides](http://coral.ie.lehigh.edu/wp-content/uploads/presentations/siopt-05-minlp-presentation.pdf) (Leyffer and Linderoth, in 2005)
   * Nonlinear optimization
-    * From Biegler: http://cepac.cheme.cmu.edu/pasilectures/biegler/BieglerLecture.pdf
-    * Short course slides (Wachter): https://www.minlp.org/pdf/Bologna07.pdf
+    * [Slides](http://cepac.cheme.cmu.edu/pasilectures/biegler/BieglerLecture.pdf) (Biegler)
+    * [Short course slides](https://www.minlp.org/pdf/Bologna07.pdf) (Wachter)
   * SDP (Semidefinite programming)
-    * (Rendl 1) http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro1.pdf
-    * (Rendl 2) http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro2.pdf
+    * [Rendl 1](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro1.pdf), [Rendl 2](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro2.pdf)
 * How to...
-  * Linearize product of variables: https://www.leandro-coelho.com/linearization-product-variables/
-  * Linearize max/max/absolute value: https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/
-  * Linearize max(0,y) by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/2010/12/lps-and-positive-part.html
+  * [Linearize product of variables](https://www.leandro-coelho.com/linearization-product-variables/)
+  * [Linearize max/max/absolute value](https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/)
+  * [Linearize max(0,y)](https://orinanobworld.blogspot.com/2010/12/lps-and-positive-part.html) by [@prubin73](https://github.com/prubin73)
   * Remember primal / dual conversion
-    * Sensible-odd-bizarre (SOB) method: https://math.stackexchange.com/questions/83844/simplex-method-duality-by-bazaraa?answertab=oldest#tab-top
-    * Citing: https://www.math.hmc.edu/~benjamin/papers/sob.pdf
+    * [Sensible-odd-bizarre (SOB) method](https://math.stackexchange.com/questions/83844/simplex-method-duality-by-bazaraa?answertab=oldest#tab-top), citing [this paper](https://www.math.hmc.edu/~benjamin/papers/sob.pdf)
 
 ### Operations research-adjacent material
 * Linear Algebra
