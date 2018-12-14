@@ -40,6 +40,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [_Think Python_](http://greenteapress.com/wp/think-python-2e/) by [@AllenDowney](https://github.com/AllenDowney), beginners guide, programming exp. not necessary
   * [_Python Data Science Handbook_](https://jakevdp.github.io/PythonDataScienceHandbook/) by [@jakevdp](https://github.com/jakevdp)
   * [_Intro to Machine Learning in Python_](https://github.com/amueller/introduction_to_ml_with_python) by [@amueller](https://github.com/amueller)
+  * [_Bayesian Methods for Hackers_](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) (Pilon)
   * [_Modeling and Simulation in Python_](http://greenteapress.com/wp/modsimpy/) by [@AllenDowney](https://github.com/AllenDowney), targeted towards intro undergrads
 * Community
   * [Slack channel](https://py4ds.slack.com) to learn data science in Python
@@ -87,11 +88,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [CVXPY](http://www.cvxpy.org/), convex opt
         * [Short-course](http://www.cvxpy.org/short_course/index.html)
       * Package: [Optimist](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1330&context=iemssconference), SDDP in water systems
+      * Package: [PyBnB](https://pypi.org/project/pybnb/), parallel branch-and-bound
       * Package: [StochOPy](https://github.com/keurfonluu/StochOPy), stochastic optimization
       * Package: [StOpt](https://gitlab.com/stochastic-control/StOpt), stochastic control (written in C++, Python bindings)
       * Package: [py-lapsolver](https://github.com/cheind/py-lapsolver), fast linear assignment problems
       * Package: [munkres](http://software.clapper.org/munkres/), Hungarian algorithm
     * Plot [convex hull](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html)
+    * Examples
+      * Implement TSP, [Video](https://www.coursera.org/lecture/delivery-problem/branch-and-bound-UyBJC)
   * Dimensionality reduction
     * Package: [umap](https://github.com/lmcinnes/umap), uniform manifold approx. and projection
   * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
@@ -107,6 +111,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Flowchart](http://scikit-learn.org/stable/tutorial/machine_learning_map/), choosing the right estimator
       * Sklearn [tutorial](https://github.com/jakevdp/sklearn_tutorial) from [@jakevdp](https://github.com/jakevdp)
       * [Checklist](http://queirozf.com/entries/heads-up-for-deploying-scikit-learn-models-to-production-quick-checklist) before releasing (Almeida)
+  * Statistics
+    * Package: [lifelines](https://github.com/CamDavidsonPilon/lifelines), survival analysis
   * Supply chain
     * Package: [Supplychainpy](https://github.com/KevinFasusi/supplychainpy)
   * Webscraping
@@ -316,6 +322,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Unlink of file](https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again) - essentially, had to close AMPL, then worked fine
   * What is...
     * [a bare repository?](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/)
+    * [Travis CI?](https://stackoverflow.com/questions/22587148/trying-to-understand-what-travis-ci-does-and-when-it-should-be-used)
   * Humor:
     * [xkcd 1597](https://xkcd.com/1597/)
     * [xkcd 1296](https://xkcd.com/1296/)
@@ -325,12 +332,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Overview ([slides](http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices) from [@tommlogan](https://github.com/tommlogan))
   * [Best practices](https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html) from [@marcio-mourao](https://github.com/marcio-mourao)
   * [Good enough practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) (Wilson et al.)
+  * [Best practices](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) (Wilson et al.)
   * [Coding standards](https://eecs280staff.github.io/eecs280.org/assets/EECS_280_Coding_Standards.pdf) (EECS 280, UM)
 * Courses
   * System and Software Tools ([slides](https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml))
   * Intro to computing for computer scientists ([lectures](https://c4cs.github.io/))
     * E.g., Linux, command line, version control, shells, scripting
   * Computing for Social Sciences ([slides, resources, etc.](https://cfss.uchicago.edu/syllabus.html))
+  * Software Carpentry [many resources](https://github.com/swcarpentry/swcarpentry)
 * Command line
   * Bash
     * [Shell commands](https://courses.cs.washington.edu/courses/cse391/16sp/bash.html)
@@ -352,6 +361,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [PBS overview](https://www.youtube.com/watch?v=SW8Lu1-JaSM) (batch scripting, 40min video)
     * Unix
       * Book: [_The Unix Workbench_](https://seankross.com/the-unix-workbench/) (Kross)
+      * [Tutorial for beginners](http://info.ee.surrey.ac.uk/Teaching/Unix/index.html)
       * [vi commands](https://www.cs.colostate.edu/helpdocs/vi.html)
 * What are...
   * [src vs. bin folders](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
@@ -391,6 +401,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Complementarity.jl](https://github.com/chkwon/Complementarity.jl)
       * Mixed-complementarity and math programs with equilibrium problems
     * [CLP](https://github.com/JuliaOpt/Clp.jl) - COIN-OR LP solver
+    * [L-shaped solver](https://github.com/martinbiel/LShapedSolvers.jl)
   * Other math/CS
     * [Evaluate derivatives](http://www.juliadiff.org/)
     * [Differential equations](http://juliadiffeq.org/)
@@ -435,6 +446,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [ECOS](https://github.com/embotech/ecos) (Second-order conic programs), [website](https://www.embotech.com/ECOS)
     * [OSQP](https://osqp.org/) (Operator Splitting Quadratic Program)
     * [Mini-CP](https://minicp.bitbucket.io/) (Constraint programming)
+    * [Dakota](https://dakota.sandia.gov/)
   * [OR-Tools](https://developers.google.com/optimization/) from Google
 * Modeling lanugages
   * [SolverStudio](http://solverstudio.org/) (free)
@@ -507,6 +519,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Disjunctive programming
     * [Overview from GAMS](https://www.gams.com/latest/docs/UG_EMP_DisjunctiveProgramming.html)
     * [Video](https://www.youtube.com/watch?v=dfgzaVd8gLg) (Ruiz)
+  * Gradient descent
+    * [Intro](https://hbfs.wordpress.com/2012/04/24/introduction-to-gradient-descent/) Blogpost (Pigeon)
   * MINLP (Mixed-integer nonlinear programming)
     * [Overview](http://egon.cheme.cmu.edu/ewocp/docs/EWOMINLPGrossmann.pdf) (Grossmann)
     * [Slides](http://coral.ie.lehigh.edu/wp-content/uploads/presentations/siopt-05-minlp-presentation.pdf) (Leyffer and Linderoth, in 2005)
@@ -515,6 +529,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Short course slides](https://www.minlp.org/pdf/Bologna07.pdf) (Wachter)
   * SDP (Semidefinite programming)
     * [Rendl 1](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro1.pdf), [Rendl 2](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro2.pdf)
+  * Subgradient methods
+    * [Notes](https://web.stanford.edu/class/ee364b/lectures/subgrad_method_notes.pdf) (Boyd) - minimize convex function, non-differentable
 * How to...
   * [Linearize product of variables](https://www.leandro-coelho.com/linearization-product-variables/)
   * [Linearize max/max/absolute value](https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/)
@@ -767,6 +783,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Postdocs https://www.ornl.gov/content/ornl-s-postdoctoral-program
       * Weinberg Fellowship: https://www.ornl.gov/careers/alvin-m-weinberg-fellowship
       * Householder Fellowship: https://www.ornl.gov/careers/alston-s-householder-fellowship
+  * [Pathways to Science](https://pathwaystoscience.org/index.aspx) - internships, jobs, etc.
   * Twitter feeds with job postings
     * R stats: https://twitter.com/rjoblistings
     * Data science: https://twitter.com/NewDataSciJobs
@@ -775,6 +792,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Slightly expanded from [@jtleek](https://github.com/jtleek): https://github.com/jtleek/careerplanning
   * Academic jobs
     * Tons of resources compiled by UM CRLT: http://crlt.umich.edu/PFF_Resources
+  * [How to build your portfolio](https://mpi4py.readthedocs.io/en/stable/index.html) (Harris)
 * Winter Schools
   * List compiled by Thiago Serra (Winter 2018-19):
    https://thiagoserra.com/2018/08/27/winter-2018-2019-schools-on-algorithms-big-data-data-science-discrete-math-optimization-and-other-relevant-orms-topics/
@@ -848,10 +866,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Many resources (Pacheco-Vega, polisci/georgraphy): http://www.raulpacheco.org/resources/
     * Doing research (Arinivas Akella, CS): https://webpages.uncc.edu/sakella/advice.html
     * Grad school, technical writing, etc. (Mihir Bellare, CS): http://cseweb.ucsd.edu/~mihir/education.html
-* Undergrad research
-  * Blog: http://undergradinthelab.com/
-* Applying to grad school
-  * Website with lots of advice: https://kcklett.wixsite.com/phduo
+* Undergrads
+  * Research
+    * Blog: http://undergradinthelab.com/
+  * Lots of advice: [Pathways to Science](https://pathwaystoscience.org/Library.aspx)
+  * Applying to grad school
+    * Website with lots of advice: https://kcklett.wixsite.com/phduo
 * New faculty
   * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
     * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
