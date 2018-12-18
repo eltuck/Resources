@@ -541,145 +541,127 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 ### Operations research-adjacent material
 * Linear Algebra
   * Videos
-    * Intuitive overview (~2hrs, 3Blue1Brown): https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
-    * Intro course lectures (Strang): https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/
-  * Review and reference (handout, Kolter and Do): http://cs229.stanford.edu/section/cs229-linalg.pdf
-  * Intro to matrix algebra (handout, Carey): http://ibgwww.colorado.edu/%7Ecarey/p7291dir/handouts/matrix.algebra.pdf
+    * [Intuitive overview](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (~2hrs, 3Blue1Brown)
+    * [Intro course lectures](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) (Strang)
+  * Review and reference ([handout](http://cs229.stanford.edu/section/cs229-linalg.pdf), Kolter and Do)
+  * Intro to matrix algebra ([handout](http://ibgwww.colorado.edu/%7Ecarey/p7291dir/handouts/matrix.algebra.pdf), Carey)
 * Game theory
-  * Intro course lectures from Ben Polak: https://oyc.yale.edu/economics/econ-159
+  * [Intro course lectures](https://oyc.yale.edu/economics/econ-159) (Ben Polak)
 * Networks
   * Bayes nets
-    * Tutorial (Netica): https://www.norsys.com/tutorials/netica/secA/tut_A1.htm
-    * Intro slides (CMU): https://www.cs.cmu.edu/afs/cs/academic/class/15381-s07/www/slides/032707bayesNets1.pdf
+    * [Tutorial](https://www.norsys.com/tutorials/netica/secA/tut_A1.htm) (Netica)
+    * [Intro slides](https://www.cs.cmu.edu/afs/cs/academic/class/15381-s07/www/slides/032707bayesNets1.pdf) (CMU)
 * Data Science
   * How to get started
-    * Blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
-    * Plan (Kross): http://seankross.com/notes/data-science-from-scratch/
-  * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
-  * Directory of lots of data science material: http://www.datasciguide.com/content/
-  * Podcast
-    * DataFramed from DataCamp: https://www.datacamp.com/community/podcast
-  * Intro to data ethics (Shannon Vallor): https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/
-    * Module could include in courses
+    * [Blog post](https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/) by [@kierisi](https://github.com/kierisi)
+    * [Plan](http://seankross.com/notes/data-science-from-scratch/) (Kross)
+  * Applied data science ([course readings](https://github.com/hadley/stats337#readings) from [@hadley](https://github.com/hadley/))
+  * [Directory](http://www.datasciguide.com/content/) of materials
+  * [DataFramed podcast](https://www.datacamp.com/community/podcast) (DataCamp)
+  * Intro to data ethics ([course module](https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/), Shannon Vallor)
 * Machine Learning
   * Communities
-    * Google group: https://groups.google.com/forum/#!forum/ml-news/categories
-    * CrossValidated: https://stats.stackexchange.com/
+    * [Google group](https://groups.google.com/forum/#!forum/ml-news/categories)
+    * [CrossValidated](https://stats.stackexchange.com/), stackexchange
   * Textbooks
-    * _Intro to Statistical Learning_ (James et al.) https://www-bcf.usc.edu/~gareth/ISL/
-    * _Elements of Statistical Learning_ (Hastie, Tibshirani, Friedman) https://web.stanford.edu/~hastie/ElemStatLearn/
-      * More technical than James et al. book
-    * _Statistical Learning with Sparsity_ (Hastie, Tibshirani, Wainwright): https://web.stanford.edu/~hastie/StatLearnSparsity/index.html
-    * _A Brief Intro to ML for Engineers_ (Simeone) https://arxiv.org/abs/1709.02840
-    * _Fairness in ML_ (Barocas, Hardt, Narayanan) http://fairmlbook.org/
-      * Book in progress
-  * Technical notes - ML and AI from [@chrisalbon](https://github.com/chrisalbon)
-    * Website: https://chrisalbon.com/#machine_learning
-    * On github: https://github.com/chrisalbon/notes
-  * ML flashcards from [@chrisalbon](https://github.com/chrisalbon)
-    * https://machinelearningflashcards.com/
-    * Scrape off Twitter for free, code from [@Dpananos](https://github.com/Dpananos): https://github.com/Dpananos/GetCards
-  * Course
-    * Applied ML [@amueller](https://github.com/amueller): http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/
-      * Includes lecture recordings and slides
-    * Course notes (Clayton Scott): http://web.eecs.umich.edu/~cscott/past_courses/eecs545f15/index.html
+    * [_Intro to Statistical Learning_](https://www-bcf.usc.edu/~gareth/ISL/) (James et al.)
+    * [_Elements of Statistical Learning_](https://web.stanford.edu/~hastie/ElemStatLearn/) (Hastie, Tibshirani, Friedman) - more technical than James et al. book
+    * [_Statistical Learning with Sparsity_](https://web.stanford.edu/~hastie/StatLearnSparsity/index.html) (Hastie, Tibshirani, Wainwright)
+    * [_A Brief Intro to ML for Engineers_](https://arxiv.org/abs/1709.02840) (Simeone)
+    * [_Fairness in ML_](http://fairmlbook.org/) (Barocas, Hardt, Narayanan) - book in progress
+  * [Technical Notes - ML and AI](https://chrisalbon.com/#machine_learning) from [@chrisalbon](https://github.com/chrisalbon)
+  * [ML flashcards](https://machinelearningflashcards.com/) from [@chrisalbon](https://github.com/chrisalbon)
+    * [Scrape off Twitter](https://github.com/Dpananos/GetCards) for free ([@Dpananos](https://github.com/Dpananos))
+  * Courses
+    * [Recordings, slides](http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/) ([@amueller](https://github.com/amueller))
+    * [Course notes](http://web.eecs.umich.edu/~cscott/past_courses/eecs545f15/index.html) (Clayton Scott)
   * Topics
-    * How decision trees work (Rohrer): https://brohrer.github.io/how_decision_trees_work.html
-    * Taxonomy of reproducibility: http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf
-    * Intro to Monte Carlo tree search: https://int8.io/monte-carlo-tree-search-beginners-guide/
-    * Data leakage (Brownlee): https://machinelearningmastery.com/data-leakage-machine-learning/
-* Compilation of ML/CS/Math resources (Vodrahalli): https://kiranvodrahalli.github.io/links/
+    * [How decision trees work](https://brohrer.github.io/how_decision_trees_work.html) (Rohrer)
+    * [Taxonomy of reproducibility](http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf)
+    * [Monte Carlo tree search](https://int8.io/monte-carlo-tree-search-beginners-guide/)
+    * [Data leakage](https://machinelearningmastery.com/data-leakage-machine-learning/) (Brownlee)
+* [Compilation](https://kiranvodrahalli.github.io/links/) of ML/CS/Math resources (Vodrahalli)
 * Statistics
-  * 10 rules to use stats (comp biology): https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961
-  * Document and avoid these problems (biostat): http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist
-  * StatPrimer (Gerstman): http://www.sjsu.edu/faculty/gerstman/StatPrimer/
+  * [10 rules to use stats](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961) (comp biology)
+  * [Document and avoid these problems](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist) (biostat)
+  * [StatPrimer](http://www.sjsu.edu/faculty/gerstman/StatPrimer/) (Gerstman)
   * Tests
-    * What test should I use? (Examples in R, Stata, SAS, SPSS) https://stats.idre.ucla.edu/other/mult-pkg/whatstat/
-    * T-tests: https://pharmafactz.com/pharmaceutical-calculations-comparing-two-means-using-t-test/
-  * Odds ratios
-    * Best practices from JAMA (Norton, Dowd, Maciejewski, paywall) https://jamanetwork.com/journals/jama/fullarticle/2686777
+    * [What test should I use?](https://stats.idre.ucla.edu/other/mult-pkg/whatstat/) (Examples in R, Stata, SAS, SPSS)
+    * [t-tests](https://pharmafactz.com/pharmaceutical-calculations-comparing-two-means-using-t-test/)
   * Specific topics
-    * Dirichlet processes (notes by [@tdhopper](https://github.com/tdhopper)): http://dp.tdhopper.com/
-    * Experimental design (warning signs, Norvig): http://norvig.com/experiment-design.html
-    * Survival analysis, overview (Grace-Martin): https://www.theanalysisfactor.com/the-six-types-of-survival-analysis-and-challenges-in-learning-them/
-  * Same stats for different data: https://www.autodeskresearch.com/publications/samestats      
+    * Odds ratios ([Best practices](https://jamanetwork.com/journals/jama/fullarticle/2686777); Norton, Dowd, Maciejewski, paywall)
+    * Dirichlet processes ([notes](http://dp.tdhopper.com/) by [@tdhopper](https://github.com/tdhopper))
+    * Experimental design ([warning signs](http://norvig.com/experiment-design.html), Norvig)
+    * Survival analysis ([overview](https://www.theanalysisfactor.com/the-six-types-of-survival-analysis-and-challenges-in-learning-them/), Grace-Martin)
+  * [Same stats for different data](https://www.autodeskresearch.com/publications/samestats)
 * Probability
-  * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
+  * [Review](https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf) (Maleki and Do)
 * Mathematics
-  * Primers (Kun): https://jeremykun.com/primers/
-  * Notes (Conrad): http://www.math.uconn.edu/~kconrad/blurbs/
+  * [Primers](https://jeremykun.com/primers/) (Kun)
+  * [Notes](http://www.math.uconn.edu/~kconrad/blurbs/) (Conrad)
 * Computer science
-  * Frequently asked questions about C: http://c-faq.com/index.html
+  * [FAQ about C](http://c-faq.com/index.html)
 * Other
-  * Blockchain overview (2 hr video): https://www.youtube.com/watch?v=qOVAbKKSH10
-  * Gentle intro to graph theory (Joshi): https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8
-  * Habits of highly mathematical people (Kun): https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
+  * [Blockchain overview](https://www.youtube.com/watch?v=qOVAbKKSH10) (2 hr video)
+  * [Gentle intro to graph theory](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8) (Joshi)
+  * [Habits of highly mathematical people](https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e) (Kun)
 
 ### Data visualization
 * Free Textbooks
-  * _Fundamentals of Data Visualization_ by [@clauswilke](https://github.com/clauswilke): http://serialmentor.com/dataviz/
-  * _Data Visualization: A Practical Introduction_ by [@kjhealy](https://github.com/kjhealy): http://socviz.co/
-* Guide to using color (Rost): https://blog.datawrapper.de/colorguide/
+  * [_Fundamentals of Data Visualization_](http://serialmentor.com/dataviz/) by [@clauswilke](https://github.com/clauswilke)
+  * [_Data Visualization: A Practical Introduction_](http://socviz.co/) by [@kjhealy](https://github.com/kjhealy)
+* Color
+  * [Guide to using color](https://blog.datawrapper.de/colorguide/) (Rost)
+  * [Color oracle](http://colororacle.org/) - convert screen to what a color blind person would see
 * Networks
-  * Overview of software, etc.: https://www.lib.ncsu.edu/measuring-research-impact/visualizing-impact
-  * Gephi: https://gephi.org/
-    * Tutorial to create citation network: https://www.lib.ncsu.edu/sites/default/files/ResearchImpactNetworkGuide.pdf
-  * Citation network example from Neal Caren (Python & d3.js): http://nealcaren.web.unc.edu/a-sociology-citation-network/
-  * Graphviz (python): http://graphviz.readthedocs.io/en/stable/index.html
-    * Examples: http://graphviz.readthedocs.io/en/stable/examples.html
-    * Force-directed graph (json/html): https://bl.ocks.org/mbostock/4062045
+  * [Overview of software, etc.](https://www.lib.ncsu.edu/measuring-research-impact/visualizing-impact), NC State
+  * [Gephi](https://gephi.org/)
+    * [Tutorial](https://www.lib.ncsu.edu/sites/default/files/ResearchImpactNetworkGuide.pdf) - create citation network, NC State
+  * [Example - citation network](http://nealcaren.web.unc.edu/a-sociology-citation-network/) (Caren, using Python & d3.js)
+  * [Graphviz](http://graphviz.readthedocs.io/en/stable/index.html) (python)
+    * [Examples](http://graphviz.readthedocs.io/en/stable/examples.html)
+    * [Force-directed graph](https://bl.ocks.org/mbostock/4062045) (json/html)
 * Community
-  * Data viz book club: https://blog.datawrapper.de/bookclub-tufte/
-    * On Twitter: https://twitter.com/datavisclub
+  * [Data viz book club](https://blog.datawrapper.de/bookclub-tufte/)
+    * [On Twitter](https://twitter.com/datavisclub)
 
 ### Datasets/databases
 * Note: health-related data is in this [section](#healthcare)
-* Search engine: https://toolbox.google.com/datasetsearch
+* [Search engine](https://toolbox.google.com/datasetsearch)
 * Compilations
-  * Data.gov: https://www.data.gov/
-  * From Vanderbilt Biostats: http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets
-  * Kaggle: https://www.kaggle.com/datasets
-  * Public data sources:
-   https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/
-    * Targeted towards machine learning
-  * Google Public Data Explorer: https://www.google.com/publicdata/directory
-  * Public datasets: https://github.com/awesomedata/awesome-public-datasets
-  * Compilation of datasets available via various R packages: https://vincentarelbundock.github.io/Rdatasets/datasets.html
+  * [Data.gov](https://www.data.gov/)
+  * [From Vanderbilt Biostats](http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets)
+  * [Kaggle](https://www.kaggle.com/datasets)
+  * [Public data sources](https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/) - targeted towards machine learning
+  * [Public datasets](https://github.com/awesomedata/awesome-public-datasets)
+  * [Google Public Data Explorer](https://www.google.com/publicdata/directory)
+  * [Datasets available via R packages](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
   * Network datasets
-    * From DIMACS: http://networkrepository.com/dimacs.php
-    * From [@kateto](https://github.com/kateto): http://kateto.net/2016/05/network-datasets/
-    * From [@profjure](https://github.com/profjure): https://snap.stanford.edu/data/
+    * [From DIMACS](http://networkrepository.com/dimacs.php)
+    * [From @kateto](http://kateto.net/2016/05/network-datasets/)
+    * [From @profjure](https://snap.stanford.edu/data/)
   * Time series
-    * Compilation (DataMarket): https://datamarket.com/data/list/?q=provider:tsdl
-    * Economic (from Fed Reserve): https://fred.stlouisfed.org/
-  * Good, small datasets (Vicki Boykis): http://veekaybee.github.io/2018/07/23/small-datasets/
+    * [From DataMarket](https://datamarket.com/data/list/?q=provider:tsdl)
+    * [Economic](https://fred.stlouisfed.org/) (Fed Reserve)
+  * [Good, small datasets](http://veekaybee.github.io/2018/07/23/small-datasets/) (Vicki Boykis)
 * Specific sources
-  * Bureau of Labor Statistics: https://www.bls.gov/data/
-    * E.g., Consumer Price Index (inflation): https://www.bls.gov/cpi/data.htm
-  * US Census Bureau https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
-  * Pew Research Center
-    * Data: http://www.pewresearch.org/download-datasets/
-    * Overview of how to analyze in R: https://medium.com/pew-research-center-decoded/how-to-analyze-pew-research-center-survey-data-in-r-f326df360713
-  * Neighborhood atlas: https://www.neighborhoodatlas.medicine.wisc.edu/
-    * Could use for disparities / deprivation work
-    * Perspective about it in NEJM (paywall?): https://www.nejm.org/doi/full/10.1056/NEJMp1802313
+  * [Bureau of Labor Statistics](https://www.bls.gov/data/), e.g., [Consumer Price Index](https://www.bls.gov/cpi/data.htm) (inflation)
+  * [US Census Bureau](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)
+  * Pew Research Center: [data](http://www.pewresearch.org/download-datasets/) and [how to analyze](https://medium.com/pew-research-center-decoded/how-to-analyze-pew-research-center-survey-data-in-r-f326df360713)
+  * [Neighborhood atlas](https://www.neighborhoodatlas.medicine.wisc.edu/) - disparities / deprivation work, [perspective about](https://www.nejm.org/doi/full/10.1056/NEJMp1802313) (paywall?)
   * FiveThirtyEight
-    * List of available data: https://data.fivethirtyeight.com/
-    * Data for their analyses: https://github.com/fivethirtyeight/data
-    * R package https://github.com/rudeboybert/fivethirtyeight
-  * European statistics: http://ec.europa.eu/eurostat/data/database
-  * IMF: http://www.imf.org/en/Data
-  * WHO: http://www.who.int/gho/en/
-  * Quandl: https://docs.quandl.com/docs/python
-    * Financial / economic data - some are free
-    * Python and R packages available
+    * [List of available data](https://data.fivethirtyeight.com/), [data](https://github.com/fivethirtyeight/data), [R package](https://github.com/rudeboybert/fivethirtyeight)
+  * [European statistics](http://ec.europa.eu/eurostat/data/database)
+  * [IMF](http://www.imf.org/en/Data)
+  * [WHO](http://www.who.int/gho/en/)
+  * [Quandl](https://docs.quandl.com/docs/python) - financial / economic data - some are free
 * Literature
-  * PubMed: https://www.ncbi.nlm.nih.gov/pubmed/
-  * Scopus: https://www.scopus.com/search/form.uri?display=basic
-  * Web of Science: https://clarivate.com/products/web-of-science/web-science-form/web-science-core-collection/
-  * Embase: https://www.elsevier.com/solutions/embase-biomedical-research
-  * CENTRAL (Cochrane reviews) http://www.cochranelibrary.com/about/central-landing-page.html
-  * Google Scholar: https://scholar.google.com/
+  * [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
+  * [Scopus](https://www.scopus.com/search/form.uri?display=basic)
+  * [Web of Science](https://clarivate.com/products/web-of-science/web-science-form/web-science-core-collection/)
+  * [Embase](https://www.elsevier.com/solutions/embase-biomedical-research)
+  * [CENTRAL (Cochrane reviews)](http://www.cochranelibrary.com/about/central-landing-page.html)
+  * [Google Scholar](https://scholar.google.com/)
 
 ### Communication/dissemination
 * Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
