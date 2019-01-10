@@ -31,18 +31,18 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Python
 * Overview
-  * Whirlwind tour from [@jakevdp](https://github.com/jakevdp): https://github.com/jakevdp/WhirlwindTourOfPython
-  * Overview from [@drvinceknight](https://github.com/drvinceknight): https://vknight.org/Introduction_to_OOP/OverviewOfPython/
-    * Python for Mathematicians: https://github.com/drvinceknight/Python-Mathematics-Handbook
-  * Scipy lecture notes: http://www.scipy-lectures.org/
-    * Getting started: https://www.scipy-lectures.org/intro/index.html
+  * [Whirlwind tour](https://github.com/jakevdp/WhirlwindTourOfPython) from [@jakevdp](https://github.com/jakevdp)
+  * [Overview](https://vknight.org/Introduction_to_OOP/OverviewOfPython/) from [@drvinceknight](https://github.com/drvinceknight)
+    * [Python for Mathematicians](https://github.com/drvinceknight/Python-Mathematics-Handbook)
+  * [Scipy lecture notes](http://www.scipy-lectures.org/)
+    * [Getting started](https://www.scipy-lectures.org/intro/index.html)
 * Free Textbooks
-  * _Think Python_ by [@AllenDowney](https://github.com/AllenDowney) http://greenteapress.com/wp/think-python-2e/
+  * [_Think Python_](http://greenteapress.com/wp/think-python-2e/) by [@AllenDowney](https://github.com/AllenDowney),
     * Beginners guide, programming exp. not necessary
   * _Python Data Science Handbook_ by [@jakevdp](https://github.com/jakevdp) https://jakevdp.github.io/PythonDataScienceHandbook/
   * _Intro to Machine Learning in Python_ by [@amueller](https://github.com/amueller) https://github.com/amueller/introduction_to_ml_with_python
   * _Modeling and Simulation in Python_ by [@AllenDowney](https://github.com/AllenDowney): http://greenteapress.com/wp/modsimpy/
-   * Targeted towards intro undergrads
+     * Targeted towards intro undergrads
 * Community
   * Slack channel to learn data science in Python: https://py4ds.slack.com
 * Overall tutorial
@@ -167,6 +167,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Numpy array to csv: https://stackoverflow.com/questions/6081008/dump-a-numpy-array-into-a-csv-file
   * Write unit tests (SciPy): https://github.com/numpy/numpy/blob/master/doc/TESTS.rst.txt
     * FIRST principle: https://pragprog.com/magazines/2012-01/unit-tests-are-first
+* Specific topics
+  * Quick overview of functional python (Skerritt): https://hackernoon.com/learn-functional-python-in-10-minutes-to-2d1651dece6f?fbclid=IwAR1RgpxPvNAOvis4mxsOeKSR5QxP30FEllMVVaBoR8IpfxAQVpt0PTbpxX0
 * What's a...
   * Generator: https://stackoverflow.com/questions/1756096/understanding-generators-in-python
   * _pycache_ file:
@@ -183,6 +185,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * _R for Data Science_ by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman): https://r4ds.had.co.nz/
       * Some solutions (Arnold): https://jrnold.github.io/r4ds-exercise-solutions/
     * _Text Mining with R_ by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/) https://www.tidytextmining.com/
+    * _Modern Dive - An Intro to Statistical and Data Sciences via R_ (Ismay and Kim): https://moderndive.com/
   * Cheat sheets: https://www.rstudio.com/resources/cheatsheets/
     * Base R: https://www.povertyactionlab.org/sites/default/files/r-cheat-sheet.pdf
     * ggplot2:
@@ -313,7 +316,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Humor or fun
   * Cowsay: https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html
     * Make animals say funny things (Yoda is my favorite)
-  * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
+  * Excel 2003 themed figures: https://cran.r-project.org/web/packages/ggthemes/ggthemes.pdf
+    * Excel_pal theme
   * GeomMLBStadiums: https://github.com/bdilday/GeomMLBStadiums
     * Draw baseball stadiums in ggplot2
 
@@ -657,6 +661,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * How to get started
     * Blog post by [@kierisi](https://github.com/kierisi): https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/
     * Plan (Kross): http://seankross.com/notes/data-science-from-scratch/
+    * Curriculum for an open-source "masters": http://datasciencemasters.org/
   * Applied data science course readings from [@hadley](https://github.com/hadley/) https://github.com/hadley/stats337#readings
   * Directory of lots of data science material: http://www.datasciguide.com/content/
   * Podcast
@@ -704,10 +709,13 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Dirichlet processes (notes by [@tdhopper](https://github.com/tdhopper)): http://dp.tdhopper.com/
     * Experimental design (warning signs, Norvig): http://norvig.com/experiment-design.html
     * Survival analysis, overview (Grace-Martin): https://www.theanalysisfactor.com/the-six-types-of-survival-analysis-and-challenges-in-learning-them/
-  * Same stats for different data: https://www.autodeskresearch.com/publications/samestats      
+  * Same stats for different data: https://www.autodeskresearch.com/publications/samestats
+* Public health/epi
+    * Free Textbook: _Causal Inference_ (Hernan and Robins): https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/
 * Probability
   * Review of Probability Theory (Maleki and Do): https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf
 * Mathematics
+  * Compilation of courses (Dhar): https://hackernoon.com/be-a-better-programmer-with-these-40-mathematics-courses-d8ca48a2f8a2
   * Primers (Kun): https://jeremykun.com/primers/
   * Notes (Conrad): http://www.math.uconn.edu/~kconrad/blurbs/
 * Computer science
@@ -758,7 +766,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Specific sources
   * Bureau of Labor Statistics: https://www.bls.gov/data/
     * E.g., Consumer Price Index (inflation): https://www.bls.gov/cpi/data.htm
-  * US Census Bureau https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
+  * US Census Bureau: https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
+  * FEMA Hazus: https://www.fema.gov/hazus
   * Pew Research Center
     * Data: http://www.pewresearch.org/download-datasets/
     * Overview of how to analyze in R: https://medium.com/pew-research-center-decoded/how-to-analyze-pew-research-center-survey-data-in-r-f326df360713
