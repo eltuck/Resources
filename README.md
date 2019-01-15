@@ -666,59 +666,53 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Google Scholar](https://scholar.google.com/)
 
 ### Communication/dissemination
-* Sharing data (guide by [@jtleek](https://github.com/jtleek)): https://github.com/jtleek/datasharing
-* How to choose open-source license: https://choosealicense.com/
+* Sharing data ([guide](https://github.com/jtleek/datasharing) by [@jtleek](https://github.com/jtleek))
+* Open-source: [How to choose license](https://choosealicense.com/)
 * Manuscripts
   * How to write
-    * Your first paper (guide by [@jtleek](https://github.com/jtleek), biostat): https://github.com/jtleek/firstpaper
-    * 12 steps to writing: https://thehealthresearchjourney.wordpress.com/2014/12/05/the-12-steps-to-writing-a-paper-and-staying-sane/
-    * Healthcare-focused:
-      * Welch, 1999 paper (Prepping for Submission to a Medical Journal)
-       https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf
-      * Ibrahim and Dimick (Writing for Impact)
-       https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf
-      * Policy papers in clinical journals (UM CHEAR): https://sph.umich.edu/cehr/pdf/Manuscript_Guide.pdf
-    * Reporting guidelines: https://www.equator-network.org/reporting-guidelines/
-  * Run a "paper sprint" https://sph.umich.edu/cehr/pdf/Paper_Sprint_Manual.pdf
-  * Picking a journal (health-focused): http://jane.biosemantics.org/
-  * Staying organized - publication planner (Pacheco-Vega): http://www.raulpacheco.org/2016/06/designing-and-implementing-a-publications-planner/
-  * Types of reviews (Temple U): http://guides.temple.edu/c.php?g=78618&p=4156607
-    * Systematic, scoping, etc.
-* Visual abstracts
-  * https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf
+    * [Your first paper](https://github.com/jtleek/firstpaper) ([@jtleek](https://github.com/jtleek), biostat)
+    * [12 steps to writing](https://thehealthresearchjourney.wordpress.com/2014/12/05/the-12-steps-to-writing-a-paper-and-staying-sane/)
+    * Healthcare-focused
+      * [Prep for a medical journal](https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf) (Welch, 1999 paper)
+      * [Writing for Impact](https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf) (Ibrahim and Dimick)
+      * [Policy papers in clinical journals](https://sph.umich.edu/cehr/pdf/Manuscript_Guide.pdf) (UM CHEAR)
+      * [Picking a journal](http://jane.biosemantics.org/)
+      * [Reporting guidelines](https://www.equator-network.org/reporting-guidelines/)
+  * [Run a "paper sprint"](https://sph.umich.edu/cehr/pdf/Paper_Sprint_Manual.pdf)
+  * Staying organized
+    * [Publication planner](http://www.raulpacheco.org/2016/06/designing-and-implementing-a-publications-planner/) (Pacheco-Vega)
+  * [Types of reviews](http://guides.temple.edu/c.php?g=78618&p=4156607) (Temple U) - Systematic, scoping, etc.
+* [Visual abstracts](https://static1.squarespace.com/static/5854aaa044024321a353bb0d/t/5a527aa89140b76bbfb2028a/1515354827682/VisualAbstract_Primer_v4_1.pdf)
 * Policy
-  * How to use research to effect policy (Oxfam): https://www.nature.com/articles/s41599-018-0176-7
-  * Connecting research to policy (blog) https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/#.Ws43706twu0.twitter
-  * More than a press release (Videos): https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/
-* Working with the media
-  * http://senseaboutscienceusa.org/media-guide-for-scientists/
+  * [How to use research to affect policy](https://www.nature.com/articles/s41599-018-0176-7) (Oxfam)
+  * [Connect research to policy](https://www.healthaffairs.org/do/10.1377/hblog20180403.254308/full/) (Quinn)
+  * [More than a press release](https://theincidentaleconomist.com/wordpress/a-press-release-is-not-enough-videos/) (Frakt, Videos)
+* [Working with the media](http://senseaboutscienceusa.org/media-guide-for-scientists/)
 * Writing for lay outlets
-  * For "The Conversation" (slides, Chang and Czuhajewski): https://www.slideshare.net/cczuhajewski/writing-for-the-conversation-106342981
+  * [For "The Conversation"](https://www.slideshare.net/cczuhajewski/writing-for-the-conversation-106342981) (slides, Chang and Czuhajewski)
 * Writing help
-  * Lots of resources from Purdue: https://owl.purdue.edu/owl/purdue_owl.html
+  * [Lots of resources](https://owl.purdue.edu/owl/purdue_owl.html) (Purdue)
 * Reference software
-  * Zotero: https://www.zotero.org/
-  * Mendeley: https://www.mendeley.com/
-  * EndNote: http://endnote.com/
+  * [Zotero](https://www.zotero.org/)
+  * [Mendeley](https://www.mendeley.com/)
+  * [EndNote](http://endnote.com/)
 * LaTeX
-  * Getting started: https://nilesjohnson.net/latex.html
-    * Code: https://gitlab.com/nilesjohnson/latex_starter
-  * Overview (Wilkins): https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/
+  * [Getting started](https://nilesjohnson.net/latex.html) (Johnson, [Code](https://gitlab.com/nilesjohnson/latex_starter))
+  * [Overview](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/) (Wilkins)
   * Collaboration
-    * ShareLaTeX: https://www.sharelatex.com/
-  * Example style template for journals https://www.leandro-coelho.com/default-latex-article-style-modifications/
-  * Thesis templates:
-    * U Wolverhamptom: https://github.com/snim2/phdtemplate
-    * Michigan: http://clasp.engin.umich.edu/pages/current/dissertation-template
-  * Beamer tips and tricks by [@paulgp](https://github.com/paulgp)
-    * Presentation: https://github.com/paulgp/beamer-tips/blob/master/slides.pdf
-    * Source code: https://github.com/paulgp/beamer-tips
+    * [ShareLaTeX](https://www.sharelatex.com/)
+  * Templates
+    * [Example for journals](https://www.leandro-coelho.com/default-latex-article-style-modifications/) (Coelho)
+    * Thesis templates:
+      * [From U Wolverhamptom](https://github.com/snim2/phdtemplate)
+      * [From Michigan](http://clasp.engin.umich.edu/pages/current/dissertation-template)
+  * Beamer tips and tricks ([slides](https://github.com/paulgp/beamer-tips/blob/master/slides.pdf), [source code](https://github.com/paulgp/beamer-tips), from [@paulgp](https://github.com/paulgp))
   * Graphics
-    * Tikz and PGF: http://www.texample.net/tikz/
+    * [Tikz and PGF](http://www.texample.net/tikz/)
   * Indicating math mode
-    * Using /( /) vs $: https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
+    * [Using /( /) vs $](https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode)
 * Writing a book
-  * Self-publishing (Kun): https://medium.com/@jeremyjkun/on-self-publishing-a-programmers-introduction-to-mathematics-1472b7511c99?curator=MediaREDEF
+  * [Self-publishing](https://medium.com/@jeremyjkun/on-self-publishing-a-programmers-introduction-to-mathematics-1472b7511c99?curator=MediaREDEF) (Kun)
 
 ### Healthcare
 * Guides
