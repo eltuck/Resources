@@ -93,6 +93,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [StOpt](https://gitlab.com/stochastic-control/StOpt), stochastic control (written in C++, Python bindings)
       * Package: [py-lapsolver](https://github.com/cheind/py-lapsolver), fast linear assignment problems
       * Package: [munkres](http://software.clapper.org/munkres/), Hungarian algorithm
+      * Library: [PyMaxFlow](https://github.com/pmneila/PyMaxflow), Max flow/min cut
     * Plot [convex hull](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html)
     * Examples
       * Implement TSP, [Video](https://www.coursera.org/lecture/delivery-problem/branch-and-bound-UyBJC)
@@ -196,7 +197,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [R-Ladies](https://rladies-community-slack.herokuapp.com/) community on Slack
 * Packages/topics
   * Package: [EpiModel](http://www.epimodel.org/)
-    * Short course [resources](http://www.epimodel.org/)
+    * Short course [resources](http://www.epimodel.org/), [slides](http://statnet.github.io/sb/EpiModel-Slides.pdf)
     * [Gallery](https://github.com/statnet/EpiModel-Gallery) of extensions
   * dplyr
     * Joins
@@ -600,9 +601,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Primers](https://jeremykun.com/primers/) (Kun)
   * [Notes](http://www.math.uconn.edu/~kconrad/blurbs/) (Conrad)
   * [Compilation of courses](https://hackernoon.com/be-a-better-programmer-with-these-40-mathematics-courses-d8ca48a2f8a2) (Dhar)
+* Networks
+  * Free textbook: [_Networks, Crowds, and Markets_](http://www.cs.cornell.edu/home/kleinber/networks-book/) (Easley, Kleinberg), intro undergrad
 * Computer science
   * [FAQ about C](http://c-faq.com/index.html)
 * Other
+  * [Compilation of lots of resources for students](https://github.com/dipakkr/A-to-Z-Resources-for-Students#a-to-z-resources-for-students-boy-) (FrontBench)
   * [Blockchain overview](https://www.youtube.com/watch?v=qOVAbKKSH10) (2 hr video)
   * [Gentle intro to graph theory](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8) (Joshi)
   * [Habits of highly mathematical people](https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e) (Kun)
@@ -633,10 +637,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Data.gov](https://www.data.gov/)
   * [From Vanderbilt Biostats](http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets)
   * [Kaggle](https://www.kaggle.com/datasets)
-  * [Public data sources](https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/) - targeted towards machine learning
   * [Public datasets](https://github.com/awesomedata/awesome-public-datasets)
   * [Google Public Data Explorer](https://www.google.com/publicdata/directory)
   * [Datasets available via R packages](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
+  * Open/public datasets for machine learning
+    * [List 1](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279) (Stanford)
+    * [List 2](https://blog.bigml.com/list-of-public-data-sources-fit-for-machine-learning/) (BigML)
   * Network datasets
     * [From DIMACS](http://networkrepository.com/dimacs.php)
     * [From @kateto](http://kateto.net/2016/05/network-datasets/)
@@ -716,64 +722,56 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Healthcare
 * Guides
-  * Healthcare Industry (largely UM students only) https://kresgeguides.bus.umich.edu/healthcarebiotechhome
-  * Health management and policy: http://guides.lib.umich.edu/hmp
+  * [Healthcare Industry](https://kresgeguides.bus.umich.edu/healthcarebiotechhome) (largely UM students only)
+  * [Health management and policy](http://guides.lib.umich.edu/hmp)
   * Finding health statistics
-    * From UM: http://guides.lib.umich.edu/healthstats
-    * From Wisconsin-Madison: http://researchguides.ebling.library.wisc.edu/c.php?g=293234
+    * [From UM](http://guides.lib.umich.edu/healthstats)
+    * [From Wisconsin-Madison](http://researchguides.ebling.library.wisc.edu/c.php?g=293234)
 * Datasets / databases
   * Public
     * Medicare Part B
-      * National summary files: https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-National-Summary-Data-File/Overview.html
-      * Carrier summary files: https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-Carrier-Summary-Data-File/Overview.html
-      * Not free:
-        * CCW https://www.ccwdata.org/web/guest/home
-    * CDC data/stats: https://www.cdc.gov/DataStatistics/
-      * Chronic disease datasets: https://chronicdata.cdc.gov/
-      * E.g., Maternal and child health: https://chronicdata.cdc.gov/browse?category=Maternal+%26+Child+Health
+      * [National summary files](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-National-Summary-Data-File/Overview.html)
+      * [Carrier summary files](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-Carrier-Summary-Data-File/Overview.html)
+      * Not free: [CCW](https://www.ccwdata.org/web/guest/home)
+    * CDC: [data/stats](https://www.cdc.gov/DataStatistics/)
+      * [Chronic disease datasets](https://chronicdata.cdc.gov/)
+        * E.g., [Maternal and child health](https://chronicdata.cdc.gov/browse?category=Maternal+%26+Child+Health)
   * Other
-    * Clinical trials: https://clinicaltrials.gov/
-    * Tufts Cost-Effectiveness Analysis Registry: http://healtheconomics.tuftsmedicalcenter.org/cear4/Home.aspx
+    * [Clinicaltrials.gov](https://clinicaltrials.gov/)
+    * [Tufts Cost-Effectiveness Analysis Registry](http://healtheconomics.tuftsmedicalcenter.org/cear4/Home.aspx)
   * Major surveys
-    * NHANES (in person): https://www.cdc.gov/nchs/nhanes/index.htm
-    * BRFSS (phone): https://www.cdc.gov/brfss/annual_data/annual_data.htm
-      * Pronounced "Burfiss"
+    * [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) (in person)
+    * [BRFSS](https://www.cdc.gov/brfss/annual_data/annual_data.htm) (phone, pronounced "Burfiss")
 * Methods
-  * Pharmacy concentration calcs: https://pharmafactz.com/pharmaceutical-calculations-concentrations/
+  * [Pharmacy concentration calcs](https://pharmafactz.com/pharmaceutical-calculations-concentrations/)
 * Newsletters
-  * CDC's MMWR: https://www.cdc.gov/mmwr/index.html
-    * Morbidity and Mortality Weekly Report
-    * I think most people I know working in public health subscribe to this
+  * CDC's [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html)
 
 ### Jobs/Summer schools
 * Jobs
-  * Companies that hire folks to work on OR problems/methods from [@dirkschumacher](https://github.com/dirkschumacher): https://github.com/dirkschumacher/or-companies/
-  * Infectious disease dynamics listserv: http://iddjobs.org/jobs/
-  * United Nations (UN) jobs: https://unjobhunt.com/
-    * Website from [@dirkschumacher](https://github.com/dirkschumacher), not affiliated with UN
+  * [Companies that hire operations researchers](https://github.com/dirkschumacher/or-companies/); from [@dirkschumacher](https://github.com/dirkschumacher)
+  * [Infectious disease dynamics listserv](http://iddjobs.org/jobs/)
+  * [United Nations (UN) jobs](https://unjobhunt.com/) from from [@dirkschumacher](https://github.com/dirkschumacher)
   * National labs
-    * Sandia
-      * Links for fellowships/postdocs: http://www.sandia.gov/careers/students_postdocs
-    * National Renewable Energy Lab (NREL)
-      * https://www.nrel.gov/careers/
-      * Director's Postdoc Fellowship: https://www.nrel.gov/careers/directors-fellowship.html?mc_cid=6e3282f94d&mc_eid=079dfe7593
+    * Sandia: [fellowships/postdocs](http://www.sandia.gov/careers/students_postdocs)
+    * National Renewable Energy Lab [NREL](https://www.nrel.gov/careers/)
+      * [Director's Postdoc Fellowship](https://www.nrel.gov/careers/directors-fellowship.html?mc_cid=6e3282f94d&mc_eid=079dfe7593)
     * Oak Ridge
-      * Postdocs https://www.ornl.gov/content/ornl-s-postdoctoral-program
-      * Weinberg Fellowship: https://www.ornl.gov/careers/alvin-m-weinberg-fellowship
-      * Householder Fellowship: https://www.ornl.gov/careers/alston-s-householder-fellowship
+      * [Postdocs](https://www.ornl.gov/content/ornl-s-postdoctoral-program)
+      * [Weinberg Fellowship](https://www.ornl.gov/careers/alvin-m-weinberg-fellowship)
+      * [Householder Fellowship](https://www.ornl.gov/careers/alston-s-householder-fellowship)
   * [Pathways to Science](https://pathwaystoscience.org/index.aspx) - internships, jobs, etc.
   * Twitter feeds with job postings
-    * R stats: https://twitter.com/rjoblistings
-    * Data science: https://twitter.com/NewDataSciJobs
+    * [R job listings](https://twitter.com/rjoblistings)
+    * [Data science](https://twitter.com/NewDataSciJobs)
 * Career prep
-  * Questions to think through career goals [@benlangmead](https://github.com/benlangmead): https://github.com/BenLangmead/langmead-lab/blob/master/postdoc_questionnaire.md
-    * Slightly expanded from [@jtleek](https://github.com/jtleek): https://github.com/jtleek/careerplanning
+  * [Questions to think through career goals](https://github.com/BenLangmead/langmead-lab/blob/master/postdoc_questionnaire.md) from [@benlangmead](https://github.com/benlangmead)
+    * [Slightly expanded](https://github.com/jtleek/careerplanning) from [@jtleek](https://github.com/jtleek)
   * Academic jobs
-    * Tons of resources compiled by UM CRLT: http://crlt.umich.edu/PFF_Resources
+    * [Tons of resources](http://crlt.umich.edu/PFF_Resources) (UM CRLT)
   * [How to build your portfolio](https://mpi4py.readthedocs.io/en/stable/index.html) (Harris)
-* Winter Schools
-  * List compiled by Thiago Serra (Winter 2018-19):
-   https://thiagoserra.com/2018/08/27/winter-2018-2019-schools-on-algorithms-big-data-data-science-discrete-math-optimization-and-other-relevant-orms-topics/
+* Schools
+  * [Summer schools 2019](https://thiagoserra.com/2019/01/15/summer-2019-schools-on-data-analytics-discrete-math-machine-learning-networks-optimization-and-other-relevant-topics-in-operations-research/) (Thiago Serra)
 
 ### Twitter
 * Communities I appreciate
@@ -788,106 +786,89 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [#hiddencurriculum](https://twitter.com/hashtag/hiddencurriculum?src=hash)
   * [#phdtips](https://twitter.com/hashtag/phdtips?src=hash)
 * Other
-  * CV without Twitter (Auriel Fournier): http://aurielfournier.github.io/cv-without-twitter/
+  * [CV without Twitter](http://aurielfournier.github.io/cv-without-twitter/) (Auriel Fournier)
 
 ### Funding
 * Compilations
-  * For early career researchers (JHU): https://research.jhu.edu/rdt/funding-opportunities/early-career/
-  * From _Science_: http://www.sciencemag.org/careers/where-search-funding
-  * From USC: https://research.usc.edu/for-investigators/funding/federal/
-* Federal grants: https://www.grants.gov/
+  * [For early career researchers](https://research.jhu.edu/rdt/funding-opportunities/early-career/) (JHU)
+  * [From _Science_](http://www.sciencemag.org/careers/where-search-funding)
+  * [From USC](https://research.usc.edu/for-investigators/funding/federal/)
+* [Federal grants](https://www.grants.gov/)
 * Specific
-  * FDA (Generic drug-related): https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm
+  * FDA - [Generic drug-related](https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm)
 
 ### Teaching
-* Guidebook from UM CRLT: http://www.crlt.umich.edu/gsis/gsi_guide
-* Diversity and inclusion in the classroom (Laura Albert): https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/
+* [Guidebook](http://www.crlt.umich.edu/gsis/gsi_guide) (UM CRLT)
 * Blogposts
-  * Teaching math (K-12, Milos): https://momentssnippetsspirals.wordpress.com/2015/04/07/where-direct-instruction-fails-willingham-memorization-and-conceptual-understanding-2/
+  * [Diversity and inclusion in the classroom](https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/) (Laura Albert)
+  * [Teaching math](https://momentssnippetsspirals.wordpress.com/2015/04/07/where-direct-instruction-fails-willingham-memorization-and-conceptual-understanding-2/) (K-12, Milos)
 
 ### Blogs I like (and read occasionally)
 * Operations research-ish
-    * Punk Rock OR by [@lauraalbertphd](https://twitter.com/lauraalbertphd): https://punkrockor.com/
-    * OR in an OB World by [@prubin73](https://github.com/prubin73): https://orinanobworld.blogspot.com/
-    * Yet Another Math Programming Consultant (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/
-    * Geraint Palmer's blog [@geraintpalmer](https://github.com/geraintpalmer): http://www.geraintianpalmer.org.uk/blog/
-    * Thiago Serra's blog: https://thiagoserra.com/blog/
-    * Reckoning Risk by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams): http://reckoningrisk.com/
+    * [Punk Rock OR](https://punkrockor.com/) by [@lauraalbertphd](https://twitter.com/lauraalbertphd)
+    * [OR in an OB World](https://orinanobworld.blogspot.com/) by [@prubin73](https://github.com/prubin73)
+    * [Yet Another Math Programming Consultant](http://yetanothermathprogrammingconsultant.blogspot.com/) (Kalvelagen)
+    * [Geraint Palmer's blog](http://www.geraintianpalmer.org.uk/blog/)
+    * [Thiago Serra's blog](https://thiagoserra.com/blog/)
+    * [Reckoning Risk](http://reckoningrisk.com/) by [@TomMLogan](https://github.com/tommlogan) and [@t-g-williams](https://github.com/t-g-williams)
 * Other
-    * Math3Ma by [@math3ma](https://twitter.com/math3ma) (math): http://www.math3ma.com/
-    * Math Intersect Programming (Kun): https://jeremykun.com/
-    * Azimuth (various STEM fields trying to save the planet): https://johncarlosbaez.wordpress.com/
-      * Index of entries: http://www.azimuthproject.org/azimuth/show/Azimuth+Blog
-    * Armchair Ecology (Poisot, computational biology): https://armchairecology.blog/
+    * [Math3Ma](http://www.math3ma.com/) by [@math3ma](https://twitter.com/math3ma) (math)
+    * [Math Intersect Programming](https://jeremykun.com/) (Kun)
+    * [Azimuth](https://johncarlosbaez.wordpress.com/) (various STEM fields trying to save the planet, [index of entries](http://www.azimuthproject.org/azimuth/show/Azimuth+Blog))
+    * [Armchair Ecology](https://armchairecology.blog/) (Poisot, computational biology)
 * Humor
-    * Math with Bad Drawings: https://mathwithbaddrawings.com/
-    * Lego Grad Student: https://brickademics.com/
-    * PhD Comics: http://phdcomics.com/comics/most_popular.php
+    * [Math with Bad Drawings](https://mathwithbaddrawings.com/)
+    * [Lego Grad Student](https://brickademics.com/)
+    * [PhD Comics](http://phdcomics.com/comics/most_popular.php)
 
 ### Various advice
 * Grad students
-  * For new grad students (Dorsa Amir): https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22
-  * Guide to grad school (Adam Marcus, CS): http://marcua.net/writing/gradschool-guide/
-  * Guidebook for succeeding in the PhD (Alex Eble, econ): https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf
-    * If that link gets broken, perhaps also available on this page: http://www.alexeble.com/advice/
-  * Succeeding in the PhD (Dredze, Wallach; computer science): http://www.cs.jhu.edu/~mdredze/publications/HowtoBeaSuccessfulPhDStudent.pdf
-  * One year to dissertation (McGowan)
-    * Blogpost: https://livefreeordichotomize.com/2018/09/14/one-year-to-dissertate/
-    * Files on github: https://github.com/LucyMcGowan/dissertation-toolkit
-  * Advisor/PhD student dynamics: https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser
-  * For female grad students (political science): https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit
-    * Google doc - compiled by [@dianazobrien](https://twitter.com/dianazobrien)
-  * Attending big conferences (Kieran Healy, sociology): https://kieranhealy.org/blog/archives/2003/08/27/conference-advice/
-  * The Professor Is In (Karen Kelsky): http://theprofessorisin.com/
-    * Blog with various academic advice
+  * [For new grad students](https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22) (Dorsa Amir)
+  * [Guide to grad school](http://marcua.net/writing/gradschool-guide/) (Adam Marcus, CS)
+  * [Guidebook for succeeding in the PhD](https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf) (Alex Eble, econ, [another link](http://www.alexeble.com/advice/))
+  * [Succeeding in the PhD](http://www.cs.jhu.edu/~mdredze/publications/HowtoBeaSuccessfulPhDStudent.pdf) (Dredze, Wallach; computer science)
+  * [One year to dissertation](https://livefreeordichotomize.com/2018/09/14/one-year-to-dissertate/) (McGowan, [files](https://github.com/LucyMcGowan/dissertation-toolkit))
+  * [Advisor/PhD student dynamics](https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser)
+  * [For female grad students](https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit) (political science, compiled by [@dianazobrien](https://twitter.com/dianazobrien))
+  * [Attending big conferences](https://kieranhealy.org/blog/archives/2003/08/27/conference-advice/) (Kieran Healy, sociology)
   * Compilations
-    * Many resources (Pacheco-Vega, polisci/georgraphy): http://www.raulpacheco.org/resources/
-    * Doing research (Arinivas Akella, CS): https://webpages.uncc.edu/sakella/advice.html
-    * Grad school, technical writing, etc. (Mihir Bellare, CS): http://cseweb.ucsd.edu/~mihir/education.html
+    * [The Professor Is In](http://theprofessorisin.com/) (Karen Kelsky) - blog with various academic advice
+    * [Many resources](http://www.raulpacheco.org/resources/) (Pacheco-Vega, polisci/georgraphy)
+    * [Doing research](https://webpages.uncc.edu/sakella/advice.html) (Arinivas Akella, CS)
+    * [Grad school, technical writing, etc.](http://cseweb.ucsd.edu/~mihir/education.html) (Mihir Bellare, CS)
 * Undergrads
-  * Research
-    * Blog: http://undergradinthelab.com/
-  * Lots of advice: [Pathways to Science](https://pathwaystoscience.org/Library.aspx)
-  * Applying to grad school
-    * Website with lots of advice: https://kcklett.wixsite.com/phduo
+  * [Undergrad in the Lab Blog](http://undergradinthelab.com/)
+  * [Lots of advice](https://pathwaystoscience.org/Library.aspx) (Pathways to Science)
+  * [Applying to grad school](https://kcklett.wixsite.com/phduo) (Klett & Lee)
 * New faculty
-  * The 7 Year Postdoc https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/
-    * Counter thoughts: http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html
-  * If the 3rd year review goes poorly (Albertson): https://www.chronicle.com/article/Operation-Keep-My-Job-/235535
-  * Staying sane on the tenure track (Henderson): https://people.orie.cornell.edu/shane/pubs/StayingSane.pdf
+  * [The 7 Year Postdoc](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/) (Nagpal)
+    * [Counter thoughts](http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html)
+  * [If the 3rd year review goes poorly](https://www.chronicle.com/article/Operation-Keep-My-Job-/235535) (Albertson)
+  * [Staying sane on the tenure track](https://people.orie.cornell.edu/shane/pubs/StayingSane.pdf) (Henderson)
 * Job search
-  * Academic search (Nagi): http://publish.illinois.edu/engr-mavis/files/2014/09/Academic-Job-Search-2016.pdf
-  * Data science jobs by [@robinsones](https://github.com/robinsones): http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/
-  * Vitae https://chroniclevitae.com/
-    * Database, advice, etc.
-  * Job market mistakes (humanities): https://www.chronicle.com/article/5-Big-Picture-Mistakes-New/243475
+  * [Academic search](http://publish.illinois.edu/engr-mavis/files/2014/09/Academic-Job-Search-2016.pdf) (Nagi)
+  * [Data science jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/) by [@robinsones](https://github.com/robinsones)
+  * [Vitae](https://chroniclevitae.com/) - database, advice, etc.
+  * [Job market mistakes](https://www.chronicle.com/article/5-Big-Picture-Mistakes-New/243475) (humanities)
 * Various
-  * 8 tips for saying no by [@APottegard](https://twitter.com/APottegard): http://www.antonpottegaard.dk/download/HowToSayNo.pdf
-  * The Pac-Man rule (Holscher): http://ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/
-    * Always leave room for someone to join the group
-  * An econ prof (Hal Varian) describes his work style: http://people.ischool.berkeley.edu/~hal/Papers/how.pdf
-  * Various advice posts on Chris Blattman's blog (econ prof) https://chrisblattman.com/
-    * Links on right-hand side of blog
-  * When your data science project doesn't work: https://medium.com/@skyetetra/so-your-data-science-project-isnt-working-7bf57e3f12f1
-  * Blogs for female consultants/bus. travelers: https://corporette.com/resources-and-blogs-for-female-consultants/
-  * Business clothes for women (Stern): https://twitter.com/arieldora/status/1072138548269195264
+  * [8 tips for saying no](http://www.antonpottegaard.dk/download/HowToSayNo.pdf) by [@APottegard](https://twitter.com/APottegard)
+  * [The Pac-Man rule](http://ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/) (Holscher) - always leave room for someone to join the group
+  * [Econ prof's work style](http://people.ischool.berkeley.edu/~hal/Papers/how.pdf) (Hal Varian)
+  * [Chris Blattman's blog](https://chrisblattman.com/) (econ prof, links on right-hand side)
+  * [When your data science project doesn't work](https://medium.com/@skyetetra/so-your-data-science-project-isnt-working-7bf57e3f12f1)
+  * [Blogs for female consultants/bus. travelers](https://corporette.com/resources-and-blogs-for-female-consultants/)
+  * [Business clothes for women](https://twitter.com/arieldora/status/1072138548269195264) (Stern)
 * Skills
-  * Reading papers by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/readingpapers
-  * Writing lit reviews (Raul Pacheco-Vega): http://www.raulpacheco.org/resources/literature-reviews/
-  * Organizing data in a spreadsheet (Broman and Woo, open access): https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989
-    * Not always the best idea, but here are some tips
-  * How to review a paper by [@jtleek](https://github.com/jtleek): https://github.com/jtleek/reviews
-  * Coding
-    * Writing production-level code (Pappakrishnan) https://www.datascience.com/blog/production-level-code-for-data-science
-    * How to Report Bugs Effectively (Simon Tatham): https://www.chiark.greenend.org.uk/~sgtatham/bugs.html
-      * Perhaps helpful to send to your users
+  * [Reading papers](https://github.com/jtleek/readingpapers) by [@jtleek](https://github.com/jtleek)
+  * [Writing lit reviews](http://www.raulpacheco.org/resources/literature-reviews/) (Raul Pacheco-Vega)
+  * [Organizing data in a spreadsheet](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) (Broman and Woo, open access); not always the best idea, but some tips
+  * [How to review a paper](https://github.com/jtleek/reviews)
+  * [Writing production-level code](https://www.datascience.com/blog/production-level-code-for-data-science) (Pappakrishnan)
+  * [How to report bugs effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html) (Simon Tatham) - perhaps send to your users
   * Debugging
-    * Infeasible models (Kalvelagen): http://yetanothermathprogrammingconsultant.blogspot.com/2018/08/the-best-way-to-debug-infeasible-models.html
-    * Rubber ducky method: https://rubberduckdebugging.com/
-      * Explain in detail to an inanimate object
-    * Wolf-fence algorithm: http://coreygoldberg.blogspot.com/2008/12/wolf-fence-debugging.html
-      * Basically binary search with fun description
-      * Original paper (paywall): https://dl.acm.org/citation.cfm?id=358695
+    * [Infeasible models](http://yetanothermathprogrammingconsultant.blogspot.com/2018/08/the-best-way-to-debug-infeasible-models.html) (Kalvelagen)
+    * [Rubber ducky method](https://rubberduckdebugging.com/) - explain in detail to an inanimate object
+    * [Wolf-fence algorithm](http://coreygoldberg.blogspot.com/2008/12/wolf-fence-debugging.html) - basically binary search with fun description ([original paper](https://dl.acm.org/citation.cfm?id=358695), paywall)
 
 ### Eclectic
 * CV of failures
