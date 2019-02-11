@@ -872,66 +872,61 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Eclectic
 * CV of failures
-  * https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf
-  * https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/
-* On the "hidden curriculum" of grad school: https://scatter.wordpress.com/2018/07/24/guest-post-grad-schools-hidden-curriculum/
+  * [Johannes Haushofer](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf)
+  * [WaPo article](https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/)
+* Grad school's ["hidden curriculum"](https://scatter.wordpress.com/2018/07/24/guest-post-grad-schools-hidden-curriculum/) (Calarco)
 * Pay your undergrad researchers
-  * Paper about field techs (Fournier, Bond) https://github.com/aurielfournier/aurielfournier.github.io/blob/master/_pdfs/Fournier%2C%20Bond%20-%202015%20-%20Wildlife%20Society%20Bulletin.pdf
-  * Other blog posts cited within: https://labandfield.wordpress.com/2016/03/09/volunteer-field-techs-are-bad-for-wildlife-ecology-the-response/
-* List of "awesome" lists https://github.com/sindresorhus/awesome
-  * Very meta. But also potentially helpful.
-* Azimuth Project: http://www.azimuthproject.org/azimuth/show/HomePage
+  * [Paper about field techs](https://github.com/aurielfournier/aurielfournier.github.io/blob/master/_pdfs/Fournier%2C%20Bond%20-%202015%20-%20Wildlife%20Society%20Bulletin.pdf) (Fournier, Bond)
+  * [Other blog posts cited within](https://labandfield.wordpress.com/2016/03/09/volunteer-field-techs-are-bad-for-wildlife-ecology-the-response/)
+* Meta - [list of "awesome" lists](https://github.com/sindresorhus/awesome)
+* [Azimuth Project](http://www.azimuthproject.org/azimuth/show/HomePage)
   * Collaboration of scientists and engineers who want to save the planet
 * Guide to Bad Data
-  * Github: https://github.com/Quartz/bad-data-guide
-  * Article on Quartz: https://qz.com/572338/the-quartz-guide-to-bad-data/#user-content-there-are-inexplicable-outliers
-* Technical / scientific debt: http://varianceexplained.org/r/scientific-debt/
-   * Interesting take from [@dgrtwo](https://github.com/dgrtwo) on managing shortcuts/assumptions/etc. in the project development process
-* Types of validity (Amy Bucher):  http://www.amybucherphd.com/statistical-validity-types/
-* Testing: https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3
+  * [Github](https://github.com/Quartz/bad-data-guide)
+  * [Article on Quartz](https://qz.com/572338/the-quartz-guide-to-bad-data/#user-content-there-are-inexplicable-outliers)
+* [Technical / scientific debt](http://varianceexplained.org/r/scientific-debt/) from [@dgrtwo](https://github.com/dgrtwo)
+* [Types of validity](http://www.amybucherphd.com/statistical-validity-types/) (Amy Bucher)
+* [Testing](https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3_
 * Various software
-  * Convert figure to (x,y) data: https://www.digitizeit.de/
-  * Compare pdf files: https://draftable.com/compare
-  * Accessibility
-     * Convert screen to what a color blind person would see: http://colororacle.org/
+  * [Digitize it](https://www.digitizeit.de/) - Convert figure to (x,y) data:
+  * [draftable](https://draftable.com/compare) - Compare pdf files
+  * [color oracle](http://colororacle.org/) - convert screen to what a color blind person would see:
   * Poll meeting availability
-    * When2Meet: https://www.when2meet.com/
-    * When is good: http://whenisgood.net/
+    * [When2Meet](https://www.when2meet.com/)
+    * [When is good](http://whenisgood.net/)
 * Word
-  * Changing the Normal template: https://support.office.com/en-us/article/change-the-normal-template-normal-dotm-06de294b-d216-47f6-ab77-ccb5166f98ea
+  * [How to change the Normal template](https://support.office.com/en-us/article/change-the-normal-template-normal-dotm-06de294b-d216-47f6-ab77-ccb5166f98ea)
 * Fun OR (or related) applications
-  * 2048 using MDPs [@jdleesmiller](https://github.com/jdleesmiller): http://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html
-  * Chutes & Ladders as a Markov chain [@jakevdp](https://github.com/jakevdp): https://jakevdp.github.io/blog/2017/12/18/simulating-chutes-and-ladders/#Fundamental-Matrix
-  * Mario Kart drivers - Pareto efficiency [@hinnefe2](https://github.com/hinnefe2): http://hinnefe2.github.io/python/tools/2015/09/21/mario-kart.html
-  * Text mining on country music lyrics (Miller): https://www.johnwmillr.com/trucks-and-beer/
+  * [2048 using MDPs](http://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html) from [@jdleesmiller](https://github.com/jdleesmiller):
+  * [Chutes & Ladders as a Markov chain](https://jakevdp.github.io/blog/2017/12/18/simulating-chutes-and-ladders/) [@jakevdp](https://github.com/jakevdp):
+  * [Mario Kart drivers - Pareto efficiency](http://hinnefe2.github.io/python/tools/2015/09/21/mario-kart.html) from [@hinnefe2](https://github.com/hinnefe2):
+  * [Text mining on country music lyrics](https://www.johnwmillr.com/trucks-and-beer/) (Miller)
 * OR/Programming/etc. in Industry
-  * Netflix: https://medium.com/netflix-techblog/notebook-innovation-591ee3221233
-* 15 important algorithms (McFadden): https://interestingengineering.com/15-of-the-most-important-algorithms-that-helped-define-mathematics-computing-and-physics
-* 100 days of algorithms (Bouda): https://medium.com/100-days-of-algorithms
-  * Code: https://github.com/coells/100days
-* Beer game using AI: https://beergame.opexanalytics.com/#/
+  * [Netflix](https://medium.com/netflix-techblog/notebook-innovation-591ee3221233)
+* Algorithms
+  * [15 important algorithms](https://interestingengineering.com/15-of-the-most-important-algorithms-that-helped-define-mathematics-computing-and-physics) (McFadden)
+  * [100 days of algorithms](https://medium.com/100-days-of-algorithms) (Bouda), [code](https://github.com/coells/100days)
+* [Beer game using AI](https://beergame.opexanalytics.com/#/)
 * Websites
-  * (Free) Hosted by github: https://pages.github.com/
-    * Tutorial (Carlos): https://marisacarlos.com/pages/create-simple-academic-website
-    * Themes: https://github.com/topics/jekyll-theme
-      * Simple one for academics: https://github.com/academicpages/academicpages.github.io
-      * Template for labs: http://www.allanlab.org/aboutwebsite.html
-  * (Free/Paid) Wix: https://www.wix.com
-  * (Free) Google Sites: https://sites.google.com/
-* Icons: https://www.iconsdb.com/
-  * E.g., the Google Scholar logo
-* Download GoogleMaps to use offline: https://support.google.com/maps/answer/6291838
-* Math genealogy project: https://genealogy.math.ndsu.nodak.edu/index.php
+  * (Free) [Hosted by github](https://pages.github.com/)
+    * [Tutorial](https://marisacarlos.com/pages/create-simple-academic-website) (Carlos)
+    * [Themes](https://github.com/topics/jekyll-theme)
+      * [Simple one for academics](https://github.com/academicpages/academicpages.github.io)
+      * [Template for labs](http://www.allanlab.org/aboutwebsite.html)
+  * (Free/Paid) [Wix](https://www.wix.com)
+  * (Free) [Google Sites](https://sites.google.com/)
+* [Icons](https://www.iconsdb.com/) - e.g., the Google Scholar logo
+* [Download GoogleMaps to use offline](https://support.google.com/maps/answer/6291838)
+* [Math genealogy project](https://genealogy.math.ndsu.nodak.edu/index.php)
 * User interfaces
-  * Terrible elevator control panels (Bartholdi): https://www2.isye.gatech.edu/people/faculty/John_Bartholdi/misc/elevators/elevators.html
+  * [Terrible elevator control panels](https://www2.isye.gatech.edu/people/faculty/John_Bartholdi/misc/elevators/elevators.html) (Bartholdi)
 * Humor
-  * Top 10 Illegitimate Proof Techniques https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf
-    * (I think the original version of this list came from Dana Angluin)
-  * "The best way to write secure and reliable applications" https://github.com/kelseyhightower/nocode
-  * Add coffee stains to your LaTeX files: http://hanno-rein.de/archives/349
-  * Guide to interpreting faculty feedback: https://kieranhealy.org/blog/archives/2013/08/16/academic-feedback/
-  * Spurious correlations: http://www.tylervigen.com/spurious-correlations
-    * Make your own: http://tylervigen.com/discover
-  * Create parody O'Reilly book covers: https://dev.to/rly
-  * Computer science research topic generator: https://www.cs.purdue.edu/homes/dec/essay.topic.generator.html
-  * Gettysburg address via powerpoint: http://norvig.com/Gettysburg/index.htm
+  * [Top 10 Illegitimate Proof Techniques](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf) (I think the original version of this list came from Dana Angluin)
+  * ["The best way to write secure and reliable applications"](https://github.com/kelseyhightower/nocode)
+  * [Add coffee stains to your LaTeX files](http://hanno-rein.de/archives/349)
+  * [Guide to interpreting faculty feedback](https://kieranhealy.org/blog/archives/2013/08/16/academic-feedback/)
+  * [Spurious correlations](http://www.tylervigen.com/spurious-correlations)
+    * [Make your own](http://tylervigen.com/discover)
+  * [Create parody O'Reilly book covers](https://dev.to/rly)
+  * [Computer science research topic generator](https://www.cs.purdue.edu/homes/dec/essay.topic.generator.html)
+  * [Gettysburg address via powerpoint](http://norvig.com/Gettysburg/index.htm)
