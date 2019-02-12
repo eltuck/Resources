@@ -272,9 +272,13 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Update R](https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol), run in RGui, not RStudio
     * Have your code [text you](https://www.r-bloggers.com/let-r-python-send-messages-when-the-algorithms-are-done-training/) when done running
   * Plot things
-    * [Rearrange categories](https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/)
-    * [Convert axes to percents](https://stackoverflow.com/questions/27433798/how-to-change-y-axis-range-to-percent-from-number-in-barplot-with-r)
+    * Axes
+      * [Rearrange categories](https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/)
+      * [Convert axes to percents](https://stackoverflow.com/questions/27433798/how-to-change-y-axis-range-to-percent-from-number-in-barplot-with-r)
+      * [Change size of title and labels](https://stackoverflow.com/questions/14942681/change-size-of-axes-title-and-labels-in-ggplot2)
+      * [Rotate labels](http://tallman-world.tumblr.com/post/89964965867/rhow-to-rotate-axis-labels-in-ggplot2) ()
     * [Plot all data in background](https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2) on faceted ggplot2 figures
+    * [Change colors](http://www.sthda.com/english/wiki/ggplot2-colors-how-to-change-colors-automatically-and-manually)
     * Iteratively make plots
       * [Using loops](https://ourcodingclub.github.io/2017/02/08/funandloops.html)
       * [Using purrr](https://dpananos.github.io/posts/2018/04/blog-post-8/) by [@dpananos](https://github.com/Dpananos)
@@ -549,6 +553,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Game theory
   * [Intro course lectures](https://oyc.yale.edu/economics/econ-159) (Ben Polak)
 * Networks
+  * [List of resources](https://github.com/briatte/awesome-network-analysis) (briatte)
   * Bayes nets
     * [Tutorial](https://www.norsys.com/tutorials/netica/secA/tut_A1.htm) (Netica)
     * [Intro slides](https://www.cs.cmu.edu/afs/cs/academic/class/15381-s07/www/slides/032707bayesNets1.pdf) (CMU)
@@ -831,6 +836,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Advisor/PhD student dynamics](https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser)
   * [For female grad students](https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit) (political science, compiled by [@dianazobrien](https://twitter.com/dianazobrien))
   * [Attending big conferences](https://kieranhealy.org/blog/archives/2003/08/27/conference-advice/) (Kieran Healy, sociology)
+  * [10 tips to win at grad school](https://chroniclevitae.com/news/2158-10-tips-to-help-you-win-at-graduate-school?cid=VTEVPMSED1) (Toor)
   * Compilations
     * [The Professor Is In](http://theprofessorisin.com/) (Karen Kelsky) - blog with various academic advice
     * [Many resources](http://www.raulpacheco.org/resources/) (Pacheco-Vega, polisci/georgraphy)
