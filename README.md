@@ -250,7 +250,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Package: [Plotly](https://plot.ly/python/tree-plots/)
   * Gantt charts
     * Package: [GanttR](https://insileco.github.io/2017/09/20/gantt-charts-in-r/)
-    * Other options: https://stackoverflow.com/questions/3550341/gantt-charts-with-r
+    * [Other options](https://stackoverflow.com/questions/3550341/gantt-charts-with-r)
   * Interactive timelines
     * Package: [timevis](https://github.com/daattali/timevis)
   * Spatial data
@@ -314,7 +314,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * How to...
     * [Install git](https://www.develves.net/blogs/asd/articles/using-git-with-powershell-on-windows-10/#installing-git)
     * [Undo](https://www.atlassian.com/git/tutorials/undoing-changes)
-    * [Save credentials](https://help.github.com/articles/caching-your-github-password-in-git/) (i.e., username/password):
+    * [Save credentials](https://help.github.com/articles/caching-your-github-password-in-git/) (i.e., username/password)
     * [Exit git log](https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff) (soln: type 'q')
     * Repos
       * [Clone a repo](https://help.github.com/articles/cloning-a-repository/)
@@ -390,8 +390,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Sampling discrete random variables from uniform distribution](https://groups.google.com/forum/#!msg/ampl/Wjl-PC-kkiY/FGgDMedidLkJ)
 
 ### Julia
-  * [Optimization in Julia](http://www.juliaopt.org/)
-    * Nice summary of solvers at bottom of page
+  * [Optimization in Julia](http://www.juliaopt.org/) - nice summary of solvers at bottom of page
   * Modeling languages
     * [JuMP](http://www.juliaopt.org/JuMP.jl/0.18/) - general
     * [Convex.jl](https://convexjl.readthedocs.io/en/latest/) - disciplined convex
@@ -403,8 +402,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [SDDiP](https://github.com/lkapelevich/SDDiP.jl) (SDDP with integer variables)
     * [StructJuMP](https://github.com/StructJuMP/StructJuMP.jl) (2-stage stochastic programs)
     * [DSP](https://github.com/Argonne-National-Laboratory/DSPsolver.jl) (stochastic mixed-integer)
-    * [Complementarity.jl](https://github.com/chkwon/Complementarity.jl)
-      * Mixed-complementarity and math programs with equilibrium problems
+    * [Complementarity.jl](https://github.com/chkwon/Complementarity.jl) (mixed-complementarity and math programs with equilibrium problems)
     * [CLP](https://github.com/JuliaOpt/Clp.jl) - COIN-OR LP solver
     * [L-shaped solver](https://github.com/martinbiel/LShapedSolvers.jl)
   * Other math/CS
@@ -454,8 +452,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Dakota](https://dakota.sandia.gov/)
   * [OR-Tools](https://developers.google.com/optimization/) from Google
 * Modeling lanugages
-  * [SolverStudio](http://solverstudio.org/) (free)
-    * Excel add-on, useful when OpenSolver not big enough
+  * [SolverStudio](http://solverstudio.org/) (free) - Excel add-on, useful when OpenSolver not big enough
   * [AMPL](https://ampl.com/)
   * [OPL](https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling)
   * [LP add-on for Google sheets](https://developers.google.com/optimization/lp/add-on)
@@ -833,7 +830,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Guidebook for succeeding in the PhD](https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf) (Alex Eble, econ, [another link](http://www.alexeble.com/advice/))
   * [Succeeding in the PhD](http://www.cs.jhu.edu/~mdredze/publications/HowtoBeaSuccessfulPhDStudent.pdf) (Dredze, Wallach; computer science)
   * [One year to dissertation](https://livefreeordichotomize.com/2018/09/14/one-year-to-dissertate/) (McGowan, [files](https://github.com/LucyMcGowan/dissertation-toolkit))
-  * [Advisor/PhD student dynamics](https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser)
+  * [Advisor/PhD student dynamics](https://chroniclevitae.com/news/1793-handling-your-imperfect-adviser) (Nelson)
   * [For female grad students](https://docs.google.com/document/d/1DMoSXf7pGRLMN1VP5-36nu2mkNBFEsJtERCi-AERwKk/edit) (political science, compiled by [@dianazobrien](https://twitter.com/dianazobrien))
   * [Attending big conferences](https://kieranhealy.org/blog/archives/2003/08/27/conference-advice/) (Kieran Healy, sociology)
   * [10 tips to win at grad school](https://chroniclevitae.com/news/2158-10-tips-to-help-you-win-at-graduate-school?cid=VTEVPMSED1) (Toor)
@@ -892,7 +889,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Article on Quartz](https://qz.com/572338/the-quartz-guide-to-bad-data/#user-content-there-are-inexplicable-outliers)
 * [Technical / scientific debt](http://varianceexplained.org/r/scientific-debt/) from [@dgrtwo](https://github.com/dgrtwo)
 * [Types of validity](http://www.amybucherphd.com/statistical-validity-types/) (Amy Bucher)
-* [Testing](https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3_
+* [Testing](https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3) (Kehrer)
 * Various software
   * [Digitize it](https://www.digitizeit.de/) - Convert figure to (x,y) data:
   * [draftable](https://draftable.com/compare) - Compare pdf files
@@ -929,10 +926,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Humor
   * [Top 10 Illegitimate Proof Techniques](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf) (I think the original version of this list came from Dana Angluin)
   * ["The best way to write secure and reliable applications"](https://github.com/kelseyhightower/nocode)
-  * [Add coffee stains to your LaTeX files](http://hanno-rein.de/archives/349)
+  * [Add coffee stains to your LaTeX files](http://hanno-rein.de/archives/349) (Rein)
   * [Guide to interpreting faculty feedback](https://kieranhealy.org/blog/archives/2013/08/16/academic-feedback/)
-  * [Spurious correlations](http://www.tylervigen.com/spurious-correlations)
+  * [Spurious correlations](http://www.tylervigen.com/spurious-correlations) (Vigen)
     * [Make your own](http://tylervigen.com/discover)
   * [Create parody O'Reilly book covers](https://dev.to/rly)
   * [Computer science research topic generator](https://www.cs.purdue.edu/homes/dec/essay.topic.generator.html)
-  * [Gettysburg address via powerpoint](http://norvig.com/Gettysburg/index.htm)
+  * [Gettysburg address via powerpoint](http://norvig.com/Gettysburg/index.htm) (Norvig)
