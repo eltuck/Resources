@@ -496,11 +496,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [TSPLIB](https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/)
   * [Networks](http://networkrepository.com/dimacs.php) (DIMACS)
   * [MINLP](https://wiki.mcs.anl.gov/leyffer/index.php/MacMINLP) in AMPL
+  * Facility location
+    * [Bilde-Krarup](http://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/BildeKrarup.html) (Quite old - 1977)
 * Course resources
   * Math Programming
     - [Lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/) (Bertsimas, Fall 2009)
   * Convex Optimization
     * [Lecture slides](http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf) (Vandenberghe)
+    * [Lecture slides](http://www.ifp.illinois.edu/~angelia/convex_optimization_lectures.htm) (Nedich)
   * Stochastic programming
     * [Videos, slides](http://uclengiechair.be/operations-research-linma-2491/) (Papavasiliou)
     * [Lecture notes](https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf) (Shapiro, Dentcheva, Ruszczynski)
@@ -533,6 +536,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Rendl 1](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro1.pdf), [Rendl 2](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro2.pdf)
   * Subgradient methods
     * [Notes](https://web.stanford.edu/class/ee364b/lectures/subgrad_method_notes.pdf) (Boyd) - minimize convex function, non-differentable
+  * Supply chain
+    * [XSG game](https://istm.zu.ac.ae/xsg), [overview](https://sinansalman.github.io/xsg/) - supply chain simulation game (Salman)
 * How to...
   * [Linearize product of variables](https://www.leandro-coelho.com/linearization-product-variables/)
   * [Linearize max/max/absolute value](https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/)
@@ -549,6 +554,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Intro to matrix algebra ([handout](http://ibgwww.colorado.edu/%7Ecarey/p7291dir/handouts/matrix.algebra.pdf), Carey)
 * Game theory
   * [Intro course lectures](https://oyc.yale.edu/economics/econ-159) (Ben Polak)
+  * [Course slides](http://www.ifp.illinois.edu/~angelia/game_lectures.htm) (Nedich)
 * Networks
   * [List of resources](https://github.com/briatte/awesome-network-analysis) (briatte)
   * Bayes nets
@@ -577,6 +583,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Scrape off Twitter](https://github.com/Dpananos/GetCards) for free ([@Dpananos](https://github.com/Dpananos))
   * Courses
     * [Recordings, slides](http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/) ([@amueller](https://github.com/amueller))
+    * [Recordings, slides](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (Hastie, Tibshirani)
     * [Course notes](http://web.eecs.umich.edu/~cscott/past_courses/eecs545f15/index.html) (Clayton Scott)
   * Topics
     * [How decision trees work](https://brohrer.github.io/how_decision_trees_work.html) (Rohrer)
@@ -585,6 +592,11 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Data leakage](https://machinelearningmastery.com/data-leakage-machine-learning/) (Brownlee)
 * [Compilation](https://kiranvodrahalli.github.io/links/) of ML/CS/Math resources (Vodrahalli)
 * Statistics
+  * Communities/forums
+    * [datamethods](https://discourse.datamethods.org/) - health-related stats forum
+    * [Talk Stats](http://talkstats.com/)
+    * [CrossValidated](https://stats.stackexchange.com/)]
+  * [Glossary of Statistical Terms](http://hbiostat.org/doc/glossary.pdf) (Harrell)
   * [10 rules to use stats](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961) (comp biology)
   * [Document and avoid these problems](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist) (biostat)
   * [StatPrimer](http://www.sjsu.edu/faculty/gerstman/StatPrimer/) (Gerstman)
@@ -745,6 +757,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) (in person)
     * [BRFSS](https://www.cdc.gov/brfss/annual_data/annual_data.htm) (phone, pronounced "Burfiss")
 * Methods
+  * Forums
+    * [datamethods](https://discourse.datamethods.org/) - health-related stats forum
+    * [MedStats](https://groups.google.com/forum/#!forum/medstats) - google group
   * [Pharmacy concentration calcs](https://pharmafactz.com/pharmaceutical-calculations-concentrations/)
 * Newsletters
   * CDC's [Morbidity and Mortality Weekly Report](https://www.cdc.gov/mmwr/index.html)
