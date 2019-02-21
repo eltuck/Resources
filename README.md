@@ -499,17 +499,29 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Facility location
     * [Bilde-Krarup](http://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/BildeKrarup.html) (Quite old - 1977)
 * Course resources
-  * Math Programming
-    - [Lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/) (Bertsimas, Fall 2009)
+  * Math Programming (generally)
+    * [Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/) (Bertsimas, Fall 2009)
+    * Large-scale opt: [Slides](http://www.seas.ucla.edu/~vandenbe/ee236c.html) (Vandenberghe, 2016)
+  * Linear programming
+    * [Slides](http://www.seas.ucla.edu/~vandenbe/ee236a/ee236a.html) (Vanedenberghe, 2013)
   * Convex Optimization
-    * [Lecture slides](http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf) (Vandenberghe)
-    * [Lecture slides](http://www.ifp.illinois.edu/~angelia/convex_optimization_lectures.htm) (Nedich)
+    * [Slides](http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf) (Vandenberghe)
+    * [Slides](http://www.seas.ucla.edu/~vandenbe/ee236b/ee236b.html) (Vandenberghe, 2019)
+    * [Slides](http://www.ifp.illinois.edu/~angelia/convex_optimization_lectures.htm) (Nedich)
+    * Convex Opt II
+      * [Notes](https://web.stanford.edu/class/ee392o/) (Boyd and Luo, Fall 2003)
+      * [Slides, notes](https://web.stanford.edu/class/ee364b/lectures.html) (Duchi)
+      * [Notes](http://statweb.stanford.edu/~candes/math301/hand.html) (Candes)
+  * Applied numerical computing
+    * [Slides, notes](http://www.seas.ucla.edu/~vandenbe/ee133a.html) (Vandenberghe, 2018)
   * Stochastic programming
     * [Videos, slides](http://uclengiechair.be/operations-research-linma-2491/) (Papavasiliou)
     * [Lecture notes](https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf) (Shapiro, Dentcheva, Ruszczynski)
     * [Readings](https://castlelab.princeton.edu/orf-544/) (Powell, Fall 2017)
   * Optimal Learning
-    - [Various materials](http://optimallearning.princeton.edu/) (Powell)
+    * [Various materials](http://optimallearning.princeton.edu/) (Powell)
+  * SDP
+    * [Slides](http://www.mit.edu/~parrilo/cdc03_workshop/index.html) (Parrilo, Lall)
 * Other
   * [IFORS Developing Countries page](http://ifors.org/developing_countries/index.php?title=Main_Page) - a variety of open-source resources
   * [OR societies around the world](http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html)
@@ -595,7 +607,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Communities/forums
     * [datamethods](https://discourse.datamethods.org/) - health-related stats forum
     * [Talk Stats](http://talkstats.com/)
-    * [CrossValidated](https://stats.stackexchange.com/)]
+    * [CrossValidated](https://stats.stackexchange.com/)
   * [Glossary of Statistical Terms](http://hbiostat.org/doc/glossary.pdf) (Harrell)
   * [10 rules to use stats](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961) (comp biology)
   * [Document and avoid these problems](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist) (biostat)
