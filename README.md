@@ -10,10 +10,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 ## Table of Contents
 * [Python](#python)
 * [R](#r)
+* [GitHub](#github)
 * [AMPL](#ampl)
 * [Julia](#Julia)
 * [Other languages](#other-programming-languages)
-* [GitHub](#github)
 * [General coding](#general-coding--computation)
 * [Math prog. software](#math-programming-software)
 * [Math prog. resources](#math-programming-resources)
@@ -94,9 +94,11 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [py-lapsolver](https://github.com/cheind/py-lapsolver), fast linear assignment problems
       * Package: [munkres](http://software.clapper.org/munkres/), Hungarian algorithm
       * Library: [PyMaxFlow](https://github.com/pmneila/PyMaxflow), Max flow/min cut
+      * Package: [PyPSA](https://pypsa.org/), power systems analysis
     * Plot [convex hull](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html)
     * Examples
       * Implement TSP, [Video](https://www.coursera.org/lecture/delivery-problem/branch-and-bound-UyBJC)
+      * [Genetic algo](https://towardsdatascience.com/evolution-of-a-salesman-a-complete-genetic-algorithm-tutorial-for-python-6fe5d2b3ca35) (Stoltz)
   * Dimensionality reduction
     * Package: [umap](https://github.com/lmcinnes/umap), uniform manifold approx. and projection
   * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
@@ -332,54 +334,6 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [xkcd 1597](https://xkcd.com/1597/)
     * [xkcd 1296](https://xkcd.com/1296/)
 
-### General coding / computation
-* Overview/best practices
-  * Overview ([slides](http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices) from [@tommlogan](https://github.com/tommlogan))
-  * [Best practices](https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html) from [@marcio-mourao](https://github.com/marcio-mourao)
-  * [Good enough practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) (Wilson et al.)
-  * [Best practices](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) (Wilson et al.)
-  * [Coding standards](https://eecs280staff.github.io/eecs280.org/assets/EECS_280_Coding_Standards.pdf) (EECS 280, UM)
-* Courses
-  * System and Software Tools ([slides](https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml))
-  * Intro to computing for computer scientists ([lectures](https://c4cs.github.io/))
-    * E.g., Linux, command line, version control, shells, scripting
-  * Computing for Social Sciences ([slides, resources, etc.](https://cfss.uchicago.edu/syllabus.html))
-  * Software Carpentry [many resources](https://github.com/swcarpentry/swcarpentry)
-* Command line
-  * Bash
-    * [Shell commands](https://courses.cs.washington.edu/courses/cse391/16sp/bash.html)
-    * [Reference manual](https://www.gnu.org/software/bash/manual/bashref.html)
-  * [Overview](http://linuxcommand.org/index.php) (William Shotts)
-  * Free textbook: [_The Linux Command Line_](http://linuxcommand.org/tlcl.php) (William Shotts)
-  * Intro ([slides](https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf), UM CSCAR)
-* Linux
-  * [Intro course](https://training.linuxfoundation.org/training/introduction-to-linux/) (free online)
-* Remote computing
-  * SSH - aka Secure Shell (allows secure remote login even if network insecure)
-    * [PuTTy](https://www.putty.org/)
-  * File transfer
-    * [WinSCP](https://winscp.net/eng/download.php) - Windows
-    * [Cyberduck](https://cyberduck.io/) - Mac/Windows
-    * Large files: [Globus](https://www.globus.org/)
-      * Basic version for research/education is free
-  * Cluster computing
-    * [PBS overview](https://www.youtube.com/watch?v=SW8Lu1-JaSM) (batch scripting, 40min video)
-    * Unix
-      * Book: [_The Unix Workbench_](https://seankross.com/the-unix-workbench/) (Kross)
-      * [Tutorial for beginners](http://info.ee.surrey.ac.uk/Teaching/Unix/index.html)
-      * [vi commands](https://www.cs.colostate.edu/helpdocs/vi.html)
-* What are...
-  * [src vs. bin folders](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
-* How to...
-  * [Add environment variables/PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
-* Text editors
-  * [Atom](https://atom.io/)
-  * [Vim](https://www.vim.org/)
-    * Game to learn Vim: [Vim Adventures](https://vim-adventures.com/)
-  * [Emacs](https://www.gnu.org/software/emacs/)
-  * [Visual Studio Code](https://code.visualstudio.com/)
-  * [Sublime](https://www.sublimetext.com/)
-  * [Nano](https://www.nano-editor.org/)
 
 ### AMPL
 * Free textbook: [_AMPL_](https://ampl.com/resources/the-ampl-book/chapter-downloads/) (Fourer, Gay, and Kernighan)
@@ -391,6 +345,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Julia
   * [Optimization in Julia](http://www.juliaopt.org/) - nice summary of solvers at bottom of page
+  * Forum
+    * [Discourse - optimization](https://discourse.julialang.org/c/domain/opt)
+    * [Discourse - general Julia](https://discourse.julialang.org/)
+  * How to use
+    * [Manual](https://docs.julialang.org/en/v1/index.html)
+    * [Style guide](https://docs.julialang.org/en/v1/manual/style-guide/)
   * Modeling languages
     * [JuMP](http://www.juliaopt.org/JuMP.jl/0.18/) - general
     * [Convex.jl](https://convexjl.readthedocs.io/en/latest/) - disciplined convex
@@ -412,6 +372,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Machine learning](https://github.com/JuliaML)
   * [Plots](http://docs.juliaplots.org/latest/)
   * [Timer outputs](https://github.com/KristofferC/TimerOutputs.jl)
+  * How to:
+    * [Install a package the first time](https://stackoverflow.com/questions/51793629/how-to-install-a-package-in-julia-1-0-undefvarerror-pkg-not-defined)
+    * [Install a specific version of a package](https://julialang.github.io/Pkg.jl/v1/managing-packages/)
 
 ### Other programming languages
 * SQL
@@ -420,6 +383,55 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [FAST](https://web.stanford.edu/~lcambier/fast/index.php) - Stochastic dual dynamic programming (open-source)
   * [Optimization](https://www.mathworks.com/products/optimization.html) (paid)
   * [Global optimization](https://www.mathworks.com/products/global-optimization.html) (paid)
+
+### General coding / computation
+  * Overview/best practices
+    * Overview ([slides](http://reckoningrisk.com/research-practice/coding/2018/better-coding-practices) from [@tommlogan](https://github.com/tommlogan))
+    * [Best practices](https://rawgit.com/marcio-mourao/Programming-Best-Practices/master/Workshop.html) from [@marcio-mourao](https://github.com/marcio-mourao)
+    * [Good enough practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) (Wilson et al.)
+    * [Best practices](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) (Wilson et al.)
+    * [Coding standards](https://eecs280staff.github.io/eecs280.org/assets/EECS_280_Coding_Standards.pdf) (EECS 280, UM)
+  * Courses
+    * System and Software Tools ([slides](https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml))
+    * Intro to computing for computer scientists ([lectures](https://c4cs.github.io/))
+      * E.g., Linux, command line, version control, shells, scripting
+    * Computing for Social Sciences ([slides, resources, etc.](https://cfss.uchicago.edu/syllabus.html))
+    * Software Carpentry [many resources](https://github.com/swcarpentry/swcarpentry)
+  * Command line
+    * Bash
+      * [Shell commands](https://courses.cs.washington.edu/courses/cse391/16sp/bash.html)
+      * [Reference manual](https://www.gnu.org/software/bash/manual/bashref.html)
+    * [Overview](http://linuxcommand.org/index.php) (William Shotts)
+    * Free textbook: [_The Linux Command Line_](http://linuxcommand.org/tlcl.php) (William Shotts)
+    * Intro ([slides](https://cscar.research.umich.edu/wp-content/uploads/sites/5/2016/09/Intro-to-Command-Line.pdf), UM CSCAR)
+  * Linux
+    * [Intro course](https://training.linuxfoundation.org/training/introduction-to-linux/) (free online)
+  * Remote computing
+    * SSH - aka Secure Shell (allows secure remote login even if network insecure)
+      * [PuTTy](https://www.putty.org/)
+    * File transfer
+      * [WinSCP](https://winscp.net/eng/download.php) - Windows
+      * [Cyberduck](https://cyberduck.io/) - Mac/Windows
+      * Large files: [Globus](https://www.globus.org/)
+        * Basic version for research/education is free
+    * Cluster computing
+      * [PBS overview](https://www.youtube.com/watch?v=SW8Lu1-JaSM) (batch scripting, 40min video)
+      * Unix
+        * Book: [_The Unix Workbench_](https://seankross.com/the-unix-workbench/) (Kross)
+        * [Tutorial for beginners](http://info.ee.surrey.ac.uk/Teaching/Unix/index.html)
+        * [vi commands](https://www.cs.colostate.edu/helpdocs/vi.html)
+  * What are...
+    * [src vs. bin folders](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
+  * How to...
+    * [Add environment variables/PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
+  * Text editors
+    * [Atom](https://atom.io/)
+    * [Vim](https://www.vim.org/)
+      * Game to learn Vim: [Vim Adventures](https://vim-adventures.com/)
+    * [Emacs](https://www.gnu.org/software/emacs/)
+    * [Visual Studio Code](https://code.visualstudio.com/)
+    * [Sublime](https://www.sublimetext.com/)
+    * [Nano](https://www.nano-editor.org/)
 
 ### Math programming software
 * Overviews
@@ -496,6 +508,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [TSPLIB](https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/)
   * [Networks](http://networkrepository.com/dimacs.php) (DIMACS)
   * [MINLP](https://wiki.mcs.anl.gov/leyffer/index.php/MacMINLP) in AMPL
+  * [VRP-REP](http://www.vrp-rep.org/) - vehicle routing
   * Facility location
     * [Bilde-Krarup](http://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/BildeKrarup.html) (Quite old - 1977)
 * Course resources
@@ -765,6 +778,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Other
     * [Clinicaltrials.gov](https://clinicaltrials.gov/)
     * [Tufts Cost-Effectiveness Analysis Registry](http://healtheconomics.tuftsmedicalcenter.org/cear4/Home.aspx)
+    * [Book recommendations from SHS](https://www.iise.org/SHS/details.aspx?id=18334)
   * Major surveys
     * [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) (in person)
     * [BRFSS](https://www.cdc.gov/brfss/annual_data/annual_data.htm) (phone, pronounced "Burfiss")
@@ -799,8 +813,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Academic jobs
     * [Tons of resources](http://crlt.umich.edu/PFF_Resources) (UM CRLT)
   * [How to build your portfolio](https://mpi4py.readthedocs.io/en/stable/index.html) (Harris)
+  * What can you do with a math degree? [Videos](https://www.maa.org/programs/faculty-and-departments/pic-math/solving-real-world-problems) - PICMATH
 * Schools
   * [Summer schools 2019](https://thiagoserra.com/2019/01/15/summer-2019-schools-on-data-analytics-discrete-math-machine-learning-networks-optimization-and-other-relevant-topics-in-operations-research/) (Thiago Serra)
+* Undergrads
+  * [MSRI-UP](http://www.msri.org/web/msri/education/for-undergraduates/msri-up) - summer math program for undergrads
+  * [Job search resources](https://bigmathnetwork.org/resources-for-students/) - BIG Math
 
 ### Twitter
 * Communities I appreciate
