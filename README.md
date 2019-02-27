@@ -344,37 +344,45 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Sampling discrete random variables from uniform distribution](https://groups.google.com/forum/#!msg/ampl/Wjl-PC-kkiY/FGgDMedidLkJ)
 
 ### Julia
-  * [Optimization in Julia](http://www.juliaopt.org/) - nice summary of solvers at bottom of page
-  * Forum
-    * [Discourse - optimization](https://discourse.julialang.org/c/domain/opt)
-    * [Discourse - general Julia](https://discourse.julialang.org/)
   * How to use
     * [Manual](https://docs.julialang.org/en/v1/index.html)
     * [Style guide](https://docs.julialang.org/en/v1/manual/style-guide/)
-  * Modeling languages
-    * [JuMP](http://www.juliaopt.org/JuMP.jl/0.18/) - general
-    * [Convex.jl](https://convexjl.readthedocs.io/en/latest/) - disciplined convex
-  * Solvers/algorithms
-    * [JuliaStochOpt](https://github.com/JuliaStochOpt)
-      * Including: [discrete-time stochastic control](https://github.com/JuliaStochOpt/StochDynamicProgramming.jl)
-    * [SDDP](https://github.com/odow/SDDP.jl) (stochastic dual dynamic prog)
-      * Very nice documentation with [tutorials](https://odow.github.io/SDDP.jl/latest/index.html)
-    * [SDDiP](https://github.com/lkapelevich/SDDiP.jl) (SDDP with integer variables)
-    * [StructJuMP](https://github.com/StructJuMP/StructJuMP.jl) (2-stage stochastic programs)
-    * [DSP](https://github.com/Argonne-National-Laboratory/DSPsolver.jl) (stochastic mixed-integer)
-    * [Complementarity.jl](https://github.com/chkwon/Complementarity.jl) (mixed-complementarity and math programs with equilibrium problems)
-    * [CLP](https://github.com/JuliaOpt/Clp.jl) - COIN-OR LP solver
-    * [L-shaped solver](https://github.com/martinbiel/LShapedSolvers.jl)
+    * [Cheat sheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
+  * Resource compilations
+    * [Many resources](https://julialang.org/learning/) (Julia site)
+    * [Lists of packages related to different areas](https://svaksha.github.io/Julia.jl/) (svaksha) - click on the .md links to see
+  * Forum
+    * [Discourse - optimization](https://discourse.julialang.org/c/domain/opt)
+    * [Discourse - general Julia](https://discourse.julialang.org/)
+  * Operations research
+    * [Optimization in Julia](http://www.juliaopt.org/) - nice summary of solvers at bottom of page
+    * Free textbook: [_Julia Programming for Operations Research (ver1)_](https://www.softcover.io/read/7b8eb7d0/juliabook) (Kwon, [code](https://github.com/chkwon/jpor_codes))
+    * Modeling languages
+      * [JuMP](http://www.juliaopt.org/JuMP.jl/0.18/) - general
+      * [Convex.jl](https://convexjl.readthedocs.io/en/latest/) - disciplined convex
+    * Solvers/algorithms
+      * [JuliaStochOpt](https://github.com/JuliaStochOpt)
+        * Including: [discrete-time stochastic control](https://github.com/JuliaStochOpt/StochDynamicProgramming.jl)
+      * [SDDP](https://github.com/odow/SDDP.jl) (stochastic dual dynamic prog); [tutorials](https://odow.github.io/SDDP.jl/latest/index.html)
+      * [SDDiP](https://github.com/lkapelevich/SDDiP.jl) (SDDP with integer variables)
+      * [StructJuMP](https://github.com/StructJuMP/StructJuMP.jl) (2-stage stochastic programs)
+      * [DSP](https://github.com/Argonne-National-Laboratory/DSPsolver.jl) (stochastic mixed-integer)
+      * [Complementarity.jl](https://github.com/chkwon/Complementarity.jl) (mixed-complementarity and math programs with equilibrium problems)
+      * [CLP](https://github.com/JuliaOpt/Clp.jl) - COIN-OR LP solver
+      * [L-shaped solver](https://github.com/martinbiel/LShapedSolvers.jl)
   * Other math/CS
     * [Evaluate derivatives](http://www.juliadiff.org/)
     * [Differential equations](http://juliadiffeq.org/)
     * [Calculus](https://github.com/JuliaMath/Calculus.jl)
     * [Machine learning](https://github.com/JuliaML)
   * [Plots](http://docs.juliaplots.org/latest/)
-  * [Timer outputs](https://github.com/KristofferC/TimerOutputs.jl)
+  * Performance
+    * [Tips](https://docs.julialang.org/en/v1/manual/performance-tips)
+    * Package: [TimerOutputs.jl](https://github.com/KristofferC/TimerOutputs.jl)
+    * Package: [BenchmarkTools.jl](https://github.com/JuliaCI/BenchmarkTools.jl)
   * How to:
     * [Install a package the first time](https://stackoverflow.com/questions/51793629/how-to-install-a-package-in-julia-1-0-undefvarerror-pkg-not-defined)
-    * [Install a specific version of a package](https://julialang.github.io/Pkg.jl/v1/managing-packages/)
+    * [Install a specific version of a package](https://julialang.github.io/Pkg.jl/v1/managing-packages/) (answered within the first section)
 
 ### Other programming languages
 * SQL
@@ -416,14 +424,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
         * Basic version for research/education is free
     * Cluster computing
       * [PBS overview](https://www.youtube.com/watch?v=SW8Lu1-JaSM) (batch scripting, 40min video)
-      * Unix
+      * Unixm
         * Book: [_The Unix Workbench_](https://seankross.com/the-unix-workbench/) (Kross)
         * [Tutorial for beginners](http://info.ee.surrey.ac.uk/Teaching/Unix/index.html)
         * [vi commands](https://www.cs.colostate.edu/helpdocs/vi.html)
-  * What are...
-    * [src vs. bin folders](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
-  * How to...
-    * [Add environment variables/PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
   * Text editors
     * [Atom](https://atom.io/)
     * [Vim](https://www.vim.org/)
@@ -432,6 +436,11 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Visual Studio Code](https://code.visualstudio.com/)
     * [Sublime](https://www.sublimetext.com/)
     * [Nano](https://www.nano-editor.org/)
+  * What are/is...
+    * [src vs. bin folders?](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
+    * the difference between statically and dynamically typed lanugages? [stackoverflow](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages); [blogpost](https://pythonconquerstheuniverse.wordpress.com/2009/10/03/static-vs-dynamic-typing-of-programming-languages/) (From Python Conquers)
+  * How to...
+      * [Add environment variables/PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
 
 ### Math programming software
 * Overviews
@@ -577,6 +586,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Intro course lectures](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) (Strang)
   * Review and reference ([handout](http://cs229.stanford.edu/section/cs229-linalg.pdf), Kolter and Do)
   * Intro to matrix algebra ([handout](http://ibgwww.colorado.edu/%7Ecarey/p7291dir/handouts/matrix.algebra.pdf), Carey)
+  * [Course notes, exercises, book](http://vmls-book.stanford.edu/) (Boyd and Vandenberghe)
 * Game theory
   * [Intro course lectures](https://oyc.yale.edu/economics/econ-159) (Ben Polak)
   * [Course slides](http://www.ifp.illinois.edu/~angelia/game_lectures.htm) (Nedich)
