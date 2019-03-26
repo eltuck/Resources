@@ -246,7 +246,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Package: [ggpubr](http://www.sthda.com/english/rpkgs/ggpubr/) - wrapper around ggplot
       * Intended to be easier to create pub-ready figures
   * Package: [rvg](https://github.com/davidgohel/rvg) - export figures to be editable in Powerpoint
+  * Package: magick, [vignette](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) - image processing
   * Graphs and networks
+    * [Tutorial](http://kateto.net/network-visualization) (Ognyanova)
     * Package: [DiagrammeR](https://github.com/rich-iannone/DiagrammeR)
       * [Example](http://yetanothermathprogrammingconsultant.blogspot.com/2018/07/graph-drawing-in-rstudio.html) (Kalvelagen)
     * Package: [Plotly](https://plot.ly/python/tree-plots/)
@@ -262,6 +264,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Using Stamen maps](https://statisticaloddsandends.wordpress.com/2018/10/25/getting-started-stamen-maps-with-ggmap/) (Tay)
     * Package: [urbnmapr](https://github.com/UrbanInstitute/urbnmapr), state and county
   * Colors / themes
+    * [Color/fill/transparency in ggplot2](https://ggplot2.tidyverse.org/reference/aes_colour_fill_alpha.html) (tidyverse)
     * RColorBrewer
       * [Explanation](https://moderndata.plot.ly/create-colorful-graphs-in-r-with-rcolorbrewer-and-plotly/) (by chelsea in R)
       * [GUI](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) to review options on a map
@@ -278,7 +281,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Rearrange categories](https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/)
       * [Convert axes to percents](https://stackoverflow.com/questions/27433798/how-to-change-y-axis-range-to-percent-from-number-in-barplot-with-r)
       * [Change size of title and labels](https://stackoverflow.com/questions/14942681/change-size-of-axes-title-and-labels-in-ggplot2)
-      * [Rotate labels](http://tallman-world.tumblr.com/post/89964965867/rhow-to-rotate-axis-labels-in-ggplot2) ()
+      * [Rotate labels](http://tallman-world.tumblr.com/post/89964965867/rhow-to-rotate-axis-labels-in-ggplot2)
     * [Plot all data in background](https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2) on faceted ggplot2 figures
     * [Change colors](http://www.sthda.com/english/wiki/ggplot2-colors-how-to-change-colors-automatically-and-manually)
     * Iteratively make plots
@@ -318,6 +321,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Undo](https://www.atlassian.com/git/tutorials/undoing-changes)
     * [Save credentials](https://help.github.com/articles/caching-your-github-password-in-git/) (i.e., username/password)
     * [Exit git log](https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff) (soln: type 'q')
+    * [Revert to older version](https://www.git-tower.com/learn/git/faq/restore-repo-to-previous-revision) (use new branch)
     * Repos
       * [Clone a repo](https://help.github.com/articles/cloning-a-repository/)
       * [Use cloned repo](https://stackoverflow.com/questions/14217406/why-i-cant-push-a-newly-cloned-repo)
@@ -351,9 +355,11 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Resource compilations
     * [Many resources](https://julialang.org/learning/) (Julia site)
     * [Lists of packages related to different areas](https://svaksha.github.io/Julia.jl/) (svaksha) - click on the .md links to see
-  * Forum
+  * Fora
     * [Discourse - optimization](https://discourse.julialang.org/c/domain/opt)
     * [Discourse - general Julia](https://discourse.julialang.org/)
+    * [Slack channel](https://julialang.slack.com/), [link to invitation](https://slackinvite.julialang.org/)
+    * [List of communities](https://julialang.org/community/)
   * Operations research
     * [Optimization in Julia](http://www.juliaopt.org/) - nice summary of solvers at bottom of page
     * Free textbook: [_Julia Programming for Operations Research (ver1)_](https://www.softcover.io/read/7b8eb7d0/juliabook) (Kwon, [code](https://github.com/chkwon/jpor_codes))
@@ -518,6 +524,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Networks](http://networkrepository.com/dimacs.php) (DIMACS)
   * [MINLP](https://wiki.mcs.anl.gov/leyffer/index.php/MacMINLP) in AMPL
   * [VRP-REP](http://www.vrp-rep.org/) - vehicle routing
+    * Commonly used (per Laporte 2007): [CMT, 1979](http://www.vrp-rep.org/references/item/christofides-et-al-1979.html), [GWKC, 1998](http://www.vrp-rep.org/datasets/item/2014-0004.html)
   * Facility location
     * [Bilde-Krarup](http://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/BildeKrarup.html) (Quite old - 1977)
 * Course resources
@@ -635,6 +642,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [10 rules to use stats](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961) (comp biology)
   * [Document and avoid these problems](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist) (biostat)
   * [StatPrimer](http://www.sjsu.edu/faculty/gerstman/StatPrimer/) (Gerstman)
+  * Courses
+    * [Clinical trials - design/analysis](https://newonlinecourses.science.psu.edu/stat509/node/164/) (Penn State, notes)
   * Tests
     * [What test should I use?](https://stats.idre.ucla.edu/other/mult-pkg/whatstat/) (Examples in R, Stata, SAS, SPSS)
     * [t-tests](https://pharmafactz.com/pharmaceutical-calculations-comparing-two-means-using-t-test/)
@@ -946,7 +955,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * [Types of validity](http://www.amybucherphd.com/statistical-validity-types/) (Amy Bucher)
 * [Testing](https://towardsdatascience.com/testing-to-learn-part-1-16a7968d2ba3) (Kehrer)
 * Various software
-  * [Digitize it](https://www.digitizeit.de/) - Convert figure to (x,y) data:
+  * [Digitize it](https://www.digitizeit.de/) - Convert figure to (x,y) data
   * [draftable](https://draftable.com/compare) - Compare pdf files
   * [color oracle](http://colororacle.org/) - convert screen to what a color blind person would see:
   * Poll meeting availability
@@ -955,9 +964,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Word
   * [How to change the Normal template](https://support.office.com/en-us/article/change-the-normal-template-normal-dotm-06de294b-d216-47f6-ab77-ccb5166f98ea)
 * Fun OR (or related) applications
-  * [2048 using MDPs](http://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html) from [@jdleesmiller](https://github.com/jdleesmiller):
-  * [Chutes & Ladders as a Markov chain](https://jakevdp.github.io/blog/2017/12/18/simulating-chutes-and-ladders/) [@jakevdp](https://github.com/jakevdp):
-  * [Mario Kart drivers - Pareto efficiency](http://hinnefe2.github.io/python/tools/2015/09/21/mario-kart.html) from [@hinnefe2](https://github.com/hinnefe2):
+  * [2048 using MDPs](http://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html) from [@jdleesmiller](https://github.com/jdleesmiller)
+  * [Chutes & Ladders as a Markov chain](https://jakevdp.github.io/blog/2017/12/18/simulating-chutes-and-ladders/) [@jakevdp](https://github.com/jakevdp)
+  * [Mario Kart drivers - Pareto efficiency](http://hinnefe2.github.io/python/tools/2015/09/21/mario-kart.html) from [@hinnefe2](https://github.com/hinnefe2)
   * [Text mining on country music lyrics](https://www.johnwmillr.com/trucks-and-beer/) (Miller)
 * OR/Programming/etc. in Industry
   * [Netflix](https://medium.com/netflix-techblog/notebook-innovation-591ee3221233)
