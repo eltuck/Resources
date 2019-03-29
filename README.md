@@ -231,6 +231,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Simulation
   * Microsimulation [tutorial](https://github.com/DARTH-git/Microsimulation-tutorial) (Krijkamp et al.)
 * Statistics
+  * Principal component analysis [tutorial](https://www.datacamp.com/community/tutorials/pca-analysis-r) (Hayden)
   * Survival analysis
     * Package: [survival](https://cran.r-project.org/web/packages/survival/index.html), base analysis
     * Package: [survminer](http://www.sthda.com/english/wiki/survminer-r-package-survival-data-analysis-and-visualization), improved visuals
@@ -276,6 +277,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Set up
     * [Update R](https://www.linkedin.com/pulse/3-methods-update-r-rstudio-windows-mac-woratana-ngarmtrakulchol), run in RGui, not RStudio
     * Have your code [text you](https://www.r-bloggers.com/let-r-python-send-messages-when-the-algorithms-are-done-training/) when done running
+  * Data
+    * List factor levels
+      * [List all including those without observations - levels()](https://stackoverflow.com/questions/42856796/levels-of-factor-still-show-after-deleting-the-elements), could also use droplevels()
+      * [Only list those with observations - unique()](https://chemicalstatistician.wordpress.com/2018/03/10/use-unique-instead-of-levels-to-find-the-possible-values-of-a-character-variable-in-r/) (Cai)
   * Plot things
     * Axes
       * [Rearrange categories](https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/)
@@ -436,6 +441,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
         * [vi commands](https://www.cs.colostate.edu/helpdocs/vi.html)
   * Text editors
     * [Atom](https://atom.io/)
+      * [Keyboard shortcuts](https://github.com/nwinkler/atom-keyboard-shortcuts/blob/master/README.md) (nwinkler)
     * [Vim](https://www.vim.org/)
       * Game to learn Vim: [Vim Adventures](https://vim-adventures.com/)
     * [Emacs](https://www.gnu.org/software/emacs/)
