@@ -173,9 +173,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [_Text Mining with R_](https://www.tidytextmining.com/) by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/)
   * [Cheat sheets](https://www.rstudio.com/resources/cheatsheets/)
     * [Base R](https://www.povertyactionlab.org/sites/default/files/r-cheat-sheet.pdf)
-    * ggplot2:
-      * [Two pages](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
-      * [Longer](http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/)
+    * ggplot2: [Two pages](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf); [Longer](http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/)
     * [Syntax comparison](http://www.science.smith.edu/~amcnamara/Syntax-cheatsheet.pdf): base R vs. formula vs. tidyverse
   * Styleguides
     * [From Google](https://google.github.io/styleguide/Rguide.xml)
@@ -619,12 +617,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * How to get started
     * [Blog post](https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/) by [@kierisi](https://github.com/kierisi)
     * [Plan](http://seankross.com/notes/data-science-from-scratch/) (Kross)
-  * Applied data science ([course readings](https://github.com/hadley/stats337#readings) from [@hadley](https://github.com/hadley/))
-  * [Directory](http://www.datasciguide.com/content/) of materials
+  * [Directory](http://www.datasciguide.com/content/) of materials (DataSciGuide)
   * [DataFramed podcast](https://www.datacamp.com/community/podcast) (DataCamp)
   * Courses
-    * Foundations of Data Science [Data8](http://data8.org/) - slides, videos, assignments
+    * Foundations of Data Science ([video, slides, assignments](http://data8.org/), Berkeley)
       * [Textbook](https://www.inferentialthinking.com/chapters/intro) (Adhikari, DeNero)
+    * Applied data science ([course readings](https://github.com/hadley/stats337#readings) from [@hadley](https://github.com/hadley/))
     * Intro to data ethics ([course module](https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/), Shannon Vallor)
   * Examples
     * [Work habits and bicycles](https://jakevdp.github.io/blog/2015/07/23/learning-seattles-work-habits-from-bicycle-counts/) (VanderPlas)
