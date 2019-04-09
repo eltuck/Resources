@@ -195,6 +195,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [R Weekly](https://rweekly.org/), new R resources every week
 * Communities
   * [Tidy Tuesdays](https://github.com/rfordatascience/tidytuesday/blob/master/README.md), a weekly data viz project
+    * Package: [TidyTuesdayR](https://github.com/thebioengineer/tidytuesdayR/) - to help download data
+    * See results from each week: [TidyTuesdayRocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/) (Grantham)
   * [Community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82) to walk through _R for Data Science_ book together
   * [R-Ladies](https://rladies-community-slack.herokuapp.com/) community on Slack
 * Packages/topics
@@ -231,6 +233,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Simulation
   * Microsimulation [tutorial](https://github.com/DARTH-git/Microsimulation-tutorial) (Krijkamp et al.)
 * Statistics
+  * Summary
+    * Package: [summarytools](https://cran.r-project.org/web/packages/summarytools/vignettes/Introduction.html), e.g., `view(dfSummary(iris))`
   * Principal component analysis [tutorial](https://www.datacamp.com/community/tutorials/pca-analysis-r) (Hayden)
   * Survival analysis
     * Package: [survival](https://cran.r-project.org/web/packages/survival/index.html), base analysis
@@ -299,6 +303,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [GridExtra](https://www.r-bloggers.com/extra-extra-get-your-gridextra/) - paneling ggplot figures
       * Function: [Multiplot](https://www.rdocumentation.org/packages/scater/versions/1.0.4/topics/multiplot)
       * If using [base R](https://www.statmethods.net/advgraphs/layout.html)
+    * [Drill-down figures](https://plotly-r.com/linking-views-with-shiny.html#advanced-applications), with plotly
     * [Save high resolution figures](https://www.r-bloggers.com/high-resolution-graphics-with-r/)
   * [Fit distributions](http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html)
   * [Write an R package](https://github.com/jtleek/rpackages) by [@jtleek](https://github.com/jtleek)
@@ -448,6 +453,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Visual Studio Code](https://code.visualstudio.com/)
     * [Sublime](https://www.sublimetext.com/)
     * [Nano](https://www.nano-editor.org/)
+  * Share code
+    * [Carbon](https://carbon.now.sh) - nice formatting for screenshotting code
   * What are/is...
     * [src vs. bin folders?](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
     * the difference between statically and dynamically typed lanugages? [stackoverflow](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages); [blogpost](https://pythonconquerstheuniverse.wordpress.com/2009/10/03/static-vs-dynamic-typing-of-programming-languages/) (From Python Conquers)
@@ -615,7 +622,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Applied data science ([course readings](https://github.com/hadley/stats337#readings) from [@hadley](https://github.com/hadley/))
   * [Directory](http://www.datasciguide.com/content/) of materials
   * [DataFramed podcast](https://www.datacamp.com/community/podcast) (DataCamp)
-  * Intro to data ethics ([course module](https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/), Shannon Vallor)
+  * Courses
+    * Foundations of Data Science [Data8](http://data8.org/) - slides, videos, assignments
+      * [Textbook](https://www.inferentialthinking.com/chapters/intro) (Adhikari, DeNero)
+    * Intro to data ethics ([course module](https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/), Shannon Vallor)
+  * Examples
+    * [Work habits and bicycles](https://jakevdp.github.io/blog/2015/07/23/learning-seattles-work-habits-from-bicycle-counts/) (VanderPlas)
 * Machine Learning
   * Communities
     * [Google group](https://groups.google.com/forum/#!forum/ml-news/categories)
@@ -679,6 +691,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Free Textbooks
   * [_Fundamentals of Data Visualization_](http://serialmentor.com/dataviz/) by [@clauswilke](https://github.com/clauswilke)
   * [_Data Visualization: A Practical Introduction_](http://socviz.co/) by [@kjhealy](https://github.com/kjhealy)
+* Course
+  * Data viz [Videos](https://www.youtube.com/playlist?list=PLehuLRPyt1HzQoXEhtNuYTmd0aNQvtyAK), Ghodsi, U. Waterloo
 * Color
   * [Guide to using color](https://blog.datawrapper.de/colorguide/) (Rost)
   * [Color oracle](http://colororacle.org/) - convert screen to what a color blind person would see
@@ -866,6 +880,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [From _Science_](http://www.sciencemag.org/careers/where-search-funding)
   * [From USC](https://research.usc.edu/for-investigators/funding/federal/)
 * [Federal grants](https://www.grants.gov/)
+* CAREER Grants
+  * [Materials](http://cisecareerworkshop.web.unc.edu/materials/) from CISE workshop, Mar 2019
 * Specific
   * FDA - [Generic drug-related](https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm)
 
@@ -895,6 +911,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Various advice
 * Grad students
+  * [Picking a PhD advisor](https://www.sciencemag.org/careers/2019/04/what-matters-phd-adviser-here-s-what-research-says) (Langin, Science)
   * [For new grad students](https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22) (Dorsa Amir)
   * [Guide to grad school](http://marcua.net/writing/gradschool-guide/) (Adam Marcus, CS)
   * [Guidebook for succeeding in the PhD](https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf) (Alex Eble, econ, [another link](http://www.alexeble.com/advice/))
@@ -932,7 +949,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Blogs for female consultants/bus. travelers](https://corporette.com/resources-and-blogs-for-female-consultants/)
   * [Business clothes for women](https://twitter.com/arieldora/status/1072138548269195264) (Stern)
 * Skills
-  * [Reading papers](https://github.com/jtleek/readingpapers) by [@jtleek](https://github.com/jtleek)
+  * Reading papers
+    * [Reading papers](https://github.com/jtleek/readingpapers) by [@jtleek](https://github.com/jtleek)
+    * [Technical papers](https://destenienock5.wixsite.com/destenienock/blog-posts/how-to-read-and-summarize-a-technical-paper) (Nock)
   * [Writing lit reviews](http://www.raulpacheco.org/resources/literature-reviews/) (Raul Pacheco-Vega)
   * [Organizing data in a spreadsheet](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) (Broman and Woo, open access); not always the best idea, but some tips
   * [How to review a paper](https://github.com/jtleek/reviews)
