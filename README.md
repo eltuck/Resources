@@ -97,7 +97,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [PyPSA](https://pypsa.org/), power systems analysis
     * Plot [convex hull](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html)
     * Examples
-      * Implement TSP, [Video](https://www.coursera.org/lecture/delivery-problem/branch-and-bound-UyBJC)
+      * [Optimization tutorial](https://github.com/ekhoda/optimization-tutorial) (ekhoda)
+      * TSP
+        * Implement TSP, [Video](https://www.coursera.org/lecture/delivery-problem/branch-and-bound-UyBJC)
+        * A few algos [tutorial](https://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb) (Norvig)
       * [Genetic algo](https://towardsdatascience.com/evolution-of-a-salesman-a-complete-genetic-algorithm-tutorial-for-python-6fe5d2b3ca35) (Stoltz)
   * Dimensionality reduction
     * Package: [umap](https://github.com/lmcinnes/umap), uniform manifold approx. and projection
@@ -562,11 +565,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Various materials](http://optimallearning.princeton.edu/) (Powell)
   * SDP
     * [Slides](http://www.mit.edu/~parrilo/cdc03_workshop/index.html) (Parrilo, Lall)
+* OR in practice
+  * [Wagner Prize Videos](https://www.informs.org/Resource-Center/Video-Library/Wagner-Competition-Videos) (INFORMS)
 * Other
   * [IFORS Developing Countries page](http://ifors.org/developing_countries/index.php?title=Main_Page) - a variety of open-source resources
   * [OR societies around the world](http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html)
   * [COIN-OR Foundation](https://www.coin-or.org/)
     * [Resources](https://www.coin-or.org/resources/)
+  * INFORMS tutorials [videos](https://www.informs.org/Resource-Center/Video-Library/INFORMS-TutORials
 * Topics
   * Benders Decomposition
     * [Using callbacks](https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html) to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin)
@@ -643,6 +649,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Recordings, slides](http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/) ([@amueller](https://github.com/amueller))
     * [Recordings, slides](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (Hastie, Tibshirani)
     * [Course notes](http://web.eecs.umich.edu/~cscott/past_courses/eecs545f15/index.html) (Clayton Scott)
+    * [Notes, slides](https://github.com/thejakeyboy/umich-eecs545-lectures) (Abernathy)
   * Topics
     * [How decision trees work](https://brohrer.github.io/how_decision_trees_work.html) (Rohrer)
     * [Taxonomy of reproducibility](http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf)
@@ -888,6 +895,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Blogposts
   * [Diversity and inclusion in the classroom](https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/) (Laura Albert)
   * [Teaching math](https://momentssnippetsspirals.wordpress.com/2015/04/07/where-direct-instruction-fails-willingham-memorization-and-conceptual-understanding-2/) (K-12, Milos)
+  * [Logistics of large classes - 10 articles](http://pgbovine.net/teaching-large-courses.htm)(Guo)
 
 ### Blogs I like (and read occasionally)
 * Operations research-ish
@@ -900,6 +908,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Other
     * [Math3Ma](http://www.math3ma.com/) by [@math3ma](https://twitter.com/math3ma) (math)
     * [Math Intersect Programming](https://jeremykun.com/) (Kun)
+    * [Philip J. Guo's site](http://pgbovine.net/writings.htm)
     * [Azimuth](https://johncarlosbaez.wordpress.com/) (various STEM fields trying to save the planet, [index of entries](http://www.azimuthproject.org/azimuth/show/Azimuth+Blog))
     * [Armchair Ecology](https://armchairecology.blog/) (Poisot, computational biology)
 * Humor
@@ -952,7 +961,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Technical papers](https://destenienock5.wixsite.com/destenienock/blog-posts/how-to-read-and-summarize-a-technical-paper) (Nock)
   * [Writing lit reviews](http://www.raulpacheco.org/resources/literature-reviews/) (Raul Pacheco-Vega)
   * [Organizing data in a spreadsheet](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) (Broman and Woo, open access); not always the best idea, but some tips
-  * [How to review a paper](https://github.com/jtleek/reviews)
+    * Reviewing papers
+      * [How to review a paper](https://github.com/jtleek/reviews) (Leek - biostat)
+      * [Being a good reviewer](https://academic.oup.com/ajhp/article/74/24/2080/5102692) (DiDomenico et al., pharmacy)
   * [Writing production-level code](https://www.datascience.com/blog/production-level-code-for-data-science) (Pappakrishnan)
   * [How to report bugs effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html) (Simon Tatham) - perhaps send to your users
   * Debugging
