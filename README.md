@@ -323,7 +323,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Beginner [Tutorial](http://try.github.io/)
   * [Guide to Git with R](http://happygitwithr.com/)
   * Cheat sheets
-    * [By Chris Albon](https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/)
+    * [By Chris Albon](https://chrisalbon.com/git/github_cheatsheet/)
     * [By Joshua Hibbert](https://github.com/joshnh/Git-Commands)
     * [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   * [Binder](https://mybinder.org/) - Convert Jupyter notebooks to executables
@@ -590,6 +590,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Nonlinear optimization
     * [Slides](http://cepac.cheme.cmu.edu/pasilectures/biegler/BieglerLecture.pdf) (Biegler)
     * [Short course slides](https://www.minlp.org/pdf/Bologna07.pdf) (Wachter)
+  * Numerical issues
+    * [Gurobi guidelines](http://www.gurobi.com/documentation/8.1/refman/numerics_gurobi_guidelines.html)
   * SDP (Semidefinite programming)
     * [Rendl 1](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro1.pdf), [Rendl 2](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro2.pdf)
   * Subgradient methods
