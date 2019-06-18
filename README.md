@@ -97,7 +97,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [PyPSA](https://pypsa.org/), power systems analysis
     * Plot [convex hull](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html)
     * Examples
-      * Implement TSP, [Video](https://www.coursera.org/lecture/delivery-problem/branch-and-bound-UyBJC)
+      * [Optimization tutorial](https://github.com/ekhoda/optimization-tutorial) (ekhoda)
+      * TSP
+        * Implement TSP, [Video](https://www.coursera.org/lecture/delivery-problem/branch-and-bound-UyBJC)
+        * A few algos [tutorial](https://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb) (Norvig)
       * [Genetic algo](https://towardsdatascience.com/evolution-of-a-salesman-a-complete-genetic-algorithm-tutorial-for-python-6fe5d2b3ca35) (Stoltz)
   * Dimensionality reduction
     * Package: [umap](https://github.com/lmcinnes/umap), uniform manifold approx. and projection
@@ -173,9 +176,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [_Text Mining with R_](https://www.tidytextmining.com/) by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/)
   * [Cheat sheets](https://www.rstudio.com/resources/cheatsheets/)
     * [Base R](https://www.povertyactionlab.org/sites/default/files/r-cheat-sheet.pdf)
-    * ggplot2:
-      * [Two pages](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
-      * [Longer](http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/)
+    * ggplot2: [Two pages](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf); [Longer](http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/)
     * [Syntax comparison](http://www.science.smith.edu/~amcnamara/Syntax-cheatsheet.pdf): base R vs. formula vs. tidyverse
   * Styleguides
     * [From Google](https://google.github.io/styleguide/Rguide.xml)
@@ -195,6 +196,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [R Weekly](https://rweekly.org/), new R resources every week
 * Communities
   * [Tidy Tuesdays](https://github.com/rfordatascience/tidytuesday/blob/master/README.md), a weekly data viz project
+    * Package: [TidyTuesdayR](https://github.com/thebioengineer/tidytuesdayR/) - to help download data
+    * See results from each week: [TidyTuesdayRocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/) (Grantham)
   * [Community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82) to walk through _R for Data Science_ book together
   * [R-Ladies](https://rladies-community-slack.herokuapp.com/) community on Slack
 * Packages/topics
@@ -231,6 +234,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Simulation
   * Microsimulation [tutorial](https://github.com/DARTH-git/Microsimulation-tutorial) (Krijkamp et al.)
 * Statistics
+  * Summary
+    * Package: [summarytools](https://cran.r-project.org/web/packages/summarytools/vignettes/Introduction.html), e.g., `view(dfSummary(iris))`
   * Principal component analysis [tutorial](https://www.datacamp.com/community/tutorials/pca-analysis-r) (Hayden)
   * Survival analysis
     * Package: [survival](https://cran.r-project.org/web/packages/survival/index.html), base analysis
@@ -301,6 +306,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [GridExtra](https://www.r-bloggers.com/extra-extra-get-your-gridextra/) - paneling ggplot figures
       * Function: [Multiplot](https://www.rdocumentation.org/packages/scater/versions/1.0.4/topics/multiplot)
       * If using [base R](https://www.statmethods.net/advgraphs/layout.html)
+    * [Drill-down figures](https://plotly-r.com/linking-views-with-shiny.html#advanced-applications), with plotly
     * [Save high resolution figures](https://www.r-bloggers.com/high-resolution-graphics-with-r/)
   * [Fit distributions](http://www.di.fc.ul.pt/~jpn/r/distributions/fitting.html)
   * [Write an R package](https://github.com/jtleek/rpackages) by [@jtleek](https://github.com/jtleek)
@@ -319,7 +325,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Beginner [Tutorial](http://try.github.io/)
   * [Guide to Git with R](http://happygitwithr.com/)
   * Cheat sheets
-    * [By Chris Albon](https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/)
+    * [By Chris Albon](https://chrisalbon.com/git/github_cheatsheet/)
     * [By Joshua Hibbert](https://github.com/joshnh/Git-Commands)
     * [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   * [Binder](https://mybinder.org/) - Convert Jupyter notebooks to executables
@@ -450,6 +456,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Visual Studio Code](https://code.visualstudio.com/)
     * [Sublime](https://www.sublimetext.com/)
     * [Nano](https://www.nano-editor.org/)
+  * Share code
+    * [Carbon](https://carbon.now.sh) - nice formatting for screenshotting code
   * What are/is...
     * [src vs. bin folders?](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
     * the difference between statically and dynamically typed lanugages? [stackoverflow](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages); [blogpost](https://pythonconquerstheuniverse.wordpress.com/2009/10/03/static-vs-dynamic-typing-of-programming-languages/) (From Python Conquers)
@@ -559,11 +567,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Various materials](http://optimallearning.princeton.edu/) (Powell)
   * SDP
     * [Slides](http://www.mit.edu/~parrilo/cdc03_workshop/index.html) (Parrilo, Lall)
+* OR in practice
+  * [Wagner Prize Videos](https://www.informs.org/Resource-Center/Video-Library/Wagner-Competition-Videos) (INFORMS)
 * Other
   * [IFORS Developing Countries page](http://ifors.org/developing_countries/index.php?title=Main_Page) - a variety of open-source resources
   * [OR societies around the world](http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html)
   * [COIN-OR Foundation](https://www.coin-or.org/)
     * [Resources](https://www.coin-or.org/resources/)
+  * INFORMS tutorials [videos](https://www.informs.org/Resource-Center/Video-Library/INFORMS-TutORials
 * Topics
   * Benders Decomposition
     * [Using callbacks](https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html) to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin)
@@ -581,6 +592,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Nonlinear optimization
     * [Slides](http://cepac.cheme.cmu.edu/pasilectures/biegler/BieglerLecture.pdf) (Biegler)
     * [Short course slides](https://www.minlp.org/pdf/Bologna07.pdf) (Wachter)
+  * Numerical issues
+    * [Gurobi guidelines](http://www.gurobi.com/documentation/8.1/refman/numerics_gurobi_guidelines.html)
   * SDP (Semidefinite programming)
     * [Rendl 1](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro1.pdf), [Rendl 2](http://www.ipco2008.deis.unibo.it/summerschool/Rendl_bertinoro2.pdf)
   * Subgradient methods
@@ -614,10 +627,15 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * How to get started
     * [Blog post](https://www.jessemaegan.com/post/data-science-with-r-how-do-i-start/) by [@kierisi](https://github.com/kierisi)
     * [Plan](http://seankross.com/notes/data-science-from-scratch/) (Kross)
-  * Applied data science ([course readings](https://github.com/hadley/stats337#readings) from [@hadley](https://github.com/hadley/))
-  * [Directory](http://www.datasciguide.com/content/) of materials
+  * [Directory](http://www.datasciguide.com/content/) of materials (DataSciGuide)
   * [DataFramed podcast](https://www.datacamp.com/community/podcast) (DataCamp)
-  * Intro to data ethics ([course module](https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/), Shannon Vallor)
+  * Courses
+    * Foundations of Data Science ([video, slides, assignments](http://data8.org/), Berkeley)
+      * [Textbook](https://www.inferentialthinking.com/chapters/intro) (Adhikari, DeNero)
+    * Applied data science ([course readings](https://github.com/hadley/stats337#readings) from [@hadley](https://github.com/hadley/))
+    * Intro to data ethics ([course module](https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/), Shannon Vallor)
+  * Examples
+    * [Work habits and bicycles](https://jakevdp.github.io/blog/2015/07/23/learning-seattles-work-habits-from-bicycle-counts/) (VanderPlas)
 * Machine Learning
   * Communities
     * [Google group](https://groups.google.com/forum/#!forum/ml-news/categories)
@@ -635,6 +653,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Recordings, slides](http://www.cs.columbia.edu/~amueller/comsw4995s18/schedule/) ([@amueller](https://github.com/amueller))
     * [Recordings, slides](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (Hastie, Tibshirani)
     * [Course notes](http://web.eecs.umich.edu/~cscott/past_courses/eecs545f15/index.html) (Clayton Scott)
+    * [Notes, slides](https://github.com/thejakeyboy/umich-eecs545-lectures) (Abernathy)
   * Topics
     * [How decision trees work](https://brohrer.github.io/how_decision_trees_work.html) (Rohrer)
     * [Taxonomy of reproducibility](http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf)
@@ -681,6 +700,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Free Textbooks
   * [_Fundamentals of Data Visualization_](http://serialmentor.com/dataviz/) by [@clauswilke](https://github.com/clauswilke)
   * [_Data Visualization: A Practical Introduction_](http://socviz.co/) by [@kjhealy](https://github.com/kjhealy)
+* Course
+  * Data viz [Videos](https://www.youtube.com/playlist?list=PLehuLRPyt1HzQoXEhtNuYTmd0aNQvtyAK), Ghodsi, U. Waterloo
 * Color
   * [Guide to using color](https://blog.datawrapper.de/colorguide/) (Rost)
   * [Color oracle](http://colororacle.org/) - convert screen to what a color blind person would see
@@ -896,6 +917,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [From _Science_](http://www.sciencemag.org/careers/where-search-funding)
   * [From USC](https://research.usc.edu/for-investigators/funding/federal/)
 * [Federal grants](https://www.grants.gov/)
+* CAREER Grants
+  * [Materials](http://cisecareerworkshop.web.unc.edu/materials/) from CISE workshop, Mar 2019
 * Specific
   * FDA - [Generic drug-related](https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm)
 
@@ -904,6 +927,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Blogposts
   * [Diversity and inclusion in the classroom](https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/) (Laura Albert)
   * [Teaching math](https://momentssnippetsspirals.wordpress.com/2015/04/07/where-direct-instruction-fails-willingham-memorization-and-conceptual-understanding-2/) (K-12, Milos)
+  * [Logistics of large classes - 10 articles](http://pgbovine.net/teaching-large-courses.htm)(Guo)
 
 ### Blogs I like (and read occasionally)
 * Operations research-ish
@@ -916,6 +940,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Other
     * [Math3Ma](http://www.math3ma.com/) by [@math3ma](https://twitter.com/math3ma) (math)
     * [Math Intersect Programming](https://jeremykun.com/) (Kun)
+    * [Philip J. Guo's site](http://pgbovine.net/writings.htm)
     * [Azimuth](https://johncarlosbaez.wordpress.com/) (various STEM fields trying to save the planet, [index of entries](http://www.azimuthproject.org/azimuth/show/Azimuth+Blog))
     * [Armchair Ecology](https://armchairecology.blog/) (Poisot, computational biology)
 * Humor
@@ -925,6 +950,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Various advice
 * Grad students
+  * [Picking a PhD advisor](https://www.sciencemag.org/careers/2019/04/what-matters-phd-adviser-here-s-what-research-says) (Langin, Science)
   * [For new grad students](https://medium.com/@dorsaamir/modest-advice-for-new-graduate-students-b0be6b8dbc22) (Dorsa Amir)
   * [Guide to grad school](http://marcua.net/writing/gradschool-guide/) (Adam Marcus, CS)
   * [Guidebook for succeeding in the PhD](https://static1.squarespace.com/static/55c143d9e4b0cb07521c6d17/t/5b4f409f575d1ff83c2f12d8/1531920545061/PhDGuidebook.pdf) (Alex Eble, econ, [another link](http://www.alexeble.com/advice/))
@@ -962,10 +988,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Blogs for female consultants/bus. travelers](https://corporette.com/resources-and-blogs-for-female-consultants/)
   * [Business clothes for women](https://twitter.com/arieldora/status/1072138548269195264) (Stern)
 * Skills
-  * [Reading papers](https://github.com/jtleek/readingpapers) by [@jtleek](https://github.com/jtleek)
+  * Reading papers
+    * [Reading papers](https://github.com/jtleek/readingpapers) by [@jtleek](https://github.com/jtleek)
+    * [Technical papers](https://destenienock5.wixsite.com/destenienock/blog-posts/how-to-read-and-summarize-a-technical-paper) (Nock)
   * [Writing lit reviews](http://www.raulpacheco.org/resources/literature-reviews/) (Raul Pacheco-Vega)
   * [Organizing data in a spreadsheet](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) (Broman and Woo, open access); not always the best idea, but some tips
-  * [How to review a paper](https://github.com/jtleek/reviews)
+    * Reviewing papers
+      * [How to review a paper](https://github.com/jtleek/reviews) (Leek - biostat)
+      * [Being a good reviewer](https://academic.oup.com/ajhp/article/74/24/2080/5102692) (DiDomenico et al., pharmacy)
   * [Writing production-level code](https://www.datascience.com/blog/production-level-code-for-data-science) (Pappakrishnan)
   * [How to report bugs effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html) (Simon Tatham) - perhaps send to your users
   * Debugging
