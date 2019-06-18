@@ -281,6 +281,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * List factor levels
       * [List all including those without observations - levels()](https://stackoverflow.com/questions/42856796/levels-of-factor-still-show-after-deleting-the-elements), could also use droplevels()
       * [Only list those with observations - unique()](https://chemicalstatistician.wordpress.com/2018/03/10/use-unique-instead-of-levels-to-find-the-possible-values-of-a-character-variable-in-r/) (Cai)
+    * Add rows to dataframe
+      * [Use list() rather than c() if types are mixed](https://stackoverflow.com/questions/28467068/add-row-to-dataframe)
   * Plot things
     * Axes
       * [Rearrange categories](https://trinkerrstuff.wordpress.com/2012/10/15/how-do-i-re-arrange-ordering-a-plot/)
@@ -832,18 +834,46 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Twitter feeds with job postings
     * [R job listings](https://twitter.com/rjoblistings)
     * [Data science](https://twitter.com/NewDataSciJobs)
+  * [How to build your portfolio](https://mpi4py.readthedocs.io/en/stable/index.html) (Harris)
+  * What can you do with a math degree? [Videos](https://www.maa.org/programs/faculty-and-departments/pic-math/solving-real-world-problems) - PICMATH
+  * Schools
+    * [Summer schools 2019](https://thiagoserra.com/2019/01/15/summer-2019-schools-on-data-analytics-discrete-math-machine-learning-networks-optimization-and-other-relevant-topics-in-operations-research/) (Thiago Serra)
+  * Undergrads
+    * [MSRI-UP](http://www.msri.org/web/msri/education/for-undergraduates/msri-up) - summer math program for undergrads
+    * [Job search resources](https://bigmathnetwork.org/resources-for-students/) - BIG Math
 * Career prep
   * [Questions to think through career goals](https://github.com/BenLangmead/langmead-lab/blob/master/postdoc_questionnaire.md) from [@benlangmead](https://github.com/benlangmead)
     * [Slightly expanded](https://github.com/jtleek/careerplanning) from [@jtleek](https://github.com/jtleek)
-  * Academic jobs
-    * [Tons of resources](http://crlt.umich.edu/PFF_Resources) (UM CRLT)
-  * [How to build your portfolio](https://mpi4py.readthedocs.io/en/stable/index.html) (Harris)
-  * What can you do with a math degree? [Videos](https://www.maa.org/programs/faculty-and-departments/pic-math/solving-real-world-problems) - PICMATH
-* Schools
-  * [Summer schools 2019](https://thiagoserra.com/2019/01/15/summer-2019-schools-on-data-analytics-discrete-math-machine-learning-networks-optimization-and-other-relevant-topics-in-operations-research/) (Thiago Serra)
-* Undergrads
-  * [MSRI-UP](http://www.msri.org/web/msri/education/for-undergraduates/msri-up) - summer math program for undergrads
-  * [Job search resources](https://bigmathnetwork.org/resources-for-students/) - BIG Math
+* Academic job search
+  * University compilations
+    * [Univ. of Michigan](http://crlt.umich.edu/PFF_Resources)
+    * [Berkeley](https://career.berkeley.edu/PhDs/PhDAcademic)
+    * [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/)
+    * [Duke](https://studentaffairs.duke.edu/career/guides/academic-career-preparation)
+  * [Materials checklist](https://career.ucsf.edu/sites/career.ucsf.edu/files/UCSF%20OCPD%20Checklist%20Faculty%20Materials.pdf) (UCSF)
+  * Research statement
+    * How to write
+      * [By Jim Austin](https://www.sciencemag.org/careers/2014/04/writing-research-plan)
+      * [By Karen Kelsky](http://theprofessorisin.com/2016/09/16/dr-karens-rules-of-the-research-statement/)
+      * [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/researchstatements.php)
+      * [U. Wash](https://uw.uconnectlabs.com/wp-content/uploads/sites/25/2016/06/Research-Statements.pdf)
+      * [GSA](https://serc.carleton.edu/NAGTWorkshops/careerprep/jobsearch/research_statement.html) (Geology)
+      * [Duke](https://studentaffairs.duke.edu/career/graduate-students/academic-career-preparation/research-statement)
+      * [Med College of Wisc](https://www.mcw.edu/-/media/MCW/Education/Graduate-School/Documents/ucla_researchstatementtemplate_46-47.pdf)
+      * [Cornell](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/)
+    * Samples
+      * [UCSF](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples)
+      * [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
+  * Teaching statements
+    * [Univ. of Michigan](http://crlt.umich.edu/category/tstrategies/tstpts)
+    * [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
+  * Videos
+    * [Duke postdoc services](https://www.youtube.com/user/DukePostdocServices)
+  * Articles
+    * [The hiring process from the other side](https://career.berkeley.edu/PhDs/PhDhiring) (Berkeley)
+  * Example materials
+    * [From Philip Guo](http://www.pgbovine.net/faculty-job-application-materials.htm)
+
 
 ### Twitter
 * Communities I appreciate
