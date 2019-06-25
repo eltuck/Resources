@@ -33,9 +33,11 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Overview
   * [Whirlwind tour](https://github.com/jakevdp/WhirlwindTourOfPython) from [@jakevdp](https://github.com/jakevdp)
   * [Overview](https://vknight.org/Introduction_to_OOP/OverviewOfPython/) from [@drvinceknight](https://github.com/drvinceknight)
-    * [Python for Mathematicians](https://github.com/drvinceknight/Python-Mathematics-Handbook)
   * [Scipy lecture notes](http://www.scipy-lectures.org/)
     * [Getting started](https://www.scipy-lectures.org/intro/index.html)
+  * Targeted
+    * [Python for Mathematicians](https://github.com/drvinceknight/Python-Mathematics-Handbook) (drvincekinght)
+    * [Python for Epidemiologists](https://github.com/pzivich/Python-for-Epidemiologists) (pzivich)
 * Free Textbooks
   * [_Think Python_](http://greenteapress.com/wp/think-python-2e/) by [@AllenDowney](https://github.com/AllenDowney), beginners guide, programming exp. not necessary
   * [_Python Data Science Handbook_](https://jakevdp.github.io/PythonDataScienceHandbook/) by [@jakevdp](https://github.com/jakevdp)
@@ -194,12 +196,13 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [R-bloggers](https://www.r-bloggers.com/)
     * [R FAQ](https://stackoverflow.com/questions/tagged/r-faq) on StackOverflow
     * [R Weekly](https://rweekly.org/), new R resources every week
-* Communities
+* Communities/fora
   * [Tidy Tuesdays](https://github.com/rfordatascience/tidytuesday/blob/master/README.md), a weekly data viz project
     * Package: [TidyTuesdayR](https://github.com/thebioengineer/tidytuesdayR/) - to help download data
     * See results from each week: [TidyTuesdayRocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/) (Grantham)
   * [Community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82) to walk through _R for Data Science_ book together
   * [R-Ladies](https://rladies-community-slack.herokuapp.com/) community on Slack
+  * [RStudio Community](https://community.rstudio.com/)
 * Packages/topics
   * Package: [EpiModel](http://www.epimodel.org/)
     * Short course [resources](http://www.epimodel.org/), [slides](http://statnet.github.io/sb/EpiModel-Slides.pdf)
@@ -423,6 +426,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Intro to computing for computer scientists ([lectures](https://c4cs.github.io/))
       * E.g., Linux, command line, version control, shells, scripting
     * Computing for Social Sciences ([slides, resources, etc.](https://cfss.uchicago.edu/syllabus.html))
+    * Data Skills for Reproducible Science ([notes, code](https://gupsych.github.io/data_skills/))
     * Software Carpentry [many resources](https://github.com/swcarpentry/swcarpentry)
   * Command line
     * Bash
@@ -517,7 +521,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [_Intro to Applied Linear Algebra_](https://web.stanford.edu/~boyd/vmls/) (Stephen Boyd and Lieven Vandenberghe)
   * [Myths and Counterexamples](https://glossary.informs.org/myths/CurrentVersion/myths.pdf) (Harvey Greenberg)
 * Communities / forums
-  * [OR Exchange](https://www.or-exchange.org/)
+  * [Operations Research Stack Exchange](https://or.stackexchange.com)
+  * No longer in use: [OR Exchange](https://www.or-exchange.org/)
   * Google groups
     * [AMPL](https://groups.google.com/forum/#!forum/ampl)
     * [Gurobi](https://groups.google.com/forum/#!forum/gurobi)
@@ -574,7 +579,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [OR societies around the world](http://people.brunel.ac.uk/~mastjjb/jeb/or/orweb.html)
   * [COIN-OR Foundation](https://www.coin-or.org/)
     * [Resources](https://www.coin-or.org/resources/)
-  * INFORMS tutorials [videos](https://www.informs.org/Resource-Center/Video-Library/INFORMS-TutORials
+  * INFORMS tutorials ([videos](https://www.informs.org/Resource-Center/Video-Library/INFORMS-TutORials))
 * Topics
   * Benders Decomposition
     * [Using callbacks](https://orinanobworld.blogspot.com/2011/10/benders-decomposition-then-and-now.html) to avoid rebuilding the scenario tree by [@parubin](https://twitter.com/parubin)
@@ -690,6 +695,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Free textbook: [_Networks, Crowds, and Markets_](http://www.cs.cornell.edu/home/kleinber/networks-book/) (Easley, Kleinberg), intro undergrad
 * Computer science
   * [FAQ about C](http://c-faq.com/index.html)
+* Ethics and social good
+  * Mechanism design for social good ([Reading list](http://md4sg.com/researchgroup/index.html))
+  * Ethics and policy in data science ([syllabus](https://docs.google.com/document/d/1GV97qqvjQNvyM2I01vuRaAwHe9pQAZ9pbP7KkKveg1o/edit))
 * Other
   * [Compilation of lots of resources for students](https://github.com/dipakkr/A-to-Z-Resources-for-Students#a-to-z-resources-for-students-boy-) (FrontBench)
   * [Blockchain overview](https://www.youtube.com/watch?v=qOVAbKKSH10) (2 hr video)
@@ -815,14 +823,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [From UM](http://guides.lib.umich.edu/healthstats)
     * [From Wisconsin-Madison](http://researchguides.ebling.library.wisc.edu/c.php?g=293234)
 * Datasets / databases
-  * Public
-    * Medicare Part B
-      * [National summary files](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-National-Summary-Data-File/Overview.html)
-      * [Carrier summary files](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-Carrier-Summary-Data-File/Overview.html)
-      * Not free: [CCW](https://www.ccwdata.org/web/guest/home)
-    * CDC: [data/stats](https://www.cdc.gov/DataStatistics/)
-      * [Chronic disease datasets](https://chronicdata.cdc.gov/)
-        * E.g., [Maternal and child health](https://chronicdata.cdc.gov/browse?category=Maternal+%26+Child+Health)
+  * Medicare Part B
+    * [National summary files](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-National-Summary-Data-File/Overview.html)
+    * [Carrier summary files](https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-Carrier-Summary-Data-File/Overview.html)
+    * Not free: [CCW](https://www.ccwdata.org/web/guest/home)
+  * CDC: [data/stats](https://www.cdc.gov/DataStatistics/)
+    * [Chronic disease datasets](https://chronicdata.cdc.gov/)
+      * E.g., [Maternal and child health](https://chronicdata.cdc.gov/browse?category=Maternal+%26+Child+Health)
+  * Critical care database: [MIMIC](https://mimic.physionet.org/)
   * Other
     * [Clinicaltrials.gov](https://clinicaltrials.gov/)
     * [Tufts Cost-Effectiveness Analysis Registry](http://healtheconomics.tuftsmedicalcenter.org/cear4/Home.aspx)
@@ -921,13 +929,15 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Materials](http://cisecareerworkshop.web.unc.edu/materials/) from CISE workshop, Mar 2019
 * Specific
   * FDA - [Generic drug-related](https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm)
+* Grant proposals
+  * [Open grants](https://www.ogrants.org/) - sample grant proposals
 
 ### Teaching
 * [Guidebook](http://www.crlt.umich.edu/gsis/gsi_guide) (UM CRLT)
 * Blogposts
   * [Diversity and inclusion in the classroom](https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/) (Laura Albert)
   * [Teaching math](https://momentssnippetsspirals.wordpress.com/2015/04/07/where-direct-instruction-fails-willingham-memorization-and-conceptual-understanding-2/) (K-12, Milos)
-  * [Logistics of large classes - 10 articles](http://pgbovine.net/teaching-large-courses.htm)(Guo)
+  * [Logistics of large classes - 10 articles](http://pgbovine.net/teaching-large-courses.htm) (Guo)
 
 ### Blogs I like (and read occasionally)
 * Operations research-ish
@@ -987,6 +997,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [When your data science project doesn't work](https://medium.com/@skyetetra/so-your-data-science-project-isnt-working-7bf57e3f12f1)
   * [Blogs for female consultants/bus. travelers](https://corporette.com/resources-and-blogs-for-female-consultants/)
   * [Business clothes for women](https://twitter.com/arieldora/status/1072138548269195264) (Stern)
+  * [Imposter syndrome resources](http://aurielfournier.github.io/imposter-syndrome/) (Fournier)
 * Skills
   * Reading papers
     * [Reading papers](https://github.com/jtleek/readingpapers) by [@jtleek](https://github.com/jtleek)
@@ -1052,7 +1063,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * [Download GoogleMaps to use offline](https://support.google.com/maps/answer/6291838)
 * [Math genealogy project](https://genealogy.math.ndsu.nodak.edu/index.php)
 * User interfaces
+  * [Explaining UX to kindergartners](https://www.linkedin.com/pulse/explaining-ux-kindergartners-plus-few-lessons-those-who-teena-singh) (Singh)
   * [Terrible elevator control panels](https://www2.isye.gatech.edu/people/faculty/John_Bartholdi/misc/elevators/elevators.html) (Bartholdi)
+* Source code for Apollo 11: [code](https://github.com/chrislgarry/Apollo-11)
 * Humor
   * [Top 10 Illegitimate Proof Techniques](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/lecture-3-strong-induction/MIT6_042JF10_proof.pdf) (I think the original version of this list came from Dana Angluin)
   * ["The best way to write secure and reliable applications"](https://github.com/kelseyhightower/nocode)
