@@ -248,6 +248,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Health economics
   * Package: [hesim](http://innovationvalueinitiative.github.io/hesim/), simulation
   * Package: [dampack](https://github.com/feralaes/dampack), decision-analytic models
+* Math
+  * ODEs: Package: [odin](https://github.com/mrc-ide/odin)
 * Visualizations
   * Examples - [R Graph Gallery](https://www.r-graph-gallery.com/)
   * Create figures
@@ -357,6 +359,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### AMPL
 * Free textbook: [_AMPL_](https://ampl.com/resources/the-ampl-book/chapter-downloads/) (Fourer, Gay, and Kernighan)
+* Intro to AMPL [Handout](http://www.math.wsu.edu/faculty/bkrishna/FilesMath567/S17/Handouts/Handout_AMPL_1.pdf) (Krishnamoorthy)
 * Help forum: [Google group](https://groups.google.com/forum/#!forum/ampl)
 * Specifics
   * [Dynamic set definitions](https://groups.google.com/forum/#!msg/ampl/Wr_KxvKWBpM/FGeILLXGZzAj), e.g., AVAIL vs. AVAIL_all
@@ -368,6 +371,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Manual](https://docs.julialang.org/en/v1/index.html)
     * [Style guide](https://docs.julialang.org/en/v1/manual/style-guide/)
     * [Cheat sheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
+  * Free textbooks
+    * [_Think Julia_](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html) (Lauwens)
+    * [_Julia Programming for Operations Research (ver1)_](https://www.softcover.io/read/7b8eb7d0/juliabook) (Kwon, [code](https://github.com/chkwon/jpor_codes))
   * Resource compilations
     * [Many resources](https://julialang.org/learning/) (Julia site)
     * [Lists of packages related to different areas](https://svaksha.github.io/Julia.jl/) (svaksha) - click on the .md links to see
@@ -376,9 +382,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Discourse - general Julia](https://discourse.julialang.org/)
     * [Slack channel](https://julialang.slack.com/), [link to invitation](https://slackinvite.julialang.org/)
     * [List of communities](https://julialang.org/community/)
+  * Videos
+    * [JuliaCon 2018 videos](https://discourse.julialang.org/t/juliacon2018-videos-on-youtube/13734)
+    * [JuliaCon 2019 videos](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)
+    * [Tutorials](https://www.youtube.com/playlist?list=PLP8iPy9hna6SCcFv3FvY_qjAmtTsNYHQE)
   * Operations research
     * [Optimization in Julia](http://www.juliaopt.org/) - nice summary of solvers at bottom of page
-    * Free textbook: [_Julia Programming for Operations Research (ver1)_](https://www.softcover.io/read/7b8eb7d0/juliabook) (Kwon, [code](https://github.com/chkwon/jpor_codes))
     * Modeling languages
       * [JuMP](http://www.juliaopt.org/JuMP.jl/0.18/) - general
       * [Convex.jl](https://convexjl.readthedocs.io/en/latest/) - disciplined convex
@@ -392,19 +401,39 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Complementarity.jl](https://github.com/chkwon/Complementarity.jl) (mixed-complementarity and math programs with equilibrium problems)
       * [CLP](https://github.com/JuliaOpt/Clp.jl) - COIN-OR LP solver
       * [L-shaped solver](https://github.com/martinbiel/LShapedSolvers.jl)
+    * Specifics
+      * [Rolling horizon](https://discourse.julialang.org/t/rolling-horizon-implementation/23048)
   * Other math/CS
     * [Evaluate derivatives](http://www.juliadiff.org/)
     * [Differential equations](http://juliadiffeq.org/)
     * [Calculus](https://github.com/JuliaMath/Calculus.jl)
     * [Machine learning](https://github.com/JuliaML)
+      * [Tutorial](https://www.cs.purdue.edu/homes/hnassar/JPUG/ML-Tutorial.html) (JPUG)
   * [Plots](http://docs.juliaplots.org/latest/)
+    * [Tutorial](https://www.cs.purdue.edu/homes/hnassar/JPUG/plotting.html) (JPUG)
+    * [Tutorial](http://docs.juliaplots.org/latest/tutorial/#tutorial-1) (documentation)
+    * [Formatting and style by backend](http://docs.juliaplots.org/latest/supported/#supported-1)
   * Performance
-    * [Tips](https://docs.julialang.org/en/v1/manual/performance-tips)
+    * Tips ([from manual](https://docs.julialang.org/en/v1/manual/performance-tips); [from JPUG](https://www.cs.purdue.edu/homes/hnassar/JPUG/performance.html))
     * Package: [TimerOutputs.jl](https://github.com/KristofferC/TimerOutputs.jl)
     * Package: [BenchmarkTools.jl](https://github.com/JuliaCI/BenchmarkTools.jl)
+  * Other
+    * [OhMyREPL.jl](https://github.com/KristofferC/OhMyREPL.jl) (syntax highlighting in REPL)
+    * Parallel computing
+      * [Overview](https://docs.julialang.org/en/v1/manual/parallel-computing/index.html)
+      * [Tutorial](https://codingclubuc3m.github.io/2018-06-06-Parallel-computing-Julia.html) (García-Heredia)
+      * [parallel_computing.jl](https://www.cs.purdue.edu/homes/hnassar/JPUG/parallel_computing.jl) (Nassar)
+      * [Caching pool](https://github.com/JuliaOpt/Gurobi.jl/issues/119#issuecomment-375445961) (odow)
+      * Examples
+        * [Gurobi](https://discourse.julialang.org/t/parallel-solves-in-gurobi-jl/9908/2) (odow)
+        * [JuMP and Ipopt] (https://discourse.julialang.org/t/running-jump-using-ipopt-in-parallel/9167)
   * How to:
     * [Install a package the first time](https://stackoverflow.com/questions/51793629/how-to-install-a-package-in-julia-1-0-undefvarerror-pkg-not-defined)
     * [Install a specific version of a package](https://julialang.github.io/Pkg.jl/v1/managing-packages/) (answered within the first section)
+    * [Install a package from github](https://github.com/JuliaPolyhedra/QHull.jl/issues/21#issuecomment-429418324) (example)
+    * Suppress multiple Gurobi license messages - send environment to solver: [v1](https://discourse.julialang.org/t/suppress-license-output-from-solver-in-jump-model/20828/4)
+  * What is:
+    * The ! after a function name? (answer)[https://stackoverflow.com/questions/45396685/what-does-exclamation-mark-means-after-the-name-of-functions]
 
 ### Other programming languages
 * SQL
@@ -462,6 +491,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Nano](https://www.nano-editor.org/)
   * Share code
     * [Carbon](https://carbon.now.sh) - nice formatting for screenshotting code
+  * Parallel computing
+    * [Intro](https://computing.llnl.gov/tutorials/parallel_comp/)(Barney)
   * What are/is...
     * [src vs. bin folders?](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
     * the difference between statically and dynamically typed lanugages? [stackoverflow](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages); [blogpost](https://pythonconquerstheuniverse.wordpress.com/2009/10/03/static-vs-dynamic-typing-of-programming-languages/) (From Python Conquers)
@@ -538,7 +569,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [GAMS model library](https://www.gams.com/latest/gamslib_ml/libhtml/)
 * Algorithms
   * [List/explanation](https://neos-guide.org/algorithms) from the folks at NEOS
-* Test sets
+* Test sets/libraries
+  * Compilation: [on OR.SE](https://or.stackexchange.com/questions/244/optimization-problem-libraries/246), [on GitHub](https://github.com/ekhoda/optimization_problem_libraries)
   * [MIPLIB](http://miplib.zib.de/)
   * [OR Library](http://people.brunel.ac.uk/~mastjjb/jeb/info.html)
   * [TSPLIB](https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/)
@@ -552,6 +584,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Math Programming (generally)
     * [Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/) (Bertsimas, Fall 2009)
     * Large-scale opt: [Slides](http://www.seas.ucla.edu/~vandenbe/ee236c.html) (Vandenberghe, 2016)
+    * [Several courses](http://homepages.rpi.edu/~mitchj/courses.html) (Mitchell)
   * Linear programming
     * [Slides](http://www.seas.ucla.edu/~vandenbe/ee236a/ee236a.html) (Vanedenberghe, 2013)
   * Convex Optimization
@@ -586,6 +619,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Examples:
       * [In AMPL](https://ampl.com/NEW/LOOP2/)
       * [With callbacks](http://www.zverovich.net/2013/09/01/modern-benders-decomposition-in-ampl.html) by [@vitaut](https://github.com/vitaut)
+  * Decision diagrams for integer programming
+    * [Slides](http://www.andrew.cmu.edu/user/vanhoeve/mdd/presentations/DD%20IP%20EURO%202019.pdf) (van Hoeve)
   * Disjunctive programming
     * [Overview from GAMS](https://www.gams.com/latest/docs/UG_EMP_DisjunctiveProgramming.html)
     * [Video](https://www.youtube.com/watch?v=dfgzaVd8gLg) (Ruiz)
@@ -605,6 +640,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Notes](https://web.stanford.edu/class/ee364b/lectures/subgrad_method_notes.pdf) (Boyd) - minimize convex function, non-differentable
   * Supply chain
     * [XSG game](https://istm.zu.ac.ae/xsg), [overview](https://sinansalman.github.io/xsg/) - supply chain simulation game (Salman)
+  * Variables
+    * Semicontinuous ([post by Rubin](https://orinanobworld.blogspot.com/2011/03/semicontinuous-variables.html), [post by Kalvelagen](http://yetanothermathprogrammingconsultant.blogspot.com/2016/08/semi-continuous-variables.html))
+    * Semi-integer ([post by Kalvelagen](http://yetanothermathprogrammingconsultant.blogspot.com/2015/12/a-model-with-semi-integer-variables.html))
 * How to...
   * [Linearize product of variables](https://www.leandro-coelho.com/linearization-product-variables/)
   * [Linearize max/max/absolute value](https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/)
@@ -620,10 +658,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Review and reference ([handout](http://cs229.stanford.edu/section/cs229-linalg.pdf), Kolter and Do)
   * Intro to matrix algebra ([handout](http://ibgwww.colorado.edu/%7Ecarey/p7291dir/handouts/matrix.algebra.pdf), Carey)
   * [Course notes, exercises, book](http://vmls-book.stanford.edu/) (Boyd and Vandenberghe)
-* Game theory
-  * [Intro course lectures](https://oyc.yale.edu/economics/econ-159) (Ben Polak)
-  * [Course slides](http://www.ifp.illinois.edu/~angelia/game_lectures.htm) (Nedich)
+* Economics and game theory
+  * Game theory
+    * [Intro course lectures](https://oyc.yale.edu/economics/econ-159) (Ben Polak)
+    * [Course slides](http://www.ifp.illinois.edu/~angelia/game_lectures.htm) (Nedich)
+  * [Slides from several courses](https://www.sas.upenn.edu/~jesusfv/teaching.html) (Fernández-Villaverde)
+    * Including: computational methods; tools; macro dynamics; graduate macro; macro uncertainty shocks; equil macro; global econ history; political econ of early America
 * Networks
+  * Free textbook: [_Networks, Crowds, and Markets_](http://www.cs.cornell.edu/home/kleinber/networks-book/) (Easley, Kleinberg), intro undergrad
   * [List of resources](https://github.com/briatte/awesome-network-analysis) (briatte)
   * Bayes nets
     * [Tutorial](https://www.norsys.com/tutorials/netica/secA/tut_A1.htm) (Netica)
@@ -664,12 +706,20 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Taxonomy of reproducibility](http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf)
     * [Monte Carlo tree search](https://int8.io/monte-carlo-tree-search-beginners-guide/)
     * [Data leakage](https://machinelearningmastery.com/data-leakage-machine-learning/) (Brownlee)
-* [Compilation](https://kiranvodrahalli.github.io/links/) of ML/CS/Math resources (Vodrahalli)
+* Deep learning
+  * [Slides](https://github.com/Kinghsy/EECS-498-598-Deep-Learning) (EECS 498-598)
+* Compilations
+  * [From Vodrahalli](https://kiranvodrahalli.github.io/links/)
+  * [From Finlayson](https://sgfin.github.io/learning-resources/)
 * Statistics
   * Communities/forums
     * [datamethods](https://discourse.datamethods.org/) - health-related stats forum
     * [Talk Stats](http://talkstats.com/)
     * [CrossValidated](https://stats.stackexchange.com/)
+  * Books
+    * [_Causal Inference_](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) (Hernan and Robins)
+      * [Notes about book](https://sgfin.github.io/2019/06/19/Causal-Inference-Book-Glossary-and-Notes/) (Finlayson)
+      * [DAGs from book](https://sgfin.github.io/2019/06/19/Causal-Inference-Book-All-DAGs/) (Finlayson)
   * [Glossary of Statistical Terms](http://hbiostat.org/doc/glossary.pdf) (Harrell)
   * [10 rules to use stats](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961) (comp biology)
   * [Document and avoid these problems](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist) (biostat)
@@ -691,8 +741,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Primers](https://jeremykun.com/primers/) (Kun)
   * [Notes](http://www.math.uconn.edu/~kconrad/blurbs/) (Conrad)
   * [Compilation of courses](https://hackernoon.com/be-a-better-programmer-with-these-40-mathematics-courses-d8ca48a2f8a2) (Dhar)
-* Networks
-  * Free textbook: [_Networks, Crowds, and Markets_](http://www.cs.cornell.edu/home/kleinber/networks-book/) (Easley, Kleinberg), intro undergrad
+  * Boolean functions
+    * [Lecture videos](http://www.cs.cmu.edu/~odonnell/aobf12/) (O'Donnell)
+    * Free textbook: [_Analysis of Boolean Functions_] (http://www.contrib.andrew.cmu.edu/~ryanod/?page_id=2334) (O'Donnell)
 * Computer science
   * [FAQ about C](http://c-faq.com/index.html)
 * Ethics and social good
@@ -874,34 +925,25 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Questions to think through career goals](https://github.com/BenLangmead/langmead-lab/blob/master/postdoc_questionnaire.md) from [@benlangmead](https://github.com/benlangmead)
     * [Slightly expanded](https://github.com/jtleek/careerplanning) from [@jtleek](https://github.com/jtleek)
 * Academic job search
+  * [OperationsAcademia.org](http://www.operationsacademia.org/) - OR/MS job postings and advice
   * University compilations
-    * [Univ. of Michigan](http://crlt.umich.edu/PFF_Resources)
-    * [Berkeley](https://career.berkeley.edu/PhDs/PhDAcademic)
-    * [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/)
-    * [Duke](https://studentaffairs.duke.edu/career/guides/academic-career-preparation)
+    * [Univ. of Michigan](http://crlt.umich.edu/PFF_Resources); [Berkeley](https://career.berkeley.edu/PhDs/PhDAcademic); [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/); [Duke](https://studentaffairs.duke.edu/career/guides/academic-career-preparation)
   * [Materials checklist](https://career.ucsf.edu/sites/career.ucsf.edu/files/UCSF%20OCPD%20Checklist%20Faculty%20Materials.pdf) (UCSF)
   * Research statement
     * How to write
-      * [By Jim Austin](https://www.sciencemag.org/careers/2014/04/writing-research-plan)
-      * [By Karen Kelsky](http://theprofessorisin.com/2016/09/16/dr-karens-rules-of-the-research-statement/)
-      * [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/researchstatements.php)
-      * [U. Wash](https://uw.uconnectlabs.com/wp-content/uploads/sites/25/2016/06/Research-Statements.pdf)
-      * [GSA](https://serc.carleton.edu/NAGTWorkshops/careerprep/jobsearch/research_statement.html) (Geology)
-      * [Duke](https://studentaffairs.duke.edu/career/graduate-students/academic-career-preparation/research-statement)
-      * [Med College of Wisc](https://www.mcw.edu/-/media/MCW/Education/Graduate-School/Documents/ucla_researchstatementtemplate_46-47.pdf)
-      * [Cornell](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/)
+      * [Jim Austin](https://www.sciencemag.org/careers/2014/04/writing-research-plan); [Karen Kelsky](http://theprofessorisin.com/2016/09/16/dr-karens-rules-of-the-research-statement/); [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/researchstatements.php); [U. Wash](https://uw.uconnectlabs.com/wp-content/uploads/sites/25/2016/06/Research-Statements.pdf); [GSA](https://serc.carleton.edu/NAGTWorkshops/careerprep/jobsearch/research_statement.html) (Geology); [Duke](https://studentaffairs.duke.edu/career/graduate-students/academic-career-preparation/research-statement); [Med College of Wisc](https://www.mcw.edu/-/media/MCW/Education/Graduate-School/Documents/ucla_researchstatementtemplate_46-47.pdf); [Cornell](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/)
     * Samples
-      * [UCSF](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples)
-      * [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
+      * [UCSF](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples); [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
   * Teaching statements
-    * [Univ. of Michigan](http://crlt.umich.edu/category/tstrategies/tstpts)
-    * [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
+    * [Univ. of Michigan](http://crlt.umich.edu/category/tstrategies/tstpts), [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
   * Videos
     * [Duke postdoc services](https://www.youtube.com/user/DukePostdocServices)
   * Articles
     * [The hiring process from the other side](https://career.berkeley.edu/PhDs/PhDhiring) (Berkeley)
   * Example materials
     * [From Philip Guo](http://www.pgbovine.net/faculty-job-application-materials.htm)
+  * Advice
+    * [Navigating the OR/MS academic job process](https://pubsonline.informs.org/do/10.1287/orms.2019.01.09/full/) (Dutta, Çağlayan)
 
 
 ### Twitter
@@ -911,8 +953,6 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [#phdchat](https://twitter.com/hashtag/phdchat?src=hash)
   * [#AcWri](https://twitter.com/hashtag/acwri?src=hash)
   * [#scicomm](https://twitter.com/hashtag/scicomm?src=hash)
-* Not related to what I do but fun to watch
-  * [#girlmedtwitter](https://twitter.com/hashtag/girlmedtwitter?src=hash)
 * Hashtags that have included interesting discussions at some point
   * [#hiddencurriculum](https://twitter.com/hashtag/hiddencurriculum?src=hash)
   * [#phdtips](https://twitter.com/hashtag/phdtips?src=hash)
@@ -925,10 +965,12 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [From _Science_](http://www.sciencemag.org/careers/where-search-funding)
   * [From USC](https://research.usc.edu/for-investigators/funding/federal/)
 * [Federal grants](https://www.grants.gov/)
+  * [Forecasted and posted](https://www.grants.gov/search-grants.html?agencyCode%3DHHS)
 * CAREER Grants
   * [Materials](http://cisecareerworkshop.web.unc.edu/materials/) from CISE workshop, Mar 2019
 * Specific
   * FDA - [Generic drug-related](https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm)
+  * CDC - [HIV](https://www.cdc.gov/hiv/funding/index.html)
 * Grant proposals
   * [Open grants](https://www.ogrants.org/) - sample grant proposals
 
@@ -937,6 +979,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Blogposts
   * [Diversity and inclusion in the classroom](https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/) (Laura Albert)
   * [Teaching math](https://momentssnippetsspirals.wordpress.com/2015/04/07/where-direct-instruction-fails-willingham-memorization-and-conceptual-understanding-2/) (K-12, Milos)
+* Specifics
+  * [First day](https://www.unl.edu/gtahandbook/first-day-class) (UNL)
+  * [First 3 weeks](https://www.unl.edu/gradstudies/current/teaching/first-3-weeks) (UNL)
+  * [Lesson planning](http://crlt.umich.edu/strategies-effective-lesson-planning) (UMich)
   * [Logistics of large classes - 10 articles](http://pgbovine.net/teaching-large-courses.htm) (Guo)
 
 ### Blogs I like (and read occasionally)
@@ -980,10 +1026,18 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Lots of advice](https://pathwaystoscience.org/Library.aspx) (Pathways to Science)
   * [Applying to grad school](https://kcklett.wixsite.com/phduo) (Klett & Lee)
 * New faculty
+  * [Compliation](https://tomprof.stanford.edu/) (Stanford)
   * [The 7 Year Postdoc](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/) (Nagpal)
     * [Counter thoughts](http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html)
+  * [Getting started][https://chroniclevitae.com/news/2225-how-to-start-off-right-in-your-new-job?cid=VTEVPMSED1] (Whitaker)
   * [If the 3rd year review goes poorly](https://www.chronicle.com/article/Operation-Keep-My-Job-/235535) (Albertson)
   * [Staying sane on the tenure track](https://people.orie.cornell.edu/shane/pubs/StayingSane.pdf) (Henderson)
+  * [_Making the Right Moves: A Practical Guide to Scientific Management_](https://www.hhmi.org/science-education/programs/making-right-moves) (HHMI) - free book about managing a lab
+  * Working with research assistants
+    * [Guidelines](https://www.tgs.northwestern.edu/academics/academic-student-services/assistantship-best-practices/research-assistants.html) (Northwestern)
+    * [Hire and manage](https://duckofminerva.com/2015/03/how-to-hire-and-work-effectively-with-a-research-assistant.html) (MacKenzie)
+  * Mentoring
+    * [Compliation](https://www.aeaweb.org/about-aea/committees/cswep/newsletters/topics#mentoring) (AEA, econ)
 * Job search
   * [Academic search](http://publish.illinois.edu/engr-mavis/files/2014/09/Academic-Job-Search-2016.pdf) (Nagi)
   * [Data science jobs](http://hookedondata.org/Advice-for-Applying-to-Data-Science-Jobs/) by [@robinsones](https://github.com/robinsones)
@@ -1047,6 +1101,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Text mining on country music lyrics](https://www.johnwmillr.com/trucks-and-beer/) (Miller)
 * OR/Programming/etc. in Industry
   * [Netflix](https://medium.com/netflix-techblog/notebook-innovation-591ee3221233)
+* Examples
+  * [Queueing](https://kottke.org/19/01/its-time-for-some-queueing-theory) (Kottke)
 * Algorithms
   * [15 important algorithms](https://interestingengineering.com/15-of-the-most-important-algorithms-that-helped-define-mathematics-computing-and-physics) (McFadden)
   * [100 days of algorithms](https://medium.com/100-days-of-algorithms) (Bouda), [code](https://github.com/coells/100days)
