@@ -1029,7 +1029,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Compliation](https://tomprof.stanford.edu/) (Stanford)
   * [The 7 Year Postdoc](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/) (Nagpal)
     * [Counter thoughts](http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html)
-  * [Getting started][https://chroniclevitae.com/news/2225-how-to-start-off-right-in-your-new-job?cid=VTEVPMSED1] (Whitaker)
+  * [Getting started](https://chroniclevitae.com/news/2225-how-to-start-off-right-in-your-new-job?cid=VTEVPMSED1) (Whitaker)
   * [If the 3rd year review goes poorly](https://www.chronicle.com/article/Operation-Keep-My-Job-/235535) (Albertson)
   * [Staying sane on the tenure track](https://people.orie.cornell.edu/shane/pubs/StayingSane.pdf) (Henderson)
   * [_Making the Right Moves: A Practical Guide to Scientific Management_](https://www.hhmi.org/science-education/programs/making-right-moves) (HHMI) - free book about managing a lab
