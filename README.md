@@ -97,6 +97,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Package: [munkres](http://software.clapper.org/munkres/), Hungarian algorithm
       * Library: [PyMaxFlow](https://github.com/pmneila/PyMaxflow), Max flow/min cut
       * Package: [PyPSA](https://pypsa.org/), power systems analysis
+      * Package: [PySCIPOpt](https://github.com/SCIP-Interfaces/PySCIPOpt)
+        * [Book](https://scipbook.readthedocs.io/en/latest/index.html)
     * Plot [convex hull](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.spatial.ConvexHull.html)
     * Examples
       * [Optimization tutorial](https://github.com/ekhoda/optimization-tutorial) (ekhoda)
@@ -104,6 +106,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
         * Implement TSP, [Video](https://www.coursera.org/lecture/delivery-problem/branch-and-bound-UyBJC)
         * A few algos [tutorial](https://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb) (Norvig)
       * [Genetic algo](https://towardsdatascience.com/evolution-of-a-salesman-a-complete-genetic-algorithm-tutorial-for-python-6fe5d2b3ca35) (Stoltz)
+      * [Facility location problems](https://scipbook.readthedocs.io/en/latest/flp.html) (SCIP)
   * Dimensionality reduction
     * Package: [umap](https://github.com/lmcinnes/umap), uniform manifold approx. and projection
   * Game theory [(source)](http://nashpy.readthedocs.io/en/stable/discussion/other-python-game-theory-libraries.html)
@@ -409,6 +412,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Calculus](https://github.com/JuliaMath/Calculus.jl)
     * [Machine learning](https://github.com/JuliaML)
       * [Tutorial](https://www.cs.purdue.edu/homes/hnassar/JPUG/ML-Tutorial.html) (JPUG)
+    * Game Theory
+      * [Tutorial](https://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_jl.ipynb)
   * [Plots](http://docs.juliaplots.org/latest/)
     * [Tutorial](https://www.cs.purdue.edu/homes/hnassar/JPUG/plotting.html) (JPUG)
     * [Tutorial](http://docs.juliaplots.org/latest/tutorial/#tutorial-1) (documentation)
@@ -934,8 +939,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Jim Austin](https://www.sciencemag.org/careers/2014/04/writing-research-plan); [Karen Kelsky](http://theprofessorisin.com/2016/09/16/dr-karens-rules-of-the-research-statement/); [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/researchstatements.php); [U. Wash](https://uw.uconnectlabs.com/wp-content/uploads/sites/25/2016/06/Research-Statements.pdf); [GSA](https://serc.carleton.edu/NAGTWorkshops/careerprep/jobsearch/research_statement.html) (Geology); [Duke](https://studentaffairs.duke.edu/career/graduate-students/academic-career-preparation/research-statement); [Med College of Wisc](https://www.mcw.edu/-/media/MCW/Education/Graduate-School/Documents/ucla_researchstatementtemplate_46-47.pdf); [Cornell](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/)
     * Samples
       * [UCSF](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples); [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
-  * Teaching statements
+  * Teaching statement
     * [Univ. of Michigan](http://crlt.umich.edu/category/tstrategies/tstpts), [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
+      * [Guidelines for teaching at MIT](https://tll.mit.edu/guidelines/guidelines-teaching-mit-and-beyond)
+  * Diversity statement
+    * [Univ. of Michigan](http://www.crlt.umich.edu/sites/default/files/resource_files/DiversityStatementHandout.pdf); [UCSD](http://facultydiversity.ucsd.edu/recruitment/contributions-to-diversity.html); [UNL](https://www.unl.edu/gradstudies/connections/writing-diversity-statement); [Vanderbilt](https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/); [Cincinnati](https://www.uc.edu/content/dam/uc/aess/docs/AWC/graduatehandouts/Diversity%20Statement%20(Accessible)%20%20.pdf)
+  * Job talk
+    * [Article - giving an excellent talk](https://chroniclevitae.com/news/2242-how-to-give-an-excellent-stem-job-talk?cid=VTEVPMSED1) (Carpenter, Waters)
+    * [Article - Tips for a Successful Job Talk](https://www.insidehighered.com/advice/2018/01/10/advice-giving-effective-job-presentation-opinion) (Aguilar)
   * Videos
     * [Duke postdoc services](https://www.youtube.com/user/DukePostdocServices)
   * Articles
@@ -956,6 +967,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Hashtags that have included interesting discussions at some point
   * [#hiddencurriculum](https://twitter.com/hashtag/hiddencurriculum?src=hash)
   * [#phdtips](https://twitter.com/hashtag/phdtips?src=hash)
+  * [#scrawledgrantadvice](https://twitter.com/hashtag/scrawledgrantadvice?src=hash)
 * Other
   * [CV without Twitter](http://aurielfournier.github.io/cv-without-twitter/) (Auriel Fournier)
 
@@ -976,14 +988,18 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Teaching
 * [Guidebook](http://www.crlt.umich.edu/gsis/gsi_guide) (UM CRLT)
+* Free textbook: [_Teaching Engineering_](https://engineering.purdue.edu/ChE/aboutus/publications/teaching_eng) (Wankat and Oreovicz)
 * Blogposts
   * [Diversity and inclusion in the classroom](https://punkrockor.com/2016/04/21/what-i-do-for-diversity-and-inclusion-in-the-classroom/) (Laura Albert)
   * [Teaching math](https://momentssnippetsspirals.wordpress.com/2015/04/07/where-direct-instruction-fails-willingham-memorization-and-conceptual-understanding-2/) (K-12, Milos)
 * Specifics
-  * [First day](https://www.unl.edu/gtahandbook/first-day-class) (UNL)
+  * First day
+    * [UNL](https://www.unl.edu/gtahandbook/first-day-class); [Lang](https://www.chronicle.com/interactives/advice-firstday)
   * [First 3 weeks](https://www.unl.edu/gradstudies/current/teaching/first-3-weeks) (UNL)
   * [Lesson planning](http://crlt.umich.edu/strategies-effective-lesson-planning) (UMich)
   * [Logistics of large classes - 10 articles](http://pgbovine.net/teaching-large-courses.htm) (Guo)
+  * [Improving inclusion](https://www.chronicle.com/interactives/20190719_inclusive_teaching?cid=cp234) (Sathy and Hogan)
+  * [Be more engaging](https://www.chronicle.com/interactives/advice-teaching?cid=cp234) (Cavanagh)
 
 ### Blogs I like (and read occasionally)
 * Operations research-ish
@@ -1033,6 +1049,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [If the 3rd year review goes poorly](https://www.chronicle.com/article/Operation-Keep-My-Job-/235535) (Albertson)
   * [Staying sane on the tenure track](https://people.orie.cornell.edu/shane/pubs/StayingSane.pdf) (Henderson)
   * [_Making the Right Moves: A Practical Guide to Scientific Management_](https://www.hhmi.org/science-education/programs/making-right-moves) (HHMI) - free book about managing a lab
+  * [Faculty Mentoring Handbook](http://live-uarizona-diversity.pantheon.arizona.edu/sites/default/files/mentoring_handbook.pdf) (Arizona)
   * Working with research assistants
     * [Guidelines](https://www.tgs.northwestern.edu/academics/academic-student-services/assistantship-best-practices/research-assistants.html) (Northwestern)
     * [Hire and manage](https://duckofminerva.com/2015/03/how-to-hire-and-work-effectively-with-a-research-assistant.html) (MacKenzie)
@@ -1130,5 +1147,6 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Spurious correlations](http://www.tylervigen.com/spurious-correlations) (Vigen)
     * [Make your own](http://tylervigen.com/discover)
   * [Create parody O'Reilly book covers](https://dev.to/rly)
+  * [Improbable research](https://www.improbable.com/)
   * [Computer science research topic generator](https://www.cs.purdue.edu/homes/dec/essay.topic.generator.html)
   * [Gettysburg address via powerpoint](http://norvig.com/Gettysburg/index.htm) (Norvig)
