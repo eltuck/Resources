@@ -189,7 +189,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [R Cookbook](http://www.cookbook-r.com/)
 * [Search engine](https://rseek.org/) for R help
 * Learn R
-  * [Handbook](https://github.com/DARTH-git/Handbook-R/blob/master/Handbook_in_R_markdown.pdf) - Intro to R for Decision Modelers (Pechlivanoglou et al)
+  * [Handbook](https://github.com/DARTH-git/R-Handbook/blob/master/Handbook_in_R_markdown.pdf) - Intro to R for Decision Modelers (Pechlivanoglou et al)
   * [Seminar code](https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html) - Intro to R seminar code (IDRE)
   * Courses & collection of tutorials
     * [UC Business Analytics](http://uc-r.github.io/)
@@ -349,6 +349,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Manage branches
       * [Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
       * [Delete](https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323)
+    * Forking
+      * [Tutorial](https://guides.github.com/activities/forking/)
     * Deal with errors:
       * [Local changes being overwritten](https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me)
       * [Unlink of file](https://stackoverflow.com/questions/4389833/unlink-of-file-failed-should-i-try-again) - essentially, had to close AMPL, then worked fine
@@ -432,6 +434,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * Examples
         * [Gurobi](https://discourse.julialang.org/t/parallel-solves-in-gurobi-jl/9908/2) (odow)
         * [JuMP and Ipopt] (https://discourse.julialang.org/t/running-jump-using-ipopt-in-parallel/9167)
+  * Package dev and workflow
+    * [Create and register a package](https://attractivechaos.wordpress.com/2018/09/26/creating-a-new-package-in-julia/) (attractivechaos)
+    * [Create local package](https://stackoverflow.com/questions/29211641/julia-create-and-use-a-local-package-without-internet)
+    * [Workflow v1.0](https://medium.com/@Jernfrost/my-new-workflow-with-julia-1-0-99711103d97c) (Engheim)
+    * Patching packages
+      * [Discourse answer 1](https://discourse.julialang.org/t/recommended-way-to-develop-fix-with-packages/14436/12) (sdewaele)
+      * [Discourse answer 2](https://discourse.julialang.org/t/develop-a-local-version-of-a-registered-package-and-submit-changes-as-a-pull-request/24868) (CameronBieganek)
+    * [Unit testing](https://docs.julialang.org/en/v1/stdlib/Test/)
   * How to:
     * [Install a package the first time](https://stackoverflow.com/questions/51793629/how-to-install-a-package-in-julia-1-0-undefvarerror-pkg-not-defined)
     * [Install a specific version of a package](https://julialang.github.io/Pkg.jl/v1/managing-packages/) (answered within the first section)
