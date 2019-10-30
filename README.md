@@ -175,10 +175,19 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 ### R
 * Reference
   * Free Textbooks
+    * [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
     * [_Hands-On Programming with R_](https://rstudio-education.github.io/hopr/) (Grolemund)
     * [_R for Data Science_](https://r4ds.had.co.nz/) by [@hadley](https://github.com/hadley/) and [@garrettgman](https://github.com/garrettgman)
       * Some [solutions](https://jrnold.github.io/r4ds-exercise-solutions/) (Arnold)
+    * [_R Programming for Data Science_](https://bookdown.org/rdpeng/rprogdatascience/) (Peng, 2019)
+    * [_Advanced R_](https://adv-r.hadley.nz/) (Wickham)
+      * Some [solutions](https://advanced-r-solutions.rbind.io/) (Grosser et al.)
+    * [_R Packages_](http://r-pkgs.had.co.nz/) (Wickham)
     * [_Text Mining with R_](https://www.tidytextmining.com/) by [@juliasilge](https://github.com/juliasilge) and [@dgrtwo](https://github.com/dgrtwo/)
+    * [_Exploratory Data Analysis with R_](https://bookdown.org/rdpeng/exdata/)(Peng, 2016)
+    * [_Efficient R Programming_](https://bookdown.org/csgillespie/efficientR/) (Gillespie, Lovelace, 2016)
+    * [_Functional programming and unit testing for data munging with R_](https://b-rodrigues.github.io/fput/) (Rodrigues, 2017)
+    * [_R Markdown: The Definitive Guide_](https://bookdown.org/yihui/rmarkdown/) (Xie et al., 2019)
   * [Cheat sheets](https://www.rstudio.com/resources/cheatsheets/)
     * [Base R](https://www.povertyactionlab.org/sites/default/files/r-cheat-sheet.pdf)
     * ggplot2: [Two pages](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf); [Longer](http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/)
@@ -191,6 +200,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Learn R
   * [Handbook](https://github.com/DARTH-git/R-Handbook/blob/master/Handbook_in_R_markdown.pdf) - Intro to R for Decision Modelers (Pechlivanoglou et al)
   * [Seminar code](https://stats.idre.ucla.edu/stat/data/intro_r/intro_r_flat.html) - Intro to R seminar code (IDRE)
+  * Compilation of resources
+    * [Arnholt](https://alanarnholt.github.io/resources.html)
   * Courses & collection of tutorials
     * [UC Business Analytics](http://uc-r.github.io/)
     * [Coding club](https://ourcodingclub.github.io/tutorials/), Univ. of Edinburgh
@@ -465,6 +476,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Good enough practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) (Wilson et al.)
     * [Best practices](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) (Wilson et al.)
     * [Coding standards](https://eecs280staff.github.io/eecs280.org/assets/EECS_280_Coding_Standards.pdf) (EECS 280, UM)
+  * Textbooks
+    * [Compilation of free textbooks](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md)
   * Courses
     * System and Software Tools ([slides](https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml))
     * Intro to computing for computer scientists ([lectures](https://c4cs.github.io/))
@@ -566,6 +579,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [_Foundations and Methods of Stochastic Simulation_](http://users.iems.northwestern.edu/~nelsonb/IEMS435/) (Barry Nelson)
   * [_Intro to Applied Linear Algebra_](https://web.stanford.edu/~boyd/vmls/) (Stephen Boyd and Lieven Vandenberghe)
   * [Myths and Counterexamples](https://glossary.informs.org/myths/CurrentVersion/myths.pdf) (Harvey Greenberg)
+  * [_Iterative Methods in Combinatorial Optimization_](https://www2.isye.gatech.edu/~msingh94/book.html) (Lau et al., 2011)
 * Communities / forums
   * [Operations Research Stack Exchange](https://or.stackexchange.com)
   * No longer in use: [OR Exchange](https://www.or-exchange.org/)
@@ -600,8 +614,15 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/) (Bertsimas, Fall 2009)
     * Large-scale opt: [Slides](http://www.seas.ucla.edu/~vandenbe/ee236c.html) (Vandenberghe, 2016)
     * [Several courses](http://homepages.rpi.edu/~mitchj/courses.html) (Mitchell)
+    * [Video tutorials](https://homepages.rpi.edu/~sharkt/ORMVideos.html) (Sharkey, Nurre)
   * Linear programming
     * [Slides](http://www.seas.ucla.edu/~vandenbe/ee236a/ee236a.html) (Vanedenberghe, 2013)
+  * Combinatorial optimization
+    * [Lecture notes](https://homepages.cwi.nl/~lex/files/dict.pdf) (Schrijver, 2017)
+    * [Lecture notes](https://ocw.mit.edu/courses/mathematics/18-997-topics-in-combinatorial-optimization-spring-2004/index.htm) (Goemans, Spring 2004)
+    * [Notes](https://courses.engr.illinois.edu/cs598csc/sp2010/) (Chekuri, Spring 2010)
+  * Computational methods
+    * [Notes](https://people.orie.cornell.edu/bdg79/ORIE6125/index.html) (Grimmer, Ding 2018)
   * Convex Optimization
     * [Slides](http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf) (Vandenberghe)
     * [Slides](http://www.seas.ucla.edu/~vandenbe/ee236b/ee236b.html) (Vandenberghe, 2019)
@@ -620,6 +641,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Various materials](http://optimallearning.princeton.edu/) (Powell)
   * SDP
     * [Slides](http://www.mit.edu/~parrilo/cdc03_workshop/index.html) (Parrilo, Lall)
+  * Scheduling theory and applications
+    * [Slides and handouts](https://sites.google.com/site/karmelshehadeh/Teaching/SCHEDULING-THEORY-AND-ALGORITHMS-COURSEWINTER-2018-UMICH) (Shehadeh, Winter 2018)
 * OR in practice
   * [Wagner Prize Videos](https://www.informs.org/Resource-Center/Video-Library/Wagner-Competition-Videos) (INFORMS)
 * Other
@@ -914,9 +937,17 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 
 ### Jobs/Summer schools
 * Jobs
-  * [Companies that hire operations researchers](https://github.com/dirkschumacher/or-companies/); from [@dirkschumacher](https://github.com/dirkschumacher)
-  * [Infectious disease dynamics listserv](http://iddjobs.org/jobs/)
-  * [United Nations (UN) jobs](https://unjobhunt.com/) from from [@dirkschumacher](https://github.com/dirkschumacher)
+  * Compilations
+    * [Companies that hire operations researchers](https://github.com/dirkschumacher/or-companies/); from [@dirkschumacher](https://github.com/dirkschumacher)
+    * [United Nations (UN) jobs](https://unjobhunt.com/) from from [@dirkschumacher](https://github.com/dirkschumacher)
+    * [Humanitarian logistics orgs](https://chhs.gatech.edu/resources/links?qt-quicktab_logistics_links=4#qt-quicktab_logistics_links) (GT CHHS)
+    * [Math-related](https://orfe.princeton.edu/graduate/jobs) (ORFE Princeton)
+  * Listservs
+    * [Inside Higher Ed](https://careers.insidehighered.com/)
+    * [Infectious disease dynamics listserv](http://iddjobs.org/jobs/)
+    * Twitter feeds with job postings
+      * [R job listings](https://twitter.com/rjoblistings)
+      * [Data science](https://twitter.com/NewDataSciJobs)
   * National labs
     * Sandia: [fellowships/postdocs](http://www.sandia.gov/careers/students_postdocs)
     * National Renewable Energy Lab [NREL](https://www.nrel.gov/careers/)
@@ -926,9 +957,6 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Weinberg Fellowship](https://www.ornl.gov/careers/alvin-m-weinberg-fellowship)
       * [Householder Fellowship](https://www.ornl.gov/careers/alston-s-householder-fellowship)
   * [Pathways to Science](https://pathwaystoscience.org/index.aspx) - internships, jobs, etc.
-  * Twitter feeds with job postings
-    * [R job listings](https://twitter.com/rjoblistings)
-    * [Data science](https://twitter.com/NewDataSciJobs)
   * [How to build your portfolio](https://mpi4py.readthedocs.io/en/stable/index.html) (Harris)
   * What can you do with a math degree? [Videos](https://www.maa.org/programs/faculty-and-departments/pic-math/solving-real-world-problems) - PICMATH
   * Schools
@@ -957,6 +985,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Job talk
     * [Article - giving an excellent talk](https://chroniclevitae.com/news/2242-how-to-give-an-excellent-stem-job-talk?cid=VTEVPMSED1) (Carpenter, Waters)
     * [Article - Tips for a Successful Job Talk](https://www.insidehighered.com/advice/2018/01/10/advice-giving-effective-job-presentation-opinion) (Aguilar)
+  * Interviews
+    * [Commonly asked questions](https://www.vitae.ac.uk/researcher-careers/pursuing-an-academic-career/applying-for-academic-jobs/commonly-asked-questions-in-academic-interviews) (Vitae)
   * Videos
     * [Duke postdoc services](https://www.youtube.com/user/DukePostdocServices)
   * Articles
@@ -991,8 +1021,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * CAREER Grants
   * [Materials](http://cisecareerworkshop.web.unc.edu/materials/) from CISE workshop, Mar 2019
 * Specific
-  * FDA - [Generic drug-related](https://www.fda.gov/Drugs/ResourcesForYou/Consumers/BuyingUsingMedicineSafely/GenericDrugs/ucm585566.htm)
+  * FDA - [Generic drug-related](https://www.fda.gov/drugs/generic-drugs/generic-drugs-collaboration-opportunities)
   * CDC - [HIV](https://www.cdc.gov/hiv/funding/index.html)
+  * [Public Health Emergency](http://www.phe.gov/Preparedness/planning/hpp/Pages/funding.aspx)
 * Grant proposals
   * [Open grants](https://www.ogrants.org/) - sample grant proposals
 
@@ -1100,6 +1131,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Johannes Haushofer](https://www.princeton.edu/~joha/Johannes_Haushofer_CV_of_Failures.pdf)
   * [WaPo article](https://www.washingtonpost.com/news/wonk/wp/2016/04/28/it-feels-really-good-to-read-about-this-princeton-professors-failures/)
 * Grad school's ["hidden curriculum"](https://scatter.wordpress.com/2018/07/24/guest-post-grad-schools-hidden-curriculum/) (Calarco)
+* Diversity
+  * [Compilation of articles](https://www.astrobetter.com/wiki/Diversity) (AstroBetter - Equal Opportunity Astronomy)
 * Pay your undergrad researchers
   * [Paper about field techs](https://github.com/aurielfournier/aurielfournier.github.io/blob/master/_pdfs/Fournier%2C%20Bond%20-%202015%20-%20Wildlife%20Society%20Bulletin.pdf) (Fournier, Bond)
   * [Other blog posts cited within](https://labandfield.wordpress.com/2016/03/09/volunteer-field-techs-are-bad-for-wildlife-ecology-the-response/)
