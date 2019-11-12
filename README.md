@@ -485,6 +485,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * Computing for Social Sciences ([slides, resources, etc.](https://cfss.uchicago.edu/syllabus.html))
     * Data Skills for Reproducible Science ([notes, code](https://gupsych.github.io/data_skills/))
     * Software Carpentry [many resources](https://github.com/swcarpentry/swcarpentry)
+    * Intro to Biomedical Data Science ([materials](https://bims8382.github.io/2018/))
   * Command line
     * Bash
       * [Shell commands](https://courses.cs.washington.edu/courses/cse391/16sp/bash.html)
@@ -521,6 +522,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Carbon](https://carbon.now.sh) - nice formatting for screenshotting code
   * Parallel computing
     * [Intro](https://computing.llnl.gov/tutorials/parallel_comp/)(Barney)
+  * Servers
+    * [The introduction to servers I wish I'd had](https://dev.to/harri_etty/the-introduction-to-servers-i-wish-i-d-had-44jl) (Harriet)
   * What are/is...
     * [src vs. bin folders?](https://www.quora.com/Eclipse-software-Whats-the-difference-between-the-bin-and-src-folders)
     * the difference between statically and dynamically typed lanugages? [stackoverflow](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages); [blogpost](https://pythonconquerstheuniverse.wordpress.com/2009/10/03/static-vs-dynamic-typing-of-programming-languages/) (From Python Conquers)
@@ -544,6 +547,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [SCIP](http://scip.zib.de/) (MIP, MINLP, constraint IP)
     * [Bonmin](https://projects.coin-or.org/Bonmin) (MINLP)
     * [Couenne](https://projects.coin-or.org/Couenne) (Non-convex MINLP)
+    * [MAiNGO](https://www.avt.rwth-aachen.de/cms/AVT/Forschung/Software/~rggn/Globale-Optimierung/lidx/1/) (MINLP)
     * NEOS:
       * [Server](https://neos-server.org/neos/)
       * [Guide](https://neos-guide.org/)
@@ -639,6 +643,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Readings](https://castlelab.princeton.edu/orf-544/) (Powell, Fall 2017)
   * Optimal Learning
     * [Various materials](http://optimallearning.princeton.edu/) (Powell)
+  * Opt for machine learning
+    * [Slides](https://github.com/udellgroup/orie7191) (Udell)
   * SDP
     * [Slides](http://www.mit.edu/~parrilo/cdc03_workshop/index.html) (Parrilo, Lall)
   * Scheduling theory and applications
@@ -739,6 +745,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Recordings, slides](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) (Hastie, Tibshirani)
     * [Course notes](http://web.eecs.umich.edu/~cscott/past_courses/eecs545f15/index.html) (Clayton Scott)
     * [Notes, slides](https://github.com/thejakeyboy/umich-eecs545-lectures) (Abernathy)
+    * [Learning with big messy data - Slides](https://people.orie.cornell.edu/mru8/orie4741/lectures.html) (Udell)
   * Topics
     * [How decision trees work](https://brohrer.github.io/how_decision_trees_work.html) (Rohrer)
     * [Taxonomy of reproducibility](http://www.rctatman.com/files/2018-7-14-MLReproducability.pdf)
@@ -760,6 +767,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [DAGs from book](https://sgfin.github.io/2019/06/19/Causal-Inference-Book-All-DAGs/) (Finlayson)
   * [Glossary of Statistical Terms](http://hbiostat.org/doc/glossary.pdf) (Harrell)
   * [10 rules to use stats](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961) (comp biology)
+  * [Essential statistics with R](https://bims8382.github.io/2018/r-stats.html) ()
   * [Document and avoid these problems](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist) (biostat)
   * [StatPrimer](http://www.sjsu.edu/faculty/gerstman/StatPrimer/) (Gerstman)
   * Courses
@@ -813,6 +821,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Community
   * [Data viz book club](https://blog.datawrapper.de/bookclub-tufte/)
     * [On Twitter](https://twitter.com/datavisclub)
+* Various
+  * [Multiple views on how to choose a visualization](https://medium.com/multiple-views-visualization-research-explained/multiple-views-on-how-to-choose-a-visualization-b3ffc99fcddc) (Franconeri, 2019)
+  * [Ten simple rules for better figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) (Rougier et al., 2014)
 
 ### Datasets/databases
 * Note: health-related data is in this [section](#healthcare)
@@ -862,6 +873,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * How to write
     * [Your first paper](https://github.com/jtleek/firstpaper) ([@jtleek](https://github.com/jtleek), biostat)
     * [12 steps to writing](https://thehealthresearchjourney.wordpress.com/2014/12/05/the-12-steps-to-writing-a-paper-and-staying-sane/)
+    * [Writing a paper](https://intra.ece.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf) (Whitesides)
     * Healthcare-focused
       * [Prep for a medical journal](https://medicine.umich.edu/sites/default/files/content/downloads/Welch%20Manuscripts.pdf) (Welch, 1999 paper)
       * [Writing for Impact](https://medicine.umich.edu/sites/default/files/content/downloads/WritingResearchPaper_Ibrahim_0.pdf) (Ibrahim and Dimick)
@@ -985,6 +997,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Job talk
     * [Article - giving an excellent talk](https://chroniclevitae.com/news/2242-how-to-give-an-excellent-stem-job-talk?cid=VTEVPMSED1) (Carpenter, Waters)
     * [Article - Tips for a Successful Job Talk](https://www.insidehighered.com/advice/2018/01/10/advice-giving-effective-job-presentation-opinion) (Aguilar)
+    * [Slides - How to Give a Seminar](https://www.eeassoc.org/doc/upload/Ten_Commandments_JM_Presentation_KS20190116211403.pdf) (Storesletten, econ)
+    * [Slides - How to present your job market paper](https://www.eeassoc.org/doc/upload/HowToPresent_LaFerrara20190116211520.pdf) (La Ferrara, econ)
   * Interviews
     * [Commonly asked questions](https://www.vitae.ac.uk/researcher-careers/pursuing-an-academic-career/applying-for-academic-jobs/commonly-asked-questions-in-academic-interviews) (Vitae)
   * Videos
@@ -1084,13 +1098,16 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Applying to grad school](https://kcklett.wixsite.com/phduo) (Klett & Lee)
 * New faculty
   * [Compliation](https://tomprof.stanford.edu/) (Stanford)
+  * [Compilation](https://github.com/crazyhottommy/The-world-of-faculty) (Tang)
   * [The 7 Year Postdoc](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/) (Nagpal)
     * [Counter thoughts](http://mathbionerd.blogspot.com/2017/07/not-awesomest-7-year-postdoc.html)
   * [Getting started](https://chroniclevitae.com/news/2225-how-to-start-off-right-in-your-new-job?cid=VTEVPMSED1) (Whitaker)
   * [If the 3rd year review goes poorly](https://www.chronicle.com/article/Operation-Keep-My-Job-/235535) (Albertson)
   * [Staying sane on the tenure track](https://people.orie.cornell.edu/shane/pubs/StayingSane.pdf) (Henderson)
-  * [_Making the Right Moves: A Practical Guide to Scientific Management_](https://www.hhmi.org/science-education/programs/making-right-moves) (HHMI) - free book about managing a lab
   * [Faculty Mentoring Handbook](http://live-uarizona-diversity.pantheon.arizona.edu/sites/default/files/mentoring_handbook.pdf) (Arizona)
+  * Running a lab
+    * [Ten simple rules towards healthier research labs](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914) (Maestre, 2019)
+    * [_Making the Right Moves: A Practical Guide to Scientific Management_](https://www.hhmi.org/science-education/programs/making-right-moves) (HHMI) - free book about managing a lab
   * Working with research assistants
     * [Guidelines](https://www.tgs.northwestern.edu/academics/academic-student-services/assistantship-best-practices/research-assistants.html) (Northwestern)
     * [Hire and manage](https://duckofminerva.com/2015/03/how-to-hire-and-work-effectively-with-a-research-assistant.html) (MacKenzie)
@@ -1110,6 +1127,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Blogs for female consultants/bus. travelers](https://corporette.com/resources-and-blogs-for-female-consultants/)
   * [Business clothes for women](https://twitter.com/arieldora/status/1072138548269195264) (Stern)
   * [Imposter syndrome resources](http://aurielfournier.github.io/imposter-syndrome/) (Fournier)
+  * [The importance of stupidity in scientific research](https://jcs.biologists.org/content/121/11/1771) (Schwartz, 2008)
 * Skills
   * Reading papers
     * [Reading papers](https://github.com/jtleek/readingpapers) by [@jtleek](https://github.com/jtleek)
