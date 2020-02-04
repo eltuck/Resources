@@ -459,7 +459,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Install a package from github](https://github.com/JuliaPolyhedra/QHull.jl/issues/21#issuecomment-429418324) (example)
     * Suppress multiple Gurobi license messages - send environment to solver: [v1](https://discourse.julialang.org/t/suppress-license-output-from-solver-in-jump-model/20828/4)
   * What is:
-    * The ! after a function name? (answer)[https://stackoverflow.com/questions/45396685/what-does-exclamation-mark-means-after-the-name-of-functions]
+    * The ! after a function name? [answer](https://stackoverflow.com/questions/45396685/what-does-exclamation-mark-means-after-the-name-of-functions)
 
 ### Other programming languages
 * SQL
@@ -484,7 +484,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * E.g., Linux, command line, version control, shells, scripting
     * Computing for Social Sciences ([slides, resources, etc.](https://cfss.uchicago.edu/syllabus.html))
     * Data Skills for Reproducible Science ([notes, code](https://gupsych.github.io/data_skills/))
-    * Software Carpentry [many resources](https://github.com/swcarpentry/swcarpentry)
+    * Software Carpentry ()[many resources](https://github.com/swcarpentry/swcarpentry))
     * Intro to Biomedical Data Science ([materials](https://bims8382.github.io/2018/))
   * Command line
     * Bash
@@ -521,7 +521,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Share code
     * [Carbon](https://carbon.now.sh) - nice formatting for screenshotting code
   * Parallel computing
-    * [Intro](https://computing.llnl.gov/tutorials/parallel_comp/)(Barney)
+    * [Intro](https://computing.llnl.gov/tutorials/parallel_comp/) (Barney)
   * Servers
     * [The introduction to servers I wish I'd had](https://dev.to/harri_etty/the-introduction-to-servers-i-wish-i-d-had-44jl) (Harriet)
   * What are/is...
@@ -954,9 +954,16 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [United Nations (UN) jobs](https://unjobhunt.com/) from from [@dirkschumacher](https://github.com/dirkschumacher)
     * [Humanitarian logistics orgs](https://chhs.gatech.edu/resources/links?qt-quicktab_logistics_links=4#qt-quicktab_logistics_links) (GT CHHS)
     * [Math-related](https://orfe.princeton.edu/graduate/jobs) (ORFE Princeton)
-  * Listservs
+  * Listservs/job boards
     * [Inside Higher Ed](https://careers.insidehighered.com/)
+    * [Academic Jobs Online](https://academicjobsonline.org/ajo)
+    * [ChronicleVitae](https://chroniclevitae.com/job_search/new)
+    * [Academic Keys](https://adjuncts.academickeys.com/)
+    * [Times Higher Ed](https://www.timeshighereducation.com/unijobs/en-us/)
+    * [California Community Colleges](https://www.cccregistry.org/jobs/index.aspx)
+    * [Council for Christian Colleges and Universities](https://www.cccu.org/career-center/)
     * [Infectious disease dynamics listserv](http://iddjobs.org/jobs/)
+    * [Minority postdoc](https://www.minoritypostdoc.org/jobs)
     * Twitter feeds with job postings
       * [R job listings](https://twitter.com/rjoblistings)
       * [Data science](https://twitter.com/NewDataSciJobs)
@@ -982,15 +989,15 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * Academic job search
   * [OperationsAcademia.org](http://www.operationsacademia.org/) - OR/MS job postings and advice
   * University compilations
-    * [Univ. of Michigan](http://crlt.umich.edu/PFF_Resources); [Berkeley](https://career.berkeley.edu/PhDs/PhDAcademic); [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/); [Duke](https://studentaffairs.duke.edu/career/guides/academic-career-preparation)
-  * [Materials checklist](https://career.ucsf.edu/sites/career.ucsf.edu/files/UCSF%20OCPD%20Checklist%20Faculty%20Materials.pdf) (UCSF)
+    * [Univ. of Michigan](http://crlt.umich.edu/PFF_Resources); [Berkeley](https://career.berkeley.edu/PhDs/PhDAcademic); [UPenn](https://careerservices.upenn.edu/application-materials-for-the-faculty-job-search/); [Duke](https://studentaffairs.duke.edu/career/guides/academic-career-preparation)
+  * [Materials checklist](https://career.ucsf.edu/sites/g/files/tkssra2771/f/wysiwyg/ChecklistFacultyMaterialsUCSFOCPD.pdf) (UCSF)
   * Research statement
     * How to write
-      * [Jim Austin](https://www.sciencemag.org/careers/2014/04/writing-research-plan); [Karen Kelsky](http://theprofessorisin.com/2016/09/16/dr-karens-rules-of-the-research-statement/); [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/researchstatements.php); [U. Wash](https://uw.uconnectlabs.com/wp-content/uploads/sites/25/2016/06/Research-Statements.pdf); [GSA](https://serc.carleton.edu/NAGTWorkshops/careerprep/jobsearch/research_statement.html) (Geology); [Duke](https://studentaffairs.duke.edu/career/graduate-students/academic-career-preparation/research-statement); [Med College of Wisc](https://www.mcw.edu/-/media/MCW/Education/Graduate-School/Documents/ucla_researchstatementtemplate_46-47.pdf); [Cornell](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/)
+      * [Jim Austin](https://www.sciencemag.org/careers/2014/04/writing-research-plan); [Karen Kelsky](http://theprofessorisin.com/2016/09/16/dr-karens-rules-of-the-research-statement/); [UPenn](https://careerservices.upenn.edu/application-materials-for-the-faculty-job-search/research-statements-for-faculty-job-applications/); [U. Wash](https://uw.uconnectlabs.com/wp-content/uploads/sites/25/2016/06/Research-Statements.pdf); [GSA](https://serc.carleton.edu/NAGTWorkshops/careerprep/jobsearch/research_statement.html) (Geology); [Duke](https://studentaffairs.duke.edu/career/graduate-students/academic-career-preparation/research-statement); [Med College of Wisc](https://www.mcw.edu/-/media/MCW/Education/Graduate-School/Documents/ucla_researchstatementtemplate_46-47.pdf); [Cornell](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/)
     * Samples
-      * [UCSF](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples); [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
+      * [UCSF](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples)
   * Teaching statement
-    * [Univ. of Michigan](http://crlt.umich.edu/category/tstrategies/tstpts), [UPenn](https://www.vpul.upenn.edu/careerservices/writtenmaterials/teachingresearchsamples.php)
+    * [Univ. of Michigan](http://crlt.umich.edu/category/tstrategies/tstpts), [UPenn](https://careerservices.upenn.edu/application-materials-for-the-faculty-job-search/teaching-philosophies-for-faculty-job-applications/)
       * [Guidelines for teaching at MIT](https://tll.mit.edu/guidelines/guidelines-teaching-mit-and-beyond)
   * Diversity statement
     * [Univ. of Michigan](http://www.crlt.umich.edu/sites/default/files/resource_files/DiversityStatementHandout.pdf); [UCSD](http://facultydiversity.ucsd.edu/recruitment/contributions-to-diversity.html); [UNL](https://www.unl.edu/gradstudies/connections/writing-diversity-statement); [Vanderbilt](https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/); [Cincinnati](https://www.uc.edu/content/dam/uc/aess/docs/AWC/graduatehandouts/Diversity%20Statement%20(Accessible)%20%20.pdf)
@@ -1134,9 +1141,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Technical papers](https://destenienock5.wixsite.com/destenienock/blog-posts/how-to-read-and-summarize-a-technical-paper) (Nock)
   * [Writing lit reviews](http://www.raulpacheco.org/resources/literature-reviews/) (Raul Pacheco-Vega)
   * [Organizing data in a spreadsheet](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) (Broman and Woo, open access); not always the best idea, but some tips
-    * Reviewing papers
-      * [How to review a paper](https://github.com/jtleek/reviews) (Leek - biostat)
-      * [Being a good reviewer](https://academic.oup.com/ajhp/article/74/24/2080/5102692) (DiDomenico et al., pharmacy)
+  * Reviewing papers
+    * [How to review a paper](https://github.com/jtleek/reviews) (Leek - biostat)
+    * [Being a good reviewer](https://academic.oup.com/ajhp/article/74/24/2080/5102692) (DiDomenico et al., pharmacy)
   * [Writing production-level code](https://www.datascience.com/blog/production-level-code-for-data-science) (Pappakrishnan)
   * [How to report bugs effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html) (Simon Tatham) - perhaps send to your users
   * Debugging
