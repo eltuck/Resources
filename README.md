@@ -628,6 +628,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Computational methods
     * [Notes](https://people.orie.cornell.edu/bdg79/ORIE6125/index.html) (Grimmer, Ding 2018)
   * Convex Optimization
+    * [Lectures videos, Convex Opt I & II](https://www.youtube.com/watch?v=McLq1hEq3UY&list=PL3940DD956CDF0622) (Boyd, 2008)
+    * [Lecture videos](https://www.youtube.com/playlist?list=PL-DDW8QIRjNOVxrU2efygBw0xADVOgpmw) (Bazzi, 2019)
     * [Slides](http://www.seas.ucla.edu/~vandenbe/cvxbook/bv_cvxslides.pdf) (Vandenberghe)
     * [Slides](http://www.seas.ucla.edu/~vandenbe/ee236b/ee236b.html) (Vandenberghe, 2019)
     * [Slides](http://www.ifp.illinois.edu/~angelia/convex_optimization_lectures.htm) (Nedich)
@@ -637,6 +639,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Notes](http://statweb.stanford.edu/~candes/math301/hand.html) (Candes)
   * Applied numerical computing
     * [Slides, notes](http://www.seas.ucla.edu/~vandenbe/ee133a.html) (Vandenberghe, 2018)
+  * Linear dynamical systems
+    * [Lecture videos](https://www.youtube.com/watch?v=bf1264iFr-w&list=PL06960BA52D0DB32B) (Boyd, 2008)
   * Stochastic programming
     * [Videos, slides](http://uclengiechair.be/operations-research-linma-2491/) (Papavasiliou)
     * [Lecture notes](https://www2.isye.gatech.edu/people/faculty/Alex_Shapiro/SPbook.pdf) (Shapiro, Dentcheva, Ruszczynski)
