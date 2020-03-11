@@ -478,6 +478,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [Coding standards](https://eecs280staff.github.io/eecs280.org/assets/EECS_280_Coding_Standards.pdf) (EECS 280, UM)
   * Textbooks
     * [Compilation of free textbooks](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md)
+    * [_The Turing Way_](https://the-turing-way.netlify.com/introduction/introduction) - reproducible data science
   * Courses
     * System and Software Tools ([slides](https://courses.cs.washington.edu/courses/cse391/16sp/index.shtml))
     * Intro to computing for computer scientists ([lectures](https://c4cs.github.io/))
@@ -560,12 +561,15 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [OSQP](https://osqp.org/) (Operator Splitting Quadratic Program)
     * [Mini-CP](https://minicp.bitbucket.io/) (Constraint programming)
     * [Dakota](https://dakota.sandia.gov/)
+    * Other code
+      * [Knapsack, incl COMBO algorithm](http://hjemmesider.diku.dk/~pisinger/codes.html) (Pisinger)
   * [OR-Tools](https://developers.google.com/optimization/) from Google
 * Modeling lanugages
   * [SolverStudio](http://solverstudio.org/) (free) - Excel add-on, useful when OpenSolver not big enough
   * [AMPL](https://ampl.com/)
   * [OPL](https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling)
   * [LP add-on for Google sheets](https://developers.google.com/optimization/lp/add-on)
+  * [MiniZinc](https://www.minizinc.org/) (Constraint modeling), [docs](https://www.minizinc.org/doc-2.4.1/en/index.html)
 * Application specific
   * Facility location
     * [SITATION](https://daskin.engin.umich.edu/software/)
@@ -652,7 +656,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * SDP
     * [Slides](http://www.mit.edu/~parrilo/cdc03_workshop/index.html) (Parrilo, Lall)
   * Scheduling theory and applications
-    * [Slides and handouts](https://sites.google.com/site/karmelshehadeh/Teaching/SCHEDULING-THEORY-AND-ALGORITHMS-COURSEWINTER-2018-UMICH) (Shehadeh, Winter 2018)
+    * [Slides and handouts](https://sites.google.com/site/karmelshehadeh/Teaching/SCHEDULING-THEORY-AND-ALGORITHMS-COURSEWINTER-2018-UMICH) (Shehadeh, 2018)
 * OR in practice
   * [Wagner Prize Videos](https://www.informs.org/Resource-Center/Video-Library/Wagner-Competition-Videos) (INFORMS)
 * Other
@@ -695,6 +699,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Linearize product of variables](https://www.leandro-coelho.com/linearization-product-variables/)
   * [Linearize max/max/absolute value](https://www.leandro-coelho.com/how-to-linearize-max-min-and-abs-functions/)
   * [Linearize max(0,y)](https://orinanobworld.blogspot.com/2010/12/lps-and-positive-part.html) by [@prubin73](https://github.com/prubin73)
+  * [Incorporate a max in a constraint](https://or.stackexchange.com/questions/3053/linearization-maxc-1-x-2-c-2-x-2-ldots-c-nx-n-geq-q-constraint) (Rubin, Contardo)
   * Remember primal / dual conversion
     * [Sensible-odd-bizarre (SOB) method](https://math.stackexchange.com/questions/83844/simplex-method-duality-by-bazaraa?answertab=oldest#tab-top), citing [this paper](https://www.math.hmc.edu/~benjamin/papers/sob.pdf)
 
@@ -769,22 +774,33 @@ I've found a good portion of this from links other folks have shared on  [Twitte
     * [_Causal Inference_](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) (Hernan and Robins)
       * [Notes about book](https://sgfin.github.io/2019/06/19/Causal-Inference-Book-Glossary-and-Notes/) (Finlayson)
       * [DAGs from book](https://sgfin.github.io/2019/06/19/Causal-Inference-Book-All-DAGs/) (Finlayson)
+    * [_Advanced Data Analysis from an Elementary Point of View_](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/) (Shalizi)
   * [Glossary of Statistical Terms](http://hbiostat.org/doc/glossary.pdf) (Harrell)
   * [10 rules to use stats](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961) (comp biology)
-  * [Essential statistics with R](https://bims8382.github.io/2018/r-stats.html) ()
+  * [Essential statistics with R](https://bims8382.github.io/2018/r-stats.html) (UVA)
   * [Document and avoid these problems](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist) (biostat)
   * [StatPrimer](http://www.sjsu.edu/faculty/gerstman/StatPrimer/) (Gerstman)
   * Courses
-    * [Clinical trials - design/analysis](https://newonlinecourses.science.psu.edu/stat509/node/164/) (Penn State, notes)
+    * [Modern regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/) (Shalizi, notes)
+    * [Regression modeling strategies](http://biostat.mc.vanderbilt.edu/wiki/Main/CourseBios330) (Harrell)
+      * [Notes](http://hbiostat.org/doc/rms.pdf)
+      * [1 day overview](http://hbiostat.org/doc/rms1.pdf)
   * Tests
     * [What test should I use?](https://stats.idre.ucla.edu/other/mult-pkg/whatstat/) (Examples in R, Stata, SAS, SPSS)
     * [t-tests](https://pharmafactz.com/pharmaceutical-calculations-comparing-two-means-using-t-test/)
   * Specific topics
+    * [Relationships between univariate distributions](http://www.math.wm.edu/~leemis/chart/UDR/UDR.html) (Leemis)
     * Odds ratios ([Best practices](https://jamanetwork.com/journals/jama/fullarticle/2686777); Norton, Dowd, Maciejewski, paywall)
     * Dirichlet processes ([notes](http://dp.tdhopper.com/) by [@tdhopper](https://github.com/tdhopper))
     * Experimental design ([warning signs](http://norvig.com/experiment-design.html), Norvig)
     * Survival analysis ([overview](https://www.theanalysisfactor.com/the-six-types-of-survival-analysis-and-challenges-in-learning-them/), Grace-Martin)
   * [Same stats for different data](https://www.autodeskresearch.com/publications/samestats)
+* Biomedical data related
+  * Courses
+    * [Biomedical data science](https://bims8382.github.io/2018/index.html) (Turner, notes)
+    * [Biostatistics for biomedical research](http://hbiostat.org/doc/bbr.pdf) (Harrell)
+      * [Videos](https://www.youtube.com/channel/UC-o_ZZ0tuFUYn8e8rf-QURA)
+    * [Clinical trials - design/analysis](https://newonlinecourses.science.psu.edu/stat509/node/164/) (Penn State, notes)
 * Probability
   * [Review](https://www.cs.mcgill.ca/~dprecup/courses/ML/Materials/prob-review.pdf) (Maleki and Do)
 * Mathematics
@@ -995,6 +1011,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * University compilations
     * [Univ. of Michigan](http://crlt.umich.edu/PFF_Resources); [Berkeley](https://career.berkeley.edu/PhDs/PhDAcademic); [UPenn](https://careerservices.upenn.edu/application-materials-for-the-faculty-job-search/); [Duke](https://studentaffairs.duke.edu/career/guides/academic-career-preparation)
   * [Materials checklist](https://career.ucsf.edu/sites/g/files/tkssra2771/f/wysiwyg/ChecklistFacultyMaterialsUCSFOCPD.pdf) (UCSF)
+  * [How to prep app materials](https://engineering.virginia.edu/sites/default/files/common/Centers/linklab/files/P4-%20Research%20and%20Teaching%20Statements.pdf) (LinkLab, UVA)
   * Research statement
     * How to write
       * [Jim Austin](https://www.sciencemag.org/careers/2014/04/writing-research-plan); [Karen Kelsky](http://theprofessorisin.com/2016/09/16/dr-karens-rules-of-the-research-statement/); [UPenn](https://careerservices.upenn.edu/application-materials-for-the-faculty-job-search/research-statements-for-faculty-job-applications/); [U. Wash](https://uw.uconnectlabs.com/wp-content/uploads/sites/25/2016/06/Research-Statements.pdf); [GSA](https://serc.carleton.edu/NAGTWorkshops/careerprep/jobsearch/research_statement.html) (Geology); [Duke](https://studentaffairs.duke.edu/career/graduate-students/academic-career-preparation/research-statement); [Med College of Wisc](https://www.mcw.edu/-/media/MCW/Education/Graduate-School/Documents/ucla_researchstatementtemplate_46-47.pdf); [Cornell](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/)
@@ -1005,13 +1022,14 @@ I've found a good portion of this from links other folks have shared on  [Twitte
       * [Guidelines for teaching at MIT](https://tll.mit.edu/guidelines/guidelines-teaching-mit-and-beyond)
   * Diversity statement
     * [Univ. of Michigan](http://www.crlt.umich.edu/sites/default/files/resource_files/DiversityStatementHandout.pdf); [UCSD](http://facultydiversity.ucsd.edu/recruitment/contributions-to-diversity.html); [UNL](https://www.unl.edu/gradstudies/connections/writing-diversity-statement); [Vanderbilt](https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/); [Cincinnati](https://www.uc.edu/content/dam/uc/aess/docs/AWC/graduatehandouts/Diversity%20Statement%20(Accessible)%20%20.pdf)
+  * Interviews
+    * [Overview on phone and on-site interviews](https://engineering.virginia.edu/sites/default/files/common/Centers/linklab/files/P4_%20Interviewing.pdf) (LinkLab, UVA)
+    * [Commonly asked questions](https://www.vitae.ac.uk/researcher-careers/pursuing-an-academic-career/applying-for-academic-jobs/commonly-asked-questions-in-academic-interviews) (Vitae)
   * Job talk
     * [Article - giving an excellent talk](https://chroniclevitae.com/news/2242-how-to-give-an-excellent-stem-job-talk?cid=VTEVPMSED1) (Carpenter, Waters)
     * [Article - Tips for a Successful Job Talk](https://www.insidehighered.com/advice/2018/01/10/advice-giving-effective-job-presentation-opinion) (Aguilar)
     * [Slides - How to Give a Seminar](https://www.eeassoc.org/doc/upload/Ten_Commandments_JM_Presentation_KS20190116211403.pdf) (Storesletten, econ)
     * [Slides - How to present your job market paper](https://www.eeassoc.org/doc/upload/HowToPresent_LaFerrara20190116211520.pdf) (La Ferrara, econ)
-  * Interviews
-    * [Commonly asked questions](https://www.vitae.ac.uk/researcher-careers/pursuing-an-academic-career/applying-for-academic-jobs/commonly-asked-questions-in-academic-interviews) (Vitae)
   * Videos
     * [Duke postdoc services](https://www.youtube.com/user/DukePostdocServices)
   * Articles
@@ -1107,6 +1125,8 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Undergrad in the Lab Blog](http://undergradinthelab.com/)
   * [Lots of advice](https://pathwaystoscience.org/Library.aspx) (Pathways to Science)
   * [Applying to grad school](https://kcklett.wixsite.com/phduo) (Klett & Lee)
+  * [10 rules of good studying](https://barbaraoakley.com/wp-content/uploads/2016/12/ECS_GoodStudyPoster_36x48_PRINT.pdf) (Oakley)
+  * [10 rules of bad studying](https://barbaraoakley.com/wp-content/uploads/2016/12/ECS_BadStudyPoster_36x48_PRINT.pdf) (Oakley)
 * New faculty
   * [Compliation](https://tomprof.stanford.edu/) (Stanford)
   * [Compilation](https://github.com/crazyhottommy/The-world-of-faculty) (Tang)
@@ -1116,9 +1136,11 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [If the 3rd year review goes poorly](https://www.chronicle.com/article/Operation-Keep-My-Job-/235535) (Albertson)
   * [Staying sane on the tenure track](https://people.orie.cornell.edu/shane/pubs/StayingSane.pdf) (Henderson)
   * [Faculty Mentoring Handbook](http://live-uarizona-diversity.pantheon.arizona.edu/sites/default/files/mentoring_handbook.pdf) (Arizona)
-  * Running a lab
+  * Running a lab/research group
     * [Ten simple rules towards healthier research labs](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914) (Maestre, 2019)
     * [_Making the Right Moves: A Practical Guide to Scientific Management_](https://www.hhmi.org/science-education/programs/making-right-moves) (HHMI) - free book about managing a lab
+  * Advising students
+    * [Evaluating OR PhD students](https://web.ics.purdue.edu/~hunter63/EvaluatePhD.pdf) (Pasupathy, Hunter)
   * Working with research assistants
     * [Guidelines](https://www.tgs.northwestern.edu/academics/academic-student-services/assistantship-best-practices/research-assistants.html) (Northwestern)
     * [Hire and manage](https://duckofminerva.com/2015/03/how-to-hire-and-work-effectively-with-a-research-assistant.html) (MacKenzie)
