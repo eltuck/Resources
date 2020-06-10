@@ -25,7 +25,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * [Jobs and summer schools](#jobssummer-schools)
 * [Funding](#funding)
 * [Teaching](#teaching)
-* [Anti-racism](#anti--racism)
+* [Anti-racism](#anti-racism)
 * [Blogs I like (and read occasionally)](#blogs-i-like-and-read-occasionally)
 * [Various advice](#various-advice)
 * [Eclectic](#eclectic)
@@ -1101,10 +1101,10 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [The diversity-innovation paradox in Science](https://t.co/NHUaAKzMf3?amp=1) (Hofstra et al., 2020)
 * White supremacy
   * [The characteristics of white supremacy culture](https://www.showingupforracialjustice.org/white-supremacy-culture-characteristics.html) (Jones and Okun)
+  * [White Academia: Do Better](https://medium.com/the-faculty/white-academia-do-better-fa96cede1fc5) (Roberts)
 * White fragility
   * [How "white fragility" supports racism and how whites can stop it](https://www.cnn.com/2020/06/07/health/white-fragility-robin-diangelo-wellness/index.html) (LaMotte, DiAngelo)
   * [What's missing from "White Fragility"](https://slate.com/human-interest/2019/09/white-fragility-robin-diangelo-workshop.html) (Jackson)
-  * [White Academia: Do Better](https://medium.com/the-faculty/white-academia-do-better-fa96cede1fc5) (Roberts)
 * White guilt
   * [4 reasons people of color can't cater to white people's guilt - or their tears](https://everydayfeminism.com/2015/11/poc-cant-cater-white-guilt/) (Jones)
   * [Ways white people can process their emotions without bringing the white tears](https://everydayfeminism.com/2016/02/white-people-emotions-tears/) (Loubriel)
