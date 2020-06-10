@@ -25,6 +25,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
 * [Jobs and summer schools](#jobssummer-schools)
 * [Funding](#funding)
 * [Teaching](#teaching)
+* [Anti-racism](#anti--racism)
 * [Blogs I like (and read occasionally)](#blogs-i-like-and-read-occasionally)
 * [Various advice](#various-advice)
 * [Eclectic](#eclectic)
@@ -344,7 +345,7 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * Beginner [Tutorial](http://try.github.io/)
   * [Guide to Git with R](http://happygitwithr.com/)
   * Cheat sheets
-    * [By Chris Albon](https://chrisalbon.com/git/github_cheatsheet/)
+    * [By Chris Albon](https://chrisalbon.com/git_and_github/basics/github_cheatsheet/)
     * [By Joshua Hibbert](https://github.com/joshnh/Git-Commands)
     * [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   * [Binder](https://mybinder.org/) - Convert Jupyter notebooks to executables
@@ -1084,6 +1085,29 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [Logistics of large classes - 10 articles](http://pgbovine.net/teaching-large-courses.htm) (Guo)
   * [Improving inclusion](https://www.chronicle.com/interactives/20190719_inclusive_teaching?cid=cp234) (Sathy and Hogan)
   * [Be more engaging](https://www.chronicle.com/interactives/advice-teaching?cid=cp234) (Cavanagh)
+
+### Anti-racism
+* Resource guides
+  * [Anti-racism resources](https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/preview?pru=AAABcsQemzQ*U9iBzLeEOi3kOcAMNFvDow) (Flicker, Klein)
+  * [Anti-racism resource guide](https://docs.google.com/document/d/1hpub-jkm9cLzJWqZSsETqbE6tZ13Q0UbQz--vQ2avEc/edit) (Tasha K.)
+  * [47 things white people can do for racial justice](https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234) (Shutack)
+  * [Scaffolding anti-racism resources](https://docs.google.com/document/d/1PrAq4iBNb4nVIcTsLcNlW8zjaQXBLkWayL8EaPlh0bc/preview?fbclid=IwAR1NbaMp-itoJhUS0WB3mxMpMnHFHta4sq9iiRLSmSuEoVY6ozKRMI9f73I&pru=AAABcsKBVSY*_ZrknMVIaTu3yBwHlABWbg) (Stamborski, Zimmerman, and Gregory)
+  * [Dismantling racism works](https://www.dismantlingracism.org/) (dRworks)
+* Academic articles
+  * Experiences
+    * [Responding to Racism and Racial Trauma in Doctoral Study](https://scholar.harvard.edu/files/truong/files/Truong%20%26%20Museus%20%282012%29%20Responding%20to%20racism%20and%20racial%20trauma.pdf) (Turong and Museus, 2012)
+  * Mentoring
+    * [Collectors, Nightlights, and Allies, Oh My: White Mentors in the Academy](https://www.wpcjournal.com/article/view/20275) (Martinez-Cola, 2020)
+  * [The diversity-innovation paradox in Science](https://t.co/NHUaAKzMf3?amp=1) (Hofstra et al., 2020)
+* White supremacy
+  * [The characteristics of white supremacy culture](https://www.showingupforracialjustice.org/white-supremacy-culture-characteristics.html) (Jones and Okun)
+* White fragility
+  * [How "white fragility" supports racism and how whites can stop it](https://www.cnn.com/2020/06/07/health/white-fragility-robin-diangelo-wellness/index.html) (LaMotte, DiAngelo)
+  * [What's missing from "White Fragility"](https://slate.com/human-interest/2019/09/white-fragility-robin-diangelo-workshop.html) (Jackson)
+  * [White Academia: Do Better](https://medium.com/the-faculty/white-academia-do-better-fa96cede1fc5) (Roberts)
+* White guilt
+  * [4 reasons people of color can't cater to white people's guilt - or their tears](https://everydayfeminism.com/2015/11/poc-cant-cater-white-guilt/) (Jones)
+  * [Ways white people can process their emotions without bringing the white tears](https://everydayfeminism.com/2016/02/white-people-emotions-tears/) (Loubriel)
 
 ### Blogs I like (and read occasionally)
 * Operations research-ish
