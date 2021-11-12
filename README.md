@@ -571,6 +571,9 @@ I've found a good portion of this from links other folks have shared on  [Twitte
   * [OPL](https://www.ibm.com/analytics/data-science/prescriptive-analytics/optimization-modeling)
   * [LP add-on for Google sheets](https://developers.google.com/optimization/lp/add-on)
   * [MiniZinc](https://www.minizinc.org/) (Constraint modeling), [docs](https://www.minizinc.org/doc-2.4.1/en/index.html)
+  * [Pyomo](http://www.pyomo.org) (Python)
+  * [JuMP](https://github.com/jump-dev/JuMP.jl) (Julia)
+  * [Gravity](https://github.com/coin-or/Gravity) (C++)
 * Application specific
   * Facility location
     * [SITATION](https://daskin.engin.umich.edu/software/)
